@@ -1,1 +1,1 @@
-"Group5" 
+This project is my school's independent study
