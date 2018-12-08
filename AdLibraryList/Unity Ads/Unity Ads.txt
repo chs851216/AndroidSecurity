@@ -1,0 +1,885 @@
+
+09/03 18:16:58: Launching app
+$ adb install-multiple -r -t C:\Users\Sheng\Desktop\android library\Unity Ads\unity-ads-android-master\app\build\intermediates\resources\instant-run\debug\resources-debug.apk C:\Users\Sheng\Desktop\android library\Unity Ads\unity-ads-android-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk C:\Users\Sheng\Desktop\android library\Unity Ads\unity-ads-android-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk C:\Users\Sheng\Desktop\android library\Unity Ads\unity-ads-android-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk C:\Users\Sheng\Desktop\android library\Unity Ads\unity-ads-android-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk C:\Users\Sheng\Desktop\android library\Unity Ads\unity-ads-android-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk C:\Users\Sheng\Desktop\android library\Unity Ads\unity-ads-android-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk C:\Users\Sheng\Desktop\android library\Unity Ads\unity-ads-android-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk C:\Users\Sheng\Desktop\android library\Unity Ads\unity-ads-android-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk C:\Users\Sheng\Desktop\android library\Unity Ads\unity-ads-android-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk C:\Users\Sheng\Desktop\android library\Unity Ads\unity-ads-android-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk C:\Users\Sheng\Desktop\android library\Unity Ads\unity-ads-android-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk C:\Users\Sheng\Desktop\android library\Unity Ads\unity-ads-android-master\app\build\intermediates\instant-run-apk\debug\app-debug.apk 
+Split APKs installed
+$ adb shell am start -n "com.unity3d.ads.example/com.unity3d.ads.example.UnityAdsExample" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.unity3d.ads.example.test | com.unity3d.ads.example
+Waiting for application to come online: com.unity3d.ads.example.test | com.unity3d.ads.example
+Waiting for application to come online: com.unity3d.ads.example.test | com.unity3d.ads.example
+Connecting to com.unity3d.ads.example
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+W/ActivityThread: Application com.unity3d.ads.example is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+I/zygote: Debugger is active
+Connected to the target VM, address: 'localhost:8614', transport: 'socket'
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+I/chatty: uid=10097(u0_a97) com.unity3d.ads.example identical 1 line
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/chatty: uid=10097(u0_a97) com.unity3d.ads.example identical 2 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1483)
+I/InstantRun: starting instant run server: is main process
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+I/cr_LibraryLoader: Time to load native libraries: 11 ms (timestamps 8796-8807)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.unity3d.ads.example/app_webview/variations_seed_new": /data/user/0/com.unity3d.ads.example/app_webview/variations_seed_new (No such file or directory)
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.unity3d.ads.example/app_webview/variations_seed": /data/user/0/com.unity3d.ads.example/app_webview/variations_seed (No such file or directory)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,11711,10097)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,11711,10097)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,11711,10097)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,11711,10097)
+E/chromium: [ERROR:devtools_http_handler.cc(292)] Cannot start http server for devtools. Stop devtools.
+D/UnityAds: com.unity3d.ads.misc.Utilities.writeFile() (line:128) :: Wrote file: /data/user/0/com.unity3d.ads.example/files/UnityAdsStorage-public-data.json
+I/zygote: Do partial code cache collection, code=30KB, data=26KB
+I/zygote: After code cache collection, code=28KB, data=25KB
+          Increasing code cache capacity to 128KB
+D/UnityAds: com.unity3d.ads.device.Storage.sendEvent() (line:82) :: Couldn't send storage event to WebApp
+D/UnityAds: com.unity3d.ads.misc.Utilities.writeFile() (line:128) :: Wrote file: /data/user/0/com.unity3d.ads.example/files/UnityAdsStorage-public-data.json
+            com.unity3d.ads.device.Storage.sendEvent() (line:82) :: Couldn't send storage event to WebApp
+D/OpenGLRenderer: HWUI GL Pipeline
+I/Choreographer: Skipped 52 frames!  The application may be doing too much work on its main thread.
+D/: HostConnection::get() New Host Connection established 0x8e560080, tid 11795
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0x8de8ca20: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x8de8ca20: ver 2 0 (tinfo 0xa2703e30)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,11711,10097)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,11711,10097)
+D/EGL_emulation: eglMakeCurrent: 0x8de8ca20: ver 2 0 (tinfo 0xa2703e30)
+I/AssistStructure: Flattened final assist data: 3532 bytes, containing 1 windows, 11 views
+W/cr_CrashFileManager: /data/user/0/com.unity3d.ads.example/cache/WebView/Crash Reports does not exist or is not a directory
+D/EGL_emulation: eglMakeCurrent: 0x8de8ca20: ver 2 0 (tinfo 0xa2703e30)
+D/UnityAds: com.unity3d.ads.misc.Utilities.writeFile() (line:128) :: Wrote file: /data/user/0/com.unity3d.ads.example/files/UnityAdsStorage-public-data.json
+            com.unity3d.ads.device.Storage.sendEvent() (line:82) :: Couldn't send storage event to WebApp
+D/UnityAds: com.unity3d.ads.misc.Utilities.writeFile() (line:128) :: Wrote file: /data/user/0/com.unity3d.ads.example/files/UnityAdsStorage-public-data.json
+D/UnityAds: com.unity3d.ads.device.Storage.sendEvent() (line:82) :: Couldn't send storage event to WebApp
+I/zygote: Do partial code cache collection, code=59KB, data=55KB
+I/zygote: After code cache collection, code=59KB, data=54KB
+          Increasing code cache capacity to 256KB
+I/zygote: Do full code cache collection, code=59KB, data=72KB
+I/zygote: After code cache collection, code=19KB, data=32KB
+W/ViewRootImpl[UnityAdsExample]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_STEM_3, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=4961227, downTime=4961227, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8de8ca20: ver 2 0 (tinfo 0xa2703e30)
+W/ViewRootImpl[UnityAdsExample]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_STEM_3, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=4961436, downTime=4961436, deviceId=-1, source=0x101 }
+I/chatty: uid=10097(u0_a97) com.unity3d.ads.example identical 7 lines
+W/ViewRootImpl[UnityAdsExample]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_STEM_3, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=4961436, downTime=4961436, deviceId=-1, source=0x101 }
+W/ViewRootImpl[UnityAdsExample]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-5.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=4961529, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl[UnityAdsExample]: Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4961531, downTime=4961501, deviceId=0, source=0x10004 }
+W/ViewRootImpl[UnityAdsExample]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4961532, downTime=4961501, deviceId=0, source=0x10004 }
+I/AssistStructure: Flattened final assist data: 3532 bytes, containing 1 windows, 11 views
+I/zygote: Do partial code cache collection, code=112KB, data=99KB
+I/zygote: After code cache collection, code=112KB, data=99KB
+          Increasing code cache capacity to 512KB
+W/ViewRootImpl[UnityAdsExample]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_WINDOW, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=4962997, downTime=4962997, deviceId=-1, source=0x101 }
+W/ViewRootImpl[UnityAdsExample]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_WINDOW, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=4963014, downTime=4963014, deviceId=-1, source=0x101 }
+I/chatty: uid=10097(u0_a97) com.unity3d.ads.example identical 4 lines
+W/ViewRootImpl[UnityAdsExample]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_WINDOW, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=4963014, downTime=4963014, deviceId=-1, source=0x101 }
+W/ViewRootImpl[UnityAdsExample]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_X, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=4963017, downTime=4963017, deviceId=-1, source=0x101 }
+W/ViewRootImpl[UnityAdsExample]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=4963017, downTime=4963017, deviceId=-1, source=0x101 }
+W/ViewRootImpl[UnityAdsExample]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=4963225, downTime=4963225, deviceId=-1, source=0x101 }
+W/ViewRootImpl[UnityAdsExample]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=4963244, downTime=4963244, deviceId=-1, source=0x101 }
+W/ViewRootImpl[UnityAdsExample]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=4963253, downTime=4963253, deviceId=-1, source=0x101 }
+D/UnityAds: com.unity3d.ads.UnityAds.initialize() (line:110) :: ENTERED METHOD
+I/UnityAds: com.unity3d.ads.UnityAds.initialize() (line:147) :: Initializing Unity Ads 2.3.0 (2300) with game id 1485134 in test mode
+D/UnityAds: com.unity3d.ads.configuration.EnvironmentCheck.testProGuard() (line:24) :: Unity Ads ProGuard check OK
+D/UnityAds: com.unity3d.ads.cache.CacheDirectory.getCacheDirectory() (line:44) :: Unity Ads is using external cache directory: /storage/emulated/0/Android/data/com.unity3d.ads.example/cache/UnityAdsCache
+            com.unity3d.ads.configuration.EnvironmentCheck.testCacheDirectory() (line:46) :: Unity Ads cache directory check OK
+I/UnityAds: com.unity3d.ads.UnityAds.initialize() (line:161) :: Unity Ads environment check OK
+D/UnityAds: com.unity3d.ads.configuration.InitializeThread$InitializeStateReset.execute() (line:87) :: Unity Ads init: starting init
+D/UnityAds: com.unity3d.ads.cache.CacheDirectory.getCacheDirectory() (line:44) :: Unity Ads is using external cache directory: /storage/emulated/0/Android/data/com.unity3d.ads.example/cache/UnityAdsCache
+D/UnityAds: com.unity3d.ads.configuration.InitializeThread$InitializeStateAdBlockerCheck.execute() (line:179) :: Unity Ads init: checking for ad blockers
+W/ViewRootImpl[UnityAdsExample]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=4963815, downTime=4963815, deviceId=-1, source=0x101 }
+W/ViewRootImpl[UnityAdsExample]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=4963818, downTime=4963818, deviceId=-1, source=0x101 }
+I/UnityAds: com.unity3d.ads.configuration.InitializeThread$InitializeStateConfig.execute() (line:235) :: Unity Ads init: load configuration from https://config.unityads.unity3d.com/webview/2.3.0/release/config.json
+D/UnityAds: com.unity3d.ads.configuration.Configuration.makeRequest() (line:85) :: Requesting configuration with: https://config.unityads.unity3d.com/webview/2.3.0/release/config.json?ts=1535969861702&sdkVersion=2300&sdkVersionName=2.3.0
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+W/ViewRootImpl[UnityAdsExample]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=4964086, downTime=4964086, deviceId=-1, source=0x101 }
+I/chatty: uid=10097(u0_a97) com.unity3d.ads.example identical 7 lines
+W/ViewRootImpl[UnityAdsExample]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=4964086, downTime=4964086, deviceId=-1, source=0x101 }
+W/ViewRootImpl[UnityAdsExample]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=4964121, downTime=4964121, deviceId=-1, source=0x101 }
+W/ViewRootImpl[UnityAdsExample]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=4964161, downTime=4964161, deviceId=-1, source=0x101 }
+I/chatty: uid=10097(u0_a97) com.unity3d.ads.example identical 7 lines
+W/ViewRootImpl[UnityAdsExample]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=4964161, downTime=4964161, deviceId=-1, source=0x101 }
+W/ViewRootImpl[UnityAdsExample]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=4964191, downTime=4964191, deviceId=-1, source=0x101 }
+W/ViewRootImpl[UnityAdsExample]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=4964377, downTime=4964377, deviceId=-1, source=0x101 }
+W/ViewRootImpl[UnityAdsExample]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=4964380, downTime=4964380, deviceId=-1, source=0x101 }
+W/ViewRootImpl[UnityAdsExample]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=4964385, downTime=4964385, deviceId=-1, source=0x101 }
+I/zygote: Do full code cache collection, code=247KB, data=190KB
+I/zygote: After code cache collection, code=242KB, data=157KB
+W/ViewRootImpl[UnityAdsExample]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=4964471, downTime=4964471, deviceId=-1, source=0x101 }
+W/ViewRootImpl[UnityAdsExample]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=4.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=1, eventTime=4964510, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0x8de8ca20: ver 2 0 (tinfo 0xa2703e30)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8ada5080 (RippleDrawable) with handle 0xa2703db0
+D/UnityAds: com.unity3d.ads.configuration.InitializeThread$InitializeStateLoadCache.execute() (line:266) :: Unity Ads init: check if webapp can be loaded from local cache
+I/UnityAds: com.unity3d.ads.configuration.InitializeThread$InitializeStateLoadWeb.execute() (line:312) :: Unity Ads init: loading webapp from https://webview.unityads.unity3d.com/webview/2.3.0/a183629260228f11df743f4fe38c6e9cb9b370fd/release/index.html
+I/zygote: Do partial code cache collection, code=247KB, data=164KB
+I/zygote: After code cache collection, code=247KB, data=164KB
+          Increasing code cache capacity to 1024KB
+D/UnityAds: com.unity3d.ads.misc.Utilities.writeFile() (line:128) :: Wrote file: /storage/emulated/0/Android/data/com.unity3d.ads.example/cache/UnityAdsCache/UnityAdsWebApp.html
+D/UnityAds: com.unity3d.ads.configuration.InitializeThread$InitializeStateCreate.execute() (line:370) :: Unity Ads init: creating webapp
+            com.unity3d.ads.webview.WebViewApp.create() (line:249) :: ENTERED METHOD
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+I/zygote:     at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.unity3d.ads.webview.WebView.<init>(android.content.Context) (WebView.java:22)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration) (WebViewApp.java:47)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration, com.unity3d.ads.webview.WebViewApp$1) (WebViewApp.java:32)
+              at void com.unity3d.ads.webview.WebViewApp$1.run() (WebViewApp.java:261)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.unity3d.ads.webview.WebView.<init>(android.content.Context) (WebView.java:22)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration) (WebViewApp.java:47)
+I/zygote:     at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration, com.unity3d.ads.webview.WebViewApp$1) (WebViewApp.java:32)
+              at void com.unity3d.ads.webview.WebViewApp$1.run() (WebViewApp.java:261)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.unity3d.ads.webview.WebView.<init>(android.content.Context) (WebView.java:22)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration) (WebViewApp.java:47)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration, com.unity3d.ads.webview.WebViewApp$1) (WebViewApp.java:32)
+              at void com.unity3d.ads.webview.WebViewApp$1.run() (WebViewApp.java:261)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+I/zygote:     at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.unity3d.ads.webview.WebView.<init>(android.content.Context) (WebView.java:22)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration) (WebViewApp.java:47)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration, com.unity3d.ads.webview.WebViewApp$1) (WebViewApp.java:32)
+              at void com.unity3d.ads.webview.WebViewApp$1.run() (WebViewApp.java:261)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+I/zygote:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.unity3d.ads.webview.WebView.<init>(android.content.Context) (WebView.java:22)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration) (WebViewApp.java:47)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration, com.unity3d.ads.webview.WebViewApp$1) (WebViewApp.java:32)
+              at void com.unity3d.ads.webview.WebViewApp$1.run() (WebViewApp.java:261)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.unity3d.ads.webview.WebView.<init>(android.content.Context) (WebView.java:22)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration) (WebViewApp.java:47)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration, com.unity3d.ads.webview.WebViewApp$1) (WebViewApp.java:32)
+              at void com.unity3d.ads.webview.WebViewApp$1.run() (WebViewApp.java:261)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,11711,10097)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,11711,10097)
+D/: HostConnection::get() New Host Connection established 0x90b6aec0, tid 12042
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x90df20e0: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x90df20e0: ver 2 0 (tinfo 0x8e5651b0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,11711,10097)
+D/UnityAds: com.unity3d.ads.misc.Utilities.writeFile() (line:128) :: Wrote file: /data/user/0/com.unity3d.ads.example/files/UnityAdsStorage-public-data.json
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.sendEvent() (line:105) :: sendEvent ignored because web app is not loaded
+D/UnityAds: com.unity3d.ads.device.Storage.sendEvent() (line:82) :: Couldn't send storage event to WebApp
+D/UnityAds: com.unity3d.ads.misc.Utilities.writeFile() (line:128) :: Wrote file: /data/user/0/com.unity3d.ads.example/files/UnityAdsStorage-public-data.json
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.sendEvent() (line:105) :: sendEvent ignored because web app is not loaded
+D/UnityAds: com.unity3d.ads.device.Storage.sendEvent() (line:82) :: Couldn't send storage event to WebApp
+I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+W/cr_MediaCodecUtil: HW encoder for video/avc is not available on this device.
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x8add6560: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x8add6560: ver 2 0 (tinfo 0x8e5651b0)
+W/ViewRootImpl[UnityAdsExample]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=4971163, downTime=4971163, deviceId=-1, source=0x101 }
+W/ViewRootImpl[UnityAdsExample]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=4972742, downTime=4972742, deviceId=-1, source=0x101 }
+W/ViewRootImpl[UnityAdsExample]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=4972810, downTime=4972810, deviceId=-1, source=0x101 }
+W/ViewRootImpl[UnityAdsExample]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=4972812, downTime=4972812, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8de8ca20: ver 2 0 (tinfo 0xa2703e30)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,11711,10097)
+W/ViewRootImpl[UnityAdsExample]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TV_SATELLITE, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=4972861, downTime=4972861, deviceId=-1, source=0x101 }
+I/AssistStructure: Flattened final assist data: 3540 bytes, containing 1 windows, 11 views
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,11711,10097)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,11711,10097)
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Sdk","loadComplete",[],"1"]]
+D/UnityAds: com.unity3d.ads.api.Sdk.loadComplete() (line:15) :: Web Application loaded
+W/cr_media: Requires BLUETOOTH permission
+D/UnityAds: com.unity3d.ads.webview.WebViewApp$WebAppClient.onPageFinished() (line:303) :: onPageFinished url: file:///storage/emulated/0/Android/data/com.unity3d.ads.example/cache/UnityAdsCache/UnityAdsWebApp.html?platform=android&origin=https%3A%2F%2Fwebview.unityads.unity3d.com%2Fwebview%2F2.3.0%2Fa183629260228f11df743f4fe38c6e9cb9b370fd%2Frelease%2Findex.html&version=a183629260228f11df743f4fe38c6e9cb9b370fd
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["1","OK",["1485134",true,"com.unity3d.ads.example","2.3.0",2300,"2.3.0",true,"https:\/\/config.unityads.unity3d.com\/webview\/2.3.0\/release\/config.json","https:\/\/webview.unityads.unity3d.com\/webview\/2.3.0\/a183629260228f11df743f4fe38c6e9cb9b370fd\/release\/index.html","d1b2d2e7ae189d8fc38860d81e6c76ab12d6b9783086e486cad251b41ee10d6c","a183629260228f11df743f4fe38c6e9cb9b370fd",1535969861382,false]]]);
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Cache","setProgressInterval",[250],"2"],["com.unity3d.ads.api.Storage","get",["PUBLIC","caching.pause.value"],"3"],["com.unity3d.ads.api.Request","setMaximumPoolSize",[8],"4"],["com.unity3d.ads.api.Request","setKeepAliveTime",[10000],"5"],["com.unity3d.ads.api.DeviceInfo","getAdvertisingTrackingId",[],"6"],["com.unity3d.ads.api.DeviceInfo","getLimitAdTrackingFlag",[],"7"],["com.unity3d.ads.api.DeviceInfo","getOsVersion",[],"8"],["com.unity3d.ads.api.DeviceInfo","getModel",[],"9"],["com.unity3d.ads.api.DeviceInfo","getScreenWidth",[],"10"],["com.unity3d.ads.api.DeviceInfo","getScreenHeight",[],"11"],["com.unity3d.ads.api.DeviceInfo","getSystemLanguage",[],"12"],["com.unity3d.ads.api.DeviceInfo","isRooted",[],"13"],["com.unity3d.ads.api.DeviceInfo","getTimeZone",[false],"14"],["com.unity3d.ads.api.DeviceInfo","getTotalMemory",[],"15"],["com.unity3d.ads.api.DeviceInfo","getCPUCount",[],"16"],["com.unity3d.ads.api.DeviceInfo","getGLVersion",[],"17"],["com.unity3d.ads.api.Storage","get",["PUBLIC","test.clearTestMetaData.value"],"18"],["com.unity3d.ads.api.Storage","getKeys",["PUBLIC","test",false],"19"]]
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["2","OK",[]],["3","ERROR",["COULDNT_GET_VALUE","caching.pause.value"]],["4","OK",[]],["5","OK",[]],["6","OK",["fa2064a6-6c1a-4e57-89c5-287202667d02"]],["7","OK",[false]],["8","OK",["8.0.0"]],["9","OK",["Android SDK built for x86"]],["10","OK",[1080]],["11","OK",[1794]],["12","OK",["en_US"]],["13","OK",[false]],["14","OK",["GMT+00:00"]],["15","OK",[1548756]],["16","OK",[4]],["17","OK",["2.0"]],["18","ERROR",["COULDNT_GET_VALUE","test.clearTestMetaData.value"]],["19","OK",[["debugOverlayEnabled"]]]]);
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.DeviceInfo","getAndroidId",[],"20"],["com.unity3d.ads.api.DeviceInfo","getApiLevel",[],"21"],["com.unity3d.ads.api.DeviceInfo","getTotalSpace",["INTERNAL"],"22"],["com.unity3d.ads.api.DeviceInfo","getTotalSpace",["EXTERNAL"],"23"],["com.unity3d.ads.api.DeviceInfo","getManufacturer",[],"24"],["com.unity3d.ads.api.DeviceInfo","getScreenDensity",[],"25"],["com.unity3d.ads.api.DeviceInfo","getScreenLayout",[],"26"],["com.unity3d.ads.api.DeviceInfo","isAppInstalled",["com.android.vending"],"27"],["com.unity3d.ads.api.DeviceInfo","isAppInstalled",["com.xiaomi.gamecenter"],"28"],["com.unity3d.ads.api.DeviceInfo","isAppInstalled",["com.google.android.gms.maps"],"29"],["com.unity3d.ads.api.DeviceInfo","isAppInstalled",["com.android.telephony"],"30"],["com.unity3d.ads.api.DeviceInfo","getDeviceMaxVolume",[3],"31"],["com.unity3d.ads.api.DeviceInfo","getApkDigest",[],"32"],["com.unity3d.ads.api.DeviceInfo","getCertificateFingerprint",[],"33"],["com.unity3d.ads.api.DeviceInfo","getBoard",[],"34"],["com.unity3d.ads.api.DeviceInfo","getBootloader",[],"35"],["com.unity3d.ads.api.DeviceInfo","getBrand",[],"36"],["com.unity3d.ads.api.DeviceInfo","getDevice",[],"37"],["com.unity3d.ads.api.DeviceInfo","getHardware",[],"38"],["com.unity3d.ads.api.DeviceInfo","getHost",[],"39"],["com.unity3d.ads.api.DeviceInfo","getProduct",[],"40"],["com.unity3d.ads.api.DeviceInfo","getFingerprint",[],"41"],["com.unity3d.ads.api.DeviceInfo","getSupportedAbis",[],"42"],["com.unity3d.ads.api.DeviceInfo","getSensorList",[],"43"],["com.unity3d.ads.api.Storage","get",["PUBLIC","test.debugOverlayEnabled.value"],"44"]]
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["20","OK",["818aa49626f6e9f4"]],["21","OK",[26]],["22","OK",[2031440]],["23","OK",[2031440]],["24","OK",["Google"]],["25","OK",[420]],["26","OK",[268435794]],["27","OK",[true]],["28","OK",[false]],["29","OK",[false]],["30","OK",[false]],["31","OK",[15]],["32","OK",["5854324750e416c0e2ca3686a72937f3529bc98bc233e935becfbe4242e1ce02"]],["33","OK",["c98a3f59c62839ffcecfde2803e30f17de49b05c"]],["34","OK",["unknown"]],["35","OK",["unknown"]],["36","OK",["google"]],["37","OK",["generic_x86"]],["38","OK",["ranchu"]],["39","OK",["vpec7.mtv.corp.google.com"]],["40","OK",["sdk_gphone_x86"]],["41","OK",["google\/sdk_gphone_x86\/generic_x86:8.0.0\/OSR1.170901.043\/4456315:user\/release-keys"]],["42","OK",[["x86"]]],["43","OK",[[{"name":"Goldfish 3-axis Accelerometer","type":1,"vendor":"The Android Open Source Project","maximumRange":2.799999952316284,"power":3,"version":1,"resolution":2.4801588733680546E-4,"minDelay":10000},{"name":"Goldfish 3-axis Gyroscope","type":4,"vendor":"The Android Open Source Project","maximumRange":11.11111068725586,"power":3,"version":1,"resolution":0.0010000000474974513,"minDelay":10000},{"name":"Goldfish 3-axis Magnetic field sensor","type":2,"vendor":"The Android Open Source Project","maximumRange":2000,"power":6.699999809265137,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish Orientation sensor","type":3,"vendor":"The Android Open Source Project","maximumRange":360,"power":9.699999809265137,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish Temperature sensor","type":13,"vendor":"The Android Open Source Project","maximumRange":80,"power":0.0010000000474974513,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish Proximity sensor","type":8,"vendor":"The Android Open Source Project","maximumRange":1,"power":20,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish Light sensor","type":5,"vendor":"The Android Open Source Project","maximumRange":40000,"power":20,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish Pressure sensor","type":6,"vendor":"The Android Open Source Project","maximumRange":800,"power":20,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish Humidity sensor","type":12,"vendor":"The Android Open Source Project","maximumRange":100,"power":20,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish 3-axis Magnetic field sensor (uncalibrated)","type":14,"vendor":"The Android Open Source Project","maximumRange":2000,"power":6.699999809265137,"version":1,"resolution":1,"minDelay":10000},{"name":"Game Rotation Vector Sensor","type":15,"vendor":"AOSP","maximumRange":1,"power":12.699999809265137,"version":3,"resolution":5.9604644775390625E-8,"minDelay":10000},{"name":"GeoMag Rotation Vector Sensor","type":20,"vendor":"AOSP","maximumRange":1,"power":12.699999809265137,"version":3,"resolution":5.9604644775390625E-8,"minDelay":10000},{"name":"Gravity Sensor","type":9,"vendor":"AOSP","maximumRange":19.613300323486328,"power":12.699999809265137,"version":3,"r
+            com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: esolution":2.4801588733680546E-4,"minDelay":10000},{"name":"Linear Acceleration Sensor","type":10,"vendor":"AOSP","maximumRange":19.613300323486328,"power":12.699999809265137,"version":3,"resolution":2.4801588733680546E-4,"minDelay":10000},{"name":"Rotation Vector Sensor","type":11,"vendor":"AOSP","maximumRange":1,"power":12.699999809265137,"version":3,"resolution":5.9604644775390625E-8,"minDelay":10000},{"name":"Orientation Sensor","type":3,"vendor":"AOSP","maximumRange":360,"power":12.699999809265137,"version":1,"resolution":0.00390625,"minDelay":10000}]]],["44","OK",[true]]]);
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Sdk","initComplete",[],"45"],["com.unity3d.ads.api.Connectivity","setConnectionMonitoring",[true],"46"],["com.unity3d.ads.api.Broadcast","addBroadcastListener",["screenListener",["android.intent.action.SCREEN_ON","android.intent.action.SCREEN_OFF"]],"47"],["com.unity3d.ads.api.Lifecycle","register",[["onActivityResumed","onActivityPaused"]],"48"],["com.unity3d.ads.api.Storage","getKeys",["PUBLIC","framework",false],"49"],["com.unity3d.ads.api.Storage","getKeys",["PUBLIC","adapter",false],"50"],["com.unity3d.ads.api.Storage","get",["PRIVATE","gamerToken"],"51"],["com.unity3d.ads.api.Storage","getKeys",["PRIVATE","cache.files",false],"52"],["com.unity3d.ads.api.Cache","getFiles",[],"53"],["com.unity3d.ads.api.Storage","get",["PRIVATE","cache.campaigns"],"54"],["com.unity3d.ads.api.Storage","get",["PRIVATE","cache.campaign.url"],"55"],["com.unity3d.ads.api.Storage","get",["PRIVATE","cache.campaign.response"],"56"]]
+D/UnityAds: com.unity3d.ads.api.Sdk.initComplete() (line:39) :: Web Application initialized
+D/UnityAds: com.unity3d.ads.api.Cache.getFiles() (line:182) :: Unity Ads cache: checking app directory for Unity Ads cached files
+D/UnityAds: com.unity3d.ads.api.Cache.getFiles() (line:201) :: Unity Ads cache: found ad64b3b3fd06ecc25f36de528755946adc4d6b93322870a45666a8f5cba1fedd.mp4, 134924 bytes
+D/UnityAds: com.unity3d.ads.api.Cache.getFiles() (line:201) :: Unity Ads cache: found 22a64c3e318f21b5a303811854b83a590347c0271be57fd987b1eff568a44990.png, 0 bytes
+            com.unity3d.ads.api.Cache.getFiles() (line:201) :: Unity Ads cache: found 1efbe3a0c8b264cd175bbd62205909e840a2fc7460e00e2448dbbc78ed9bfeb2.png, 0 bytes
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["45","OK",[]],["46","OK",[]],["47","OK",[]],["48","OK",[]],["49","OK",[[]]],["50","OK",[[]]],["51","ERROR",["COULDNT_GET_VALUE","gamerToken"]],["52","OK",[["ad64b3b3fd06ecc25f36de528755946adc4d6b93322870a45666a8f5cba1fedd","22a64c3e318f21b5a303811854b83a590347c0271be57fd987b1eff568a44990","1efbe3a0c8b264cd175bbd62205909e840a2fc7460e00e2448dbbc78ed9bfeb2"]]],["53","OK",[[{"id":"ad64b3b3fd06ecc25f36de528755946adc4d6b93322870a45666a8f5cba1fedd.mp4","found":true,"size":134924,"mtime":1533734374000},{"id":"22a64c3e318f21b5a303811854b83a590347c0271be57fd987b1eff568a44990.png","found":true,"size":0,"mtime":1533734374000},{"id":"1efbe3a0c8b264cd175bbd62205909e840a2fc7460e00e2448dbbc78ed9bfeb2.png","found":true,"size":0,"mtime":1533734375000}]]],["54","OK",[{"000000000000000000000000":{"ad64b3b3fd06ecc25f36de528755946adc4d6b93322870a45666a8f5cba1fedd":{"extension":"mp4"}}}]],["55","ERROR",["COULDNT_GET_VALUE","cache.campaign.url"]],["56","ERROR",["COULDNT_GET_VALUE","cache.campaign.response"]]]);
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Storage","getKeys",["PRIVATE","cache",false],"57"],["com.unity3d.ads.api.Sdk","logInfo",["Requesting configuration from https://publisher-config.unityads.unity3d.com/games/1485134/configuration?bundleId=com.unity3d.ads.example&encrypted=false&rooted=false&platform=android&sdkVersion=2300&osVersion=8.0.0&deviceModel=Android%20SDK%20built%20for%20x86&language=en_US&test=true&deviceMake=Google&advertisingTrackingId=fa2064a6-6c1a-4e57-89c5-287202667d02&limitAdTracking=false"],"58"],["com.unity3d.ads.api.Request","get",["1","https://publisher-config.unityads.unity3d.com/games/1485134/configuration?bundleId=com.unity3d.ads.example&encrypted=false&rooted=false&platform=android&sdkVersion=2300&osVersion=8.0.0&deviceModel=Android%20SDK%20built%20for%20x86&language=en_US&test=true&deviceMake=Google&advertisingTrackingId=fa2064a6-6c1a-4e57-89c5-287202667d02&limitAdTracking=false",[],30000,30000],"59"]]
+I/UnityAds: com.unity3d.ads.api.Sdk.logInfo() (line:70) :: Requesting configuration from https://publisher-config.unityads.unity3d.com/games/1485134/configuration?bundleId=com.unity3d.ads.example&encrypted=false&rooted=false&platform=android&sdkVersion=2300&osVersion=8.0.0&deviceModel=Android%20SDK%20built%20for%20x86&language=en_US&test=true&deviceMake=Google&advertisingTrackingId=fa2064a6-6c1a-4e57-89c5-287202667d02&limitAdTracking=false
+D/UnityAds: com.unity3d.ads.request.WebRequestRunnable.run() (line:37) :: Handling request message: https://publisher-config.unityads.unity3d.com/games/1485134/configuration?bundleId=com.unity3d.ads.example&encrypted=false&rooted=false&platform=android&sdkVersion=2300&osVersion=8.0.0&deviceModel=Android%20SDK%20built%20for%20x86&language=en_US&test=true&deviceMake=Google&advertisingTrackingId=fa2064a6-6c1a-4e57-89c5-287202667d02&limitAdTracking=false type=GET
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["57","OK",[["files","campaigns","campaign"]]],["58","OK",[]],["59","OK",["1"]]]);
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Sdk","logDebug",["Unity Ads cache: Deleting 3 old files (131.76171875kB), keeping 0 cached files (0kB)"],"60"],["com.unity3d.ads.api.Storage","delete",["PRIVATE","cache.files.1efbe3a0c8b264cd175bbd62205909e840a2fc7460e00e2448dbbc78ed9bfeb2"],"61"],["com.unity3d.ads.api.Cache","deleteFile",["1efbe3a0c8b264cd175bbd62205909e840a2fc7460e00e2448dbbc78ed9bfeb2.png"],"62"],["com.unity3d.ads.api.Storage","delete",["PRIVATE","cache.files.ad64b3b3fd06ecc25f36de528755946adc4d6b93322870a45666a8f5cba1fedd"],"63"],["com.unity3d.ads.api.Cache","deleteFile",["ad64b3b3fd06ecc25f36de528755946adc4d6b93322870a45666a8f5cba1fedd.mp4"],"64"],["com.unity3d.ads.api.Storage","delete",["PRIVATE","cache.files.22a64c3e318f21b5a303811854b83a590347c0271be57fd987b1eff568a44990"],"65"],["com.unity3d.ads.api.Cache","deleteFile",["22a64c3e318f21b5a303811854b83a590347c0271be57fd987b1eff568a44990.png"],"66"],["com.unity3d.ads.api.Storage","write",["PRIVATE"],"67"],["com.unity3d.ads.api.Cache","getFiles",[],"68"],["com.unity3d.ads.api.Storage","get",["PRIVATE","cache.campaigns"],"69"]]
+D/UnityAds: com.unity3d.ads.api.Sdk.logDebug() (line:76) :: Unity Ads cache: Deleting 3 old files (131.76171875kB), keeping 0 cached files (0kB)
+D/UnityAds: com.unity3d.ads.misc.Utilities.writeFile() (line:128) :: Wrote file: /data/user/0/com.unity3d.ads.example/files/UnityAdsStorage-private-data.json
+            com.unity3d.ads.api.Cache.getFiles() (line:182) :: Unity Ads cache: checking app directory for Unity Ads cached files
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["60","OK",[]],["61","OK",["PRIVATE"]],["62","OK",[]],["63","OK",["PRIVATE"]],["64","OK",[]],["65","OK",["PRIVATE"]],["66","OK",[]],["67","OK",["PRIVATE"]],["68","OK",[[]]],["69","OK",[{"000000000000000000000000":{"ad64b3b3fd06ecc25f36de528755946adc4d6b93322870a45666a8f5cba1fedd":{"extension":"mp4"}}}]]]);
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Storage","delete",["PRIVATE","cache.campaigns.000000000000000000000000"],"70"],["com.unity3d.ads.api.Storage","write",["PRIVATE"],"71"]]
+D/UnityAds: com.unity3d.ads.misc.Utilities.writeFile() (line:128) :: Wrote file: /data/user/0/com.unity3d.ads.example/files/UnityAdsStorage-private-data.json
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["70","OK",["PRIVATE"]],["71","OK",["PRIVATE"]]]);
+W/ViewRootImpl[UnityAdsExample]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=4974050, downTime=4973743, deviceId=-1, source=0x101 }
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleEvent(["REQUEST","COMPLETE","1","https:\/\/publisher-config.unityads.unity3d.com\/games\/1485134\/configuration?bundleId=com.unity3d.ads.example&encrypted=false&rooted=false&platform=android&sdkVersion=2300&osVersion=8.0.0&deviceModel=Android%20SDK%20built%20for%20x86&language=en_US&test=true&deviceMake=Google&advertisingTrackingId=fa2064a6-6c1a-4e57-89c5-287202667d02&limitAdTracking=false","{\"error\":\"Game Id 1485134 provided is configured for platform ios, while ads were requested for platform android. Please create own game profiles for each platform release.\"}",400,[["X-Debug","616_as-ads-co"],["X-Request-Id","0a4ab0cd-bd10-4d8d-8012-b0a6a7818f2e"],["Access-Control-Allow-Origin","*"],["Access-Control-Allow-Methods","GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS"],["P3P","CP=\"HONK\""],["X-Android-Received-Millis","1535969872695"],["Date","Mon, 03 Sep 2018 10:17:54 GMT"],["Access-Control-Allow-Headers","Authorization, Content-Type, If-None-Match, X-Requested-With, X-HTTP-Method-Override"],["X-Frame-Options","deny"],["X-Android-Selected-Protocol","http\/1.1"],["Cache-Control","must-revalidate"],["X-Android-Response-Source","NETWORK 400"],["X-Android-Sent-Millis","1535969872471"],["Access-Control-Max-Age","86400"],["Content-Length","174"],["Content-Type","application\/json; charset=utf-8"],["X-Powered-By","Express"]]]);
+I/chromium: [INFO:CONSOLE(16794)] "Uncaught (in promise) Error: [object Object]", source: file:///storage/emulated/0/Android/data/com.unity3d.ads.example/cache/UnityAdsCache/UnityAdsWebApp.html?platform=android&origin=https%3A%2F%2Fwebview.unityads.unity3d.com%2Fwebview%2F2.3.0%2Fa183629260228f11df743f4fe38c6e9cb9b370fd%2Frelease%2Findex.html&version=a183629260228f11df743f4fe38c6e9cb9b370fd (16794)
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Listener","sendErrorEvent",["INITIALIZE_FAILED","Game Id 1485134 provided is configured for platform ios, while ads were requested for platform android. Please create own game profiles for each platform release."],"72"],["com.unity3d.ads.api.Sdk","logError",["{\"message\":\"Game Id 1485134 provided is configured for platform ios, while ads were requested for platform android. Please create own game profiles for each platform release.\",\"name\":\"Error\"}"],"73"],["com.unity3d.ads.api.DeviceInfo","getConnectionType",[],"74"],["com.unity3d.ads.api.DeviceInfo","getNetworkType",[],"75"],["com.unity3d.ads.api.DeviceInfo","getNetworkOperator",[],"76"],["com.unity3d.ads.api.DeviceInfo","getNetworkOperatorName",[],"77"],["com.unity3d.ads.api.DeviceInfo","getHeadset",[],"78"],["com.unity3d.ads.api.DeviceInfo","getDeviceVolume",[1],"79"],["com.unity3d.ads.api.DeviceInfo","getScreenWidth",[],"80"],["com.unity3d.ads.api.DeviceInfo","getScreenHeight",[],"81"],["com.unity3d.ads.api.DeviceInfo","getScreenBrightness",[],"82"],["com.unity3d.ads.api.DeviceInfo","getFreeSpace",["INTERNAL"],"83"],["com.unity3d.ads.api.DeviceInfo","getBatteryLevel",[],"84"],["com.unity3d.ads.api.DeviceInfo","getBatteryStatus",[],"85"],["com.unity3d.ads.api.DeviceInfo","getFreeMemory",[],"86"]]
+E/UnityAds: com.unity3d.ads.api.Sdk.logError() (line:58) :: {"message":"Game Id 1485134 provided is configured for platform ios, while ads were requested for platform android. Please create own game profiles for each platform release.","name":"Error"}
+D/UnityAds: com.unity3d.ads.example.UnityAdsExample$UnityAdsListener.onUnityAdsError() (line:244) :: onUnityAdsError: INITIALIZE_FAILED - Game Id 1485134 provided is configured for platform ios, while ads were requested for platform android. Please create own game profiles for each platform release.
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["72","OK",[]],["73","OK",[]],["74","OK",["wifi"]],["75","OK",[13]],["76","OK",["310260"]],["77","OK",["Android"]],["78","OK",[false]],["79","OK",[4]],["80","OK",[1080]],["81","OK",[1794]],["82","OK",[102]],["83","OK",[1429092]],["84","OK",[1]],["85","OK",[2]],["86","OK",[299448]]]);
+W/ViewRootImpl[UnityAdsExample]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=4975039, downTime=4975039, deviceId=-1, source=0x101 }
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.DeviceInfo","getFreeSpace",["EXTERNAL"],"87"],["com.unity3d.ads.api.DeviceInfo","getRingerMode",[],"88"]]
+D/EGL_emulation: eglMakeCurrent: 0x8de8ca20: ver 2 0 (tinfo 0xa2703e30)
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["87","OK",[1429096]],["88","OK",[2]]]);
+D/EGL_emulation: eglMakeCurrent: 0x8de8ca20: ver 2 0 (tinfo 0xa2703e30)
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Request","post",["2","https://httpkafka.unityads.unity3d.com/v1/events","{\"common\":{\"client\":{\"gameId\":\"1485134\",\"testMode\":true,\"bundleId\":\"com.unity3d.ads.example\",\"bundleVersion\":\"2.3.0\",\"sdkVersion\":2300,\"sdkVersionName\":\"2.3.0\",\"platform\":\"android\",\"encrypted\":false,\"configUrl\":\"https://config.unityads.unity3d.com/webview/2.3.0/release/config.json\",\"webviewUrl\":\"https://webview.unityads.unity3d.com/webview/2.3.0/a183629260228f11df743f4fe38c6e9cb9b370fd/release/index.html\",\"webviewHash\":\"d1b2d2e7ae189d8fc38860d81e6c76ab12d6b9783086e486cad251b41ee10d6c\",\"webviewVersion\":\"a183629260228f11df743f4fe38c6e9cb9b370fd\",\"initTimestamp\":1535969861382,\"reinitialized\":false},\"device\":{\"osVersion\":\"8.0.0\",\"deviceModel\":\"Android SDK built for x86\",\"connectionType\":\"wifi\",\"networkType\":13,\"screenWidth\":1080,\"screenHeight\":1794,\"networkOperator\":\"310260\",\"networkOperatorName\":\"Android\",\"timeZone\":\"GMT+00:00\",\"headset\":false,\"language\":\"en_US\",\"deviceVolume\":4,\"screenBrightness\":102,\"freeSpaceInternal\":1429092,\"totalSpaceInternal\":2031440,\"batteryLevel\":1,\"batteryStatus\":2,\"freeMemory\":299448,\"totalMemory\":1548756,\"rooted\":false,\"apiLevel\":26,\"deviceMake\":\"Google\",\"screenLayout\":268435794,\"screenDensity\":420,\"totalSpaceExternal\":2031440,\"freeSpaceExternal\":1429096,\"ringerMode\":2,\"userAgent\":\"Mozilla/5.0 (Linux; Android 8.0.0; Android SDK built for x86 Build/OSR1.170901.043; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36\"},\"country\":null}}\n{\"type\":\"ads.sdk2.diagnostics\",\"msg\":{\"type\":\"initialization_error\",\"initialization_error\":{\"message\":\"Game Id 1485134 provided is configured for platform ios, while ads were requested for platform android. Please create own game profiles for each platform release.\",\"name\":\"Error\"},\"timestamp\":1535969872715}}",[["Content-Type","application/json"]],30000,30000],"89"]]
+D/UnityAds: com.unity3d.ads.request.WebRequestRunnable.run() (line:37) :: Handling request message: https://httpkafka.unityads.unity3d.com/v1/events type=POST
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["89","OK",["2"]]]);
+D/UnityAds: com.unity3d.ads.request.WebRequest.getHttpUrlConnectionWithHeaders() (line:252) :: Setting header: Content-Type=application/json
+W/ViewRootImpl[UnityAdsExample]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=4975593, downTime=4975593, deviceId=-1, source=0x101 }
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleEvent(["REQUEST","COMPLETE","2","https:\/\/httpkafka.unityads.unity3d.com\/v1\/events","",200,[["X-Android-Selected-Protocol","http\/1.1"],["Strict-Transport-Security","max-age=15768000"],["Access-Control-Allow-Origin","*"],["X-Android-Response-Source","NETWORK 200"],["X-Android-Sent-Millis","1535969873914"],["X-Android-Received-Millis","1535969874318"],["Content-Length","0"],["Date","Mon, 03 Sep 2018 10:17:55 GMT"],["Content-Type","text\/plain; charset=utf-8"]]]);
+D/UnityAds: com.unity3d.ads.UnityAds.initialize() (line:110) :: ENTERED METHOD
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleEvent(["LIFECYCLE","PAUSED","com.unity3d.ads.example.UnityAdsExample"]);
+D/EGL_emulation: eglMakeCurrent: 0x8de8ca20: ver 2 0 (tinfo 0xa2703e30)
+Disconnected from the target VM, address: 'localhost:8614', transport: 'socket'
+
+09/03 18:18:39: Launching app
+$ adb shell am start -n "com.unity3d.ads.example/com.unity3d.ads.example.UnityAdsExample" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.unity3d.ads.example.test | com.unity3d.ads.example
+Waiting for application to come online: com.unity3d.ads.example.test | com.unity3d.ads.example
+Waiting for application to come online: com.unity3d.ads.example.test | com.unity3d.ads.example
+Connecting to com.unity3d.ads.example
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/zygote: Not late-enabling -Xcheck:jni (already on)
+W/zygote: Unexpected CPU variant for X86 using defaults: x86
+W/ActivityThread: Application com.unity3d.ads.example is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+I/zygote: Debugger is active
+Connected to the target VM, address: 'localhost:8614', transport: 'socket'
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+I/chatty: uid=10097(u0_a97) com.unity3d.ads.example identical 6 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1373)
+I/InstantRun: starting instant run server: is main process
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+I/cr_LibraryLoader: Time to load native libraries: 25 ms (timestamps 4871-4896)
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.unity3d.ads.example/app_webview/variations_seed_new": /data/user/0/com.unity3d.ads.example/app_webview/variations_seed_new (No such file or directory)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,12297,10097)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,12297,10097)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+I/chromium: [INFO:aw_field_trial_creator.cc(52)] First-WebView-Experiment found, group=Control
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,12297,10097)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,12297,10097)
+E/chromium: [ERROR:devtools_http_handler.cc(292)] Cannot start http server for devtools. Stop devtools.
+D/UnityAds: com.unity3d.ads.misc.Utilities.writeFile() (line:128) :: Wrote file: /data/user/0/com.unity3d.ads.example/files/UnityAdsStorage-public-data.json
+I/zygote: Do partial code cache collection, code=29KB, data=25KB
+I/zygote: After code cache collection, code=28KB, data=25KB
+          Increasing code cache capacity to 128KB
+D/UnityAds: com.unity3d.ads.device.Storage.sendEvent() (line:82) :: Couldn't send storage event to WebApp
+D/UnityAds: com.unity3d.ads.misc.Utilities.writeFile() (line:128) :: Wrote file: /data/user/0/com.unity3d.ads.example/files/UnityAdsStorage-public-data.json
+D/UnityAds: com.unity3d.ads.device.Storage.sendEvent() (line:82) :: Couldn't send storage event to WebApp
+D/OpenGLRenderer: HWUI GL Pipeline
+I/Choreographer: Skipped 46 frames!  The application may be doing too much work on its main thread.
+D/: HostConnection::get() New Host Connection established 0x8e57e440, tid 12366
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0x90dad240: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x90dad240: ver 2 0 (tinfo 0x90da6060)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,12297,10097)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,12297,10097)
+D/EGL_emulation: eglMakeCurrent: 0x90dad240: ver 2 0 (tinfo 0x90da6060)
+I/AssistStructure: Flattened final assist data: 3540 bytes, containing 1 windows, 11 views
+W/cr_CrashFileManager: /data/user/0/com.unity3d.ads.example/cache/WebView/Crash Reports does not exist or is not a directory
+D/EGL_emulation: eglMakeCurrent: 0x90dad240: ver 2 0 (tinfo 0x90da6060)
+D/EGL_emulation: eglMakeCurrent: 0x90dad240: ver 2 0 (tinfo 0x90da6060)
+I/zygote: Do partial code cache collection, code=60KB, data=57KB
+          After code cache collection, code=59KB, data=57KB
+          Increasing code cache capacity to 256KB
+D/EGL_emulation: eglMakeCurrent: 0x90dad240: ver 2 0 (tinfo 0x90da6060)
+D/UnityAds: com.unity3d.ads.UnityAds.initialize() (line:110) :: ENTERED METHOD
+I/UnityAds: com.unity3d.ads.UnityAds.initialize() (line:147) :: Initializing Unity Ads 2.3.0 (2300) with game id 5134 in test mode
+D/UnityAds: com.unity3d.ads.configuration.EnvironmentCheck.testProGuard() (line:24) :: Unity Ads ProGuard check OK
+D/UnityAds: com.unity3d.ads.cache.CacheDirectory.getCacheDirectory() (line:44) :: Unity Ads is using external cache directory: /storage/emulated/0/Android/data/com.unity3d.ads.example/cache/UnityAdsCache
+            com.unity3d.ads.configuration.EnvironmentCheck.testCacheDirectory() (line:46) :: Unity Ads cache directory check OK
+I/UnityAds: com.unity3d.ads.UnityAds.initialize() (line:161) :: Unity Ads environment check OK
+D/UnityAds: com.unity3d.ads.configuration.InitializeThread$InitializeStateReset.execute() (line:87) :: Unity Ads init: starting init
+D/UnityAds: com.unity3d.ads.cache.CacheDirectory.getCacheDirectory() (line:44) :: Unity Ads is using external cache directory: /storage/emulated/0/Android/data/com.unity3d.ads.example/cache/UnityAdsCache
+D/UnityAds: com.unity3d.ads.configuration.InitializeThread$InitializeStateAdBlockerCheck.execute() (line:179) :: Unity Ads init: checking for ad blockers
+I/UnityAds: com.unity3d.ads.configuration.InitializeThread$InitializeStateConfig.execute() (line:235) :: Unity Ads init: load configuration from https://config.unityads.unity3d.com/webview/2.3.0/release/config.json
+D/UnityAds: com.unity3d.ads.configuration.Configuration.makeRequest() (line:85) :: Requesting configuration with: https://config.unityads.unity3d.com/webview/2.3.0/release/config.json?ts=1535969930255&sdkVersion=2300&sdkVersionName=2.3.0
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+I/zygote: Do full code cache collection, code=122KB, data=102KB
+I/zygote: After code cache collection, code=101KB, data=61KB
+D/UnityAds: com.unity3d.ads.configuration.InitializeThread$InitializeStateLoadCache.execute() (line:266) :: Unity Ads init: check if webapp can be loaded from local cache
+I/UnityAds: com.unity3d.ads.configuration.InitializeThread$InitializeStateLoadCache.execute() (line:288) :: Unity Ads init: webapp loaded from local cache
+D/UnityAds: com.unity3d.ads.configuration.InitializeThread$InitializeStateCreate.execute() (line:370) :: Unity Ads init: creating webapp
+            com.unity3d.ads.webview.WebViewApp.create() (line:249) :: ENTERED METHOD
+I/zygote: Do partial code cache collection, code=121KB, data=72KB
+I/zygote: After code cache collection, code=118KB, data=71KB
+          Increasing code cache capacity to 512KB
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.unity3d.ads.webview.WebView.<init>(android.content.Context) (WebView.java:22)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration) (WebViewApp.java:47)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration, com.unity3d.ads.webview.WebViewApp$1) (WebViewApp.java:32)
+              at void com.unity3d.ads.webview.WebViewApp$1.run() (WebViewApp.java:261)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.unity3d.ads.webview.WebView.<init>(android.content.Context) (WebView.java:22)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration) (WebViewApp.java:47)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration, com.unity3d.ads.webview.WebViewApp$1) (WebViewApp.java:32)
+              at void com.unity3d.ads.webview.WebViewApp$1.run() (WebViewApp.java:261)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote:     at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.unity3d.ads.webview.WebView.<init>(android.content.Context) (WebView.java:22)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration) (WebViewApp.java:47)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration, com.unity3d.ads.webview.WebViewApp$1) (WebViewApp.java:32)
+              at void com.unity3d.ads.webview.WebViewApp$1.run() (WebViewApp.java:261)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+I/zygote:     at void com.unity3d.ads.webview.WebView.<init>(android.content.Context) (WebView.java:22)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration) (WebViewApp.java:47)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration, com.unity3d.ads.webview.WebViewApp$1) (WebViewApp.java:32)
+              at void com.unity3d.ads.webview.WebViewApp$1.run() (WebViewApp.java:261)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.unity3d.ads.webview.WebView.<init>(android.content.Context) (WebView.java:22)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration) (WebViewApp.java:47)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration, com.unity3d.ads.webview.WebViewApp$1) (WebViewApp.java:32)
+              at void com.unity3d.ads.webview.WebViewApp$1.run() (WebViewApp.java:261)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.unity3d.ads.webview.WebView.<init>(android.content.Context) (WebView.java:22)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration) (WebViewApp.java:47)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration, com.unity3d.ads.webview.WebViewApp$1) (WebViewApp.java:32)
+              at void com.unity3d.ads.webview.WebViewApp$1.run() (WebViewApp.java:261)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,12297,10097)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,12297,10097)
+D/: HostConnection::get() New Host Connection established 0xa2723ec0, tid 12381
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x8df91320: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x8df91320: ver 2 0 (tinfo 0x8dfda020)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,12297,10097)
+I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+W/cr_MediaCodecUtil: HW encoder for video/avc is not available on this device.
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x8df92100: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x8df92100: ver 2 0 (tinfo 0x8dfda020)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,12297,10097)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,12297,10097)
+D/UnityAds: com.unity3d.ads.webview.WebViewApp$WebAppClient.onPageFinished() (line:303) :: onPageFinished url: file:///storage/emulated/0/Android/data/com.unity3d.ads.example/cache/UnityAdsCache/UnityAdsWebApp.html?platform=android&origin=https%3A%2F%2Fwebview.unityads.unity3d.com%2Fwebview%2F2.3.0%2Fa183629260228f11df743f4fe38c6e9cb9b370fd%2Frelease%2Findex.html&version=a183629260228f11df743f4fe38c6e9cb9b370fd
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Sdk","loadComplete",[],"1"]]
+D/UnityAds: com.unity3d.ads.api.Sdk.loadComplete() (line:15) :: Web Application loaded
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["1","OK",["5134",true,"com.unity3d.ads.example","2.3.0",2300,"2.3.0",true,"https:\/\/config.unityads.unity3d.com\/webview\/2.3.0\/release\/config.json","https:\/\/webview.unityads.unity3d.com\/webview\/2.3.0\/a183629260228f11df743f4fe38c6e9cb9b370fd\/release\/index.html","d1b2d2e7ae189d8fc38860d81e6c76ab12d6b9783086e486cad251b41ee10d6c","a183629260228f11df743f4fe38c6e9cb9b370fd",1535969930027,false]]]);
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Cache","setProgressInterval",[250],"2"],["com.unity3d.ads.api.Storage","get",["PUBLIC","caching.pause.value"],"3"],["com.unity3d.ads.api.Request","setMaximumPoolSize",[8],"4"],["com.unity3d.ads.api.Request","setKeepAliveTime",[10000],"5"],["com.unity3d.ads.api.DeviceInfo","getAdvertisingTrackingId",[],"6"],["com.unity3d.ads.api.DeviceInfo","getLimitAdTrackingFlag",[],"7"],["com.unity3d.ads.api.DeviceInfo","getOsVersion",[],"8"],["com.unity3d.ads.api.DeviceInfo","getModel",[],"9"],["com.unity3d.ads.api.DeviceInfo","getScreenWidth",[],"10"],["com.unity3d.ads.api.DeviceInfo","getScreenHeight",[],"11"],["com.unity3d.ads.api.DeviceInfo","getSystemLanguage",[],"12"],["com.unity3d.ads.api.DeviceInfo","isRooted",[],"13"],["com.unity3d.ads.api.DeviceInfo","getTimeZone",[false],"14"],["com.unity3d.ads.api.DeviceInfo","getTotalMemory",[],"15"],["com.unity3d.ads.api.DeviceInfo","getCPUCount",[],"16"],["com.unity3d.ads.api.DeviceInfo","getGLVersion",[],"17"],["com.unity3d.ads.api.Storage","get",["PUBLIC","test.clearTestMetaData.value"],"18"],["com.unity3d.ads.api.Storage","getKeys",["PUBLIC","test",false],"19"]]
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,12297,10097)
+W/cr_media: Requires BLUETOOTH permission
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["2","OK",[]],["3","ERROR",["COULDNT_GET_VALUE","caching.pause.value"]],["4","OK",[]],["5","OK",[]],["6","OK",["fa2064a6-6c1a-4e57-89c5-287202667d02"]],["7","OK",[false]],["8","OK",["8.0.0"]],["9","OK",["Android SDK built for x86"]],["10","OK",[1080]],["11","OK",[1794]],["12","OK",["en_US"]],["13","OK",[false]],["14","OK",["GMT+00:00"]],["15","OK",[1548756]],["16","OK",[4]],["17","OK",["2.0"]],["18","ERROR",["COULDNT_GET_VALUE","test.clearTestMetaData.value"]],["19","OK",[["debugOverlayEnabled"]]]]);
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.DeviceInfo","getAndroidId",[],"20"],["com.unity3d.ads.api.DeviceInfo","getApiLevel",[],"21"],["com.unity3d.ads.api.DeviceInfo","getTotalSpace",["INTERNAL"],"22"],["com.unity3d.ads.api.DeviceInfo","getTotalSpace",["EXTERNAL"],"23"],["com.unity3d.ads.api.DeviceInfo","getManufacturer",[],"24"],["com.unity3d.ads.api.DeviceInfo","getScreenDensity",[],"25"],["com.unity3d.ads.api.DeviceInfo","getScreenLayout",[],"26"],["com.unity3d.ads.api.DeviceInfo","isAppInstalled",["com.android.vending"],"27"],["com.unity3d.ads.api.DeviceInfo","isAppInstalled",["com.xiaomi.gamecenter"],"28"],["com.unity3d.ads.api.DeviceInfo","isAppInstalled",["com.google.android.gms.maps"],"29"],["com.unity3d.ads.api.DeviceInfo","isAppInstalled",["com.android.telephony"],"30"],["com.unity3d.ads.api.DeviceInfo","getDeviceMaxVolume",[3],"31"],["com.unity3d.ads.api.DeviceInfo","getApkDigest",[],"32"],["com.unity3d.ads.api.DeviceInfo","getCertificateFingerprint",[],"33"],["com.unity3d.ads.api.DeviceInfo","getBoard",[],"34"],["com.unity3d.ads.api.DeviceInfo","getBootloader",[],"35"],["com.unity3d.ads.api.DeviceInfo","getBrand",[],"36"],["com.unity3d.ads.api.DeviceInfo","getDevice",[],"37"],["com.unity3d.ads.api.DeviceInfo","getHardware",[],"38"],["com.unity3d.ads.api.DeviceInfo","getHost",[],"39"],["com.unity3d.ads.api.DeviceInfo","getProduct",[],"40"],["com.unity3d.ads.api.DeviceInfo","getFingerprint",[],"41"],["com.unity3d.ads.api.DeviceInfo","getSupportedAbis",[],"42"],["com.unity3d.ads.api.DeviceInfo","getSensorList",[],"43"],["com.unity3d.ads.api.Storage","get",["PUBLIC","test.debugOverlayEnabled.value"],"44"]]
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["20","OK",["818aa49626f6e9f4"]],["21","OK",[26]],["22","OK",[2031440]],["23","OK",[2031440]],["24","OK",["Google"]],["25","OK",[420]],["26","OK",[268435794]],["27","OK",[true]],["28","OK",[false]],["29","OK",[false]],["30","OK",[false]],["31","OK",[15]],["32","OK",["5854324750e416c0e2ca3686a72937f3529bc98bc233e935becfbe4242e1ce02"]],["33","OK",["c98a3f59c62839ffcecfde2803e30f17de49b05c"]],["34","OK",["unknown"]],["35","OK",["unknown"]],["36","OK",["google"]],["37","OK",["generic_x86"]],["38","OK",["ranchu"]],["39","OK",["vpec7.mtv.corp.google.com"]],["40","OK",["sdk_gphone_x86"]],["41","OK",["google\/sdk_gphone_x86\/generic_x86:8.0.0\/OSR1.170901.043\/4456315:user\/release-keys"]],["42","OK",[["x86"]]],["43","OK",[[{"name":"Goldfish 3-axis Accelerometer","type":1,"vendor":"The Android Open Source Project","maximumRange":2.799999952316284,"power":3,"version":1,"resolution":2.4801588733680546E-4,"minDelay":10000},{"name":"Goldfish 3-axis Gyroscope","type":4,"vendor":"The Android Open Source Project","maximumRange":11.11111068725586,"power":3,"version":1,"resolution":0.0010000000474974513,"minDelay":10000},{"name":"Goldfish 3-axis Magnetic field sensor","type":2,"vendor":"The Android Open Source Project","maximumRange":2000,"power":6.699999809265137,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish Orientation sensor","type":3,"vendor":"The Android Open Source Project","maximumRange":360,"power":9.699999809265137,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish Temperature sensor","type":13,"vendor":"The Android Open Source Project","maximumRange":80,"power":0.0010000000474974513,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish Proximity sensor","type":8,"vendor":"The Android Open Source Project","maximumRange":1,"power":20,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish Light sensor","type":5,"vendor":"The Android Open Source Project","maximumRange":40000,"power":20,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish Pressure sensor","type":6,"vendor":"The Android Open Source Project","maximumRange":800,"power":20,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish Humidity sensor","type":12,"vendor":"The Android Open Source Project","maximumRange":100,"power":20,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish 3-axis Magnetic field sensor (uncalibrated)","type":14,"vendor":"The Android Open Source Project","maximumRange":2000,"power":6.699999809265137,"version":1,"resolution":1,"minDelay":10000},{"name":"Game Rotation Vector Sensor","type":15,"vendor":"AOSP","maximumRange":1,"power":12.699999809265137,"version":3,"resolution":5.9604644775390625E-8,"minDelay":10000},{"name":"GeoMag Rotation Vector Sensor","type":20,"vendor":"AOSP","maximumRange":1,"power":12.699999809265137,"version":3,"resolution":5.9604644775390625E-8,"minDelay":10000},{"name":"Gravity Sensor","type":9,"vendor":"AOSP","maximumRange":19.613300323486328,"power":12.699999809265137,"version":3,"r
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: esolution":2.4801588733680546E-4,"minDelay":10000},{"name":"Linear Acceleration Sensor","type":10,"vendor":"AOSP","maximumRange":19.613300323486328,"power":12.699999809265137,"version":3,"resolution":2.4801588733680546E-4,"minDelay":10000},{"name":"Rotation Vector Sensor","type":11,"vendor":"AOSP","maximumRange":1,"power":12.699999809265137,"version":3,"resolution":5.9604644775390625E-8,"minDelay":10000},{"name":"Orientation Sensor","type":3,"vendor":"AOSP","maximumRange":360,"power":12.699999809265137,"version":1,"resolution":0.00390625,"minDelay":10000}]]],["44","OK",[true]]]);
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Sdk","initComplete",[],"45"],["com.unity3d.ads.api.Connectivity","setConnectionMonitoring",[true],"46"],["com.unity3d.ads.api.Broadcast","addBroadcastListener",["screenListener",["android.intent.action.SCREEN_ON","android.intent.action.SCREEN_OFF"]],"47"],["com.unity3d.ads.api.Lifecycle","register",[["onActivityResumed","onActivityPaused"]],"48"],["com.unity3d.ads.api.Storage","getKeys",["PUBLIC","framework",false],"49"],["com.unity3d.ads.api.Storage","getKeys",["PUBLIC","adapter",false],"50"],["com.unity3d.ads.api.Storage","get",["PRIVATE","gamerToken"],"51"],["com.unity3d.ads.api.Storage","getKeys",["PRIVATE","cache.files",false],"52"],["com.unity3d.ads.api.Cache","getFiles",[],"53"],["com.unity3d.ads.api.Storage","get",["PRIVATE","cache.campaigns"],"54"],["com.unity3d.ads.api.Storage","get",["PRIVATE","cache.campaign.url"],"55"],["com.unity3d.ads.api.Storage","get",["PRIVATE","cache.campaign.response"],"56"]]
+D/UnityAds: com.unity3d.ads.api.Sdk.initComplete() (line:39) :: Web Application initialized
+D/UnityAds: com.unity3d.ads.api.Cache.getFiles() (line:182) :: Unity Ads cache: checking app directory for Unity Ads cached files
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["45","OK",[]],["46","OK",[]],["47","OK",[]],["48","OK",[]],["49","OK",[[]]],["50","OK",[[]]],["51","ERROR",["COULDNT_GET_VALUE","gamerToken"]],["52","OK",[[]]],["53","OK",[[]]],["54","OK",[{}]],["55","ERROR",["COULDNT_GET_VALUE","cache.campaign.url"]],["56","ERROR",["COULDNT_GET_VALUE","cache.campaign.response"]]]);
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Storage","getKeys",["PRIVATE","cache",false],"57"],["com.unity3d.ads.api.Sdk","logInfo",["Requesting configuration from https://publisher-config.unityads.unity3d.com/games/5134/configuration?bundleId=com.unity3d.ads.example&encrypted=false&rooted=false&platform=android&sdkVersion=2300&osVersion=8.0.0&deviceModel=Android%20SDK%20built%20for%20x86&language=en_US&test=true&deviceMake=Google&advertisingTrackingId=fa2064a6-6c1a-4e57-89c5-287202667d02&limitAdTracking=false"],"58"],["com.unity3d.ads.api.Request","get",["1","https://publisher-config.unityads.unity3d.com/games/5134/configuration?bundleId=com.unity3d.ads.example&encrypted=false&rooted=false&platform=android&sdkVersion=2300&osVersion=8.0.0&deviceModel=Android%20SDK%20built%20for%20x86&language=en_US&test=true&deviceMake=Google&advertisingTrackingId=fa2064a6-6c1a-4e57-89c5-287202667d02&limitAdTracking=false",[],30000,30000],"59"]]
+I/UnityAds: com.unity3d.ads.api.Sdk.logInfo() (line:70) :: Requesting configuration from https://publisher-config.unityads.unity3d.com/games/5134/configuration?bundleId=com.unity3d.ads.example&encrypted=false&rooted=false&platform=android&sdkVersion=2300&osVersion=8.0.0&deviceModel=Android%20SDK%20built%20for%20x86&language=en_US&test=true&deviceMake=Google&advertisingTrackingId=fa2064a6-6c1a-4e57-89c5-287202667d02&limitAdTracking=false
+D/UnityAds: com.unity3d.ads.request.WebRequestRunnable.run() (line:37) :: Handling request message: https://publisher-config.unityads.unity3d.com/games/5134/configuration?bundleId=com.unity3d.ads.example&encrypted=false&rooted=false&platform=android&sdkVersion=2300&osVersion=8.0.0&deviceModel=Android%20SDK%20built%20for%20x86&language=en_US&test=true&deviceMake=Google&advertisingTrackingId=fa2064a6-6c1a-4e57-89c5-287202667d02&limitAdTracking=false type=GET
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["57","OK",[["files","campaigns","campaign"]]],["58","OK",[]],["59","OK",["1"]]]);
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleEvent(["REQUEST","COMPLETE","1","https:\/\/publisher-config.unityads.unity3d.com\/games\/5134\/configuration?bundleId=com.unity3d.ads.example&encrypted=false&rooted=false&platform=android&sdkVersion=2300&osVersion=8.0.0&deviceModel=Android%20SDK%20built%20for%20x86&language=en_US&test=true&deviceMake=Google&advertisingTrackingId=fa2064a6-6c1a-4e57-89c5-287202667d02&limitAdTracking=false","{\"error\":\"Could not find game profile for game where gameId is 5134\"}",404,[["X-Debug","646_as-ads-co"],["X-Request-Id","e64008e8-b2a2-4dd3-93d0-c76ae6ad69dd"],["Access-Control-Allow-Origin","*"],["Access-Control-Allow-Methods","GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS"],["P3P","CP=\"HONK\""],["X-Android-Received-Millis","1535969935646"],["Date","Mon, 03 Sep 2018 10:18:57 GMT"],["Access-Control-Allow-Headers","Authorization, Content-Type, If-None-Match, X-Requested-With, X-HTTP-Method-Override"],["X-Frame-Options","deny"],["X-Android-Selected-Protocol","http\/1.1"],["Cache-Control","must-revalidate"],["X-Android-Response-Source","NETWORK 404"],["X-Android-Sent-Millis","1535969935419"],["Access-Control-Max-Age","86400"],["Content-Length","69"],["Content-Type","application\/json; charset=utf-8"],["X-Powered-By","Express"]]]);
+I/chromium: [INFO:CONSOLE(16794)] "Uncaught (in promise) Error: [object Object]", source: file:///storage/emulated/0/Android/data/com.unity3d.ads.example/cache/UnityAdsCache/UnityAdsWebApp.html?platform=android&origin=https%3A%2F%2Fwebview.unityads.unity3d.com%2Fwebview%2F2.3.0%2Fa183629260228f11df743f4fe38c6e9cb9b370fd%2Frelease%2Findex.html&version=a183629260228f11df743f4fe38c6e9cb9b370fd (16794)
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Listener","sendErrorEvent",["INITIALIZE_FAILED","Could not find game profile for game where gameId is 5134"],"60"],["com.unity3d.ads.api.Sdk","logError",["{\"message\":\"Could not find game profile for game where gameId is 5134\",\"name\":\"Error\"}"],"61"],["com.unity3d.ads.api.DeviceInfo","getConnectionType",[],"62"],["com.unity3d.ads.api.DeviceInfo","getNetworkType",[],"63"],["com.unity3d.ads.api.DeviceInfo","getNetworkOperator",[],"64"],["com.unity3d.ads.api.DeviceInfo","getNetworkOperatorName",[],"65"],["com.unity3d.ads.api.DeviceInfo","getHeadset",[],"66"],["com.unity3d.ads.api.DeviceInfo","getDeviceVolume",[1],"67"],["com.unity3d.ads.api.DeviceInfo","getScreenWidth",[],"68"],["com.unity3d.ads.api.DeviceInfo","getScreenHeight",[],"69"],["com.unity3d.ads.api.DeviceInfo","getScreenBrightness",[],"70"],["com.unity3d.ads.api.DeviceInfo","getFreeSpace",["INTERNAL"],"71"],["com.unity3d.ads.api.DeviceInfo","getBatteryLevel",[],"72"],["com.unity3d.ads.api.DeviceInfo","getBatteryStatus",[],"73"],["com.unity3d.ads.api.DeviceInfo","getFreeMemory",[],"74"]]
+E/UnityAds: com.unity3d.ads.api.Sdk.logError() (line:58) :: {"message":"Could not find game profile for game where gameId is 5134","name":"Error"}
+D/UnityAds: com.unity3d.ads.example.UnityAdsExample$UnityAdsListener.onUnityAdsError() (line:244) :: onUnityAdsError: INITIALIZE_FAILED - Could not find game profile for game where gameId is 5134
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["60","OK",[]],["61","OK",[]],["62","OK",["wifi"]],["63","OK",[13]],["64","OK",["310260"]],["65","OK",["Android"]],["66","OK",[false]],["67","OK",[3]],["68","OK",[1080]],["69","OK",[1794]],["70","OK",[102]],["71","OK",[1429080]],["72","OK",[1]],["73","OK",[2]],["74","OK",[332044]]]);
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.DeviceInfo","getFreeSpace",["EXTERNAL"],"75"],["com.unity3d.ads.api.DeviceInfo","getRingerMode",[],"76"]]
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["75","OK",[1429080]],["76","OK",[2]]]);
+D/EGL_emulation: eglMakeCurrent: 0x90dad240: ver 2 0 (tinfo 0x90da6060)
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Request","post",["2","https://httpkafka.unityads.unity3d.com/v1/events","{\"common\":{\"client\":{\"gameId\":\"5134\",\"testMode\":true,\"bundleId\":\"com.unity3d.ads.example\",\"bundleVersion\":\"2.3.0\",\"sdkVersion\":2300,\"sdkVersionName\":\"2.3.0\",\"platform\":\"android\",\"encrypted\":false,\"configUrl\":\"https://config.unityads.unity3d.com/webview/2.3.0/release/config.json\",\"webviewUrl\":\"https://webview.unityads.unity3d.com/webview/2.3.0/a183629260228f11df743f4fe38c6e9cb9b370fd/release/index.html\",\"webviewHash\":\"d1b2d2e7ae189d8fc38860d81e6c76ab12d6b9783086e486cad251b41ee10d6c\",\"webviewVersion\":\"a183629260228f11df743f4fe38c6e9cb9b370fd\",\"initTimestamp\":1535969930027,\"reinitialized\":false},\"device\":{\"osVersion\":\"8.0.0\",\"deviceModel\":\"Android SDK built for x86\",\"connectionType\":\"wifi\",\"networkType\":13,\"screenWidth\":1080,\"screenHeight\":1794,\"networkOperator\":\"310260\",\"networkOperatorName\":\"Android\",\"timeZone\":\"GMT+00:00\",\"headset\":false,\"language\":\"en_US\",\"deviceVolume\":3,\"screenBrightness\":102,\"freeSpaceInternal\":1429080,\"totalSpaceInternal\":2031440,\"batteryLevel\":1,\"batteryStatus\":2,\"freeMemory\":332044,\"totalMemory\":1548756,\"rooted\":false,\"apiLevel\":26,\"deviceMake\":\"Google\",\"screenLayout\":268435794,\"screenDensity\":420,\"totalSpaceExternal\":2031440,\"freeSpaceExternal\":1429080,\"ringerMode\":2,\"userAgent\":\"Mozilla/5.0 (Linux; Android 8.0.0; Android SDK built for x86 Build/OSR1.170901.043; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36\"},\"country\":null}}\n{\"type\":\"ads.sdk2.diagnostics\",\"msg\":{\"type\":\"initialization_error\",\"initialization_error\":{\"message\":\"Could not find game profile for game where gameId is 5134\",\"name\":\"Error\"},\"timestamp\":1535969935662}}",[["Content-Type","application/json"]],30000,30000],"77"]]
+D/UnityAds: com.unity3d.ads.request.WebRequestRunnable.run() (line:37) :: Handling request message: https://httpkafka.unityads.unity3d.com/v1/events type=POST
+            com.unity3d.ads.request.WebRequest.getHttpUrlConnectionWithHeaders() (line:252) :: Setting header: Content-Type=application/json
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["77","OK",["2"]]]);
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleEvent(["REQUEST","COMPLETE","2","https:\/\/httpkafka.unityads.unity3d.com\/v1\/events","",200,[["X-Android-Selected-Protocol","http\/1.1"],["Strict-Transport-Security","max-age=15768000"],["Access-Control-Allow-Origin","*"],["X-Android-Response-Source","NETWORK 200"],["X-Android-Sent-Millis","1535969936692"],["X-Android-Received-Millis","1535969937102"],["Content-Length","0"],["Date","Mon, 03 Sep 2018 10:18:58 GMT"],["Content-Type","text\/plain; charset=utf-8"]]]);
+D/EGL_emulation: eglMakeCurrent: 0x90dad240: ver 2 0 (tinfo 0x90da6060)
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleEvent(["LIFECYCLE","PAUSED","com.unity3d.ads.example.UnityAdsExample"]);
+Disconnected from the target VM, address: 'localhost:8614', transport: 'socket'
+
+09/03 18:19:24: Launching app
+$ adb shell am start -n "com.unity3d.ads.example/com.unity3d.ads.example.UnityAdsExample" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.unity3d.ads.example.test | com.unity3d.ads.example
+Waiting for application to come online: com.unity3d.ads.example.test | com.unity3d.ads.example
+Waiting for application to come online: com.unity3d.ads.example.test | com.unity3d.ads.example
+Connecting to com.unity3d.ads.example
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/zygote: Not late-enabling -Xcheck:jni (already on)
+W/zygote: Unexpected CPU variant for X86 using defaults: x86
+W/ActivityThread: Application com.unity3d.ads.example is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+I/zygote: Debugger is active
+Connected to the target VM, address: 'localhost:8614', transport: 'socket'
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+I/chatty: uid=10097(u0_a97) com.unity3d.ads.example identical 6 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1379)
+I/InstantRun: starting instant run server: is main process
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+I/cr_LibraryLoader: Time to load native libraries: 10 ms (timestamps 9737-9747)
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.unity3d.ads.example/app_webview/variations_seed_new": /data/user/0/com.unity3d.ads.example/app_webview/variations_seed_new (No such file or directory)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,12588,10097)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,12588,10097)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+I/chromium: [INFO:aw_field_trial_creator.cc(52)] First-WebView-Experiment found, group=Control
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,12588,10097)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,12588,10097)
+E/chromium: [ERROR:devtools_http_handler.cc(292)] Cannot start http server for devtools. Stop devtools.
+D/UnityAds: com.unity3d.ads.misc.Utilities.writeFile() (line:128) :: Wrote file: /data/user/0/com.unity3d.ads.example/files/UnityAdsStorage-public-data.json
+D/UnityAds: com.unity3d.ads.device.Storage.sendEvent() (line:82) :: Couldn't send storage event to WebApp
+D/UnityAds: com.unity3d.ads.misc.Utilities.writeFile() (line:128) :: Wrote file: /data/user/0/com.unity3d.ads.example/files/UnityAdsStorage-public-data.json
+D/UnityAds: com.unity3d.ads.device.Storage.sendEvent() (line:82) :: Couldn't send storage event to WebApp
+I/zygote: Do partial code cache collection, code=30KB, data=26KB
+I/zygote: After code cache collection, code=29KB, data=26KB
+          Increasing code cache capacity to 128KB
+D/OpenGLRenderer: HWUI GL Pipeline
+I/Choreographer: Skipped 39 frames!  The application may be doing too much work on its main thread.
+D/: HostConnection::get() New Host Connection established 0x8e468640, tid 12657
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0x8e44cf40: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x8e44cf40: ver 2 0 (tinfo 0x90daf220)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,12588,10097)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,12588,10097)
+D/EGL_emulation: eglMakeCurrent: 0x8e44cf40: ver 2 0 (tinfo 0x90daf220)
+I/AssistStructure: Flattened final assist data: 3532 bytes, containing 1 windows, 11 views
+W/cr_CrashFileManager: /data/user/0/com.unity3d.ads.example/cache/WebView/Crash Reports does not exist or is not a directory
+I/zygote: Do partial code cache collection, code=58KB, data=56KB
+I/zygote: After code cache collection, code=58KB, data=56KB
+          Increasing code cache capacity to 256KB
+D/EGL_emulation: eglMakeCurrent: 0x8e44cf40: ver 2 0 (tinfo 0x90daf220)
+D/EGL_emulation: eglMakeCurrent: 0x8e44cf40: ver 2 0 (tinfo 0x90daf220)
+I/zygote: Do full code cache collection, code=109KB, data=105KB
+I/zygote: After code cache collection, code=102KB, data=78KB
+D/EGL_emulation: eglMakeCurrent: 0x8e44cf40: ver 2 0 (tinfo 0x90daf220)
+I/chatty: uid=10097(u0_a97) RenderThread identical 3 lines
+D/EGL_emulation: eglMakeCurrent: 0x8e44cf40: ver 2 0 (tinfo 0x90daf220)
+D/UnityAds: com.unity3d.ads.UnityAds.initialize() (line:110) :: ENTERED METHOD
+I/UnityAds: com.unity3d.ads.UnityAds.initialize() (line:147) :: Initializing Unity Ads 2.3.0 (2300) with game id 1 in test mode
+D/UnityAds: com.unity3d.ads.configuration.EnvironmentCheck.testProGuard() (line:24) :: Unity Ads ProGuard check OK
+D/UnityAds: com.unity3d.ads.cache.CacheDirectory.getCacheDirectory() (line:44) :: Unity Ads is using external cache directory: /storage/emulated/0/Android/data/com.unity3d.ads.example/cache/UnityAdsCache
+            com.unity3d.ads.configuration.EnvironmentCheck.testCacheDirectory() (line:46) :: Unity Ads cache directory check OK
+I/UnityAds: com.unity3d.ads.UnityAds.initialize() (line:161) :: Unity Ads environment check OK
+D/UnityAds: com.unity3d.ads.configuration.InitializeThread$InitializeStateReset.execute() (line:87) :: Unity Ads init: starting init
+D/UnityAds: com.unity3d.ads.cache.CacheDirectory.getCacheDirectory() (line:44) :: Unity Ads is using external cache directory: /storage/emulated/0/Android/data/com.unity3d.ads.example/cache/UnityAdsCache
+D/UnityAds: com.unity3d.ads.configuration.InitializeThread$InitializeStateAdBlockerCheck.execute() (line:179) :: Unity Ads init: checking for ad blockers
+I/UnityAds: com.unity3d.ads.configuration.InitializeThread$InitializeStateConfig.execute() (line:235) :: Unity Ads init: load configuration from https://config.unityads.unity3d.com/webview/2.3.0/release/config.json
+D/UnityAds: com.unity3d.ads.configuration.Configuration.makeRequest() (line:85) :: Requesting configuration with: https://config.unityads.unity3d.com/webview/2.3.0/release/config.json?ts=1535969972682&sdkVersion=2300&sdkVersionName=2.3.0
+I/zygote: Do partial code cache collection, code=119KB, data=97KB
+I/zygote: After code cache collection, code=119KB, data=97KB
+I/zygote: Increasing code cache capacity to 512KB
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+D/UnityAds: com.unity3d.ads.configuration.InitializeThread$InitializeStateLoadCache.execute() (line:266) :: Unity Ads init: check if webapp can be loaded from local cache
+I/UnityAds: com.unity3d.ads.configuration.InitializeThread$InitializeStateLoadCache.execute() (line:288) :: Unity Ads init: webapp loaded from local cache
+D/UnityAds: com.unity3d.ads.configuration.InitializeThread$InitializeStateCreate.execute() (line:370) :: Unity Ads init: creating webapp
+            com.unity3d.ads.webview.WebViewApp.create() (line:249) :: ENTERED METHOD
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.unity3d.ads.webview.WebView.<init>(android.content.Context) (WebView.java:22)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration) (WebViewApp.java:47)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration, com.unity3d.ads.webview.WebViewApp$1) (WebViewApp.java:32)
+              at void com.unity3d.ads.webview.WebViewApp$1.run() (WebViewApp.java:261)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+I/zygote:     at void com.unity3d.ads.webview.WebView.<init>(android.content.Context) (WebView.java:22)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration) (WebViewApp.java:47)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration, com.unity3d.ads.webview.WebViewApp$1) (WebViewApp.java:32)
+              at void com.unity3d.ads.webview.WebViewApp$1.run() (WebViewApp.java:261)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.unity3d.ads.webview.WebView.<init>(android.content.Context) (WebView.java:22)
+I/zygote:     at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration) (WebViewApp.java:47)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration, com.unity3d.ads.webview.WebViewApp$1) (WebViewApp.java:32)
+              at void com.unity3d.ads.webview.WebViewApp$1.run() (WebViewApp.java:261)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.unity3d.ads.webview.WebView.<init>(android.content.Context) (WebView.java:22)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration) (WebViewApp.java:47)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration, com.unity3d.ads.webview.WebViewApp$1) (WebViewApp.java:32)
+              at void com.unity3d.ads.webview.WebViewApp$1.run() (WebViewApp.java:261)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+I/zygote:     at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.unity3d.ads.webview.WebView.<init>(android.content.Context) (WebView.java:22)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration) (WebViewApp.java:47)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration, com.unity3d.ads.webview.WebViewApp$1) (WebViewApp.java:32)
+              at void com.unity3d.ads.webview.WebViewApp$1.run() (WebViewApp.java:261)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.unity3d.ads.webview.WebView.<init>(android.content.Context) (WebView.java:22)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration) (WebViewApp.java:47)
+              at void com.unity3d.ads.webview.WebViewApp.<init>(com.unity3d.ads.configuration.Configuration, com.unity3d.ads.webview.WebViewApp$1) (WebViewApp.java:32)
+              at void com.unity3d.ads.webview.WebViewApp$1.run() (WebViewApp.java:261)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,12588,10097)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,12588,10097)
+D/: HostConnection::get() New Host Connection established 0x8908a340, tid 12672
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x8e424760: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x8e424760: ver 2 0 (tinfo 0x8908b6c0)
+I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+W/cr_MediaCodecUtil: HW encoder for video/avc is not available on this device.
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,12588,10097)
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x890be0a0: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x890be0a0: ver 2 0 (tinfo 0x8908b6c0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,12588,10097)
+D/UnityAds: com.unity3d.ads.webview.WebViewApp$WebAppClient.onPageFinished() (line:303) :: onPageFinished url: file:///storage/emulated/0/Android/data/com.unity3d.ads.example/cache/UnityAdsCache/UnityAdsWebApp.html?platform=android&origin=https%3A%2F%2Fwebview.unityads.unity3d.com%2Fwebview%2F2.3.0%2Fa183629260228f11df743f4fe38c6e9cb9b370fd%2Frelease%2Findex.html&version=a183629260228f11df743f4fe38c6e9cb9b370fd
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Sdk","loadComplete",[],"1"]]
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,12588,10097)
+D/UnityAds: com.unity3d.ads.api.Sdk.loadComplete() (line:15) :: Web Application loaded
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["1","OK",["1",true,"com.unity3d.ads.example","2.3.0",2300,"2.3.0",true,"https:\/\/config.unityads.unity3d.com\/webview\/2.3.0\/release\/config.json","https:\/\/webview.unityads.unity3d.com\/webview\/2.3.0\/a183629260228f11df743f4fe38c6e9cb9b370fd\/release\/index.html","d1b2d2e7ae189d8fc38860d81e6c76ab12d6b9783086e486cad251b41ee10d6c","a183629260228f11df743f4fe38c6e9cb9b370fd",1535969972585,false]]]);
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Cache","setProgressInterval",[250],"2"],["com.unity3d.ads.api.Storage","get",["PUBLIC","caching.pause.value"],"3"],["com.unity3d.ads.api.Request","setMaximumPoolSize",[8],"4"],["com.unity3d.ads.api.Request","setKeepAliveTime",[10000],"5"],["com.unity3d.ads.api.DeviceInfo","getAdvertisingTrackingId",[],"6"],["com.unity3d.ads.api.DeviceInfo","getLimitAdTrackingFlag",[],"7"],["com.unity3d.ads.api.DeviceInfo","getOsVersion",[],"8"],["com.unity3d.ads.api.DeviceInfo","getModel",[],"9"],["com.unity3d.ads.api.DeviceInfo","getScreenWidth",[],"10"],["com.unity3d.ads.api.DeviceInfo","getScreenHeight",[],"11"],["com.unity3d.ads.api.DeviceInfo","getSystemLanguage",[],"12"],["com.unity3d.ads.api.DeviceInfo","isRooted",[],"13"],["com.unity3d.ads.api.DeviceInfo","getTimeZone",[false],"14"],["com.unity3d.ads.api.DeviceInfo","getTotalMemory",[],"15"],["com.unity3d.ads.api.DeviceInfo","getCPUCount",[],"16"],["com.unity3d.ads.api.DeviceInfo","getGLVersion",[],"17"],["com.unity3d.ads.api.Storage","get",["PUBLIC","test.clearTestMetaData.value"],"18"],["com.unity3d.ads.api.Storage","getKeys",["PUBLIC","test",false],"19"]]
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,12588,10097)
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["2","OK",[]],["3","ERROR",["COULDNT_GET_VALUE","caching.pause.value"]],["4","OK",[]],["5","OK",[]],["6","OK",["fa2064a6-6c1a-4e57-89c5-287202667d02"]],["7","OK",[false]],["8","OK",["8.0.0"]],["9","OK",["Android SDK built for x86"]],["10","OK",[1080]],["11","OK",[1794]],["12","OK",["en_US"]],["13","OK",[false]],["14","OK",["GMT+00:00"]],["15","OK",[1548756]],["16","OK",[4]],["17","OK",["2.0"]],["18","ERROR",["COULDNT_GET_VALUE","test.clearTestMetaData.value"]],["19","OK",[["debugOverlayEnabled"]]]]);
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.DeviceInfo","getAndroidId",[],"20"],["com.unity3d.ads.api.DeviceInfo","getApiLevel",[],"21"],["com.unity3d.ads.api.DeviceInfo","getTotalSpace",["INTERNAL"],"22"],["com.unity3d.ads.api.DeviceInfo","getTotalSpace",["EXTERNAL"],"23"],["com.unity3d.ads.api.DeviceInfo","getManufacturer",[],"24"],["com.unity3d.ads.api.DeviceInfo","getScreenDensity",[],"25"],["com.unity3d.ads.api.DeviceInfo","getScreenLayout",[],"26"],["com.unity3d.ads.api.DeviceInfo","isAppInstalled",["com.android.vending"],"27"],["com.unity3d.ads.api.DeviceInfo","isAppInstalled",["com.xiaomi.gamecenter"],"28"],["com.unity3d.ads.api.DeviceInfo","isAppInstalled",["com.google.android.gms.maps"],"29"],["com.unity3d.ads.api.DeviceInfo","isAppInstalled",["com.android.telephony"],"30"],["com.unity3d.ads.api.DeviceInfo","getDeviceMaxVolume",[3],"31"],["com.unity3d.ads.api.DeviceInfo","getApkDigest",[],"32"],["com.unity3d.ads.api.DeviceInfo","getCertificateFingerprint",[],"33"],["com.unity3d.ads.api.DeviceInfo","getBoard",[],"34"],["com.unity3d.ads.api.DeviceInfo","getBootloader",[],"35"],["com.unity3d.ads.api.DeviceInfo","getBrand",[],"36"],["com.unity3d.ads.api.DeviceInfo","getDevice",[],"37"],["com.unity3d.ads.api.DeviceInfo","getHardware",[],"38"],["com.unity3d.ads.api.DeviceInfo","getHost",[],"39"],["com.unity3d.ads.api.DeviceInfo","getProduct",[],"40"],["com.unity3d.ads.api.DeviceInfo","getFingerprint",[],"41"],["com.unity3d.ads.api.DeviceInfo","getSupportedAbis",[],"42"],["com.unity3d.ads.api.DeviceInfo","getSensorList",[],"43"],["com.unity3d.ads.api.Storage","get",["PUBLIC","test.debugOverlayEnabled.value"],"44"]]
+W/cr_media: Requires BLUETOOTH permission
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["20","OK",["818aa49626f6e9f4"]],["21","OK",[26]],["22","OK",[2031440]],["23","OK",[2031440]],["24","OK",["Google"]],["25","OK",[420]],["26","OK",[268435794]],["27","OK",[true]],["28","OK",[false]],["29","OK",[false]],["30","OK",[false]],["31","OK",[15]],["32","OK",["5854324750e416c0e2ca3686a72937f3529bc98bc233e935becfbe4242e1ce02"]],["33","OK",["c98a3f59c62839ffcecfde2803e30f17de49b05c"]],["34","OK",["unknown"]],["35","OK",["unknown"]],["36","OK",["google"]],["37","OK",["generic_x86"]],["38","OK",["ranchu"]],["39","OK",["vpec7.mtv.corp.google.com"]],["40","OK",["sdk_gphone_x86"]],["41","OK",["google\/sdk_gphone_x86\/generic_x86:8.0.0\/OSR1.170901.043\/4456315:user\/release-keys"]],["42","OK",[["x86"]]],["43","OK",[[{"name":"Goldfish 3-axis Accelerometer","type":1,"vendor":"The Android Open Source Project","maximumRange":2.799999952316284,"power":3,"version":1,"resolution":2.4801588733680546E-4,"minDelay":10000},{"name":"Goldfish 3-axis Gyroscope","type":4,"vendor":"The Android Open Source Project","maximumRange":11.11111068725586,"power":3,"version":1,"resolution":0.0010000000474974513,"minDelay":10000},{"name":"Goldfish 3-axis Magnetic field sensor","type":2,"vendor":"The Android Open Source Project","maximumRange":2000,"power":6.699999809265137,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish Orientation sensor","type":3,"vendor":"The Android Open Source Project","maximumRange":360,"power":9.699999809265137,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish Temperature sensor","type":13,"vendor":"The Android Open Source Project","maximumRange":80,"power":0.0010000000474974513,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish Proximity sensor","type":8,"vendor":"The Android Open Source Project","maximumRange":1,"power":20,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish Light sensor","type":5,"vendor":"The Android Open Source Project","maximumRange":40000,"power":20,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish Pressure sensor","type":6,"vendor":"The Android Open Source Project","maximumRange":800,"power":20,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish Humidity sensor","type":12,"vendor":"The Android Open Source Project","maximumRange":100,"power":20,"version":1,"resolution":1,"minDelay":10000},{"name":"Goldfish 3-axis Magnetic field sensor (uncalibrated)","type":14,"vendor":"The Android Open Source Project","maximumRange":2000,"power":6.699999809265137,"version":1,"resolution":1,"minDelay":10000},{"name":"Game Rotation Vector Sensor","type":15,"vendor":"AOSP","maximumRange":1,"power":12.699999809265137,"version":3,"resolution":5.9604644775390625E-8,"minDelay":10000},{"name":"GeoMag Rotation Vector Sensor","type":20,"vendor":"AOSP","maximumRange":1,"power":12.699999809265137,"version":3,"resolution":5.9604644775390625E-8,"minDelay":10000},{"name":"Gravity Sensor","type":9,"vendor":"AOSP","maximumRange":19.613300323486328,"power":12.699999809265137,"version":3,"r
+            com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: esolution":2.4801588733680546E-4,"minDelay":10000},{"name":"Linear Acceleration Sensor","type":10,"vendor":"AOSP","maximumRange":19.613300323486328,"power":12.699999809265137,"version":3,"resolution":2.4801588733680546E-4,"minDelay":10000},{"name":"Rotation Vector Sensor","type":11,"vendor":"AOSP","maximumRange":1,"power":12.699999809265137,"version":3,"resolution":5.9604644775390625E-8,"minDelay":10000},{"name":"Orientation Sensor","type":3,"vendor":"AOSP","maximumRange":360,"power":12.699999809265137,"version":1,"resolution":0.00390625,"minDelay":10000}]]],["44","OK",[true]]]);
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Sdk","initComplete",[],"45"],["com.unity3d.ads.api.Connectivity","setConnectionMonitoring",[true],"46"],["com.unity3d.ads.api.Broadcast","addBroadcastListener",["screenListener",["android.intent.action.SCREEN_ON","android.intent.action.SCREEN_OFF"]],"47"],["com.unity3d.ads.api.Lifecycle","register",[["onActivityResumed","onActivityPaused"]],"48"],["com.unity3d.ads.api.Storage","getKeys",["PUBLIC","framework",false],"49"],["com.unity3d.ads.api.Storage","getKeys",["PUBLIC","adapter",false],"50"],["com.unity3d.ads.api.Storage","get",["PRIVATE","gamerToken"],"51"],["com.unity3d.ads.api.Storage","getKeys",["PRIVATE","cache.files",false],"52"],["com.unity3d.ads.api.Cache","getFiles",[],"53"],["com.unity3d.ads.api.Storage","get",["PRIVATE","cache.campaigns"],"54"],["com.unity3d.ads.api.Storage","get",["PRIVATE","cache.campaign.url"],"55"],["com.unity3d.ads.api.Storage","get",["PRIVATE","cache.campaign.response"],"56"]]
+D/UnityAds: com.unity3d.ads.api.Sdk.initComplete() (line:39) :: Web Application initialized
+D/UnityAds: com.unity3d.ads.api.Cache.getFiles() (line:182) :: Unity Ads cache: checking app directory for Unity Ads cached files
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["45","OK",[]],["46","OK",[]],["47","OK",[]],["48","OK",[]],["49","OK",[[]]],["50","OK",[[]]],["51","ERROR",["COULDNT_GET_VALUE","gamerToken"]],["52","OK",[[]]],["53","OK",[[]]],["54","OK",[{}]],["55","ERROR",["COULDNT_GET_VALUE","cache.campaign.url"]],["56","ERROR",["COULDNT_GET_VALUE","cache.campaign.response"]]]);
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Storage","getKeys",["PRIVATE","cache",false],"57"],["com.unity3d.ads.api.Sdk","logInfo",["Requesting configuration from https://publisher-config.unityads.unity3d.com/games/1/configuration?bundleId=com.unity3d.ads.example&encrypted=false&rooted=false&platform=android&sdkVersion=2300&osVersion=8.0.0&deviceModel=Android%20SDK%20built%20for%20x86&language=en_US&test=true&deviceMake=Google&advertisingTrackingId=fa2064a6-6c1a-4e57-89c5-287202667d02&limitAdTracking=false"],"58"],["com.unity3d.ads.api.Request","get",["1","https://publisher-config.unityads.unity3d.com/games/1/configuration?bundleId=com.unity3d.ads.example&encrypted=false&rooted=false&platform=android&sdkVersion=2300&osVersion=8.0.0&deviceModel=Android%20SDK%20built%20for%20x86&language=en_US&test=true&deviceMake=Google&advertisingTrackingId=fa2064a6-6c1a-4e57-89c5-287202667d02&limitAdTracking=false",[],30000,30000],"59"]]
+I/UnityAds: com.unity3d.ads.api.Sdk.logInfo() (line:70) :: Requesting configuration from https://publisher-config.unityads.unity3d.com/games/1/configuration?bundleId=com.unity3d.ads.example&encrypted=false&rooted=false&platform=android&sdkVersion=2300&osVersion=8.0.0&deviceModel=Android%20SDK%20built%20for%20x86&language=en_US&test=true&deviceMake=Google&advertisingTrackingId=fa2064a6-6c1a-4e57-89c5-287202667d02&limitAdTracking=false
+D/UnityAds: com.unity3d.ads.request.WebRequestRunnable.run() (line:37) :: Handling request message: https://publisher-config.unityads.unity3d.com/games/1/configuration?bundleId=com.unity3d.ads.example&encrypted=false&rooted=false&platform=android&sdkVersion=2300&osVersion=8.0.0&deviceModel=Android%20SDK%20built%20for%20x86&language=en_US&test=true&deviceMake=Google&advertisingTrackingId=fa2064a6-6c1a-4e57-89c5-287202667d02&limitAdTracking=false type=GET
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["57","OK",[["files","campaigns","campaign"]]],["58","OK",[]],["59","OK",["1"]]]);
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleEvent(["REQUEST","COMPLETE","1","https:\/\/publisher-config.unityads.unity3d.com\/games\/1\/configuration?bundleId=com.unity3d.ads.example&encrypted=false&rooted=false&platform=android&sdkVersion=2300&osVersion=8.0.0&deviceModel=Android%20SDK%20built%20for%20x86&language=en_US&test=true&deviceMake=Google&advertisingTrackingId=fa2064a6-6c1a-4e57-89c5-287202667d02&limitAdTracking=false","{\"error\":\"Could not find game profile for game where gameId is 1\"}",404,[["X-Debug","656_as-ads-co"],["X-Request-Id","210cf595-f8ac-49e0-a4b7-82d2e5836646"],["Access-Control-Allow-Origin","*"],["Access-Control-Allow-Methods","GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS"],["P3P","CP=\"HONK\""],["X-Android-Received-Millis","1535969977800"],["Date","Mon, 03 Sep 2018 10:19:39 GMT"],["Access-Control-Allow-Headers","Authorization, Content-Type, If-None-Match, X-Requested-With, X-HTTP-Method-Override"],["X-Frame-Options","deny"],["X-Android-Selected-Protocol","http\/1.1"],["Cache-Control","must-revalidate"],["X-Android-Response-Source","NETWORK 404"],["X-Android-Sent-Millis","1535969977578"],["Access-Control-Max-Age","86400"],["Content-Length","66"],["Content-Type","application\/json; charset=utf-8"],["X-Powered-By","Express"]]]);
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Listener","sendErrorEvent",["INITIALIZE_FAILED","Could not find game profile for game where gameId is 1"],"60"],["com.unity3d.ads.api.Sdk","logError",["{\"message\":\"Could not find game profile for game where gameId is 1\",\"name\":\"Error\"}"],"61"],["com.unity3d.ads.api.DeviceInfo","getConnectionType",[],"62"],["com.unity3d.ads.api.DeviceInfo","getNetworkType",[],"63"],["com.unity3d.ads.api.DeviceInfo","getNetworkOperator",[],"64"],["com.unity3d.ads.api.DeviceInfo","getNetworkOperatorName",[],"65"],["com.unity3d.ads.api.DeviceInfo","getHeadset",[],"66"],["com.unity3d.ads.api.DeviceInfo","getDeviceVolume",[1],"67"],["com.unity3d.ads.api.DeviceInfo","getScreenWidth",[],"68"],["com.unity3d.ads.api.DeviceInfo","getScreenHeight",[],"69"],["com.unity3d.ads.api.DeviceInfo","getScreenBrightness",[],"70"],["com.unity3d.ads.api.DeviceInfo","getFreeSpace",["INTERNAL"],"71"],["com.unity3d.ads.api.DeviceInfo","getBatteryLevel",[],"72"],["com.unity3d.ads.api.DeviceInfo","getBatteryStatus",[],"73"],["com.unity3d.ads.api.DeviceInfo","getFreeMemory",[],"74"]]
+I/chromium: [INFO:CONSOLE(16794)] "Uncaught (in promise) Error: [object Object]", source: file:///storage/emulated/0/Android/data/com.unity3d.ads.example/cache/UnityAdsCache/UnityAdsWebApp.html?platform=android&origin=https%3A%2F%2Fwebview.unityads.unity3d.com%2Fwebview%2F2.3.0%2Fa183629260228f11df743f4fe38c6e9cb9b370fd%2Frelease%2Findex.html&version=a183629260228f11df743f4fe38c6e9cb9b370fd (16794)
+E/UnityAds: com.unity3d.ads.api.Sdk.logError() (line:58) :: {"message":"Could not find game profile for game where gameId is 1","name":"Error"}
+D/UnityAds: com.unity3d.ads.example.UnityAdsExample$UnityAdsListener.onUnityAdsError() (line:244) :: onUnityAdsError: INITIALIZE_FAILED - Could not find game profile for game where gameId is 1
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["60","OK",[]],["61","OK",[]],["62","OK",["wifi"]],["63","OK",[13]],["64","OK",["310260"]],["65","OK",["Android"]],["66","OK",[false]],["67","OK",[3]],["68","OK",[1080]],["69","OK",[1794]],["70","OK",[102]],["71","OK",[1429064]],["72","OK",[1]],["73","OK",[2]],["74","OK",[328708]]]);
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.DeviceInfo","getFreeSpace",["EXTERNAL"],"75"],["com.unity3d.ads.api.DeviceInfo","getRingerMode",[],"76"]]
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["75","OK",[1429064]],["76","OK",[2]]]);
+D/EGL_emulation: eglMakeCurrent: 0x8e44cf40: ver 2 0 (tinfo 0x90daf220)
+D/UnityAds: com.unity3d.ads.webview.bridge.WebViewBridgeInterface.handleInvocation() (line:13) :: handleInvocation [["com.unity3d.ads.api.Request","post",["2","https://httpkafka.unityads.unity3d.com/v1/events","{\"common\":{\"client\":{\"gameId\":\"1\",\"testMode\":true,\"bundleId\":\"com.unity3d.ads.example\",\"bundleVersion\":\"2.3.0\",\"sdkVersion\":2300,\"sdkVersionName\":\"2.3.0\",\"platform\":\"android\",\"encrypted\":false,\"configUrl\":\"https://config.unityads.unity3d.com/webview/2.3.0/release/config.json\",\"webviewUrl\":\"https://webview.unityads.unity3d.com/webview/2.3.0/a183629260228f11df743f4fe38c6e9cb9b370fd/release/index.html\",\"webviewHash\":\"d1b2d2e7ae189d8fc38860d81e6c76ab12d6b9783086e486cad251b41ee10d6c\",\"webviewVersion\":\"a183629260228f11df743f4fe38c6e9cb9b370fd\",\"initTimestamp\":1535969972585,\"reinitialized\":false},\"device\":{\"osVersion\":\"8.0.0\",\"deviceModel\":\"Android SDK built for x86\",\"connectionType\":\"wifi\",\"networkType\":13,\"screenWidth\":1080,\"screenHeight\":1794,\"networkOperator\":\"310260\",\"networkOperatorName\":\"Android\",\"timeZone\":\"GMT+00:00\",\"headset\":false,\"language\":\"en_US\",\"deviceVolume\":3,\"screenBrightness\":102,\"freeSpaceInternal\":1429064,\"totalSpaceInternal\":2031440,\"batteryLevel\":1,\"batteryStatus\":2,\"freeMemory\":328708,\"totalMemory\":1548756,\"rooted\":false,\"apiLevel\":26,\"deviceMake\":\"Google\",\"screenLayout\":268435794,\"screenDensity\":420,\"totalSpaceExternal\":2031440,\"freeSpaceExternal\":1429064,\"ringerMode\":2,\"userAgent\":\"Mozilla/5.0 (Linux; Android 8.0.0; Android SDK built for x86 Build/OSR1.170901.043; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36\"},\"country\":null}}\n{\"type\":\"ads.sdk2.diagnostics\",\"msg\":{\"type\":\"initialization_error\",\"initialization_error\":{\"message\":\"Could not find game profile for game where gameId is 1\",\"name\":\"Error\"},\"timestamp\":1535969977812}}",[["Content-Type","application/json"]],30000,30000],"77"]]
+D/UnityAds: com.unity3d.ads.request.WebRequestRunnable.run() (line:37) :: Handling request message: https://httpkafka.unityads.unity3d.com/v1/events type=POST
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleCallback([["77","OK",["2"]]]);
+D/UnityAds: com.unity3d.ads.request.WebRequest.getHttpUrlConnectionWithHeaders() (line:252) :: Setting header: Content-Type=application/json
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleEvent(["REQUEST","COMPLETE","2","https:\/\/httpkafka.unityads.unity3d.com\/v1\/events","",200,[["X-Android-Selected-Protocol","http\/1.1"],["Strict-Transport-Security","max-age=15768000"],["Access-Control-Allow-Origin","*"],["X-Android-Response-Source","NETWORK 200"],["X-Android-Sent-Millis","1535969978693"],["X-Android-Received-Millis","1535969979087"],["Content-Length","0"],["Date","Mon, 03 Sep 2018 10:19:40 GMT"],["Content-Type","text\/plain; charset=utf-8"]]]);
+D/EGL_emulation: eglMakeCurrent: 0x8e44cf40: ver 2 0 (tinfo 0x90daf220)
+D/UnityAds: com.unity3d.ads.webview.WebViewApp.invokeJavascriptMethod() (line:99) :: Invoking javascript: javascript:window.nativebridge.handleEvent(["LIFECYCLE","PAUSED","com.unity3d.ads.example.UnityAdsExample"]);
+D/EGL_emulation: eglMakeCurrent: 0x8e44cf40: ver 2 0 (tinfo 0x90daf220)
+D/EGL_emulation: eglMakeCurrent: 0x8e44cf40: ver 2 0 (tinfo 0x90daf220)
+Disconnected from the target VM, address: 'localhost:8614', transport: 'socket'

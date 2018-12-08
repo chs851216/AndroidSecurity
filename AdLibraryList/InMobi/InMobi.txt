@@ -1,0 +1,1295 @@
+
+09/03 14:41:39: Launching bannerSample
+$ adb install-multiple -r -t C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\bannerSample\build\intermediates\split-apk\debug\slices\slice_1.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\bannerSample\build\intermediates\split-apk\debug\slices\slice_2.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\bannerSample\build\intermediates\split-apk\debug\slices\slice_0.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\bannerSample\build\intermediates\split-apk\debug\dep\dependencies.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\bannerSample\build\intermediates\split-apk\debug\slices\slice_4.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\bannerSample\build\intermediates\resources\instant-run\debug\resources-debug.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\bannerSample\build\intermediates\split-apk\debug\slices\slice_9.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\bannerSample\build\intermediates\split-apk\debug\slices\slice_3.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\bannerSample\build\intermediates\split-apk\debug\slices\slice_8.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\bannerSample\build\intermediates\split-apk\debug\slices\slice_5.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\bannerSample\build\intermediates\split-apk\debug\slices\slice_6.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\bannerSample\build\intermediates\split-apk\debug\slices\slice_7.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\bannerSample\build\intermediates\instant-run-apk\debug\bannerSample-debug.apk 
+Split APKs installed
+$ adb shell am start -n "com.inmobi.banner.sample/com.inmobi.banner.sample.BannerBase" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.inmobi.banner.sample | com.inmobi.banner.sample.test
+Waiting for application to come online: com.inmobi.banner.sample | com.inmobi.banner.sample.test
+Connecting to com.inmobi.banner.sample
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/zygote: Not late-enabling -Xcheck:jni (already on)
+W/zygote: Unexpected CPU variant for X86 using defaults: x86
+W/ActivityThread: Application com.inmobi.banner.sample is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+I/zygote: Debugger is active
+I/System.out: Debugger has connected
+I/System.out: waiting for debugger to settle...
+Connected to the target VM, address: 'localhost:8605', transport: 'socket'
+I/chatty: uid=10088(u0_a88) com.inmobi.banner.sample identical 1 line
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/chatty: uid=10088(u0_a88) com.inmobi.banner.sample identical 2 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1468)
+I/MultiDex: VM with version 2.1.0 has multidex support
+I/MultiDex: Installing application
+            VM has multidex support, MultiDex support library is disabled.
+I/InstantRun: starting instant run server: is main process
+I/GMPM: App measurement is starting up, version: 8487
+        To enable debug logging run: adb shell setprop log.tag.GMPM VERBOSE
+E/GMPM: GoogleService failed to initialize, status: 10, Missing an expected resource: 'R.string.google_app_id' for initializing Google services.  Possible causes are missing google-services.json or com.google.gms.google-services gradle plugin.
+E/GMPM: Scheduler not set. Not logging error/warn.
+E/GMPM: Uploading is not possible. App measurement disabled
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+I/zygote: Do partial code cache collection, code=29KB, data=21KB
+I/zygote: After code cache collection, code=29KB, data=21KB
+          Increasing code cache capacity to 128KB
+I/zygote: Background concurrent copying GC freed 10285(1009KB) AllocSpace objects, 9(180KB) LOS objects, 61% free, 979KB/2MB, paused 2.618ms total 177.154ms
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+D/[InMobi]: Permissions granted to SDK are :
+            android.permission.INTERNET
+            android.permission.ACCESS_NETWORK_STATE
+            android.permission.ACCESS_WIFI_STATE
+            android.permission.CHANGE_WIFI_STATE
+            com.google.android.gms.permission.ACTIVITY_RECOGNITION
+E/[InMobi]: Please grant the location permissions (ACCESS_COARSE_LOCATION or ACCESS_FINE_LOCATION, or both) for better ad targeting.
+D/[InMobi]: Invalid account id passed to init. Please provide a valid account id.
+I/cr_LibraryLoader: Time to load native libraries: 33 ms (timestamps 5065-5098)
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.inmobi.banner.sample/app_webview/variations_seed_new": /data/user/0/com.inmobi.banner.sample/app_webview/variations_seed_new (No such file or directory)
+                      Failed reading seed file "/data/user/0/com.inmobi.banner.sample/app_webview/variations_seed": /data/user/0/com.inmobi.banner.sample/app_webview/variations_seed (No such file or directory)
+D/OpenGLRenderer: HWUI GL Pipeline
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,15097,10088)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,15097,10088)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,15097,10088)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,15097,10088)
+I/Choreographer: Skipped 41 frames!  The application may be doing too much work on its main thread.
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+D/: HostConnection::get() New Host Connection established 0x900ee0c0, tid 15146
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0x90e777a0: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,15097,10088)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,15097,10088)
+I/Choreographer: Skipped 35 frames!  The application may be doing too much work on its main thread.
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+W/cr_CrashFileManager: /data/user/0/com.inmobi.banner.sample/cache/WebView/Crash Reports does not exist or is not a directory
+I/zygote: Do partial code cache collection, code=61KB, data=44KB
+I/zygote: After code cache collection, code=58KB, data=43KB
+          Increasing code cache capacity to 256KB
+W/ViewRootImpl[BannerBase]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7281225, downTime=7281225, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x90058f00 (RippleDrawable) with handle 0x8cc5de40
+E/[InMobi]: Please grant the location permissions (ACCESS_COARSE_LOCATION or ACCESS_FINE_LOCATION, or both) for better ad targeting.
+D/[InMobi]: Invalid account id passed to init. Please provide a valid account id.
+W/ViewRootImpl[BannerBase]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=2.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=8, eventTime=7289898, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+W/ViewRootImpl[BannerBase]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_STB_POWER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7289903, downTime=7289903, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8998f980 (RippleDrawable) with handle 0x8cc5d920
+E/[InMobi]: Please grant the location permissions (ACCESS_COARSE_LOCATION or ACCESS_FINE_LOCATION, or both) for better ad targeting.
+D/[InMobi]: Invalid account id passed to init. Please provide a valid account id.
+I/zygote: Background concurrent copying GC freed 1800(224KB) AllocSpace objects, 1(20KB) LOS objects, 51% free, 1466KB/2MB, paused 5.788ms total 59.506ms
+I/zygote: Do full code cache collection, code=115KB, data=112KB
+          After code cache collection, code=110KB, data=70KB
+W/ViewRootImpl[BannerBase]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7290728, downTime=7290728, deviceId=-1, source=0x101 }
+I/chatty: uid=10088(u0_a88) com.inmobi.banner.sample identical 7 lines
+W/ViewRootImpl[BannerBase]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7290728, downTime=7290728, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerBase]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=4.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=7290996, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl[BannerBase]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7290997, downTime=7290997, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerBase]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7291062, downTime=7291062, deviceId=-1, source=0x101 }
+I/chatty: uid=10088(u0_a88) com.inmobi.banner.sample identical 7 lines
+W/ViewRootImpl[BannerBase]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7291062, downTime=7291062, deviceId=-1, source=0x101 }
+                            Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7291063, downTime=7291063, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+W/ViewRootImpl[BannerBase]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7291071, downTime=7291071, deviceId=-1, source=0x101 }
+E/[InMobi]: Placement id value supplied in XML layout is not valid. Banner creation failed.
+E/[InMobi]: InMobiBanner is not initialized. Ignoring InMobiBanner.load()
+W/ViewRootImpl[BannerXmlActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-5.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=5, eventTime=7291988, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl[BannerXmlActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=7291991, downTime=7291678, deviceId=0, source=0x10004 }
+W/ViewRootImpl[BannerXmlActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=7291992, downTime=7291678, deviceId=0, source=0x10004 }
+I/chatty: uid=10088(u0_a88) com.inmobi.banner.sample identical 5 lines
+W/ViewRootImpl[BannerXmlActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=7291992, downTime=7291678, deviceId=0, source=0x10004 }
+W/ViewRootImpl[BannerXmlActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7292016, downTime=7292016, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerXmlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7292075, downTime=7292075, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+W/ViewRootImpl[BannerXmlActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7292077, downTime=7292077, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerXmlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7292091, downTime=7292091, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+I/zygote: Do partial code cache collection, code=122KB, data=98KB
+I/zygote: After code cache collection, code=122KB, data=98KB
+I/zygote: Increasing code cache capacity to 512KB
+I/GMPM: Tag Manager is not found and thus will not be used
+W/ViewRootImpl[BannerBase]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7297023, downTime=7297023, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/OpenGLRenderer: endAllActiveAnimators on 0xa0108400 (RippleDrawable) with handle 0x8cc5d350
+                  endAllActiveAnimators on 0xa0108080 (RippleDrawable) with handle 0x8cc5d8d0
+E/[InMobi]: Please grant the location permissions (ACCESS_COARSE_LOCATION or ACCESS_FINE_LOCATION, or both) for better ad targeting.
+D/[InMobi]: Invalid account id passed to init. Please provide a valid account id.
+W/ViewRootImpl[BannerBase]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7303037, downTime=7303037, deviceId=-1, source=0x101 }
+I/chatty: uid=10088(u0_a88) com.inmobi.banner.sample identical 4 lines
+W/ViewRootImpl[BannerBase]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7303037, downTime=7303037, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerBase]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-3.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=7303185, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+W/ViewRootImpl[BannerBase]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7303187, downTime=7303187, deviceId=-1, source=0x101 }
+E/[InMobi]: Placement id value supplied in XML layout is not valid. Banner creation failed.
+E/[InMobi]: InMobiBanner is not initialized. Ignoring InMobiBanner.load()
+I/zygote: Do full code cache collection, code=239KB, data=199KB
+I/zygote: After code cache collection, code=204KB, data=136KB
+W/ViewRootImpl[BannerXmlActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SEMICOLON, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7303911, downTime=7303911, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerXmlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_SEMICOLON, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7304150, downTime=7304150, deviceId=-1, source=0x101 }
+I/chatty: uid=10088(u0_a88) com.inmobi.banner.sample identical 7 lines
+W/ViewRootImpl[BannerXmlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_SEMICOLON, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7304150, downTime=7304150, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+W/ViewRootImpl[BannerXmlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENVELOPE, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7304265, downTime=7304265, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+I/chatty: uid=10088(u0_a88) RenderThread identical 1 line
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8c3a0480 (RippleDrawable) with handle 0x8cc5dd50
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+W/ViewRootImpl[BannerPrefetchActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7306242, downTime=7306242, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerPrefetchActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7306750, downTime=7306750, deviceId=-1, source=0x101 }
+I/chatty: uid=10088(u0_a88) com.inmobi.banner.sample identical 7 lines
+W/ViewRootImpl[BannerPrefetchActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7306750, downTime=7306750, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerPrefetchActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7306835, downTime=7306835, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerPrefetchActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7306839, downTime=7306839, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerPrefetchActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7306842, downTime=7306842, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+W/ViewRootImpl[BannerPrefetchActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7306851, downTime=7306851, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+W/ViewRootImpl[BannerPrefetchActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7307258, downTime=7307258, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerPrefetchActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7307266, downTime=7307266, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerPrefetchActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7307455, downTime=7307455, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerPrefetchActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-1.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=7307512, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl[BannerPrefetchActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_RIGHT_BRACKET, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7307851, downTime=7307851, deviceId=-1, source=0x101 }
+V/BannerPrefetchActivity: {"title":"Germany Dispatch: A Swastika on a Church Bell: A Village Splits on How to Confront Nazi Past","pubDate":"2018-09-02 23:42:02","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/europe\/hitler-bell-swastika-germany-church.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/europe\/hitler-bell-swastika-germany-church.html","author":"KATRIN BENNHOLD","thumbnail":"","description":"Germany・s painful history has become highly personal in a sleepy village, where neighbors are fighting over what to do with a ：Hitler bell； in the local church.","content":"Germany・s painful history has become highly personal in a sleepy village, where neighbors are fighting over what to do with a ：Hitler bell； in the local church.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/03\/world\/02hitlerbell1\/xxhitlerbell1-moth.jpg"},"categories":["Germany","Holocaust and the Nazi Era","Symbols","Alternative for Germany","Hitler, Adolf"]}
+V/BannerPrefetchActivity: {"title":"In Idlib, Final Offensive in Syrian War May Come at Horrific Cost","pubDate":"2018-09-03 00:24:59","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/middleeast\/syria-idlib-assad.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/middleeast\/syria-idlib-assad.html","author":"MARGARET COKER, HWAIDA SAAD and CARLOTTA GALL","thumbnail":"","description":"The Syrian government hopes a looming assault on Idlib Province will deliver the decisive military blow against rebel fighters. Western leaders warn of a humanitarian calamity.","content":"The Syrian government hopes a looming assault on Idlib Province will deliver the decisive military blow against rebel fighters. Western leaders warn of a humanitarian calamity.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/03\/world\/03idlib2\/03idlib2-moth.jpg"},"categories":["Syria","Idlib (Syria)","Politics and Government","Defense and Military Forces","International Relations","Free Syrian Army","Assad, Bashar al-","Civilian Casualties","Lavrov, Sergey V","United States International Relations"]}
+V/BannerPrefetchActivity: {"title":"．Time for This War in Afghanistan to End,・ Says Departing U.S. Commander","pubDate":"2018-09-03 04:20:39","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/asia\/afghan-commander-us-john-nicholson.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/asia\/afghan-commander-us-john-nicholson.html","author":"MUJIB MASHAL","thumbnail":"","description":"Gen. John Nicholson・s career, and his time at the helm of the Afghan war, encapsulates the trajectory of a long conflict in desperate search of a dignified resolution.","content":"Gen. John Nicholson・s career, and his time at the helm of the Afghan war, encapsulates the trajectory of a long conflict in desperate search of a dignified resolution.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/03\/world\/03afghanistan-nicholson\/03afghanistan-nicholson-moth.jpg"},"categories":["United States Defense and Military Forces","Afghanistan War (2001- )","Defense and Military Forces","Terrorism","September 11 (2001)","Nicholson, John W Jr (1957- )","Taliban","Afghanistan"]}
+V/BannerPrefetchActivity: {"title":"Defending Pope Francis, Allies Help Make a Critic・s Case","pubDate":"2018-09-03 01:24:30","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/europe\/pope-francis-archbishop-vigano-kim-davis.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/europe\/pope-francis-archbishop-vigano-kim-davis.html","author":"JASON HOROWITZ","thumbnail":"","description":"In a new statement, the allies appeared to concede a central claim of Archbishop Carlo Maria Vigano, who has called on the pope to step down.","content":"In a new statement, the allies appeared to concede a central claim of Archbishop Carlo Maria Vigano, who has called on the pope to step down.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/02\/world\/03vatican-1\/03vatican-1-moth.jpg"},"categories":["Francis","Vigano, Carlo Maria","Davis, Kim (1965- )","Roman Catholic Church","Same-Sex Marriage, Civil Unions and Domestic Partnerships"]}
+V/BannerPrefetchActivity: {"title":"Boston Firm Admits ．Massive Failure・ in Plan to Aid South Africa Tax Agency","pubDate":"2018-09-02 21:26:16","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/africa\/south-africa-tax-agency-bain.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/africa\/south-africa-tax-agency-bain.html","author":"KIMON de GREEF","thumbnail":"","description":"Bain and Company said it intended to improve the nation・s tax agency, ：not to destroy it.； Now, a corruption inquiry is looking at how the agency was left facing crippling tax shortfalls.","content":"Bain and Company said it intended to improve the nation・s tax agency, ：not to destroy it.； Now, a corruption inquiry is looking at how the agency was left facing crippling tax shortfalls.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/03\/world\/03safrica1\/03safrica1-moth.jpg"},"categories":["South Africa","Bain &amp; Co","Corruption (Institutional)","South African Revenue Service","African National Congress","Moyane, Tom","Zuma, Jacob G","Ramaphosa, Cyril"]}
+V/BannerPrefetchActivity: {"title":"Spain Took Them in as Migrants, but Scorns Them as Street Vendors","pubDate":"2018-09-03 04:02:39","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/europe\/spain-street-vendors-migrants.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/europe\/spain-street-vendors-migrants.html","author":"RAPHAEL MINDER","thumbnail":"","description":"Barcelona has become a hub for ：manteros； who sell counterfeit goods on cloth sheets on the sidewalks, posing a quandary for the authorities.","content":"Barcelona has become a hub for ：manteros； who sell counterfeit goods on cloth sheets on the sidewalks, posing a quandary for the authorities.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/03\/world\/21spain1\/21spain1-moth.jpg"},"categories":["Middle East and Africa Migrant Crisis","Street Vendors (Non-Food)","Counterfeit Merchandise","Barcelona (Spain)"]}
+V/BannerPrefetchActivity: {"title":"Once a Cold War Flashpoint, a Part of Taiwan Embraces China・s Pull","pubDate":"2018-09-02 16:30:05","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/asia\/taiwan-kinmen-island-china.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/asia\/taiwan-kinmen-island-china.html","author":"CHRIS HORTON","thumbnail":"","description":"The island county of Kinmen, which was shelled by China for years, has been drawing close to its erstwhile enemy.","content":"The island county of Kinmen, which was shelled by China for years, has been drawing close to its erstwhile enemy.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/08\/15\/world\/15taiwan-island-1\/15taiwan-island-1-moth.jpg"},"categories":["China","Taiwan","Xiamen (China)","Kinmen","International Relations"]}
+V/BannerPrefetchActivity: {"title":"After Deadly Raid, Pentagon Weighs Withdrawing Almost All Commandos From Niger","pubDate":"2018-09-03 00:50:57","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/africa\/pentagon-commandos-niger.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/africa\/pentagon-commandos-niger.html","author":"THOMAS GIBBONS-NEFF and ERIC SCHMITT","thumbnail":"","description":"The plans, if approved by Defense Secretary Jim Mattis, would also close military outposts in Tunisia, Cameroon, Libya and Kenya.","content":"The plans, if approved by Defense Secretary Jim Mattis, would also close military outposts in Tunisia, Cameroon, Libya and Kenya.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/01\/us\/politics\/00dc-military\/00dc-military-moth.jpg"},"categories":["United States Defense and Military Forces","Defense Department","United States Africa Command","United States Special Operations Command","United States Army Special Forces (Green Berets)","Mattis, James N","Waldhauser, Thomas D","Africa"]}
+V/BannerPrefetchActivity: {"title":"Trump・s Rougher Edge Complicates Trip by Pompeo and Mattis to India","pubDate":"2018-09-02 14:00:09","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/asia\/trump-modi-india-relations-.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/asia\/trump-modi-india-relations-.html","author":"GARDINER HARRIS","thumbnail":"","description":"Trade tensions, threats of sanctions and even President Trump・s reported mocking of the Indian leader have contributed to a suddenly long list of diplomatic challenges.","content":"Trade tensions, threats of sanctions and even President Trump・s reported mocking of the Indian leader have contributed to a suddenly long list of diplomatic challenges.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/01\/us\/politics\/00dc-india1\/00dc-india1-moth.jpg"},"categories":["United States International Relations","United States Politics and Government","Defense and Military Forces","International Trade and World Market","Protectionism (Trade)","State Department","Defense Department","Modi, Narendra","Trump, Donald J","India"]}
+                          {"title":"Myanmar Journalists Convicted and Sentenced to 7 Years in Prison","pubDate":"2018-09-03 04:22:30","link":"https:\/\/www.nytimes.com\/2018\/09\/03\/world\/asia\/myanmar-reuters-journalists-sentenced-trial.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/03\/world\/asia\/myanmar-reuters-journalists-sentenced-trial.html","author":"RICHARD C. PADDOCK","thumbnail":"","description":"The case was closely watched as a test of press freedom in Myanmar, which faced worldwide condemnation for the reporters・ arrests.","content":"The case was closely watched as a test of press freedom in Myanmar, which faced worldwide condemnation for the reporters・ arrests.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/04\/world\/04myanmar-1sub\/04myanmar-1sub-moth.jpg"},"categories":["News and News Media","Rohingya (Ethnic Group)","Freedom of the Press","Reuters Group PLC","Kyaw Soe Oo","Wa Lone","Myanmar","Rakhine State (Myanmar)"]}
+D/[InMobi]: Fetching a Banner ad for placement id: 1473189489298
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+I/zygote: Do partial code cache collection, code=245KB, data=196KB
+I/zygote: After code cache collection, code=242KB, data=195KB
+          Increasing code cache capacity to 1024KB
+W/ViewRootImpl[BannerPrefetchActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7308869, downTime=7308869, deviceId=-1, source=0x101 }
+D/[InMobi]: Banner ad fetch successful for placement id: 1473189489298
+I/zygote: Background concurrent copying GC freed 27836(1518KB) AllocSpace objects, 5(112KB) LOS objects, 49% free, 3MB/6MB, paused 1.280ms total 420.870ms
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+I/zygote:     at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.inmobi.rendering.RenderView.<init>(android.content.Context, com.inmobi.ads.AdContainer$RenderingProperties, java.util.Set, java.lang.String) (RenderView.java:293)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.j.j() (AdUnit.java:469)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.n.j() (BannerAdUnit.java:113)
+              at void com.inmobi.ads.n.c(long, com.inmobi.ads.a) (BannerAdUnit.java:157)
+              at void com.inmobi.ads.j$a.handleMessage(android.os.Message) (AdUnit.java:1561)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+I/zygote:     at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.inmobi.rendering.RenderView.<init>(android.content.Context, com.inmobi.ads.AdContainer$RenderingProperties, java.util.Set, java.lang.String) (RenderView.java:293)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.j.j() (AdUnit.java:469)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.n.j() (BannerAdUnit.java:113)
+              at void com.inmobi.ads.n.c(long, com.inmobi.ads.a) (BannerAdUnit.java:157)
+              at void com.inmobi.ads.j$a.handleMessage(android.os.Message) (AdUnit.java:1561)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.inmobi.rendering.RenderView.<init>(android.content.Context, com.inmobi.ads.AdContainer$RenderingProperties, java.util.Set, java.lang.String) (RenderView.java:293)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.j.j() (AdUnit.java:469)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.n.j() (BannerAdUnit.java:113)
+              at void com.inmobi.ads.n.c(long, com.inmobi.ads.a) (BannerAdUnit.java:157)
+              at void com.inmobi.ads.j$a.handleMessage(android.os.Message) (AdUnit.java:1561)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+I/zygote:     at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.inmobi.rendering.RenderView.<init>(android.content.Context, com.inmobi.ads.AdContainer$RenderingProperties, java.util.Set, java.lang.String) (RenderView.java:293)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.j.j() (AdUnit.java:469)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.n.j() (BannerAdUnit.java:113)
+              at void com.inmobi.ads.n.c(long, com.inmobi.ads.a) (BannerAdUnit.java:157)
+              at void com.inmobi.ads.j$a.handleMessage(android.os.Message) (AdUnit.java:1561)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+I/zygote:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.inmobi.rendering.RenderView.<init>(android.content.Context, com.inmobi.ads.AdContainer$RenderingProperties, java.util.Set, java.lang.String) (RenderView.java:293)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.j.j() (AdUnit.java:469)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.n.j() (BannerAdUnit.java:113)
+              at void com.inmobi.ads.n.c(long, com.inmobi.ads.a) (BannerAdUnit.java:157)
+              at void com.inmobi.ads.j$a.handleMessage(android.os.Message) (AdUnit.java:1561)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+I/zygote:     at void com.inmobi.rendering.RenderView.<init>(android.content.Context, com.inmobi.ads.AdContainer$RenderingProperties, java.util.Set, java.lang.String) (RenderView.java:293)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.j.j() (AdUnit.java:469)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.n.j() (BannerAdUnit.java:113)
+              at void com.inmobi.ads.n.c(long, com.inmobi.ads.a) (BannerAdUnit.java:157)
+              at void com.inmobi.ads.j$a.handleMessage(android.os.Message) (AdUnit.java:1561)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,15097,10088)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,15097,10088)
+D/[InMobi]: Started loading banner ad markup in WebView for placement id: 1473189489298
+I/Choreographer: Skipped 52 frames!  The application may be doing too much work on its main thread.
+D/: HostConnection::get() New Host Connection established 0x8f430540, tid 15391
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x894a1740: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x894a1740: ver 2 0 (tinfo 0x8c84e1a0)
+W/ViewRootImpl[BannerBase]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7309115, downTime=7309115, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerBase]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7310088, downTime=7310088, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,15097,10088)
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+W/cr_MediaCodecUtil: HW encoder for video/avc is not available on this device.
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/EGL_emulation: eglCreateContext: 0x8941bf60: maj 2 min 0 rcv 2
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,15097,10088)
+D/EGL_emulation: eglMakeCurrent: 0x8941bf60: ver 2 0 (tinfo 0x8c84e1a0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8c337400 (ListView) with handle 0x8ae08940
+W/cr_ChildProcessConn: onServiceDisconnected (crash or killed by oom): pid=15151
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,15097,10088)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,15097,10088)
+W/cr_media: Requires BLUETOOTH permission
+E/[InMobi]: Placement id value supplied in XML layout is not valid. Banner creation failed.
+            InMobiBanner is not initialized. Ignoring InMobiBanner.load()
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+I/chatty: uid=10088(u0_a88) RenderThread identical 1 line
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8c3a0480 (RippleDrawable) with handle 0x8cc5d900
+W/ViewRootImpl[BannerBase]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7319821, downTime=7319821, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/[InMobi]: Fetching a Banner ad for placement id: 1473189489298
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+W/unknown:CloseableReference: Finalized without closing: 9cff55 962cd6a (type = NativePooledByteBuffer)
+W/unknown:CloseableReference: Finalized without closing: 3a3f25b e081af8 (type = NativePooledByteBuffer)
+W/unknown:CloseableReference: Finalized without closing: 57b3bd1 6585636 (type = NativePooledByteBuffer)
+W/unknown:CloseableReference: Finalized without closing: 1a55937 c1feea4 (type = CloseableStaticBitmap)
+W/unknown:CloseableReference: Finalized without closing: b26c40d e4b9fc2 (type = CloseableStaticBitmap)
+W/unknown:CloseableReference: Finalized without closing: 2ec51d3 bbf5110 (type = CloseableStaticBitmap)
+W/unknown:CloseableReference: Finalized without closing: d889409 837f60e (type = NativePooledByteBuffer)
+W/unknown:CloseableReference: Finalized without closing: 41d67c5 d81651a (type = NativePooledByteBuffer)
+W/unknown:CloseableReference: Finalized without closing: f4f7d72 53d55c3 (type = CloseableStaticBitmap)
+                              Finalized without closing: 3111e40 b019179 (type = CloseableStaticBitmap)
+W/ViewRootImpl[BannerAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7320888, downTime=7320888, deviceId=-1, source=0x101 }
+I/chatty: uid=10088(u0_a88) com.inmobi.banner.sample identical 7 lines
+W/ViewRootImpl[BannerAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7320888, downTime=7320888, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TV_CONTENTS_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7321219, downTime=7321219, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV_CONTENTS_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7321358, downTime=7321358, deviceId=-1, source=0x101 }
+I/chatty: uid=10088(u0_a88) com.inmobi.banner.sample identical 7 lines
+W/ViewRootImpl[BannerAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV_CONTENTS_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7321358, downTime=7321358, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7321364, downTime=7321364, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7321373, downTime=7321373, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+I/chatty: uid=10088(u0_a88) RenderThread identical 1 line
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8c3a0800 (RippleDrawable) with handle 0x8cc5d000
+W/ViewRootImpl[BannerBase]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7321766, downTime=7321766, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerBase]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7321812, downTime=7321812, deviceId=-1, source=0x101 }
+D/[InMobi]: Banner ad fetch successful for placement id: 1473189489298
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,15097,10088)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,15097,10088)
+D/[InMobi]: Started loading banner ad markup in WebView for placement id: 1473189489298
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+V/BannerAdsActivity: {"title":"Germany Dispatch: A Swastika on a Church Bell: A Village Splits on How to Confront Nazi Past","pubDate":"2018-09-02 23:42:02","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/europe\/hitler-bell-swastika-germany-church.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/europe\/hitler-bell-swastika-germany-church.html","author":"KATRIN BENNHOLD","thumbnail":"","description":"Germany・s painful history has become highly personal in a sleepy village, where neighbors are fighting over what to do with a ：Hitler bell； in the local church.","content":"Germany・s painful history has become highly personal in a sleepy village, where neighbors are fighting over what to do with a ：Hitler bell； in the local church.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/03\/world\/02hitlerbell1\/xxhitlerbell1-moth.jpg"},"categories":["Germany","Holocaust and the Nazi Era","Symbols","Alternative for Germany","Hitler, Adolf"]}
+                     {"title":"In Idlib, Final Offensive in Syrian War May Come at Horrific Cost","pubDate":"2018-09-03 00:24:59","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/middleeast\/syria-idlib-assad.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/middleeast\/syria-idlib-assad.html","author":"MARGARET COKER, HWAIDA SAAD and CARLOTTA GALL","thumbnail":"","description":"The Syrian government hopes a looming assault on Idlib Province will deliver the decisive military blow against rebel fighters. Western leaders warn of a humanitarian calamity.","content":"The Syrian government hopes a looming assault on Idlib Province will deliver the decisive military blow against rebel fighters. Western leaders warn of a humanitarian calamity.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/03\/world\/03idlib2\/03idlib2-moth.jpg"},"categories":["Syria","Idlib (Syria)","Politics and Government","Defense and Military Forces","International Relations","Free Syrian Army","Assad, Bashar al-","Civilian Casualties","Lavrov, Sergey V","United States International Relations"]}
+V/BannerAdsActivity: {"title":"．Time for This War in Afghanistan to End,・ Says Departing U.S. Commander","pubDate":"2018-09-03 04:20:39","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/asia\/afghan-commander-us-john-nicholson.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/asia\/afghan-commander-us-john-nicholson.html","author":"MUJIB MASHAL","thumbnail":"","description":"Gen. John Nicholson・s career, and his time at the helm of the Afghan war, encapsulates the trajectory of a long conflict in desperate search of a dignified resolution.","content":"Gen. John Nicholson・s career, and his time at the helm of the Afghan war, encapsulates the trajectory of a long conflict in desperate search of a dignified resolution.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/03\/world\/03afghanistan-nicholson\/03afghanistan-nicholson-moth.jpg"},"categories":["United States Defense and Military Forces","Afghanistan War (2001- )","Defense and Military Forces","Terrorism","September 11 (2001)","Nicholson, John W Jr (1957- )","Taliban","Afghanistan"]}
+                     {"title":"Defending Pope Francis, Allies Help Make a Critic・s Case","pubDate":"2018-09-03 01:24:30","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/europe\/pope-francis-archbishop-vigano-kim-davis.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/europe\/pope-francis-archbishop-vigano-kim-davis.html","author":"JASON HOROWITZ","thumbnail":"","description":"In a new statement, the allies appeared to concede a central claim of Archbishop Carlo Maria Vigano, who has called on the pope to step down.","content":"In a new statement, the allies appeared to concede a central claim of Archbishop Carlo Maria Vigano, who has called on the pope to step down.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/02\/world\/03vatican-1\/03vatican-1-moth.jpg"},"categories":["Francis","Vigano, Carlo Maria","Davis, Kim (1965- )","Roman Catholic Church","Same-Sex Marriage, Civil Unions and Domestic Partnerships"]}
+V/BannerAdsActivity: {"title":"Boston Firm Admits ．Massive Failure・ in Plan to Aid South Africa Tax Agency","pubDate":"2018-09-02 21:26:16","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/africa\/south-africa-tax-agency-bain.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/africa\/south-africa-tax-agency-bain.html","author":"KIMON de GREEF","thumbnail":"","description":"Bain and Company said it intended to improve the nation・s tax agency, ：not to destroy it.； Now, a corruption inquiry is looking at how the agency was left facing crippling tax shortfalls.","content":"Bain and Company said it intended to improve the nation・s tax agency, ：not to destroy it.； Now, a corruption inquiry is looking at how the agency was left facing crippling tax shortfalls.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/03\/world\/03safrica1\/03safrica1-moth.jpg"},"categories":["South Africa","Bain &amp; Co","Corruption (Institutional)","South African Revenue Service","African National Congress","Moyane, Tom","Zuma, Jacob G","Ramaphosa, Cyril"]}
+                     {"title":"Spain Took Them in as Migrants, but Scorns Them as Street Vendors","pubDate":"2018-09-03 04:02:39","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/europe\/spain-street-vendors-migrants.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/europe\/spain-street-vendors-migrants.html","author":"RAPHAEL MINDER","thumbnail":"","description":"Barcelona has become a hub for ：manteros； who sell counterfeit goods on cloth sheets on the sidewalks, posing a quandary for the authorities.","content":"Barcelona has become a hub for ：manteros； who sell counterfeit goods on cloth sheets on the sidewalks, posing a quandary for the authorities.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/03\/world\/21spain1\/21spain1-moth.jpg"},"categories":["Middle East and Africa Migrant Crisis","Street Vendors (Non-Food)","Counterfeit Merchandise","Barcelona (Spain)"]}
+V/BannerAdsActivity: {"title":"Once a Cold War Flashpoint, a Part of Taiwan Embraces China・s Pull","pubDate":"2018-09-02 16:30:05","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/asia\/taiwan-kinmen-island-china.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/asia\/taiwan-kinmen-island-china.html","author":"CHRIS HORTON","thumbnail":"","description":"The island county of Kinmen, which was shelled by China for years, has been drawing close to its erstwhile enemy.","content":"The island county of Kinmen, which was shelled by China for years, has been drawing close to its erstwhile enemy.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/08\/15\/world\/15taiwan-island-1\/15taiwan-island-1-moth.jpg"},"categories":["China","Taiwan","Xiamen (China)","Kinmen","International Relations"]}
+                     {"title":"After Deadly Raid, Pentagon Weighs Withdrawing Almost All Commandos From Niger","pubDate":"2018-09-03 00:50:57","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/africa\/pentagon-commandos-niger.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/africa\/pentagon-commandos-niger.html","author":"THOMAS GIBBONS-NEFF and ERIC SCHMITT","thumbnail":"","description":"The plans, if approved by Defense Secretary Jim Mattis, would also close military outposts in Tunisia, Cameroon, Libya and Kenya.","content":"The plans, if approved by Defense Secretary Jim Mattis, would also close military outposts in Tunisia, Cameroon, Libya and Kenya.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/01\/us\/politics\/00dc-military\/00dc-military-moth.jpg"},"categories":["United States Defense and Military Forces","Defense Department","United States Africa Command","United States Special Operations Command","United States Army Special Forces (Green Berets)","Mattis, James N","Waldhauser, Thomas D","Africa"]}
+V/BannerAdsActivity: {"title":"Trump・s Rougher Edge Complicates Trip by Pompeo and Mattis to India","pubDate":"2018-09-02 14:00:09","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/asia\/trump-modi-india-relations-.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/asia\/trump-modi-india-relations-.html","author":"GARDINER HARRIS","thumbnail":"","description":"Trade tensions, threats of sanctions and even President Trump・s reported mocking of the Indian leader have contributed to a suddenly long list of diplomatic challenges.","content":"Trade tensions, threats of sanctions and even President Trump・s reported mocking of the Indian leader have contributed to a suddenly long list of diplomatic challenges.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/01\/us\/politics\/00dc-india1\/00dc-india1-moth.jpg"},"categories":["United States International Relations","United States Politics and Government","Defense and Military Forces","International Trade and World Market","Protectionism (Trade)","State Department","Defense Department","Modi, Narendra","Trump, Donald J","India"]}
+V/BannerAdsActivity: {"title":"Myanmar Journalists Convicted and Sentenced to 7 Years in Prison","pubDate":"2018-09-03 04:22:30","link":"https:\/\/www.nytimes.com\/2018\/09\/03\/world\/asia\/myanmar-reuters-journalists-sentenced-trial.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/03\/world\/asia\/myanmar-reuters-journalists-sentenced-trial.html","author":"RICHARD C. PADDOCK","thumbnail":"","description":"The case was closely watched as a test of press freedom in Myanmar, which faced worldwide condemnation for the reporters・ arrests.","content":"The case was closely watched as a test of press freedom in Myanmar, which faced worldwide condemnation for the reporters・ arrests.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/04\/world\/04myanmar-1sub\/04myanmar-1sub-moth.jpg"},"categories":["News and News Media","Rohingya (Ethnic Group)","Freedom of the Press","Reuters Group PLC","Kyaw Soe Oo","Wa Lone","Myanmar","Rakhine State (Myanmar)"]}
+I/zygote: Do full code cache collection, code=493KB, data=371KB
+I/zygote: After code cache collection, code=483KB, data=300KB
+W/NativeMemoryChunk: finalize: Chunk f396dde still active. Underlying address = ffffffff8bbc3000
+                     finalize: Chunk fdb28c still active. Underlying address = ffffffff8b9da800
+                     finalize: Chunk dea89ea still active. Underlying address = ffffffff89a56800
+                     finalize: Chunk a196b78 still active. Underlying address = ffffffff8b43e000
+                     finalize: Chunk 4df5ab6 still active. Underlying address = ffffffff8b43c800
+                     finalize: Chunk f8143b7 still active. Underlying address = ffffffff8b989000
+                     finalize: Chunk 335c724 still active. Underlying address = ffffffff8b9ac000
+                     finalize: Chunk a6af28d still active. Underlying address = ffffffff8b9e8680
+                     finalize: Chunk b7e6c42 still active. Underlying address = ffffffff8b9edb80
+W/NativeMemoryChunk: finalize: Chunk d9a3190 still active. Underlying address = ffffffff8c28f980
+                     finalize: Chunk 3566026 still active. Underlying address = ffffffff8b9f2c40
+                     finalize: Chunk 76b467 still active. Underlying address = ffffffff8c2f8480
+W/cr_ChildProcessConn: onServiceDisconnected (crash or killed by oom): pid=15420
+E/[InMobi]: Placement id value supplied in XML layout is not valid. Banner creation failed.
+E/[InMobi]: InMobiBanner is not initialized. Ignoring InMobiBanner.load()
+W/ViewRootImpl[BannerXmlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_F11, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7322446, downTime=7322446, deviceId=-1, source=0x101 }
+I/chatty: uid=10088(u0_a88) com.inmobi.banner.sample identical 7 lines
+W/ViewRootImpl[BannerXmlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_F11, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7322446, downTime=7322446, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerXmlActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=3.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=7322575, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+W/ViewRootImpl[BannerXmlActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7322576, downTime=7322576, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerXmlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7322649, downTime=7322649, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+I/chatty: uid=10088(u0_a88) RenderThread identical 1 line
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8c3a0480 (RippleDrawable) with handle 0x8cc5dd00
+W/ViewRootImpl[BannerBase]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7323678, downTime=7323678, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerBase]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7323723, downTime=7323723, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+E/[InMobi]: Please grant the location permissions (ACCESS_COARSE_LOCATION or ACCESS_FINE_LOCATION, or both) for better ad targeting.
+D/[InMobi]: Invalid account id passed to init. Please provide a valid account id.
+W/ViewRootImpl[BannerBase]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7325505, downTime=7325505, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerBase]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7325761, downTime=7325761, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+W/ViewRootImpl[BannerBase]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7325814, downTime=7325814, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerBase]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7325819, downTime=7325819, deviceId=-1, source=0x101 }
+                            Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7325819, downTime=7325819, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerBase]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7325819, downTime=7325819, deviceId=-1, source=0x101 }
+I/zygote: Do partial code cache collection, code=489KB, data=352KB
+          After code cache collection, code=489KB, data=352KB
+I/zygote: Increasing code cache capacity to 2MB
+I/zygote: JIT allocated 71KB for compiled code of void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+          Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+W/ViewRootImpl[BannerPrefetchActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7326065, downTime=7326065, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerPrefetchActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7326334, downTime=7326334, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+I/chatty: uid=10088(u0_a88) RenderThread identical 1 line
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x90059d00 (RippleDrawable) with handle 0x8cc5dc30
+W/ViewRootImpl[BannerPrefetchActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=7326751, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl[BannerBase]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=4.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=13, eventTime=7326900, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+V/BannerPrefetchActivity: {"title":"Germany Dispatch: A Swastika on a Church Bell: A Village Splits on How to Confront Nazi Past","pubDate":"2018-09-02 23:42:02","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/europe\/hitler-bell-swastika-germany-church.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/europe\/hitler-bell-swastika-germany-church.html","author":"KATRIN BENNHOLD","thumbnail":"","description":"Germany・s painful history has become highly personal in a sleepy village, where neighbors are fighting over what to do with a ：Hitler bell； in the local church.","content":"Germany・s painful history has become highly personal in a sleepy village, where neighbors are fighting over what to do with a ：Hitler bell； in the local church.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/03\/world\/02hitlerbell1\/xxhitlerbell1-moth.jpg"},"categories":["Germany","Holocaust and the Nazi Era","Symbols","Alternative for Germany","Hitler, Adolf"]}
+V/BannerPrefetchActivity: {"title":"In Idlib, Final Offensive in Syrian War May Come at Horrific Cost","pubDate":"2018-09-03 00:24:59","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/middleeast\/syria-idlib-assad.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/middleeast\/syria-idlib-assad.html","author":"MARGARET COKER, HWAIDA SAAD and CARLOTTA GALL","thumbnail":"","description":"The Syrian government hopes a looming assault on Idlib Province will deliver the decisive military blow against rebel fighters. Western leaders warn of a humanitarian calamity.","content":"The Syrian government hopes a looming assault on Idlib Province will deliver the decisive military blow against rebel fighters. Western leaders warn of a humanitarian calamity.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/03\/world\/03idlib2\/03idlib2-moth.jpg"},"categories":["Syria","Idlib (Syria)","Politics and Government","Defense and Military Forces","International Relations","Free Syrian Army","Assad, Bashar al-","Civilian Casualties","Lavrov, Sergey V","United States International Relations"]}
+V/BannerPrefetchActivity: {"title":"．Time for This War in Afghanistan to End,・ Says Departing U.S. Commander","pubDate":"2018-09-03 04:20:39","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/asia\/afghan-commander-us-john-nicholson.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/asia\/afghan-commander-us-john-nicholson.html","author":"MUJIB MASHAL","thumbnail":"","description":"Gen. John Nicholson・s career, and his time at the helm of the Afghan war, encapsulates the trajectory of a long conflict in desperate search of a dignified resolution.","content":"Gen. John Nicholson・s career, and his time at the helm of the Afghan war, encapsulates the trajectory of a long conflict in desperate search of a dignified resolution.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/03\/world\/03afghanistan-nicholson\/03afghanistan-nicholson-moth.jpg"},"categories":["United States Defense and Military Forces","Afghanistan War (2001- )","Defense and Military Forces","Terrorism","September 11 (2001)","Nicholson, John W Jr (1957- )","Taliban","Afghanistan"]}
+V/BannerPrefetchActivity: {"title":"Defending Pope Francis, Allies Help Make a Critic・s Case","pubDate":"2018-09-03 01:24:30","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/europe\/pope-francis-archbishop-vigano-kim-davis.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/europe\/pope-francis-archbishop-vigano-kim-davis.html","author":"JASON HOROWITZ","thumbnail":"","description":"In a new statement, the allies appeared to concede a central claim of Archbishop Carlo Maria Vigano, who has called on the pope to step down.","content":"In a new statement, the allies appeared to concede a central claim of Archbishop Carlo Maria Vigano, who has called on the pope to step down.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/02\/world\/03vatican-1\/03vatican-1-moth.jpg"},"categories":["Francis","Vigano, Carlo Maria","Davis, Kim (1965- )","Roman Catholic Church","Same-Sex Marriage, Civil Unions and Domestic Partnerships"]}
+V/BannerPrefetchActivity: {"title":"Boston Firm Admits ．Massive Failure・ in Plan to Aid South Africa Tax Agency","pubDate":"2018-09-02 21:26:16","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/africa\/south-africa-tax-agency-bain.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/africa\/south-africa-tax-agency-bain.html","author":"KIMON de GREEF","thumbnail":"","description":"Bain and Company said it intended to improve the nation・s tax agency, ：not to destroy it.； Now, a corruption inquiry is looking at how the agency was left facing crippling tax shortfalls.","content":"Bain and Company said it intended to improve the nation・s tax agency, ：not to destroy it.； Now, a corruption inquiry is looking at how the agency was left facing crippling tax shortfalls.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/03\/world\/03safrica1\/03safrica1-moth.jpg"},"categories":["South Africa","Bain &amp; Co","Corruption (Institutional)","South African Revenue Service","African National Congress","Moyane, Tom","Zuma, Jacob G","Ramaphosa, Cyril"]}
+V/BannerPrefetchActivity: {"title":"Spain Took Them in as Migrants, but Scorns Them as Street Vendors","pubDate":"2018-09-03 04:02:39","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/europe\/spain-street-vendors-migrants.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/europe\/spain-street-vendors-migrants.html","author":"RAPHAEL MINDER","thumbnail":"","description":"Barcelona has become a hub for ：manteros； who sell counterfeit goods on cloth sheets on the sidewalks, posing a quandary for the authorities.","content":"Barcelona has become a hub for ：manteros； who sell counterfeit goods on cloth sheets on the sidewalks, posing a quandary for the authorities.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/03\/world\/21spain1\/21spain1-moth.jpg"},"categories":["Middle East and Africa Migrant Crisis","Street Vendors (Non-Food)","Counterfeit Merchandise","Barcelona (Spain)"]}
+                          {"title":"Once a Cold War Flashpoint, a Part of Taiwan Embraces China・s Pull","pubDate":"2018-09-02 16:30:05","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/asia\/taiwan-kinmen-island-china.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/asia\/taiwan-kinmen-island-china.html","author":"CHRIS HORTON","thumbnail":"","description":"The island county of Kinmen, which was shelled by China for years, has been drawing close to its erstwhile enemy.","content":"The island county of Kinmen, which was shelled by China for years, has been drawing close to its erstwhile enemy.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/08\/15\/world\/15taiwan-island-1\/15taiwan-island-1-moth.jpg"},"categories":["China","Taiwan","Xiamen (China)","Kinmen","International Relations"]}
+                          {"title":"After Deadly Raid, Pentagon Weighs Withdrawing Almost All Commandos From Niger","pubDate":"2018-09-03 00:50:57","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/africa\/pentagon-commandos-niger.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/africa\/pentagon-commandos-niger.html","author":"THOMAS GIBBONS-NEFF and ERIC SCHMITT","thumbnail":"","description":"The plans, if approved by Defense Secretary Jim Mattis, would also close military outposts in Tunisia, Cameroon, Libya and Kenya.","content":"The plans, if approved by Defense Secretary Jim Mattis, would also close military outposts in Tunisia, Cameroon, Libya and Kenya.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/01\/us\/politics\/00dc-military\/00dc-military-moth.jpg"},"categories":["United States Defense and Military Forces","Defense Department","United States Africa Command","United States Special Operations Command","United States Army Special Forces (Green Berets)","Mattis, James N","Waldhauser, Thomas D","Africa"]}
+                          {"title":"Trump・s Rougher Edge Complicates Trip by Pompeo and Mattis to India","pubDate":"2018-09-02 14:00:09","link":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/asia\/trump-modi-india-relations-.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/02\/world\/asia\/trump-modi-india-relations-.html","author":"GARDINER HARRIS","thumbnail":"","description":"Trade tensions, threats of sanctions and even President Trump・s reported mocking of the Indian leader have contributed to a suddenly long list of diplomatic challenges.","content":"Trade tensions, threats of sanctions and even President Trump・s reported mocking of the Indian leader have contributed to a suddenly long list of diplomatic challenges.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/01\/us\/politics\/00dc-india1\/00dc-india1-moth.jpg"},"categories":["United States International Relations","United States Politics and Government","Defense and Military Forces","International Trade and World Market","Protectionism (Trade)","State Department","Defense Department","Modi, Narendra","Trump, Donald J","India"]}
+                          {"title":"Myanmar Journalists Convicted and Sentenced to 7 Years in Prison","pubDate":"2018-09-03 04:22:30","link":"https:\/\/www.nytimes.com\/2018\/09\/03\/world\/asia\/myanmar-reuters-journalists-sentenced-trial.html?partner=rss&amp;emc=rss","guid":"https:\/\/www.nytimes.com\/2018\/09\/03\/world\/asia\/myanmar-reuters-journalists-sentenced-trial.html","author":"RICHARD C. PADDOCK","thumbnail":"","description":"The case was closely watched as a test of press freedom in Myanmar, which faced worldwide condemnation for the reporters・ arrests.","content":"The case was closely watched as a test of press freedom in Myanmar, which faced worldwide condemnation for the reporters・ arrests.","enclosure":{"link":"https:\/\/static01.nyt.com\/images\/2018\/09\/04\/world\/04myanmar-1sub\/04myanmar-1sub-moth.jpg"},"categories":["News and News Media","Rohingya (Ethnic Group)","Freedom of the Press","Reuters Group PLC","Kyaw Soe Oo","Wa Lone","Myanmar","Rakhine State (Myanmar)"]}
+D/SOS: mBannerAd is null.. Fetching again..
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/[InMobi]: Fetching a Banner ad for placement id: 1473189489298
+I/zygote: Background concurrent copying GC freed 28065(1682KB) AllocSpace objects, 17(348KB) LOS objects, 50% free, 2MB/5MB, paused 853us total 112.740ms
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Banner ad fetch successful for placement id: 1473189489298
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,15097,10088)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,15097,10088)
+D/[InMobi]: Started loading banner ad markup in WebView for placement id: 1473189489298
+D/EGL_emulation: eglCreateContext: 0x894a14a0: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x894a14a0: ver 2 0 (tinfo 0x8c84e1a0)
+E/[InMobi]: Please grant the location permissions (ACCESS_COARSE_LOCATION or ACCESS_FINE_LOCATION, or both) for better ad targeting.
+D/[InMobi]: Invalid account id passed to init. Please provide a valid account id.
+I/zygote: JIT allocated 56KB for compiled code of void android.view.View.<init>(android.content.Context, android.util.AttributeSet, int, int)
+W/ViewRootImpl[BannerBase]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7331113, downTime=7331113, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerBase]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7331295, downTime=7331295, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+D/[InMobi]: Successfully loaded Banner ad markup in the WebView for placement id: 1473189489298
+D/BannerPrefetchActivity: onAdLoadSucceeded
+D/EGL_emulation: eglMakeCurrent: 0x90e777a0: ver 2 0 (tinfo 0xa2703da0)
+Disconnected from the target VM, address: 'localhost:8605', transport: 'socket'
+
+09/03 14:43:06: Launching interstitialSample
+$ adb install-multiple -r -t C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_5.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\resources\instant-run\debug\resources-debug.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_4.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_6.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_8.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_9.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_7.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_2.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\dep\dependencies.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_3.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_1.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_0.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\instant-run-apk\debug\interstitialSample-debug.apk 
+Split APKs installed
+$ adb shell am start -n "com.inmobi.interstitial.sample/com.inmobi.interstitial.sample.InterstitialAdsActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.inmobi.interstitial.sample | com.inmobi.interstitial.sample.test
+Waiting for application to come online: com.inmobi.interstitial.sample | com.inmobi.interstitial.sample.test
+Connecting to com.inmobi.interstitial.sample
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/zygote: Not late-enabling -Xcheck:jni (already on)
+W/zygote: Unexpected CPU variant for X86 using defaults: x86
+W/ActivityThread: Application com.inmobi.interstitial.sample is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+I/zygote: Debugger is active
+Connected to the target VM, address: 'localhost:8605', transport: 'socket'
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/chatty: uid=10089(u0_a89) com.inmobi.interstitial.sample identical 1 line
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1468)
+I/MultiDex: VM with version 2.1.0 has multidex support
+            Installing application
+            VM has multidex support, MultiDex support library is disabled.
+I/GMPM: App measurement is starting up, version: 8487
+I/GMPM: To enable debug logging run: adb shell setprop log.tag.GMPM VERBOSE
+E/GMPM: GoogleService failed to initialize, status: 10, Missing an expected resource: 'R.string.google_app_id' for initializing Google services.  Possible causes are missing google-services.json or com.google.gms.google-services gradle plugin.
+        Scheduler not set. Not logging error/warn.
+I/InstantRun: starting instant run server: is main process
+E/GMPM: Uploading is not possible. App measurement disabled
+I/zygote: Do partial code cache collection, code=30KB, data=18KB
+I/zygote: After code cache collection, code=29KB, data=18KB
+          Increasing code cache capacity to 128KB
+E/[InMobi]: Please grant the location permissions (ACCESS_COARSE_LOCATION or ACCESS_FINE_LOCATION, or both) for better ad targeting.
+D/[InMobi]: Invalid account id passed to init. Please provide a valid account id.
+D/[InMobi]: Permissions granted to SDK are :
+            android.permission.INTERNET
+            android.permission.ACCESS_NETWORK_STATE
+            android.permission.ACCESS_WIFI_STATE
+            android.permission.CHANGE_WIFI_STATE
+            android.permission.VIBRATE
+            com.google.android.gms.permission.ACTIVITY_RECOGNITION
+D/OpenGLRenderer: HWUI GL Pipeline
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/: HostConnection::get() New Host Connection established 0x90db9140, tid 15699
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0x9ff5fee0: maj 2 min 0 rcv 2
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+D/EGL_emulation: eglMakeCurrent: 0x9ff5fee0: ver 2 0 (tinfo 0x905726b0)
+D/EGL_emulation: eglMakeCurrent: 0x9ff5fee0: ver 2 0 (tinfo 0x905726b0)
+I/cr_LibraryLoader: Time to load native libraries: 103 ms (timestamps 1503-1606)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,15650,10089)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,15650,10089)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+I/chromium: [INFO:aw_field_trial_creator.cc(52)] First-WebView-Experiment found, group=Enabled
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,15650,10089)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,15650,10089)
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,15650,10089)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,15650,10089)
+W/cr_CrashFileManager: /data/user/0/com.inmobi.interstitial.sample/cache/WebView/Crash Reports does not exist or is not a directory
+I/zygote: Do partial code cache collection, code=61KB, data=43KB
+I/zygote: After code cache collection, code=57KB, data=42KB
+          Increasing code cache capacity to 256KB
+W/ViewRootImpl[InterstitialAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_MULTIPLE, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=74, eventTime=7365511, downTime=7365511, deviceId=-1, source=0x101 }
+                                         Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=7365513, downTime=7365513, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7365513, downTime=7365513, deviceId=-1, source=0x101 }
+I/chatty: uid=10089(u0_a89) com.inmobi.interstitial.sample identical 1 line
+W/ViewRootImpl[InterstitialAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7365513, downTime=7365513, deviceId=-1, source=0x101 }
+                                         Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=7365513, downTime=7365513, deviceId=-1, source=0x101 }
+                                         Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7365513, downTime=7365513, deviceId=-1, source=0x101 }
+I/chatty: uid=10089(u0_a89) com.inmobi.interstitial.sample identical 1 line
+W/ViewRootImpl[InterstitialAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7365513, downTime=7365513, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=7365513, downTime=7365513, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7365513, downTime=7365513, deviceId=-1, source=0x101 }
+I/chatty: uid=10089(u0_a89) com.inmobi.interstitial.sample identical 19 lines
+W/ViewRootImpl[InterstitialAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7365513, downTime=7365513, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialAdsActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=3.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=7365506, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0x9ff5fee0: ver 2 0 (tinfo 0x905726b0)
+D/EGL_emulation: eglMakeCurrent: 0x9ff5fee0: ver 2 0 (tinfo 0x905726b0)
+D/[InMobi]: Fetching an Interstitial ad for placement id: 1475973082314
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Interstitial ad successfully fetched for placement id: 1475973082314
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.inmobi.rendering.RenderView.<init>(android.content.Context, com.inmobi.ads.AdContainer$RenderingProperties, java.util.Set, java.lang.String) (RenderView.java:293)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.j.j() (AdUnit.java:469)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.x.j() (InterstitialAdUnit.java:91)
+I/zygote:     at void com.inmobi.ads.x.c(long, com.inmobi.ads.a) (InterstitialAdUnit.java:572)
+              at void com.inmobi.ads.j$a.handleMessage(android.os.Message) (AdUnit.java:1561)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.inmobi.rendering.RenderView.<init>(android.content.Context, com.inmobi.ads.AdContainer$RenderingProperties, java.util.Set, java.lang.String) (RenderView.java:293)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.j.j() (AdUnit.java:469)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.x.j() (InterstitialAdUnit.java:91)
+              at void com.inmobi.ads.x.c(long, com.inmobi.ads.a) (InterstitialAdUnit.java:572)
+              at void com.inmobi.ads.j$a.handleMessage(android.os.Message) (AdUnit.java:1561)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.inmobi.rendering.RenderView.<init>(android.content.Context, com.inmobi.ads.AdContainer$RenderingProperties, java.util.Set, java.lang.String) (RenderView.java:293)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.j.j() (AdUnit.java:469)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.x.j() (InterstitialAdUnit.java:91)
+              at void com.inmobi.ads.x.c(long, com.inmobi.ads.a) (InterstitialAdUnit.java:572)
+              at void com.inmobi.ads.j$a.handleMessage(android.os.Message) (AdUnit.java:1561)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+I/zygote:     at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.inmobi.rendering.RenderView.<init>(android.content.Context, com.inmobi.ads.AdContainer$RenderingProperties, java.util.Set, java.lang.String) (RenderView.java:293)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.j.j() (AdUnit.java:469)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.x.j() (InterstitialAdUnit.java:91)
+I/zygote:     at void com.inmobi.ads.x.c(long, com.inmobi.ads.a) (InterstitialAdUnit.java:572)
+              at void com.inmobi.ads.j$a.handleMessage(android.os.Message) (AdUnit.java:1561)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+I/zygote:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.inmobi.rendering.RenderView.<init>(android.content.Context, com.inmobi.ads.AdContainer$RenderingProperties, java.util.Set, java.lang.String) (RenderView.java:293)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.j.j() (AdUnit.java:469)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.x.j() (InterstitialAdUnit.java:91)
+              at void com.inmobi.ads.x.c(long, com.inmobi.ads.a) (InterstitialAdUnit.java:572)
+              at void com.inmobi.ads.j$a.handleMessage(android.os.Message) (AdUnit.java:1561)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.inmobi.rendering.RenderView.<init>(android.content.Context, com.inmobi.ads.AdContainer$RenderingProperties, java.util.Set, java.lang.String) (RenderView.java:293)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.j.j() (AdUnit.java:469)
+              at com.inmobi.rendering.RenderView com.inmobi.ads.x.j() (InterstitialAdUnit.java:91)
+              at void com.inmobi.ads.x.c(long, com.inmobi.ads.a) (InterstitialAdUnit.java:572)
+              at void com.inmobi.ads.j$a.handleMessage(android.os.Message) (AdUnit.java:1561)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+I/zygote:     at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,15650,10089)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,15650,10089)
+D/[InMobi]: Fetching an Interstitial ad for placement id: 1475973082314
+D/: HostConnection::get() New Host Connection established 0x89738d80, tid 15907
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x90506d80: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x90506d80: ver 2 0 (tinfo 0x900a2f90)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,15650,10089)
+I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+W/cr_MediaCodecUtil: HW encoder for video/avc is not available on this device.
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x8c7144e0: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x8c7144e0: ver 2 0 (tinfo 0x900a2f90)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,15650,10089)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,15650,10089)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,15650,10089)
+W/cr_media: Requires BLUETOOTH permission
+D/InterstitialAdsActivity: onAdReceived
+E/EGL_emulation: eglQueryContext 32c0  EGL_BAD_ATTRIBUTE
+                 tid 15907: eglQueryContext(1772): error 0x3004 (EGL_BAD_ATTRIBUTE)
+I/cr_MediaCodecBridge: create MediaCodec video decoder, mime video/avc
+D/: PlayerBase::PlayerBase()
+    TrackPlayerBase::TrackPlayerBase()
+I/libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+D/AudioTrack: Client defaulted notificationFrames to 1154 for frameCount 2308
+I/OMXClient: Treble IOmx obtained
+D/SurfaceUtils: connecting to surface 0x87f7f008, reason connectToSurface
+I/MediaCodec: [OMX.google.h264.decoder] setting surface generation to 16025601
+D/SurfaceUtils: disconnecting from surface 0x87f7f008, reason connectToSurface(reconnect)
+                connecting to surface 0x87f7f008, reason connectToSurface(reconnect)
+E/ACodec: [OMX.google.h264.decoder] setPortMode on output to DynamicANWBuffer failed w/ err -1010
+D/MediaCodec: [OMX.google.h264.decoder] setting dataspace on output surface to #103
+D/EGL_emulation: eglMakeCurrent: 0x9ff5fee0: ver 2 0 (tinfo 0x905726b0)
+W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2000
+D/: HostConnection::get() New Host Connection established 0x8d69b980, tid 15934
+D/SoftwareRenderer: setting dataspace on output surface to #103
+W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2000
+W/AudioManager: Use of stream types is deprecated for operations other than volume control
+                See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+W/AudioManager: Use of stream types is deprecated for operations other than volume control
+                See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+D/[InMobi]: Successfully loaded Interstitial ad markup in the WebView for placement id: 1475973082314
+W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2000
+D/InterstitialAdsActivity: onAdLoadSuccessful
+Disconnected from the target VM, address: 'localhost:8605', transport: 'socket'
+
+09/03 14:44:08: Launching nativeSample
+$ adb install-multiple -r -t C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\nativeSample\build\intermediates\split-apk\debug\slices\slice_7.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\nativeSample\build\intermediates\split-apk\debug\slices\slice_6.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\nativeSample\build\intermediates\split-apk\debug\slices\slice_8.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\nativeSample\build\intermediates\split-apk\debug\slices\slice_9.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\nativeSample\build\intermediates\resources\instant-run\debug\resources-debug.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\nativeSample\build\intermediates\split-apk\debug\slices\slice_4.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\nativeSample\build\intermediates\split-apk\debug\slices\slice_5.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\nativeSample\build\intermediates\split-apk\debug\dep\dependencies.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\nativeSample\build\intermediates\split-apk\debug\slices\slice_0.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\nativeSample\build\intermediates\split-apk\debug\slices\slice_3.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\nativeSample\build\intermediates\split-apk\debug\slices\slice_2.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\nativeSample\build\intermediates\split-apk\debug\slices\slice_1.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\nativeSample\build\intermediates\instant-run-apk\debug\nativeSample-debug.apk 
+Split APKs installed
+$ adb shell am start -n "com.inmobi.nativead.sample/com.inmobi.nativead.sample.NativeAdsActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.inmobi.nativead.sample | com.inmobi.nativead.sample.test
+Waiting for application to come online: com.inmobi.nativead.sample | com.inmobi.nativead.sample.test
+Connecting to com.inmobi.nativead.sample
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/zygote: Not late-enabling -Xcheck:jni (already on)
+W/zygote: Unexpected CPU variant for X86 using defaults: x86
+W/ActivityThread: Application com.inmobi.nativead.sample is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+I/zygote: Debugger is active
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+Connected to the target VM, address: 'localhost:8605', transport: 'socket'
+I/System.out: waiting for debugger to settle...
+I/chatty: uid=10090(u0_a90) com.inmobi.nativead.sample identical 1 line
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/chatty: uid=10090(u0_a90) com.inmobi.nativead.sample identical 2 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1447)
+I/MultiDex: VM with version 2.1.0 has multidex support
+            Installing application
+            VM has multidex support, MultiDex support library is disabled.
+I/GMPM: App measurement is starting up, version: 8487
+        To enable debug logging run: adb shell setprop log.tag.GMPM VERBOSE
+E/GMPM: GoogleService failed to initialize, status: 10, Missing an expected resource: 'R.string.google_app_id' for initializing Google services.  Possible causes are missing google-services.json or com.google.gms.google-services gradle plugin.
+        Scheduler not set. Not logging error/warn.
+I/InstantRun: starting instant run server: is main process
+E/GMPM: Uploading is not possible. App measurement disabled
+E/[InMobi]: Please grant the location permissions (ACCESS_COARSE_LOCATION or ACCESS_FINE_LOCATION, or both) for better ad targeting.
+D/[InMobi]: InMobi SDK initialized with account id: 12345678901234567890123456789012
+I/zygote: Do partial code cache collection, code=30KB, data=20KB
+I/zygote: After code cache collection, code=29KB, data=20KB
+          Increasing code cache capacity to 128KB
+D/[InMobi]: Permissions granted to SDK are :
+            android.permission.INTERNET
+            android.permission.ACCESS_NETWORK_STATE
+            android.permission.ACCESS_WIFI_STATE
+            android.permission.CHANGE_WIFI_STATE
+            android.permission.VIBRATE
+            com.google.android.gms.permission.ACTIVITY_RECOGNITION
+D/OpenGLRenderer: HWUI GL Pipeline
+D/SingleNativeAdFragment: Requesting ad
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+I/zygote: Do partial code cache collection, code=58KB, data=51KB
+I/zygote: After code cache collection, code=58KB, data=51KB
+          Increasing code cache capacity to 256KB
+W/Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+I/Choreographer: Skipped 31 frames!  The application may be doing too much work on its main thread.
+I/zygote: Do full code cache collection, code=81KB, data=86KB
+I/zygote: After code cache collection, code=41KB, data=45KB
+D/: HostConnection::get() New Host Connection established 0x9e1c0740, tid 16405
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0xa2705ea0: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0xa2705ea0: ver 2 0 (tinfo 0xa27034d0)
+I/cr_LibraryLoader: Time to load native libraries: 81 ms (timestamps 4324-4405)
+D/EGL_emulation: eglMakeCurrent: 0xa2705ea0: ver 2 0 (tinfo 0xa27034d0)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,16339,10090)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,16339,10090)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+I/chromium: [INFO:aw_field_trial_creator.cc(52)] First-WebView-Experiment found, group=Control
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16339,10090)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16339,10090)
+I/Choreographer: Skipped 48 frames!  The application may be doing too much work on its main thread.
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,16339,10090)
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,16339,10090)
+I/zygote: Background concurrent copying GC freed 17071(1204KB) AllocSpace objects, 4(80KB) LOS objects, 49% free, 1960KB/3MB, paused 3.759ms total 173.882ms
+W/cr_CrashFileManager: /data/user/0/com.inmobi.nativead.sample/cache/WebView/Crash Reports does not exist or is not a directory
+W/zygote: No such thread id for suspend: 52
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/ListViewFeedFragment: Ad Load failed  for3(Ad request successful but no ad served.)
+D/SingleNativeAdFragment: Ad Load failed (Ad request successful but no ad served.)
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/ListViewFeedFragment: Ad Load failed  for17(Ad request successful but no ad served.)
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/ListViewFeedFragment: Ad Load failed  for6(Ad request successful but no ad served.)
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+I/zygote: Do partial code cache collection, code=115KB, data=105KB
+I/zygote: After code cache collection, code=115KB, data=106KB
+          Increasing code cache capacity to 512KB
+I/zygote: JIT allocated 56KB for compiled code of void android.view.View.<init>(android.content.Context, android.util.AttributeSet, int, int)
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/RecyclerFeedFragment: Ad Load failed  for3(Ad request successful but no ad served.)
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/RecyclerFeedFragment: Ad Load failed  for18(Ad request successful but no ad served.)
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/RecyclerFeedFragment: Ad Load failed  for8(Ad request successful but no ad served.)
+W/ViewRootImpl[NativeAdsActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-3.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=7430499, downTime=-1, deviceId=0, source=0x10004 }
+E/[InMobi]: Please grant the location permissions (ACCESS_COARSE_LOCATION or ACCESS_FINE_LOCATION, or both) for better ad targeting.
+I/zygote: Do full code cache collection, code=248KB, data=167KB
+I/zygote: After code cache collection, code=232KB, data=119KB
+D/SingleNativeAdFragment: Requesting ad
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+I/zygote: Do partial code cache collection, code=234KB, data=130KB
+I/zygote: After code cache collection, code=234KB, data=130KB
+          Increasing code cache capacity to 1024KB
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/EGL_emulation: eglMakeCurrent: 0xa2705ea0: ver 2 0 (tinfo 0xa27034d0)
+W/ViewRootImpl[NativeAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TV_POWER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7430905, downTime=7430905, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV_POWER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7431411, downTime=7431411, deviceId=-1, source=0x101 }
+I/chatty: uid=10090(u0_a90) com.inmobi.nativead.sample identical 4 lines
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV_POWER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7431411, downTime=7431411, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7431704, downTime=7431704, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7431715, downTime=7431715, deviceId=-1, source=0x101 }
+I/chatty: uid=10090(u0_a90) com.inmobi.nativead.sample identical 7 lines
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7431715, downTime=7431715, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7431725, downTime=7431725, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7431739, downTime=7431739, deviceId=-1, source=0x101 }
+I/chatty: uid=10090(u0_a90) com.inmobi.nativead.sample identical 7 lines
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7431739, downTime=7431739, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7431740, downTime=7431740, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7431747, downTime=7431747, deviceId=-1, source=0x101 }
+I/chatty: uid=10090(u0_a90) com.inmobi.nativead.sample identical 7 lines
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7431747, downTime=7431747, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7431763, downTime=7431763, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7431795, downTime=7431795, deviceId=-1, source=0x101 }
+I/chatty: uid=10090(u0_a90) com.inmobi.nativead.sample identical 7 lines
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7431795, downTime=7431795, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7431798, downTime=7431798, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7431807, downTime=7431807, deviceId=-1, source=0x101 }
+I/chatty: uid=10090(u0_a90) com.inmobi.nativead.sample identical 7 lines
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7431807, downTime=7431807, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7431808, downTime=7431808, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7431813, downTime=7431813, deviceId=-1, source=0x101 }
+I/chatty: uid=10090(u0_a90) com.inmobi.nativead.sample identical 7 lines
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7431813, downTime=7431813, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ESCAPE, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7431821, downTime=7431821, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7431821, downTime=7431821, deviceId=-1, source=0x101 }
+I/zygote: Background concurrent copying GC freed 40450(1887KB) AllocSpace objects, 5(100KB) LOS objects, 50% free, 2MB/5MB, paused 3.847ms total 127.532ms
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ESCAPE, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7431836, downTime=7431836, deviceId=-1, source=0x101 }
+I/chatty: uid=10090(u0_a90) com.inmobi.nativead.sample identical 7 lines
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ESCAPE, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7431836, downTime=7431836, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7431836, downTime=7431836, deviceId=-1, source=0x101 }
+I/Choreographer: Skipped 33 frames!  The application may be doing too much work on its main thread.
+I/chatty: uid=10090(u0_a90) com.inmobi.nativead.sample identical 7 lines
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7431836, downTime=7431836, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7431839, downTime=7431839, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa2705ea0: ver 2 0 (tinfo 0xa27034d0)
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7431865, downTime=7431865, deviceId=-1, source=0x101 }
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/ListViewFeedFragment: Ad Load failed  for3(Ad request successful but no ad served.)
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/SingleNativeAdFragment: Ad Load failed (Ad request successful but no ad served.)
+W/ViewRootImpl[NativeAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7432392, downTime=7432392, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7432586, downTime=7432586, deviceId=-1, source=0x101 }
+I/chatty: uid=10090(u0_a90) com.inmobi.nativead.sample identical 7 lines
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7432586, downTime=7432586, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7432615, downTime=7432615, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7432682, downTime=7432682, deviceId=-1, source=0x101 }
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/ListViewFeedFragment: Ad Load failed  for6(Ad request successful but no ad served.)
+D/ListViewFeedFragment: Ad Load failed  for17(Ad request successful but no ad served.)
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/SingleNativeAdFragment: Requesting ad
+I/zygote: JIT allocated 71KB for compiled code of void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+          Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+I/GMPM: Tag Manager is not found and thus will not be used
+I/zygote: NativeAllocBackground concurrent copying GC freed 57637(2MB) AllocSpace objects, 7(140KB) LOS objects, 49% free, 2MB/5MB, paused 6.338ms total 251.135ms
+I/zygote: NativeAllocBackground concurrent copying GC freed 11699(681KB) AllocSpace objects, 3(60KB) LOS objects, 49% free, 2MB/5MB, paused 17.779ms total 355.078ms
+D/EGL_emulation: eglMakeCurrent: 0xa2705ea0: ver 2 0 (tinfo 0xa27034d0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x877a3600 (ListView) with handle 0x87b59760
+E/[InMobi]: Please grant the location permissions (ACCESS_COARSE_LOCATION or ACCESS_FINE_LOCATION, or both) for better ad targeting.
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/SingleNativeAdFragment: Requesting ad
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+I/zygote: Do full code cache collection, code=492KB, data=329KB
+I/zygote: After code cache collection, code=492KB, data=269KB
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7440432, downTime=7440432, deviceId=-1, source=0x101 }
+I/chatty: uid=10090(u0_a90) com.inmobi.nativead.sample identical 4 lines
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7440432, downTime=7440432, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ZOOM_OUT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7440823, downTime=7440823, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ZOOM_OUT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7440936, downTime=7440936, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa2705ea0: ver 2 0 (tinfo 0xa27034d0)
+W/ViewRootImpl[NativeAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_FAST_FORWARD, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7440977, downTime=7440977, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MEDIA_FAST_FORWARD, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7440979, downTime=7440979, deviceId=-1, source=0x101 }
+I/zygote: Background concurrent copying GC freed 43592(2011KB) AllocSpace objects, 3(60KB) LOS objects, 50% free, 1806KB/3MB, paused 22.442ms total 160.857ms
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/ListViewFeedFragment: Ad Load failed  for6(Ad request successful but no ad served.)
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/ListViewFeedFragment: Ad Load failed  for3(Ad request successful but no ad served.)
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/ListViewFeedFragment: Ad Load failed  for17(Ad request successful but no ad served.)
+D/SingleNativeAdFragment: Ad Load failed (Ad request successful but no ad served.)
+I/zygote: Do partial code cache collection, code=497KB, data=292KB
+I/zygote: After code cache collection, code=497KB, data=292KB
+          Increasing code cache capacity to 2MB
+W/ViewRootImpl[NativeAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7443028, downTime=7443028, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7443159, downTime=7443159, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MUHENKAN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7443567, downTime=7443567, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa2705ea0: ver 2 0 (tinfo 0xa27034d0)
+D/OpenGLRenderer: endAllActiveAnimators on 0xa0109580 (LinearLayout) with handle 0xa2703e80
+Disconnected from the target VM, address: 'localhost:8605', transport: 'socket'
+
+09/03 14:46:52: Launching interstitialSample
+$ adb install-multiple -r -t -p com.inmobi.interstitial.sample C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\dep\dependencies.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_4.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_5.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_6.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_2.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_1.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_3.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_0.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_7.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_9.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\split-apk\debug\slices\slice_8.apk C:\Users\Sheng\Desktop\android library\InMobi\sdk-sample-code-android-master\samples\interstitialSample\build\intermediates\instant-run-apk\debug\interstitialSample-debug.apk 
+Split APKs installed
+$ adb shell am start -n "com.inmobi.interstitial.sample/com.inmobi.interstitial.sample.InterstitialAdsActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.inmobi.interstitial.sample | com.inmobi.interstitial.sample.test
+Waiting for application to come online: com.inmobi.interstitial.sample | com.inmobi.interstitial.sample.test
+Connecting to com.inmobi.interstitial.sample
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+W/ActivityThread: Application com.inmobi.interstitial.sample is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+I/zygote: Debugger is active
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+Connected to the target VM, address: 'localhost:8606', transport: 'socket'
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/chatty: uid=10089(u0_a89) com.inmobi.interstitial.sample identical 1 line
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/chatty: uid=10089(u0_a89) com.inmobi.interstitial.sample identical 1 line
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1303)
+I/MultiDex: VM with version 2.1.0 has multidex support
+I/MultiDex: Installing application
+I/MultiDex: VM has multidex support, MultiDex support library is disabled.
+I/GMPM: App measurement is starting up, version: 8487
+        To enable debug logging run: adb shell setprop log.tag.GMPM VERBOSE
+E/GMPM: GoogleService failed to initialize, status: 10, Missing an expected resource: 'R.string.google_app_id' for initializing Google services.  Possible causes are missing google-services.json or com.google.gms.google-services gradle plugin.
+        Scheduler not set. Not logging error/warn.
+I/InstantRun: starting instant run server: is main process
+E/GMPM: Uploading is not possible. App measurement disabled
+I/zygote: Background concurrent copying GC freed 6531(1096KB) AllocSpace objects, 7(140KB) LOS objects, 62% free, 910KB/2MB, paused 1.596ms total 154.493ms
+I/zygote: Do partial code cache collection, code=30KB, data=19KB
+I/zygote: After code cache collection, code=29KB, data=19KB
+          Increasing code cache capacity to 128KB
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+E/[InMobi]: Please grant the location permissions (ACCESS_COARSE_LOCATION or ACCESS_FINE_LOCATION, or both) for better ad targeting.
+D/[InMobi]: Invalid account id passed to init. Please provide a valid account id.
+D/[InMobi]: Permissions granted to SDK are :
+            android.permission.INTERNET
+            android.permission.ACCESS_NETWORK_STATE
+            android.permission.ACCESS_WIFI_STATE
+            android.permission.CHANGE_WIFI_STATE
+            android.permission.VIBRATE
+            com.google.android.gms.permission.ACTIVITY_RECOGNITION
+I/cr_LibraryLoader: Time to load native libraries: 81 ms (timestamps 7253-7334)
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.inmobi.interstitial.sample/app_webview/variations_seed_new": /data/user/0/com.inmobi.interstitial.sample/app_webview/variations_seed_new (No such file or directory)
+I/zygote: Background concurrent copying GC freed 17033(1375KB) AllocSpace objects, 5(100KB) LOS objects, 59% free, 1055KB/2MB, paused 2.992ms total 115.714ms
+D/OpenGLRenderer: HWUI GL Pipeline
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,17090,10089)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,17090,10089)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+I/chromium: [INFO:aw_field_trial_creator.cc(52)] First-WebView-Experiment found, group=Enabled
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,17090,10089)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,17090,10089)
+I/Choreographer: Skipped 53 frames!  The application may be doing too much work on its main thread.
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+D/: HostConnection::get() New Host Connection established 0x901745c0, tid 17159
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0x900049e0: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x900049e0: ver 2 0 (tinfo 0x90de5230)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,17090,10089)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,17090,10089)
+I/Choreographer: Skipped 31 frames!  The application may be doing too much work on its main thread.
+D/EGL_emulation: eglMakeCurrent: 0x900049e0: ver 2 0 (tinfo 0x90de5230)
+I/zygote: Do partial code cache collection, code=60KB, data=40KB
+I/zygote: After code cache collection, code=60KB, data=40KB
+          Increasing code cache capacity to 256KB
+W/cr_CrashFileManager: /data/user/0/com.inmobi.interstitial.sample/cache/WebView/Crash Reports does not exist or is not a directory
+D/[InMobi]: Fetching an Interstitial ad for placement id: 1475973082314
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/InterstitialAdsActivity: onAdReceived
+D/InterstitialAdsActivity: onAdLoadSuccessful
+I/zygote: Background concurrent copying GC freed 12511(962KB) AllocSpace objects, 15(428KB) LOS objects, 49% free, 3MB/6MB, paused 1.790ms total 177.805ms
+I/zygote: Do full code cache collection, code=122KB, data=91KB
+I/zygote: After code cache collection, code=111KB, data=63KB
+I/zygote: Do partial code cache collection, code=121KB, data=87KB
+I/zygote: After code cache collection, code=121KB, data=87KB
+          Increasing code cache capacity to 512KB
+I/zygote: Do full code cache collection, code=245KB, data=162KB
+          After code cache collection, code=199KB, data=125KB
+W/ViewRootImpl[InterstitialAdsActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-5.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=4, eventTime=7595777, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl[InterstitialAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7595987, downTime=7595987, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialAdsActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=7596193, downTime=7596193, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7596193, downTime=7596193, deviceId=-1, source=0x101 }
+I/chatty: uid=10089(u0_a89) com.inmobi.interstitial.sample identical 1 line
+W/ViewRootImpl[InterstitialAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7596193, downTime=7596193, deviceId=-1, source=0x101 }
+                                         Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=7596194, downTime=7596194, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7596194, downTime=7596194, deviceId=-1, source=0x101 }
+I/chatty: uid=10089(u0_a89) com.inmobi.interstitial.sample identical 1 line
+W/ViewRootImpl[InterstitialAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7596194, downTime=7596194, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7596193, downTime=7596193, deviceId=-1, source=0x101 }
+I/chatty: uid=10089(u0_a89) com.inmobi.interstitial.sample identical 4 lines
+W/ViewRootImpl[InterstitialAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7596193, downTime=7596193, deviceId=-1, source=0x101 }
+                                         Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7596194, downTime=7596194, deviceId=-1, source=0x101 }
+I/chatty: uid=10089(u0_a89) com.inmobi.interstitial.sample identical 4 lines
+W/ViewRootImpl[InterstitialAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7596194, downTime=7596194, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7596266, downTime=7596266, deviceId=-1, source=0x101 }
+I/chatty: uid=10089(u0_a89) com.inmobi.interstitial.sample identical 1 line
+W/ViewRootImpl[InterstitialAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7596266, downTime=7596266, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7596266, downTime=7596266, deviceId=-1, source=0x101 }
+I/chatty: uid=10089(u0_a89) com.inmobi.interstitial.sample identical 4 lines
+W/ViewRootImpl[InterstitialAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7596266, downTime=7596266, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialAdsActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7596599, downTime=7596599, deviceId=-1, source=0x101 }
+I/zygote: Do partial code cache collection, code=244KB, data=164KB
+          After code cache collection, code=244KB, data=164KB
+          Increasing code cache capacity to 1024KB
+
+09/03 14:47:46: Launching nativeSample
+$ adb shell am start -n "com.inmobi.nativead.sample/com.inmobi.nativead.sample.NativeAdsActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.inmobi.nativead.sample | com.inmobi.nativead.sample.test
+Waiting for application to come online: com.inmobi.nativead.sample | com.inmobi.nativead.sample.test
+Connecting to com.inmobi.nativead.sample
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/zygote: Not late-enabling -Xcheck:jni (already on)
+W/zygote: Unexpected CPU variant for X86 using defaults: x86
+W/ActivityThread: Application com.inmobi.nativead.sample is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+I/zygote: Debugger is active
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+Connected to the target VM, address: 'localhost:8605', transport: 'socket'
+I/chatty: uid=10090(u0_a90) com.inmobi.nativead.sample identical 8 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1488)
+I/MultiDex: VM with version 2.1.0 has multidex support
+            Installing application
+            VM has multidex support, MultiDex support library is disabled.
+I/GMPM: App measurement is starting up, version: 8487
+        To enable debug logging run: adb shell setprop log.tag.GMPM VERBOSE
+E/GMPM: GoogleService failed to initialize, status: 10, Missing an expected resource: 'R.string.google_app_id' for initializing Google services.  Possible causes are missing google-services.json or com.google.gms.google-services gradle plugin.
+E/GMPM: Scheduler not set. Not logging error/warn.
+I/InstantRun: starting instant run server: is main process
+E/GMPM: Uploading is not possible. App measurement disabled
+E/[InMobi]: Please grant the location permissions (ACCESS_COARSE_LOCATION or ACCESS_FINE_LOCATION, or both) for better ad targeting.
+D/[InMobi]: InMobi SDK initialized with account id: 12345678901234567890123456789012
+I/zygote: Do partial code cache collection, code=29KB, data=21KB
+I/zygote: After code cache collection, code=29KB, data=21KB
+          Increasing code cache capacity to 128KB
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+I/zygote: Background concurrent copying GC freed 9257(1013KB) AllocSpace objects, 9(180KB) LOS objects, 54% free, 1276KB/2MB, paused 5.847ms total 218.950ms
+D/[InMobi]: Permissions granted to SDK are :
+            android.permission.INTERNET
+            android.permission.ACCESS_NETWORK_STATE
+            android.permission.ACCESS_WIFI_STATE
+            android.permission.CHANGE_WIFI_STATE
+            android.permission.VIBRATE
+            com.google.android.gms.permission.ACTIVITY_RECOGNITION
+D/OpenGLRenderer: HWUI GL Pipeline
+I/cr_LibraryLoader: Time to load native libraries: 107 ms (timestamps 9787-9894)
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.inmobi.nativead.sample/app_webview/variations_seed_new": /data/user/0/com.inmobi.nativead.sample/app_webview/variations_seed_new (No such file or directory)
+D/SingleNativeAdFragment: Requesting ad
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+I/zygote: Do partial code cache collection, code=53KB, data=42KB
+I/zygote: After code cache collection, code=53KB, data=42KB
+I/zygote: Increasing code cache capacity to 256KB
+D/: HostConnection::get() New Host Connection established 0x9e1a2bc0, tid 17407
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0x9054cf40: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x9054cf40: ver 2 0 (tinfo 0x90df8e90)
+W/Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+I/zygote: Background concurrent copying GC freed 23356(1498KB) AllocSpace objects, 2(40KB) LOS objects, 54% free, 1293KB/2MB, paused 7.895ms total 186.545ms
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+I/zygote: Do full code cache collection, code=76KB, data=83KB
+I/zygote: After code cache collection, code=44KB, data=47KB
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,17348,10090)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,17348,10090)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+I/chromium: [INFO:aw_field_trial_creator.cc(52)] First-WebView-Experiment found, group=Enabled
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,17348,10090)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,17348,10090)
+I/Choreographer: Skipped 99 frames!  The application may be doing too much work on its main thread.
+D/EGL_emulation: eglMakeCurrent: 0x9054cf40: ver 2 0 (tinfo 0x90df8e90)
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,17348,10090)
+I/zygote: Background concurrent copying GC freed 18730(1098KB) AllocSpace objects, 8(176KB) LOS objects, 50% free, 1918KB/3MB, paused 1.926ms total 226.817ms
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,17348,10090)
+I/Choreographer: Skipped 53 frames!  The application may be doing too much work on its main thread.
+W/cr_CrashFileManager: /data/user/0/com.inmobi.nativead.sample/cache/WebView/Crash Reports does not exist or is not a directory
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/ListViewFeedFragment: Ad Load failed  for6(Ad request successful but no ad served.)
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/ListViewFeedFragment: Ad Load failed  for17(Ad request successful but no ad served.)
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/SingleNativeAdFragment: Ad Load failed (Ad request successful but no ad served.)
+D/ListViewFeedFragment: Ad Load failed  for3(Ad request successful but no ad served.)
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+I/zygote: Background concurrent copying GC freed 39589(2046KB) AllocSpace objects, 6(120KB) LOS objects, 49% free, 2MB/4MB, paused 1.162ms total 274.796ms
+I/zygote: NativeAllocBackground concurrent copying GC freed 13574(694KB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 1885KB/3MB, paused 4.233ms total 163.387ms
+I/zygote: Do partial code cache collection, code=117KB, data=106KB
+          After code cache collection, code=117KB, data=106KB
+I/zygote: Increasing code cache capacity to 512KB
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/RecyclerFeedFragment: Ad Load failed  for8(Ad request successful but no ad served.)
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/RecyclerFeedFragment: Ad Load failed  for3(Ad request successful but no ad served.)
+D/RecyclerFeedFragment: Ad Load failed  for18(Ad request successful but no ad served.)
+D/SingleNativeAdFragment: Requesting ad
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/SingleNativeAdFragment: Ad Load failed (Ad request successful but no ad served.)
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+D/[InMobi]: Fetching a Native ad for placement id: 1492763427180
+D/[InMobi]: Publisher device Id is fa2064a6-6c1a-4e57-89c5-287202667d02
+I/zygote: Do full code cache collection, code=228KB, data=196KB
+I/zygote: After code cache collection, code=226KB, data=159KB
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/RecyclerFeedFragment: Ad Load failed  for3(Ad request successful but no ad served.)
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/RecyclerFeedFragment: Ad Load failed  for18(Ad request successful but no ad served.)
+D/[InMobi]: Failed to fetch ad for placement id: 1492763427180, reason phrase available in onAdLoadFailed callback.
+D/RecyclerFeedFragment: Ad Load failed  for8(Ad request successful but no ad served.)
+I/zygote: Do partial code cache collection, code=247KB, data=184KB
+I/zygote: After code cache collection, code=247KB, data=184KB
+          Increasing code cache capacity to 1024KB
+I/zygote: JIT allocated 71KB for compiled code of void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+          Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+D/EGL_emulation: eglMakeCurrent: 0x9054cf40: ver 2 0 (tinfo 0x90df8e90)
+I/GMPM: Tag Manager is not found and thus will not be used
+Disconnected from the target VM, address: 'localhost:8605', transport: 'socket'

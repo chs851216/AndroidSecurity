@@ -1,0 +1,110 @@
+
+09/03 15:39:39: Launching app
+$ adb install-multiple -r -t C:\Users\Sheng\Desktop\android library\NativeX\NativeX-Android-SDK-master\SampleApps\NativeXAndroidSampleApp-AndroidStudio\app\build\intermediates\split-apk\debug\slices\slice_2.apk C:\Users\Sheng\Desktop\android library\NativeX\NativeX-Android-SDK-master\SampleApps\NativeXAndroidSampleApp-AndroidStudio\app\build\intermediates\split-apk\debug\slices\slice_5.apk C:\Users\Sheng\Desktop\android library\NativeX\NativeX-Android-SDK-master\SampleApps\NativeXAndroidSampleApp-AndroidStudio\app\build\intermediates\split-apk\debug\slices\slice_4.apk C:\Users\Sheng\Desktop\android library\NativeX\NativeX-Android-SDK-master\SampleApps\NativeXAndroidSampleApp-AndroidStudio\app\build\intermediates\split-apk\debug\slices\slice_1.apk C:\Users\Sheng\Desktop\android library\NativeX\NativeX-Android-SDK-master\SampleApps\NativeXAndroidSampleApp-AndroidStudio\app\build\intermediates\split-apk\debug\dep\dependencies.apk C:\Users\Sheng\Desktop\android library\NativeX\NativeX-Android-SDK-master\SampleApps\NativeXAndroidSampleApp-AndroidStudio\app\build\intermediates\split-apk\debug\slices\slice_0.apk C:\Users\Sheng\Desktop\android library\NativeX\NativeX-Android-SDK-master\SampleApps\NativeXAndroidSampleApp-AndroidStudio\app\build\intermediates\resources\instant-run\debug\resources-debug.apk C:\Users\Sheng\Desktop\android library\NativeX\NativeX-Android-SDK-master\SampleApps\NativeXAndroidSampleApp-AndroidStudio\app\build\intermediates\split-apk\debug\slices\slice_3.apk C:\Users\Sheng\Desktop\android library\NativeX\NativeX-Android-SDK-master\SampleApps\NativeXAndroidSampleApp-AndroidStudio\app\build\intermediates\split-apk\debug\slices\slice_6.apk C:\Users\Sheng\Desktop\android library\NativeX\NativeX-Android-SDK-master\SampleApps\NativeXAndroidSampleApp-AndroidStudio\app\build\intermediates\split-apk\debug\slices\slice_9.apk C:\Users\Sheng\Desktop\android library\NativeX\NativeX-Android-SDK-master\SampleApps\NativeXAndroidSampleApp-AndroidStudio\app\build\intermediates\split-apk\debug\slices\slice_8.apk C:\Users\Sheng\Desktop\android library\NativeX\NativeX-Android-SDK-master\SampleApps\NativeXAndroidSampleApp-AndroidStudio\app\build\intermediates\split-apk\debug\slices\slice_7.apk C:\Users\Sheng\Desktop\android library\NativeX\NativeX-Android-SDK-master\SampleApps\NativeXAndroidSampleApp-AndroidStudio\app\build\intermediates\instant-run-apk\debug\app-debug.apk 
+Split APKs installed
+$ adb shell am start -n "com.nativex.exampleads/com.nativex.exampleads.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.nativex.exampleads | com.nativex.exampleads.test
+Waiting for application to come online: com.nativex.exampleads | com.nativex.exampleads.test
+Connecting to com.nativex.exampleads
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+W/ActivityThread: Application com.nativex.exampleads is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+I/zygote: Debugger is active
+Connected to the target VM, address: 'localhost:8612', transport: 'socket'
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+I/chatty: uid=10107(u0_a107) com.nativex.exampleads identical 1 line
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1453)
+I/InstantRun: starting instant run server: is main process
+I/nativeX: Using NativeX MonetizationSDK version 5.5.6.1
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+I/cr_LibraryLoader: Time to load native libraries: 20 ms (timestamps 9749-9769)
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.nativex.exampleads/app_webview/variations_seed_new": /data/user/0/com.nativex.exampleads/app_webview/variations_seed_new (No such file or directory)
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.nativex.exampleads/app_webview/variations_seed": /data/user/0/com.nativex.exampleads/app_webview/variations_seed (No such file or directory)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,15629,10107)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,15629,10107)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,15629,10107)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,15629,10107)
+D/OpenGLRenderer: HWUI GL Pipeline
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,15629,10107)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,15629,10107)
+D/: HostConnection::get() New Host Connection established 0x9094a340, tid 15740
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+Breakpoint reached at java.lang.SecurityException.<init>(SecurityException.java:52)
+SecurityException message : getDeviceId: Neither user 10107 nor current process has android.permission.READ_PHONE_STATE.
+D/EGL_emulation: eglCreateContext: 0x8d20dfa0: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x8d20dfa0: ver 2 0 (tinfo 0x90e0c630)
+D/EGL_emulation: eglMakeCurrent: 0x8d20dfa0: ver 2 0 (tinfo 0x90e0c630)
+W/cr_CrashFileManager: /data/user/0/com.nativex.exampleads/cache/WebView/Crash Reports does not exist or is not a directory
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=6454208, downTime=6454208, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6454208, downTime=6454208, deviceId=-1, source=0x101 }
+I/chatty: uid=10107(u0_a107) com.nativex.exampleads identical 1 line
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6454208, downTime=6454208, deviceId=-1, source=0x101 }
+                              Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=6454208, downTime=6454208, deviceId=-1, source=0x101 }
+                              Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6454208, downTime=6454208, deviceId=-1, source=0x101 }
+I/chatty: uid=10107(u0_a107) com.nativex.exampleads identical 1 line
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6454208, downTime=6454208, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=6454208, downTime=6454208, deviceId=-1, source=0x101 }
+                              Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6454208, downTime=6454208, deviceId=-1, source=0x101 }
+I/chatty: uid=10107(u0_a107) com.nativex.exampleads identical 1 line
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6454208, downTime=6454208, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=6454208, downTime=6454208, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6454208, downTime=6454208, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d20dfa0: ver 2 0 (tinfo 0x90e0c630)
+V/MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+               cleanDrmObj: mDrmObj=null mDrmSessionId=null
+I/zygote: NativeAllocBackground concurrent copying GC freed 210(55KB) AllocSpace objects, 0(0B) LOS objects, 65% free, 801KB/2MB, paused 8.265ms total 43.440ms
+I/nativeX: Using NativeX MonetizationSDK version 5.5.6.1
+I/zygote: Do partial code cache collection, code=28KB, data=30KB
+I/zygote: After code cache collection, code=28KB, data=30KB
+I/zygote: Increasing code cache capacity to 128KB
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6460877, downTime=6460877, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d20dfa0: ver 2 0 (tinfo 0x90e0c630)
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6461024, downTime=6461024, deviceId=-1, source=0x101 }
+I/zygote: Do partial code cache collection, code=60KB, data=51KB
+          After code cache collection, code=60KB, data=51KB
+          Increasing code cache capacity to 256KB
+I/System.out: Oh no! Something isn't set up correctly - re-read the documentation or ask customer support for help https://selfservice.nativex.com/Help
+D/Volley: [2] Request.finish: 20422 ms: [ ] http://appclick.co/PublicServices/MobileTrackingApiRestV1.svc/CreateSessionV2?appId=22520 0x5ec06fb3 NORMAL 1
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6462427, downTime=6462427, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6462470, downTime=6462470, deviceId=-1, source=0x101 }
+I/chatty: uid=10107(u0_a107) com.nativex.exampleads identical 7 lines
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6462470, downTime=6462470, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6462548, downTime=6462548, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6462672, downTime=6462672, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6462687, downTime=6462687, deviceId=-1, source=0x101 }
+I/zygote: Do full code cache collection, code=122KB, data=95KB
+I/zygote: After code cache collection, code=95KB, data=55KB
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6463089, downTime=6463089, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6463096, downTime=6463096, deviceId=-1, source=0x101 }
+I/chatty: uid=10107(u0_a107) com.nativex.exampleads identical 5 lines
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6463096, downTime=6463096, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6463098, downTime=6463098, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d20dfa0: ver 2 0 (tinfo 0x90e0c630)
+V/MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+V/MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+I/nativeX: Using NativeX MonetizationSDK version 5.5.6.1
+D/EGL_emulation: eglMakeCurrent: 0x8d20dfa0: ver 2 0 (tinfo 0x90e0c630)

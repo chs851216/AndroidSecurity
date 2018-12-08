@@ -1,0 +1,15 @@
+The AdLibrary is InMobi
+Source permission
+android.permission.ACCESS_FINE_LOCATION
+android.permission.CHANGE_WIFI_STATE
+android.permission.INTERNET
+android.permission.WRITE_CALENDAR
+android.permission.ACCESS_NETWORK_STATE
+android.permission.VIBRATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_CALENDAR
+android.permission.WRITE_EXTERNAL_STORAGE
+Abuse permission
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.BLUETOOTH
+

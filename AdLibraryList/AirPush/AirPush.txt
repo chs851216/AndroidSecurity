@@ -1,0 +1,1020 @@
+
+09/03 13:38:33: Launching app
+$ adb install-multiple -r -t C:\Users\Sheng\Desktop\android library\AirPush\AirPushDemoApp\app\build\intermediates\split-apk\debug\slices\slice_5.apk C:\Users\Sheng\Desktop\android library\AirPush\AirPushDemoApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk C:\Users\Sheng\Desktop\android library\AirPush\AirPushDemoApp\app\build\intermediates\split-apk\debug\slices\slice_6.apk C:\Users\Sheng\Desktop\android library\AirPush\AirPushDemoApp\app\build\intermediates\split-apk\debug\slices\slice_9.apk C:\Users\Sheng\Desktop\android library\AirPush\AirPushDemoApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk C:\Users\Sheng\Desktop\android library\AirPush\AirPushDemoApp\app\build\intermediates\split-apk\debug\slices\slice_7.apk C:\Users\Sheng\Desktop\android library\AirPush\AirPushDemoApp\app\build\intermediates\split-apk\debug\slices\slice_1.apk C:\Users\Sheng\Desktop\android library\AirPush\AirPushDemoApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk C:\Users\Sheng\Desktop\android library\AirPush\AirPushDemoApp\app\build\intermediates\resources\instant-run\debug\resources-debug.apk C:\Users\Sheng\Desktop\android library\AirPush\AirPushDemoApp\app\build\intermediates\split-apk\debug\dep\dependencies.apk C:\Users\Sheng\Desktop\android library\AirPush\AirPushDemoApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk C:\Users\Sheng\Desktop\android library\AirPush\AirPushDemoApp\app\build\intermediates\split-apk\debug\slices\slice_3.apk C:\Users\Sheng\Desktop\android library\AirPush\AirPushDemoApp\app\build\intermediates\instant-run-apk\debug\app-debug.apk 
+Split APKs installed
+$ adb shell am start -n "com.airpush.demo.app/com.airpush.demo.app.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.airpush.demo.app.test | com.airpush.demo.app
+Waiting for application to come online: com.airpush.demo.app.test | com.airpush.demo.app
+Waiting for application to come online: com.airpush.demo.app.test | com.airpush.demo.app
+Waiting for application to come online: com.airpush.demo.app.test | com.airpush.demo.app
+Waiting for application to come online: com.airpush.demo.app.test | com.airpush.demo.app
+Connecting to com.airpush.demo.app
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/zygote: Debugger is active
+Connected to the target VM, address: 'localhost:8604', transport: 'socket'
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/chatty: uid=10094(u0_a94) com.airpush.demo.app identical 5 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1481)
+I/InstantRun: starting instant run server: is main process
+I/CrashlyticsCore: Initializing Crashlytics 2.3.5.79
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+I/cr_LibraryLoader: Time to load native libraries: 27 ms (timestamps 3048-3075)
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.airpush.demo.app/app_webview/variations_seed_new": /data/user/0/com.airpush.demo.app/app_webview/variations_seed_new (No such file or directory)
+                      Failed reading seed file "/data/user/0/com.airpush.demo.app/app_webview/variations_seed": /data/user/0/com.airpush.demo.app/app_webview/variations_seed (No such file or directory)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14921,10094)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14921,10094)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14921,10094)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14921,10094)
+I/zygote: Do partial code cache collection, code=30KB, data=27KB
+I/zygote: After code cache collection, code=30KB, data=28KB
+I/zygote: Increasing code cache capacity to 128KB
+D/OpenGLRenderer: HWUI GL Pipeline
+I/zygote: Do partial code cache collection, code=31KB, data=50KB
+I/zygote: After code cache collection, code=31KB, data=50KB
+          Increasing code cache capacity to 256KB
+          JIT allocated 71KB for compiled code of void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+          Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14921,10094)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14921,10094)
+D/: HostConnection::get() New Host Connection established 0x8d5ea180, tid 15014
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0x8d6fe740: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/cr_CrashFileManager: /data/user/0/com.airpush.demo.app/cache/WebView/Crash Reports does not exist or is not a directory
+I/zygote: Do full code cache collection, code=125KB, data=66KB
+I/zygote: After code cache collection, code=120KB, data=48KB
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/zygote: Do partial code cache collection, code=124KB, data=54KB
+I/zygote: After code cache collection, code=124KB, data=54KB
+          Increasing code cache capacity to 512KB
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+              com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+I/System.out: CONNECTED VIA WIFI
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6345659, downTime=6345659, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6345831, downTime=6345831, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TV_POWER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6345917, downTime=6345917, deviceId=-1, source=0x101 }
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/zygote: Do full code cache collection, code=243KB, data=192KB
+I/zygote: After code cache collection, code=243KB, data=144KB
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/zygote: Do partial code cache collection, code=249KB, data=153KB
+          After code cache collection, code=249KB, data=153KB
+I/zygote: Increasing code cache capacity to 1024KB
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/zygote: JIT allocated 56KB for compiled code of void android.view.View.<init>(android.content.Context, android.util.AttributeSet, int, int)
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6348621, downTime=6348621, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6348874, downTime=6348874, deviceId=-1, source=0x101 }
+I/chatty: uid=10094(u0_a94) com.airpush.demo.app identical 4 lines
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6348874, downTime=6348874, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_K, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6349007, downTime=6349007, deviceId=-1, source=0x101 }
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/AP-SDK-X: AirPushNotification already started
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6361334, downTime=6361334, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6361503, downTime=6361503, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+I/System.out: CONNECTED VIA WIFI
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6362175, downTime=6362175, deviceId=-1, source=0x101 }
+I/System.out: CONNECTED VIA WIFI
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=3.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=28, eventTime=6364563, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+I/zygote: Do full code cache collection, code=490KB, data=320KB
+I/zygote: After code cache collection, code=487KB, data=259KB
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6366332, downTime=6366332, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6366506, downTime=6366506, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6366575, downTime=6366575, deviceId=-1, source=0x101 }
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+              com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6367417, downTime=6367417, deviceId=-1, source=0x101 }
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6371571, downTime=6371571, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6371658, downTime=6371658, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6371749, downTime=6371749, deviceId=-1, source=0x101 }
+I/System.out: CONNECTED VIA WIFI
+W/AP-SDK-X: AirPushIcon already started
+W/AP-SDK-X: AirPushIcon already started
+I/zygote: Do partial code cache collection, code=496KB, data=295KB
+I/zygote: After code cache collection, code=496KB, data=295KB
+          Increasing code cache capacity to 2MB
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_STEP_FORWARD, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6384869, downTime=6384869, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MEDIA_STEP_FORWARD, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6384949, downTime=6384949, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_STB_INPUT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6385034, downTime=6385034, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_STB_INPUT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6385036, downTime=6385036, deviceId=-1, source=0x101 }
+I/System.out: CONNECTED VIA WIFI
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=2.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=6387066, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6387097, downTime=6387097, deviceId=-1, source=0x101 }
+I/System.out: CONNECTED VIA WIFI
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6390142, downTime=6390142, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6390238, downTime=6390238, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6391147, downTime=6391147, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6391412, downTime=6391412, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6391488, downTime=6391488, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6391491, downTime=6391491, deviceId=-1, source=0x101 }
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+              com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/zygote: Background concurrent copying GC freed 27102(2MB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 2MB/4MB, paused 6.190ms total 98.136ms
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-2.0, y[0]=-3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=6400217, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TV_INPUT_COMPONENT_1, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6400291, downTime=6400291, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV_INPUT_COMPONENT_1, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6400298, downTime=6400298, deviceId=-1, source=0x101 }
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+              com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+              com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/AP-SDK-X: AirPushIcon already started
+I/System.out: CONNECTED VIA WIFI
+W/AP-SDK-X: AirPushIcon already started
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6411954, downTime=6411954, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6412123, downTime=6412123, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/AP-SDK-X: AirPushIcon already started
+W/AP-SDK-X: AirPushIcon already started
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6417228, downTime=6417228, deviceId=-1, source=0x101 }
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/AP-SDK-X: AirPushNotification already started
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6422112, downTime=6422112, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6422274, downTime=6422274, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6422342, downTime=6422342, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6422344, downTime=6422344, deviceId=-1, source=0x101 }
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/AP-SDK-X: AirPushNotification already started
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6423702, downTime=-1, deviceId=0, source=0x10004 }
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6424856, downTime=6424856, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6424941, downTime=6424941, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+I/zygote: Do full code cache collection, code=989KB, data=642KB
+I/zygote: After code cache collection, code=987KB, data=584KB
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6429217, downTime=6429217, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6429305, downTime=6429305, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CUT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6429401, downTime=6429401, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CUT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6429407, downTime=6429407, deviceId=-1, source=0x101 }
+W/AP-SDK-X: AirPushIcon already started
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/zygote: Do partial code cache collection, code=987KB, data=591KB
+I/zygote: After code cache collection, code=987KB, data=591KB
+          Increasing code cache capacity to 3MB
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/AP-SDK-X: AirPushIcon already started
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/zygote: Background concurrent copying GC freed 27820(2MB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 2MB/5MB, paused 5.852ms total 25.243ms
+W/AP-SDK-X: AirPushIcon already started
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+I/System.out: CONNECTED VIA WIFI
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-4.0, y[0]=-3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=6433163, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6433199, downTime=6433199, deviceId=-1, source=0x101 }
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-5.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=6438753, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6438755, downTime=6438600, deviceId=0, source=0x10004 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6438760, downTime=6438600, deviceId=0, source=0x10004 }
+I/chatty: uid=10094(u0_a94) com.airpush.demo.app identical 5 lines
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6438760, downTime=6438600, deviceId=0, source=0x10004 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6438786, downTime=6438786, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6438791, downTime=6438791, deviceId=-1, source=0x101 }
+I/chatty: uid=10094(u0_a94) com.airpush.demo.app identical 4 lines
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6438791, downTime=6438791, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6438814, downTime=6438814, deviceId=-1, source=0x101 }
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/AP-SDK-X: AirPushNotification already started
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/AP-SDK-X: AirPushNotification already started
+W/AP-SDK-X: AirPushNotification already started
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/AP-SDK-X: AirPushIcon already started
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/AP-SDK-X: AirPushIcon already started
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/AP-SDK-X: AirPushIcon already started
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6454517, downTime=6454517, deviceId=-1, source=0x101 }
+I/chatty: uid=10094(u0_a94) com.airpush.demo.app identical 7 lines
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6454517, downTime=6454517, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_E, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6454619, downTime=6454619, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_E, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6454689, downTime=6454689, deviceId=-1, source=0x101 }
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6455074, downTime=6455074, deviceId=-1, source=0x101 }
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+W/AP-SDK-X: AirPushNotification already started
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6462710, downTime=6462710, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6462814, downTime=6462814, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/AP-SDK-X: AirPushIcon already started
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TV_AUDIO_DESCRIPTION, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6466698, downTime=6466698, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV_AUDIO_DESCRIPTION, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6466708, downTime=6466708, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+I/System.out: CONNECTED VIA WIFI
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6471699, downTime=6471699, deviceId=-1, source=0x101 }
+I/chatty: uid=10094(u0_a94) com.airpush.demo.app identical 7 lines
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6471699, downTime=6471699, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6471734, downTime=6471734, deviceId=-1, source=0x101 }
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6472415, downTime=6472415, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6474744, downTime=6474744, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6474831, downTime=6474831, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6474950, downTime=6474950, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6474952, downTime=6474952, deviceId=-1, source=0x101 }
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_REWIND, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6479827, downTime=6479827, deviceId=-1, source=0x101 }
+W/AP-SDK-X: AirPushIcon already started
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TV_TERRESTRIAL_DIGITAL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6496408, downTime=6496408, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV_TERRESTRIAL_DIGITAL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6496524, downTime=6496524, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6496621, downTime=6496621, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6496625, downTime=6496625, deviceId=-1, source=0x101 }
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/AP-SDK-X: AirPushIcon already started
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/AP-SDK-X: AirPushIcon already started
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/AP-SDK-X: AirPushNotification already started
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/AP-SDK-X: AirPushNotification already started
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/AP-SDK-X: AirPushIcon already started
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/AP-SDK-X: AirPushIcon already started
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+              com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/AP-SDK-X: AirPushIcon already started
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/AP-SDK-X: AirPushIcon already started
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/AP-SDK-X: AirPushIcon already started
+W/AP-SDK-X: AirPushIcon already started
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/AP-SDK-X: AirPushIcon already started
+W/AP-SDK-X: AirPushIcon already started
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/AP-SDK-X: AirPushNotification already started
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_G, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6509385, downTime=6509385, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_G, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6509540, downTime=6509540, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6509617, downTime=6509617, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6509621, downTime=6509621, deviceId=-1, source=0x101 }
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/AP-SDK-X: AirPushNotification already started
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/AP-SDK-X: AirPushIcon already started
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/AP-SDK-X: AirPushNotification already started
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+W/AP-SDK-X: AirPushNotification already started
+W/AP-SDK-X: AirPushNotification already started
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+W/AP-SDK-X: AirPushIcon already started
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+W/System.err:     at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+W/System.err:     at java.lang.Thread.run(Thread.java:764)
+I/System.out: CONNECTED VIA WIFI
+W/System.err: com.airpush.injector.internal.common.exceptions.NoAdException: No fill
+                  at com.airpush.injector.internal.skeleton.AdLoader$1.run(AdLoader.java:98)
+                  at java.lang.Thread.run(Thread.java:764)
+D/EGL_emulation: eglMakeCurrent: 0x8d6fe740: ver 2 0 (tinfo 0x8d6f9610)
+Disconnected from the target VM, address: 'localhost:8604', transport: 'socket'

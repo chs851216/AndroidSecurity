@@ -1,0 +1,16 @@
+The AdLibrary is Millennial Media
+Source permission
+android.permission.ACCESS_FINE_LOCATION
+android.permission.INTERNET
+android.permission.ACCESS_NETWORK_STATE
+android.permission.VIBRATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.NFC
+android.permission.BLUETOOTH
+android.permission.RECORD_AUDIO
+android.permission.WRITE_EXTERNAL_STORAGE
+Abuse permission
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.MODIFY_AUDIO_SETTINGS
+

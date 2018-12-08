@@ -1,0 +1,1675 @@
+
+09/03 14:17:26: Launching interstitial
+$ adb install-multiple -r -t C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_8.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_3.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_2.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\resources\instant-run\debug\resources-debug.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\dep\dependencies.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_4.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_9.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_6.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_7.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_5.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_0.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_1.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\instant-run-apk\debug\interstitial-debug.apk 
+Split APKs installed
+$ adb shell am start -n "com.flurry.sample.interstitial/com.flurry.sample.interstitial.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.flurry.sample.interstitial | com.flurry.sample.interstitial.test
+Waiting for application to come online: com.flurry.sample.interstitial | com.flurry.sample.interstitial.test
+Waiting for application to come online: com.flurry.sample.interstitial | com.flurry.sample.interstitial.test
+Waiting for application to come online: com.flurry.sample.interstitial | com.flurry.sample.interstitial.test
+Connecting to com.flurry.sample.interstitial
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/zygote: Debugger is active
+I/zygote: Background concurrent copying GC freed 3401(1378KB) AllocSpace objects, 0(0B) LOS objects, 82% free, 317KB/1853KB, paused 12.444ms total 20.914ms
+I/System.out: Debugger has connected
+I/System.out: waiting for debugger to settle...
+Connected to the target VM, address: 'localhost:8605', transport: 'socket'
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/chatty: uid=10093(u0_a93) com.flurry.sample.interstitial identical 5 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1434)
+I/InstantRun: starting instant run server: is main process
+E/FlurryAgent: GOOGLE PLAY SERVICES EXCEPTION: com.google.android.gms.common.GooglePlayServicesUtil
+               There is a problem with the Google Play Services library, which is required for Android Advertising ID support. The Google Play Services library should be integrated in any app shipping in the Play Store that uses analytics or advertising.
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+I/InterstitialSampleApplication: Flurry SDK initialized
+I/FlurryAgent: New main file also not found. returning..
+W/FlurryAgent: Flurry session started for context:com.flurry.sample.interstitial.MainActivity@ea1e47c
+W/FlurryAgent: Flurry session resumed for context:com.flurry.sample.interstitial.MainActivity@ea1e47c
+D/OpenGLRenderer: HWUI GL Pipeline
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bu>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/AdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+I/zygote:     at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.AdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/base.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+I/zygote:     at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bu>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/AdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.AdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/base.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bu>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/AdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.AdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/base.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+I/zygote:     at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bw>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/InterstitialAdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+I/zygote:     at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.InterstitialAdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/base.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w=
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bw>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/InterstitialAdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.InterstitialAdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/base.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w=
+I/zygote:     at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bw>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/InterstitialAdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+I/zygote:     at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.InterstitialAdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/base.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w=
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+D/: HostConnection::get() New Host Connection established 0x9fdb3c00, tid 13798
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+D/EGL_emulation: eglCreateContext: 0x9e1bc540: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+I/cr_LibraryLoader: Time to load native libraries: 213 ms (timestamps 703-916)
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+I/zygote: Do partial code cache collection, code=23KB, data=29KB
+I/zygote: After code cache collection, code=23KB, data=29KB
+          Increasing code cache capacity to 128KB
+I/zygote: Do partial code cache collection, code=23KB, data=47KB
+I/zygote: After code cache collection, code=23KB, data=47KB
+I/zygote: Increasing code cache capacity to 256KB
+I/zygote: JIT allocated 71KB for compiled code of void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+          Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.flurry.sample.interstitial/app_webview/variations_seed_new": /data/user/0/com.flurry.sample.interstitial/app_webview/variations_seed_new (No such file or directory)
+                      Failed reading seed file "/data/user/0/com.flurry.sample.interstitial/app_webview/variations_seed": /data/user/0/com.flurry.sample.interstitial/app_webview/variations_seed (No such file or directory)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,13748,10093)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,13748,10093)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+W/FlurryAgent: Analytics report sent.
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,13748,10093)
+W/FlurryAgent: Analytics report sent.
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,13748,10093)
+I/Choreographer: Skipped 36 frames!  The application may be doing too much work on its main thread.
+E/FlurryAgent: GOOGLE PLAY SERVICES EXCEPTION: com.google.android.gms.common.GooglePlayServicesUtil
+               There is a problem with the Google Play Services library, which is required for Android Advertising ID support. The Google Play Services library should be integrated in any app shipping in the Play Store that uses analytics or advertising.
+D/FlurryAgent: Referrer file contents: null
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,13748,10093)
+W/FlurryAgent: Analytics report sent.
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,13748,10093)
+W/cr_CrashFileManager: /data/user/0/com.flurry.sample.interstitial/cache/WebView/Crash Reports does not exist or is not a directory
+W/FlurryAgent: Analytics report sent.
+I/MainActivity: Loading full screen ad
+D/FlurryAgent: InterstitialAdObject created: com.flurry.sdk.u@e22de39
+D/FlurryAgent: InterstitialAdObject ready to fetch ad: com.flurry.sdk.u@e22de39
+I/zygote: Do full code cache collection, code=125KB, data=69KB
+I/zygote: After code cache collection, code=123KB, data=52KB
+I/zygote: Do partial code cache collection, code=123KB, data=55KB
+I/zygote: After code cache collection, code=123KB, data=55KB
+          Increasing code cache capacity to 512KB
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+E/MainActivity: Full screen ad load error - Error type: FETCH Code: 20
+I/MainActivity: Loading full screen ad
+D/FlurryAgent: InterstitialAdObject created: com.flurry.sdk.u@2934377
+D/FlurryAgent: InterstitialAdObject ready to fetch ad: com.flurry.sdk.u@2934377
+E/MainActivity: Full screen ad load error - Error type: FETCH Code: 20
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+I/chatty: uid=10093(u0_a93) RenderThread identical 14 lines
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8c546a80 (ListPopupWindow$DropDownListView) with handle 0x89cb1300
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+W/FlurryAgent: Flurry session paused for context:com.flurry.sample.interstitial.MainActivity@ea1e47c
+D/FlurryAgent: InterstitialAdObject ready to destroy: com.flurry.sdk.u@2934377
+Disconnected from the target VM, address: 'localhost:8605', transport: 'socket'
+
+09/03 14:17:26: Launching interstitial
+$ adb install-multiple -r -t C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_8.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_3.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_2.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\resources\instant-run\debug\resources-debug.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\dep\dependencies.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_4.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_9.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_6.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_7.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_5.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_0.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\split-apk\debug\slices\slice_1.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\interstitial\build\intermediates\instant-run-apk\debug\interstitial-debug.apk 
+Split APKs installed
+$ adb shell am start -n "com.flurry.sample.interstitial/com.flurry.sample.interstitial.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.flurry.sample.interstitial | com.flurry.sample.interstitial.test
+Waiting for application to come online: com.flurry.sample.interstitial | com.flurry.sample.interstitial.test
+Waiting for application to come online: com.flurry.sample.interstitial | com.flurry.sample.interstitial.test
+Waiting for application to come online: com.flurry.sample.interstitial | com.flurry.sample.interstitial.test
+Connecting to com.flurry.sample.interstitial
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/zygote: Debugger is active
+I/zygote: Background concurrent copying GC freed 3401(1378KB) AllocSpace objects, 0(0B) LOS objects, 82% free, 317KB/1853KB, paused 12.444ms total 20.914ms
+I/System.out: Debugger has connected
+I/System.out: waiting for debugger to settle...
+Connected to the target VM, address: 'localhost:8605', transport: 'socket'
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/chatty: uid=10093(u0_a93) com.flurry.sample.interstitial identical 5 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1434)
+I/InstantRun: starting instant run server: is main process
+E/FlurryAgent: GOOGLE PLAY SERVICES EXCEPTION: com.google.android.gms.common.GooglePlayServicesUtil
+               There is a problem with the Google Play Services library, which is required for Android Advertising ID support. The Google Play Services library should be integrated in any app shipping in the Play Store that uses analytics or advertising.
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+I/InterstitialSampleApplication: Flurry SDK initialized
+I/FlurryAgent: New main file also not found. returning..
+W/FlurryAgent: Flurry session started for context:com.flurry.sample.interstitial.MainActivity@ea1e47c
+W/FlurryAgent: Flurry session resumed for context:com.flurry.sample.interstitial.MainActivity@ea1e47c
+D/OpenGLRenderer: HWUI GL Pipeline
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bu>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/AdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+I/zygote:     at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.AdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/base.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+I/zygote:     at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bu>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/AdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.AdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/base.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bu>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/AdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.AdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/base.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+I/zygote:     at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bw>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/InterstitialAdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+I/zygote:     at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.InterstitialAdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/base.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w=
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bw>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/InterstitialAdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.InterstitialAdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/base.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w=
+I/zygote:     at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bw>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/InterstitialAdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+I/zygote:     at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.InterstitialAdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/base.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w=
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+D/: HostConnection::get() New Host Connection established 0x9fdb3c00, tid 13798
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+D/EGL_emulation: eglCreateContext: 0x9e1bc540: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+I/cr_LibraryLoader: Time to load native libraries: 213 ms (timestamps 703-916)
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+I/zygote: Do partial code cache collection, code=23KB, data=29KB
+I/zygote: After code cache collection, code=23KB, data=29KB
+          Increasing code cache capacity to 128KB
+I/zygote: Do partial code cache collection, code=23KB, data=47KB
+I/zygote: After code cache collection, code=23KB, data=47KB
+I/zygote: Increasing code cache capacity to 256KB
+I/zygote: JIT allocated 71KB for compiled code of void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+          Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.flurry.sample.interstitial/app_webview/variations_seed_new": /data/user/0/com.flurry.sample.interstitial/app_webview/variations_seed_new (No such file or directory)
+                      Failed reading seed file "/data/user/0/com.flurry.sample.interstitial/app_webview/variations_seed": /data/user/0/com.flurry.sample.interstitial/app_webview/variations_seed (No such file or directory)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,13748,10093)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,13748,10093)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+W/FlurryAgent: Analytics report sent.
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,13748,10093)
+W/FlurryAgent: Analytics report sent.
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,13748,10093)
+I/Choreographer: Skipped 36 frames!  The application may be doing too much work on its main thread.
+E/FlurryAgent: GOOGLE PLAY SERVICES EXCEPTION: com.google.android.gms.common.GooglePlayServicesUtil
+               There is a problem with the Google Play Services library, which is required for Android Advertising ID support. The Google Play Services library should be integrated in any app shipping in the Play Store that uses analytics or advertising.
+D/FlurryAgent: Referrer file contents: null
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,13748,10093)
+W/FlurryAgent: Analytics report sent.
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,13748,10093)
+W/cr_CrashFileManager: /data/user/0/com.flurry.sample.interstitial/cache/WebView/Crash Reports does not exist or is not a directory
+W/FlurryAgent: Analytics report sent.
+I/MainActivity: Loading full screen ad
+D/FlurryAgent: InterstitialAdObject created: com.flurry.sdk.u@e22de39
+D/FlurryAgent: InterstitialAdObject ready to fetch ad: com.flurry.sdk.u@e22de39
+I/zygote: Do full code cache collection, code=125KB, data=69KB
+I/zygote: After code cache collection, code=123KB, data=52KB
+I/zygote: Do partial code cache collection, code=123KB, data=55KB
+I/zygote: After code cache collection, code=123KB, data=55KB
+          Increasing code cache capacity to 512KB
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+E/MainActivity: Full screen ad load error - Error type: FETCH Code: 20
+I/MainActivity: Loading full screen ad
+D/FlurryAgent: InterstitialAdObject created: com.flurry.sdk.u@2934377
+D/FlurryAgent: InterstitialAdObject ready to fetch ad: com.flurry.sdk.u@2934377
+E/MainActivity: Full screen ad load error - Error type: FETCH Code: 20
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+I/chatty: uid=10093(u0_a93) RenderThread identical 14 lines
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8c546a80 (ListPopupWindow$DropDownListView) with handle 0x89cb1300
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+D/EGL_emulation: eglMakeCurrent: 0x9e1bc540: ver 2 0 (tinfo 0xa017f560)
+W/FlurryAgent: Flurry session paused for context:com.flurry.sample.interstitial.MainActivity@ea1e47c
+D/FlurryAgent: InterstitialAdObject ready to destroy: com.flurry.sdk.u@2934377
+Disconnected from the target VM, address: 'localhost:8605', transport: 'socket'
+
+09/03 14:36:38: Launching interstitial
+$ adb shell am start -n "com.flurry.sample.interstitial/com.flurry.sample.interstitial.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.flurry.sample.interstitial | com.flurry.sample.interstitial.test
+Waiting for application to come online: com.flurry.sample.interstitial | com.flurry.sample.interstitial.test
+Connecting to com.flurry.sample.interstitial
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/zygote: Not late-enabling -Xcheck:jni (already on)
+W/zygote: Unexpected CPU variant for X86 using defaults: x86
+I/zygote: Background concurrent copying GC freed 3415(1479KB) AllocSpace objects, 0(0B) LOS objects, 80% free, 360KB/1896KB, paused 12.057ms total 55.270ms
+W/ActivityThread: Application com.flurry.sample.interstitial is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+I/zygote: Debugger is active
+Connected to the target VM, address: 'localhost:8605', transport: 'socket'
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+I/chatty: uid=10093(u0_a93) com.flurry.sample.interstitial identical 7 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1498)
+I/InstantRun: starting instant run server: is main process
+E/FlurryAgent: GOOGLE PLAY SERVICES EXCEPTION: com.google.android.gms.common.GooglePlayServicesUtil
+               There is a problem with the Google Play Services library, which is required for Android Advertising ID support. The Google Play Services library should be integrated in any app shipping in the Play Store that uses analytics or advertising.
+I/FlurryAgent: New main file also not found. returning..
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+I/FlurryAgent: New main file also not found. returning..
+I/InterstitialSampleApplication: Flurry SDK initialized
+W/FlurryAgent: Flurry session started for context:com.flurry.sample.interstitial.MainActivity@2e51877
+               Flurry session resumed for context:com.flurry.sample.interstitial.MainActivity@2e51877
+D/OpenGLRenderer: HWUI GL Pipeline
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bu>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/AdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+I/zygote:     at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.AdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/base.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+I/zygote:     at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote:     at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bu>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/AdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.AdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/base.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+I/zygote:     at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+D/: HostConnection::get() New Host Connection established 0xa26e4fc0, tid 14231
+I/zygote:     at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bu>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/AdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+I/zygote:     at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.AdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/base.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+I/zygote:     at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+D/OpenGLRenderer: Swap behavior 0
+I/zygote:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+I/zygote:     at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+I/zygote:     at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bw>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/InterstitialAdListener;
+I/zygote:     at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+I/zygote:     at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.InterstitialAdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/base.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w=
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote:     at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bw>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/InterstitialAdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.InterstitialAdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/base.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w=
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+I/zygote:     at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+D/EGL_emulation: eglCreateContext: 0x90d9d660: maj 2 min 0 rcv 2
+I/zygote:     at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+I/zygote:     at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bw>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/InterstitialAdListener;
+I/zygote:     at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+I/zygote:     at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.InterstitialAdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/base.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.interstitial-ujiXDkYZea7QbIBUohfs9w=
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+I/zygote:     at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+D/EGL_emulation: eglMakeCurrent: 0x90d9d660: ver 2 0 (tinfo 0xa017f500)
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+I/zygote: Do partial code cache collection, code=21KB, data=26KB
+I/zygote: After code cache collection, code=21KB, data=26KB
+          Increasing code cache capacity to 128KB
+I/zygote: Do partial code cache collection, code=21KB, data=44KB
+I/zygote: After code cache collection, code=21KB, data=44KB
+          Increasing code cache capacity to 256KB
+I/zygote: JIT allocated 71KB for compiled code of void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+          Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+I/cr_LibraryLoader: Time to load native libraries: 46 ms (timestamps 1001-1047)
+D/EGL_emulation: eglMakeCurrent: 0x90d9d660: ver 2 0 (tinfo 0xa017f500)
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.flurry.sample.interstitial/app_webview/variations_seed_new": /data/user/0/com.flurry.sample.interstitial/app_webview/variations_seed_new (No such file or directory)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14194,10093)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14194,10093)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+I/chromium: [INFO:aw_field_trial_creator.cc(52)] First-WebView-Experiment found, group=Enabled
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14194,10093)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14194,10093)
+I/Choreographer: Skipped 41 frames!  The application may be doing too much work on its main thread.
+E/FlurryAgent: GOOGLE PLAY SERVICES EXCEPTION: com.google.android.gms.common.GooglePlayServicesUtil
+               There is a problem with the Google Play Services library, which is required for Android Advertising ID support. The Google Play Services library should be integrated in any app shipping in the Play Store that uses analytics or advertising.
+D/FlurryAgent: Referrer file contents: null
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14194,10093)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14194,10093)
+W/cr_CrashFileManager: /data/user/0/com.flurry.sample.interstitial/cache/WebView/Crash Reports does not exist or is not a directory
+W/FlurryAgent: Analytics report sent.
+W/FlurryAgent: Flurry session resumed for context:com.flurry.sample.interstitial.InterstitialOnExitActivity@738d7a0
+I/zygote: Do full code cache collection, code=124KB, data=72KB
+I/zygote: After code cache collection, code=124KB, data=54KB
+D/EGL_emulation: eglMakeCurrent: 0x90d9d660: ver 2 0 (tinfo 0xa017f500)
+I/chatty: uid=10093(u0_a93) RenderThread identical 1 line
+D/EGL_emulation: eglMakeCurrent: 0x90d9d660: ver 2 0 (tinfo 0xa017f500)
+D/EGL_emulation: eglMakeCurrent: 0x90d9d660: ver 2 0 (tinfo 0xa017f500)
+D/EGL_emulation: eglMakeCurrent: 0x90d9d660: ver 2 0 (tinfo 0xa017f500)
+D/OpenGLRenderer: endAllActiveAnimators on 0xa0105300 (ListView) with handle 0x90a68990
+W/FlurryAgent: Flurry session paused for context:com.flurry.sample.interstitial.MainActivity@2e51877
+I/zygote: Do partial code cache collection, code=125KB, data=56KB
+I/zygote: After code cache collection, code=125KB, data=57KB
+          Increasing code cache capacity to 512KB
+D/FlurryAgent: InterstitialAdObject created: com.flurry.sdk.u@8d9d59a
+D/FlurryAgent: InterstitialAdObject ready to fetch ad: com.flurry.sdk.u@8d9d59a
+D/FlurryAgent: InterstitialAdObject created: com.flurry.sdk.u@da6b1d1
+               InterstitialAdObject ready to fetch ad: com.flurry.sdk.u@da6b1d1
+V/FlurryAgent: action=logEvent,params=,key=__sendToServer,value=false,,fTriggeringEvent=event=filled,params={},adspace=InterstitialTest
+V/FlurryAgent: action=logEvent,params=,key=__sendToServer,value=false,,fTriggeringEvent=event=prepared,params={},adspace=InterstitialTest
+I/InterstitialOnExitActivity: Full screen ad fetched
+D/FlurryAgent: InterstitialAdObject rendered: com.flurry.sdk.u@da6b1d1
+D/FlurryAgent: Save view state: fAdObjectId: 2, fLaunchUrl: null, fShouldCloseAd: true, fSendYCookie: false
+               fireEvent(event=adOpened,params={})
+V/FlurryAgent: action=logEvent,params=,key=__sendToServer,value=false,,fTriggeringEvent=event=adOpened,params={},adspace=InterstitialTest
+D/FlurryAgent: AdEvent initialized with unrecognized type: adOpened
+W/FlurryAgent: Flurry session resumed for context:com.flurry.android.FlurryFullscreenTakeoverActivity@5bde427
+W/FlurryAgent: Created new WebViewFactory: com.flurry.sdk.hj@d2faf34
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+I/zygote:     at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.flurry.sdk.he.<init>(android.content.Context, com.flurry.sdk.cj) (SourceFile:90)
+              at com.flurry.sdk.he com.flurry.sdk.hj.c() (SourceFile:87)
+              at void com.flurry.sdk.gs.initLayout() (SourceFile:981)
+              at void com.flurry.android.FlurryFullscreenTakeoverActivity.a(com.flurry.sdk.gt) (SourceFile:269)
+              at void com.flurry.android.FlurryFullscreenTakeoverActivity.d() (SourceFile:252)
+I/zygote:     at void com.flurry.android.FlurryFullscreenTakeoverActivity.onStart() (SourceFile:105)
+              at void android.app.Instrumentation.callActivityOnStart(android.app.Activity) (Instrumentation.java:1333)
+              at void android.app.Activity.performStart() (Activity.java:6992)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2780)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+I/zygote:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.flurry.sdk.he.<init>(android.content.Context, com.flurry.sdk.cj) (SourceFile:90)
+              at com.flurry.sdk.he com.flurry.sdk.hj.c() (SourceFile:87)
+              at void com.flurry.sdk.gs.initLayout() (SourceFile:981)
+              at void com.flurry.android.FlurryFullscreenTakeoverActivity.a(com.flurry.sdk.gt) (SourceFile:269)
+              at void com.flurry.android.FlurryFullscreenTakeoverActivity.d() (SourceFile:252)
+              at void com.flurry.android.FlurryFullscreenTakeoverActivity.onStart() (SourceFile:105)
+              at void android.app.Instrumentation.callActivityOnStart(android.app.Activity) (Instrumentation.java:1333)
+              at void android.app.Activity.performStart() (Activity.java:6992)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2780)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+I/zygote:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+I/zygote:     at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.flurry.sdk.he.<init>(android.content.Context, com.flurry.sdk.cj) (SourceFile:90)
+I/zygote:     at com.flurry.sdk.he com.flurry.sdk.hj.c() (SourceFile:87)
+              at void com.flurry.sdk.gs.initLayout() (SourceFile:981)
+              at void com.flurry.android.FlurryFullscreenTakeoverActivity.a(com.flurry.sdk.gt) (SourceFile:269)
+              at void com.flurry.android.FlurryFullscreenTakeoverActivity.d() (SourceFile:252)
+              at void com.flurry.android.FlurryFullscreenTakeoverActivity.onStart() (SourceFile:105)
+              at void android.app.Instrumentation.callActivityOnStart(android.app.Activity) (Instrumentation.java:1333)
+              at void android.app.Activity.performStart() (Activity.java:6992)
+I/zygote:     at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2780)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.flurry.sdk.he.<init>(android.content.Context, com.flurry.sdk.cj) (SourceFile:90)
+              at com.flurry.sdk.he com.flurry.sdk.hj.c() (SourceFile:87)
+              at void com.flurry.sdk.gs.initLayout() (SourceFile:981)
+              at void com.flurry.android.FlurryFullscreenTakeoverActivity.a(com.flurry.sdk.gt) (SourceFile:269)
+I/zygote:     at void com.flurry.android.FlurryFullscreenTakeoverActivity.d() (SourceFile:252)
+              at void com.flurry.android.FlurryFullscreenTakeoverActivity.onStart() (SourceFile:105)
+              at void android.app.Instrumentation.callActivityOnStart(android.app.Activity) (Instrumentation.java:1333)
+              at void android.app.Activity.performStart() (Activity.java:6992)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2780)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+I/zygote:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.flurry.sdk.he.<init>(android.content.Context, com.flurry.sdk.cj) (SourceFile:90)
+              at com.flurry.sdk.he com.flurry.sdk.hj.c() (SourceFile:87)
+              at void com.flurry.sdk.gs.initLayout() (SourceFile:981)
+              at void com.flurry.android.FlurryFullscreenTakeoverActivity.a(com.flurry.sdk.gt) (SourceFile:269)
+              at void com.flurry.android.FlurryFullscreenTakeoverActivity.d() (SourceFile:252)
+              at void com.flurry.android.FlurryFullscreenTakeoverActivity.onStart() (SourceFile:105)
+              at void android.app.Instrumentation.callActivityOnStart(android.app.Activity) (Instrumentation.java:1333)
+              at void android.app.Activity.performStart() (Activity.java:6992)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2780)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+I/zygote:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+I/zygote:     at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.flurry.sdk.he.<init>(android.content.Context, com.flurry.sdk.cj) (SourceFile:90)
+I/zygote:     at com.flurry.sdk.he com.flurry.sdk.hj.c() (SourceFile:87)
+              at void com.flurry.sdk.gs.initLayout() (SourceFile:981)
+              at void com.flurry.android.FlurryFullscreenTakeoverActivity.a(com.flurry.sdk.gt) (SourceFile:269)
+              at void com.flurry.android.FlurryFullscreenTakeoverActivity.d() (SourceFile:252)
+              at void com.flurry.android.FlurryFullscreenTakeoverActivity.onStart() (SourceFile:105)
+              at void android.app.Instrumentation.callActivityOnStart(android.app.Activity) (Instrumentation.java:1333)
+              at void android.app.Activity.performStart() (Activity.java:6992)
+I/zygote:     at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2780)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+I/zygote:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14194,10093)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14194,10093)
+D/: HostConnection::get() New Host Connection established 0x8ac1bd40, tid 14285
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+V/FlurryAgent: action=sendUrlAsync,params=,key=maxRetries,value=1,key=url,value=https://ads.flurry.com/SDK/beacon/v1/beacon.do?id=DkUwHu6_3n3CEp-856KpvI2aiB4GumiQbHITAJsaFIHOc4r3068WpsFuNWdV5limj_mfHmpJ7Yy2QZ4dI7uRicvAhVl1u-Zckvr2BNzcEMiG8tFpw0w39bPHQLn8DZu_wgdmH1yOIpKkJPGQE-23hYh3hzwEoV3eWWnuLc87S4eGgHu6GcLGElsuQRzsWqCkbtX5mGcbf6vBei0glyFqJPVDBP9IcU64EVncxlfcbO-HkFj2C-07TstZrXoLCLjE7bau4302rZXCdwaYDkN_NifPYDXLyj2FDtA5ayrTxHE=,,fTriggeringEvent=event=rendered,params={},adspace=InterstitialTest
+V/FlurryAgent: action=sendUrlAsync,params=,key=maxRetries,value=1,key=url,value=https://tp2.beap.gemini.yahoo.com/mbcsc?bv=1.0.0&es=CCsroeQGIS..ysbtWbNEecGAALoLRyvwaEGV3.DDhYFbvoxCLWkwpK00GUP6x7gSlNs8NywgBPEHTHZhu46aeivXI3ebP9Fytwa4SMibALWYP.v2CzooPlhRVCuL6_0JuoKcJjGoswDIfsL79sno88uUNu5SZwVXUuPl9jpSBKvOvplSwukdf8GthwYk9GE0EI9ci2ASuNfK3YNPkp8JBZoI2meXp91oKoS3gt4JjD8Ba30o5mxniU7XAFQEl6C9WrgC1tpWOT0TSwcyy8XE2k0qsMxr6bnwChc_KQx8ww9K6FUMjh3rh8sTn0cT8rjFrp0KiL5VFXUV6Ucrd94GdW1AnRYsFGdQSL2OboLSq9I5FooPZn30anMkcsOVxVmrp.MCzdZDACEootjOPDt58GgdBQOpmxCJM8SvXKrMX2bHn4FreLsuXfPVUj7cQQdgg5sl&ap=st=i,,fTriggeringEvent=event=rendered,params={},adspace=InterstitialTest
+D/EGL_emulation: eglCreateContext: 0x8d60b6a0: maj 2 min 0 rcv 2
+V/FlurryAgent: action=logEvent,params=,key=__sendToServer,value=false,,fTriggeringEvent=event=rendered,params={},adspace=InterstitialTest
+D/EGL_emulation: eglMakeCurrent: 0x8d60b6a0: ver 2 0 (tinfo 0x8ac44dc0)
+I/zygote: Background concurrent copying GC freed 15752(1175KB) AllocSpace objects, 3(52KB) LOS objects, 49% free, 1951KB/3MB, paused 2.793ms total 203.684ms
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,14194,10093)
+I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+W/cr_MediaCodecUtil: HW encoder for video/avc is not available on this device.
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,14194,10093)
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x8ac5a500: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x8ac5a500: ver 2 0 (tinfo 0x8ac44dc0)
+D/EGL_emulation: eglMakeCurrent: 0x90d9d660: ver 2 0 (tinfo 0xa017f500)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,14194,10093)
+I/chatty: uid=10093(u0_a93) RenderThread identical 1 line
+D/EGL_emulation: eglMakeCurrent: 0x90d9d660: ver 2 0 (tinfo 0xa017f500)
+D/EGL_emulation: eglMakeCurrent: 0x90d9d660: ver 2 0 (tinfo 0xa017f500)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,14194,10093)
+W/cr_media: Requires BLUETOOTH permission
+W/FlurryAgent: Flurry session paused for context:com.flurry.sample.interstitial.InterstitialOnExitActivity@738d7a0
+D/EGL_emulation: eglMakeCurrent: 0x90d9d660: ver 2 0 (tinfo 0xa017f500)
+D/EGL_emulation: eglMakeCurrent: 0x90d9d660: ver 2 0 (tinfo 0xa017f500)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10093(u0_a93) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+V/FlurryAgent: action=closeAd,params=,,fTriggeringEvent=event=adWillClose,params={requiresCallComplete=true},adspace=InterstitialTest
+V/FlurryAgent: action=logEvent,params=,key=__sendToServer,value=false,,fTriggeringEvent=event=adWillClose,params={requiresCallComplete=true},adspace=InterstitialTest
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/FlurryAgent: onViewClose
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10093(u0_a93) RenderThread identical 4 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/FlurryAgent: Flurry session resumed for context:com.flurry.sample.interstitial.InterstitialOnExitActivity@738d7a0
+D/EGL_emulation: eglMakeCurrent: 0x90d9d660: ver 2 0 (tinfo 0xa017f500)
+W/FlurryAgent: Flurry session paused for context:com.flurry.android.FlurryFullscreenTakeoverActivity@5bde427
+D/FlurryAgent: AdClose: Firing ad close.
+D/FlurryAgent: fireEvent(event=adClosed,params={})
+V/FlurryAgent: action=sendUrlAsync,params=,key=maxRetries,value=1,key=url,value=https://ads.flurry.com/SDK/beacon/v1/beacon.do?id=DkUwHu6_3n3CEp-856KpvI2aiB4GumiQbHITAJsaFIHOc4r3068WpsFuNWdV5limj_mfHmpJ7Yy2QZ4dI7uRicvAhVl1u-Zckvr2BNzcEMiG8tFpw0w39bPHQLn8DZu_wgdmH1yOIpKkJPGQE-23hYh3hzwEoV3eWWnuLc87S4dXC-S3r3xqxPPlm_HC3Cb8vc8h17YZv-8oTaux53oRgOhNbPgR5DCpX87-zbIOp9MPC1ZIY2jjwmHLJZNmnAv53nAf1RQflEVeA5HPNHVgj3051cO1V9KPJhYjNgRzA6o=,,fTriggeringEvent=event=adClosed,params={},adspace=InterstitialTest
+V/FlurryAgent: action=logEvent,params=,key=__sendToServer,value=false,,fTriggeringEvent=event=adClosed,params={},adspace=InterstitialTest
+W/FlurryAgent: Flurry session resumed for context:com.flurry.sample.interstitial.MainActivity@2e51877
+D/EGL_emulation: eglMakeCurrent: 0x90d9d660: ver 2 0 (tinfo 0xa017f500)
+W/FlurryAgent: Flurry session paused for context:com.flurry.sample.interstitial.InterstitialOnExitActivity@738d7a0
+I/MainActivity: Loading full screen ad
+D/FlurryAgent: InterstitialAdObject created: com.flurry.sdk.u@2d26b8d
+D/FlurryAgent: InterstitialAdObject ready to fetch ad: com.flurry.sdk.u@2d26b8d
+D/EGL_emulation: eglMakeCurrent: 0x90d9d660: ver 2 0 (tinfo 0xa017f500)
+D/EGL_emulation: eglMakeCurrent: 0x90d9d660: ver 2 0 (tinfo 0xa017f500)
+E/MainActivity: Full screen ad load error - Error type: FETCH Code: 20
+I/MainActivity: Loading full screen ad
+D/FlurryAgent: InterstitialAdObject created: com.flurry.sdk.u@fbb76b4
+D/FlurryAgent: InterstitialAdObject ready to fetch ad: com.flurry.sdk.u@fbb76b4
+W/cr_ChildProcessConn: onServiceDisconnected (crash or killed by oom): pid=14241
+D/EGL_emulation: eglMakeCurrent: 0x8ac5a500: ver 2 0 (tinfo 0x8ac44dc0)
+E/MainActivity: Full screen ad load error - Error type: FETCH Code: 20
+I/zygote: Do full code cache collection, code=250KB, data=177KB
+          After code cache collection, code=249KB, data=141KB
+I/MainActivity: Loading full screen ad
+D/FlurryAgent: InterstitialAdObject created: com.flurry.sdk.u@46fc7c
+               InterstitialAdObject ready to fetch ad: com.flurry.sdk.u@46fc7c
+E/MainActivity: Full screen ad load error - Error type: FETCH Code: 20
+D/EGL_emulation: eglMakeCurrent: 0x90d9d660: ver 2 0 (tinfo 0xa017f500)
+D/EGL_emulation: eglMakeCurrent: 0x90d9d660: ver 2 0 (tinfo 0xa017f500)
+W/FlurryAgent: Flurry session paused for context:com.flurry.sample.interstitial.MainActivity@2e51877
+D/FlurryAgent: InterstitialAdObject ready to destroy: com.flurry.sdk.u@46fc7c
+D/FlurryAgent: InterstitialAdObject destroyed: null
+
+09/03 14:37:46: Launching mopub
+$ adb install-multiple -r -t C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\mopub\build\intermediates\split-apk\debug\dep\dependencies.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\mopub\build\intermediates\split-apk\debug\slices\slice_4.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\mopub\build\intermediates\split-apk\debug\slices\slice_2.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\mopub\build\intermediates\split-apk\debug\slices\slice_5.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\mopub\build\intermediates\split-apk\debug\slices\slice_3.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\mopub\build\intermediates\split-apk\debug\slices\slice_0.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\mopub\build\intermediates\split-apk\debug\slices\slice_6.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\mopub\build\intermediates\split-apk\debug\slices\slice_1.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\mopub\build\intermediates\split-apk\debug\slices\slice_7.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\mopub\build\intermediates\split-apk\debug\slices\slice_8.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\mopub\build\intermediates\split-apk\debug\slices\slice_9.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\mopub\build\intermediates\instant-run-apk\debug\mopub-debug.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\mopub\build\intermediates\resources\instant-run\debug\resources-debug.apk 
+Split APKs installed
+$ adb shell am start -n "com.flurry.sample.mopub/com.flurry.sample.mopub.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.flurry.sample.mopub | com.flurry.sample.mopub.test
+Waiting for application to come online: com.flurry.sample.mopub | com.flurry.sample.mopub.test
+Connecting to com.flurry.sample.mopub
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/zygote: Not late-enabling -Xcheck:jni (already on)
+W/zygote: Unexpected CPU variant for X86 using defaults: x86
+W/ActivityThread: Application com.flurry.sample.mopub is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+I/zygote: Debugger is active
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+Connected to the target VM, address: 'localhost:8605', transport: 'socket'
+I/chatty: uid=10108(u0_a108) com.flurry.sample.mopub identical 2 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1483)
+I/InstantRun: starting instant run server: is main process
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+I/cr_LibraryLoader: Time to load native libraries: 23 ms (timestamps 230-253)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.flurry.sample.mopub/app_webview/variations_seed_new": /data/user/0/com.flurry.sample.mopub/app_webview/variations_seed_new (No such file or directory)
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.flurry.sample.mopub/app_webview/variations_seed": /data/user/0/com.flurry.sample.mopub/app_webview/variations_seed (No such file or directory)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14473,10108)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14473,10108)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14473,10108)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14473,10108)
+D/OpenGLRenderer: HWUI GL Pipeline
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14473,10108)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14473,10108)
+D/: HostConnection::get() New Host Connection established 0x90661b80, tid 14543
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0x90644080: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x90644080: ver 2 0 (tinfo 0x9063b600)
+D/EGL_emulation: eglMakeCurrent: 0x90644080: ver 2 0 (tinfo 0x9063b600)
+W/cr_CrashFileManager: /data/user/0/com.flurry.sample.mopub/cache/WebView/Crash Reports does not exist or is not a directory
+I/zygote: Do partial code cache collection, code=24KB, data=28KB
+I/zygote: After code cache collection, code=24KB, data=28KB
+          Increasing code cache capacity to 128KB
+D/MoPub: Failed to retrieve GPS location: access appears to be disabled.
+D/MoPub: Failed to retrieve network location: access appears to be disabled.
+D/MoPub: Loading url: http://ads.mopub.com/m/ad?v=6&id=MOPUB_BANNER_AD_UNIT_ID&nv=4.2.0&dn=Google%2CAndroid%20SDK%20built%20for%20x86%2Csdk_gphone_x86&bundle=com.flurry.sample.mopub&z=%2B0000&o=p&w=1080&h=1920&sc_a=2.625&mcc=310&mnc=260&iso=us&cn=Android&ct=2&av=1.0&udid=mp_tmpl_advertising_id&dnt=mp_tmpl_do_not_track&mr=1&android_perms_ext_storage=0
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at java.lang.String com.mopub.network.Networking.getUserAgent(android.content.Context) (Networking.java:132)
+              at com.mopub.network.MoPubRequestQueue com.mopub.network.Networking.getRequestQueue(android.content.Context) (Networking.java:61)
+              at void com.mopub.mobileads.AdViewController.fetchAd(java.lang.String) (AdViewController.java:444)
+              at void com.mopub.mobileads.AdViewController.loadNonJavascript(java.lang.String) (AdViewController.java:250)
+              at void com.mopub.mobileads.AdViewController.internalLoadAd() (AdViewController.java:233)
+              at void com.mopub.mobileads.AdViewController.loadAd() (AdViewController.java:215)
+              at void com.mopub.mobileads.MoPubView.loadAd() (MoPubView.java:110)
+              at void com.flurry.sample.mopub.MainActivity$1.onItemClick(android.widget.AdapterView, android.view.View, int, long) (MainActivity.java:65)
+              at boolean android.widget.AdapterView.performItemClick(android.view.View, int, long) (AdapterView.java:318)
+              at boolean android.widget.AbsListView.performItemClick(android.view.View, int, long) (AbsListView.java:1165)
+              at void android.widget.AbsListView$PerformClick.run() (AbsListView.java:3134)
+              at void android.widget.AbsListView$3.run() (AbsListView.java:4049)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+I/zygote:     at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+I/zygote:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at java.lang.String com.mopub.network.Networking.getUserAgent(android.content.Context) (Networking.java:132)
+              at com.mopub.network.MoPubRequestQueue com.mopub.network.Networking.getRequestQueue(android.content.Context) (Networking.java:61)
+              at void com.mopub.mobileads.AdViewController.fetchAd(java.lang.String) (AdViewController.java:444)
+I/zygote:     at void com.mopub.mobileads.AdViewController.loadNonJavascript(java.lang.String) (AdViewController.java:250)
+              at void com.mopub.mobileads.AdViewController.internalLoadAd() (AdViewController.java:233)
+              at void com.mopub.mobileads.AdViewController.loadAd() (AdViewController.java:215)
+              at void com.mopub.mobileads.MoPubView.loadAd() (MoPubView.java:110)
+              at void com.flurry.sample.mopub.MainActivity$1.onItemClick(android.widget.AdapterView, android.view.View, int, long) (MainActivity.java:65)
+              at boolean android.widget.AdapterView.performItemClick(android.view.View, int, long) (AdapterView.java:318)
+              at boolean android.widget.AbsListView.performItemClick(android.view.View, int, long) (AbsListView.java:1165)
+              at void android.widget.AbsListView$PerformClick.run() (AbsListView.java:3134)
+              at void android.widget.AbsListView$3.run() (AbsListView.java:4049)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+I/zygote:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at java.lang.String com.mopub.network.Networking.getUserAgent(android.content.Context) (Networking.java:132)
+              at com.mopub.network.MoPubRequestQueue com.mopub.network.Networking.getRequestQueue(android.content.Context) (Networking.java:61)
+              at void com.mopub.mobileads.AdViewController.fetchAd(java.lang.String) (AdViewController.java:444)
+              at void com.mopub.mobileads.AdViewController.loadNonJavascript(java.lang.String) (AdViewController.java:250)
+              at void com.mopub.mobileads.AdViewController.internalLoadAd() (AdViewController.java:233)
+              at void com.mopub.mobileads.AdViewController.loadAd() (AdViewController.java:215)
+              at void com.mopub.mobileads.MoPubView.loadAd() (MoPubView.java:110)
+              at void com.flurry.sample.mopub.MainActivity$1.onItemClick(android.widget.AdapterView, android.view.View, int, long) (MainActivity.java:65)
+              at boolean android.widget.AdapterView.performItemClick(android.view.View, int, long) (AdapterView.java:318)
+              at boolean android.widget.AbsListView.performItemClick(android.view.View, int, long) (AbsListView.java:1165)
+              at void android.widget.AbsListView$PerformClick.run() (AbsListView.java:3134)
+              at void android.widget.AbsListView$3.run() (AbsListView.java:4049)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at java.lang.String com.mopub.network.Networking.getUserAgent(android.content.Context) (Networking.java:132)
+              at com.mopub.network.MoPubRequestQueue com.mopub.network.Networking.getRequestQueue(android.content.Context) (Networking.java:61)
+              at void com.mopub.mobileads.AdViewController.fetchAd(java.lang.String) (AdViewController.java:444)
+              at void com.mopub.mobileads.AdViewController.loadNonJavascript(java.lang.String) (AdViewController.java:250)
+              at void com.mopub.mobileads.AdViewController.internalLoadAd() (AdViewController.java:233)
+              at void com.mopub.mobileads.AdViewController.loadAd() (AdViewController.java:215)
+              at void com.mopub.mobileads.MoPubView.loadAd() (MoPubView.java:110)
+              at void com.flurry.sample.mopub.MainActivity$1.onItemClick(android.widget.AdapterView, android.view.View, int, long) (MainActivity.java:65)
+              at boolean android.widget.AdapterView.performItemClick(android.view.View, int, long) (AdapterView.java:318)
+              at boolean android.widget.AbsListView.performItemClick(android.view.View, int, long) (AbsListView.java:1165)
+              at void android.widget.AbsListView$PerformClick.run() (AbsListView.java:3134)
+              at void android.widget.AbsListView$3.run() (AbsListView.java:4049)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at java.lang.String com.mopub.network.Networking.getUserAgent(android.content.Context) (Networking.java:132)
+              at com.mopub.network.MoPubRequestQueue com.mopub.network.Networking.getRequestQueue(android.content.Context) (Networking.java:61)
+              at void com.mopub.mobileads.AdViewController.fetchAd(java.lang.String) (AdViewController.java:444)
+              at void com.mopub.mobileads.AdViewController.loadNonJavascript(java.lang.String) (AdViewController.java:250)
+              at void com.mopub.mobileads.AdViewController.internalLoadAd() (AdViewController.java:233)
+              at void com.mopub.mobileads.AdViewController.loadAd() (AdViewController.java:215)
+              at void com.mopub.mobileads.MoPubView.loadAd() (MoPubView.java:110)
+              at void com.flurry.sample.mopub.MainActivity$1.onItemClick(android.widget.AdapterView, android.view.View, int, long) (MainActivity.java:65)
+              at boolean android.widget.AdapterView.performItemClick(android.view.View, int, long) (AdapterView.java:318)
+              at boolean android.widget.AbsListView.performItemClick(android.view.View, int, long) (AbsListView.java:1165)
+              at void android.widget.AbsListView$PerformClick.run() (AbsListView.java:3134)
+              at void android.widget.AbsListView$3.run() (AbsListView.java:4049)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+I/zygote:     at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at java.lang.String com.mopub.network.Networking.getUserAgent(android.content.Context) (Networking.java:132)
+              at com.mopub.network.MoPubRequestQueue com.mopub.network.Networking.getRequestQueue(android.content.Context) (Networking.java:61)
+              at void com.mopub.mobileads.AdViewController.fetchAd(java.lang.String) (AdViewController.java:444)
+              at void com.mopub.mobileads.AdViewController.loadNonJavascript(java.lang.String) (AdViewController.java:250)
+              at void com.mopub.mobileads.AdViewController.internalLoadAd() (AdViewController.java:233)
+              at void com.mopub.mobileads.AdViewController.loadAd() (AdViewController.java:215)
+              at void com.mopub.mobileads.MoPubView.loadAd() (MoPubView.java:110)
+              at void com.flurry.sample.mopub.MainActivity$1.onItemClick(android.widget.AdapterView, android.view.View, int, long) (MainActivity.java:65)
+              at boolean android.widget.AdapterView.performItemClick(android.view.View, int, long) (AdapterView.java:318)
+              at boolean android.widget.AbsListView.performItemClick(android.view.View, int, long) (AbsListView.java:1165)
+              at void android.widget.AbsListView$PerformClick.run() (AbsListView.java:3134)
+              at void android.widget.AbsListView$3.run() (AbsListView.java:4049)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14473,10108)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14473,10108)
+D/MoPub: Unable to calculate 2% of available disk space, defaulting to minimum
+I/Choreographer: Skipped 33 frames!  The application may be doing too much work on its main thread.
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+D/MoPub: Failed to retrieve GPS location: access appears to be disabled.
+D/MoPub: Failed to retrieve network location: access appears to be disabled.
+D/MoPub: Loading url: http://ads.mopub.com/m/ad?v=6&id=MOPUB_INTERSTITIAL_AD_UNIT_ID&nv=4.2.0&dn=Google%2CAndroid%20SDK%20built%20for%20x86%2Csdk_gphone_x86&bundle=com.flurry.sample.mopub&z=%2B0000&o=p&w=1080&h=1920&sc_a=2.625&mcc=310&mnc=260&iso=us&cn=Android&ct=2&av=1.0&udid=mp_tmpl_advertising_id&dnt=mp_tmpl_do_not_track&mr=1&android_perms_ext_storage=0
+D/EGL_emulation: eglMakeCurrent: 0x90644080: ver 2 0 (tinfo 0x9063b600)
+D/EGL_emulation: eglMakeCurrent: 0x90644080: ver 2 0 (tinfo 0x9063b600)
+I/MoPub: Ad failed to load.
+W/MainActivity: Banner ad failed to load. Error code: Ad unit is warming up. Try again in a few minutes.
+I/MoPub: Ad failed to load.
+W/MainActivity: Interstitial ad failed to load. Error code: Ad unit is warming up. Try again in a few minutes.
+I/zygote: Do partial code cache collection, code=61KB, data=61KB
+I/zygote: After code cache collection, code=61KB, data=61KB
+          Increasing code cache capacity to 256KB
+D/MoPub: Failed to retrieve GPS location: access appears to be disabled.
+D/MoPub: Failed to retrieve network location: access appears to be disabled.
+D/MoPub: Loading ad from: http://ads.mopub.com/m/ad?id=MOPUB_NATIVE_AD_UNIT_ID&nsv=4.2.0&dn=Google%2CAndroid%20SDK%20built%20for%20x86%2Csdk_gphone_x86&bundle=com.flurry.sample.mopub&z=%2B0000&o=p&w=1080&h=1920&sc_a=2.625&mcc=310&mnc=260&iso=us&cn=Android&ct=2&av=1.0&udid=mp_tmpl_advertising_id&dnt=mp_tmpl_do_not_track&MAGIC_NO=0
+I/zygote: Do full code cache collection, code=64KB, data=90KB
+I/zygote: After code cache collection, code=40KB, data=47KB
+D/EGL_emulation: eglMakeCurrent: 0x90644080: ver 2 0 (tinfo 0x9063b600)
+D/EGL_emulation: eglMakeCurrent: 0x90644080: ver 2 0 (tinfo 0x9063b600)
+D/EGL_emulation: eglMakeCurrent: 0x90644080: ver 2 0 (tinfo 0x9063b600)
+D/EGL_emulation: eglMakeCurrent: 0x90644080: ver 2 0 (tinfo 0x9063b600)
+D/MoPub: Native ad request failed.
+         com.mopub.network.MoPubNetworkError: Ad Unit is warming up.
+             at com.mopub.network.AdRequest.parseNetworkResponse(AdRequest.java:111)
+             at com.mopub.volley.NetworkDispatcher.run(NetworkDispatcher.java:123)
+D/MoPub: Refresh disabled for ad unit (MOPUB_BANNER_AD_UNIT_ID).
+D/EGL_emulation: eglMakeCurrent: 0x90644080: ver 2 0 (tinfo 0x9063b600)
+D/EGL_emulation: eglMakeCurrent: 0x90644080: ver 2 0 (tinfo 0x9063b600)
+D/MoPub: Refresh enabled for ad unit (MOPUB_BANNER_AD_UNIT_ID).
+D/EGL_emulation: eglMakeCurrent: 0x90644080: ver 2 0 (tinfo 0x9063b600)
+I/chatty: uid=10108(u0_a108) RenderThread identical 5 lines
+D/EGL_emulation: eglMakeCurrent: 0x90644080: ver 2 0 (tinfo 0x9063b600)
+D/MoPub: Failed to retrieve GPS location: access appears to be disabled.
+D/MoPub: Failed to retrieve network location: access appears to be disabled.
+D/MoPub: Loading url: http://ads.mopub.com/m/ad?v=6&id=MOPUB_BANNER_AD_UNIT_ID&nv=4.2.0&dn=Google%2CAndroid%20SDK%20built%20for%20x86%2Csdk_gphone_x86&bundle=com.flurry.sample.mopub&z=%2B0000&o=p&w=1080&h=1920&sc_a=2.625&mcc=310&mnc=260&iso=us&cn=Android&ct=2&av=1.0&udid=mp_tmpl_advertising_id&dnt=mp_tmpl_do_not_track&mr=1&android_perms_ext_storage=0
+I/MoPub: Ad failed to load.
+W/MainActivity: Banner ad failed to load. Error code: Ad unit is warming up. Try again in a few minutes.
+D/MoPub: Failed to retrieve GPS location: access appears to be disabled.
+D/MoPub: Failed to retrieve network location: access appears to be disabled.
+D/MoPub: Loading ad from: http://ads.mopub.com/m/ad?id=MOPUB_NATIVE_AD_UNIT_ID&nsv=4.2.0&dn=Google%2CAndroid%20SDK%20built%20for%20x86%2Csdk_gphone_x86&bundle=com.flurry.sample.mopub&z=%2B0000&o=p&w=1080&h=1920&sc_a=2.625&mcc=310&mnc=260&iso=us&cn=Android&ct=2&av=1.0&udid=mp_tmpl_advertising_id&dnt=mp_tmpl_do_not_track&MAGIC_NO=0
+D/EGL_emulation: eglMakeCurrent: 0x90644080: ver 2 0 (tinfo 0x9063b600)
+D/EGL_emulation: eglMakeCurrent: 0x90644080: ver 2 0 (tinfo 0x9063b600)
+D/MoPub: Native ad request failed.
+         com.mopub.network.MoPubNetworkError: Ad Unit is warming up.
+             at com.mopub.network.AdRequest.parseNetworkResponse(AdRequest.java:111)
+             at com.mopub.volley.NetworkDispatcher.run(NetworkDispatcher.java:123)
+D/EGL_emulation: eglMakeCurrent: 0x90644080: ver 2 0 (tinfo 0x9063b600)
+D/EGL_emulation: eglMakeCurrent: 0x90644080: ver 2 0 (tinfo 0x9063b600)
+D/MoPub: Refresh disabled for ad unit (MOPUB_BANNER_AD_UNIT_ID).
+D/EGL_emulation: eglMakeCurrent: 0x90644080: ver 2 0 (tinfo 0x9063b600)
+Disconnected from the target VM, address: 'localhost:8605', transport: 'socket'
+
+09/03 14:38:48: Launching banner
+$ adb install-multiple -r -t C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\banner\build\intermediates\split-apk\debug\dep\dependencies.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\banner\build\intermediates\split-apk\debug\slices\slice_6.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\banner\build\intermediates\split-apk\debug\slices\slice_1.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\banner\build\intermediates\split-apk\debug\slices\slice_9.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\banner\build\intermediates\split-apk\debug\slices\slice_3.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\banner\build\intermediates\split-apk\debug\slices\slice_5.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\banner\build\intermediates\split-apk\debug\slices\slice_0.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\banner\build\intermediates\split-apk\debug\slices\slice_4.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\banner\build\intermediates\split-apk\debug\slices\slice_2.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\banner\build\intermediates\split-apk\debug\slices\slice_7.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\banner\build\intermediates\split-apk\debug\slices\slice_8.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\banner\build\intermediates\instant-run-apk\debug\banner-debug.apk C:\Users\Sheng\Desktop\android library\Flurry\android-AdIntegrationSamples-master\banner\build\intermediates\resources\instant-run\debug\resources-debug.apk 
+Split APKs installed
+$ adb shell am start -n "com.flurry.sample.banner/com.flurry.sample.banner.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.flurry.sample.banner.test | com.flurry.sample.banner
+Waiting for application to come online: com.flurry.sample.banner.test | com.flurry.sample.banner
+Waiting for application to come online: com.flurry.sample.banner.test | com.flurry.sample.banner
+Waiting for application to come online: com.flurry.sample.banner.test | com.flurry.sample.banner
+Waiting for application to come online: com.flurry.sample.banner.test | com.flurry.sample.banner
+Connecting to com.flurry.sample.banner
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/zygote: Debugger is active
+Connected to the target VM, address: 'localhost:8605', transport: 'socket'
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+I/chatty: uid=10109(u0_a109) com.flurry.sample.banner identical 7 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1403)
+I/InstantRun: starting instant run server: is main process
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+I/BannerSampleApplication: Flurry SDK initialized
+D/OpenGLRenderer: HWUI GL Pipeline
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bu>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/AdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.AdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/base.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_5_apk.apk", zip file "/data/app/com.flurry.sampl
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bu>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/AdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.AdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/base.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_5_apk.apk", zip file "/data/app/com.flurry.sampl
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bu>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/AdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+I/zygote:     at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.AdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/base.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_5_apk.apk", zip file "/data/app/com.flurry.sampl
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bw>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/InterstitialAdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+I/zygote:     at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+I/zygote:     at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.InterstitialAdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/base.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_5_apk.apk", zip file "/data/app/com.
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+I/zygote:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+I/zygote:     at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+I/zygote:     at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bw>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/InterstitialAdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+I/zygote:     at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.InterstitialAdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/base.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_5_apk.apk", zip file "/data/app/com.
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Rejecting re-init on previously-failed class java.lang.Class<com.flurry.sdk.bw>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/ads/InterstitialAdListener;
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+I/zygote:     at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.ads.InterstitialAdListener" on path: DexPathList[[zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/base.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_dependencies_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_resources_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_0_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_1_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_2_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_3_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_4_apk.apk", zip file "/data/app/com.flurry.sample.banner-4djAoQ3_hRkbJliGYDYcVw==/split_lib_slice_5_apk.apk", zip file "/data/app/com.
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at java.util.Map com.flurry.sdk.bs.a() (SourceFile:89)
+              at void com.flurry.sdk.bs.<clinit>() (SourceFile:41)
+              at java.util.Map com.flurry.sdk.gz.a() (SourceFile:58)
+              at void com.flurry.sdk.gz.<clinit>() (SourceFile:33)
+              at void com.flurry.sdk.dx.a(com.flurry.sdk.lf, android.content.Context) (SourceFile:125)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.lg) (SourceFile:76)
+              at void com.flurry.sdk.dx$1.a(com.flurry.sdk.ka) (SourceFile:67)
+              at void com.flurry.sdk.kc$1.a() (SourceFile:136)
+              at void com.flurry.sdk.ly.run() (SourceFile:49)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.os.HandlerThread.run() (HandlerThread.java:65)
+D/: HostConnection::get() New Host Connection established 0x90a72200, tid 14752
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0x9ff54180: maj 2 min 0 rcv 2
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+D/EGL_emulation: eglMakeCurrent: 0x9ff54180: ver 2 0 (tinfo 0xa017f4c0)
+I/cr_LibraryLoader: Time to load native libraries: 17 ms (timestamps 5499-5516)
+D/EGL_emulation: eglMakeCurrent: 0x9ff54180: ver 2 0 (tinfo 0xa017f4c0)
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.flurry.sample.banner/app_webview/variations_seed_new": /data/user/0/com.flurry.sample.banner/app_webview/variations_seed_new (No such file or directory)
+                      Failed reading seed file "/data/user/0/com.flurry.sample.banner/app_webview/variations_seed": /data/user/0/com.flurry.sample.banner/app_webview/variations_seed (No such file or directory)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14722,10109)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14722,10109)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+I/zygote: Background concurrent copying GC freed 10259(1045KB) AllocSpace objects, 2(40KB) LOS objects, 56% free, 1182KB/2MB, paused 6.874ms total 37.220ms
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14722,10109)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14722,10109)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14722,10109)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14722,10109)
+W/cr_CrashFileManager: /data/user/0/com.flurry.sample.banner/cache/WebView/Crash Reports does not exist or is not a directory
+I/zygote: Do partial code cache collection, code=30KB, data=23KB
+          After code cache collection, code=30KB, data=23KB
+          Increasing code cache capacity to 128KB
+I/MainActivity: Fetching banner ad
+E/MainActivity: Banner ad load error - Error type: FETCH Code: 20
+I/MainActivity: Fetching banner ad
+I/zygote: Do partial code cache collection, code=60KB, data=45KB
+I/zygote: After code cache collection, code=60KB, data=45KB
+          Increasing code cache capacity to 256KB
+E/MainActivity: Banner ad load error - Error type: FETCH Code: 20
+D/EGL_emulation: eglMakeCurrent: 0x9ff54180: ver 2 0 (tinfo 0xa017f4c0)
+I/chatty: uid=10109(u0_a109) RenderThread identical 11 lines
+D/EGL_emulation: eglMakeCurrent: 0x9ff54180: ver 2 0 (tinfo 0xa017f4c0)
+I/MainActivity: Fetching banner ad
+E/MainActivity: Banner ad load error - Error type: FETCH Code: 20
+I/zygote: Do full code cache collection, code=80KB, data=99KB
+          After code cache collection, code=63KB, data=59KB
+D/EGL_emulation: eglMakeCurrent: 0x9ff54180: ver 2 0 (tinfo 0xa017f4c0)
+I/chatty: uid=10109(u0_a109) RenderThread identical 16 lines
+D/EGL_emulation: eglMakeCurrent: 0x9ff54180: ver 2 0 (tinfo 0xa017f4c0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x90992780 (ListPopupWindow$DropDownListView) with handle 0x8a7268e0
+D/EGL_emulation: eglMakeCurrent: 0x9ff54180: ver 2 0 (tinfo 0xa017f4c0)
+I/MainActivity: Fetching banner ad
+E/MainActivity: Banner ad load error - Error type: FETCH Code: 20
+D/EGL_emulation: eglMakeCurrent: 0x9ff54180: ver 2 0 (tinfo 0xa017f4c0)
+Disconnected from the target VM, address: 'localhost:8605', transport: 'socket'

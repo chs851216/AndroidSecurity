@@ -1,0 +1,1200 @@
+
+09/03 13:46:51: Launching Android-Demo-App
+$ adb install-multiple -r -t C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_4.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\dep\dependencies.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_5.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_6.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_8.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_9.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_2.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_7.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\resources\instant-run\debug\resources-debug.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_3.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_1.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_0.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\instant-run-apk\debug\Android-Demo-App-debug.apk 
+Split APKs installed
+$ adb shell am start -n "com.applovin.apps.demoapp/com.applovin.apps.demoapp.SplashActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.applovin.apps.demoapp.test | com.applovin.apps.demoapp
+Waiting for application to come online: com.applovin.apps.demoapp.test | com.applovin.apps.demoapp
+Waiting for application to come online: com.applovin.apps.demoapp.test | com.applovin.apps.demoapp
+Connecting to com.applovin.apps.demoapp
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/zygote: Not late-enabling -Xcheck:jni (already on)
+W/zygote: Unexpected CPU variant for X86 using defaults: x86
+I/zygote: Background concurrent copying GC freed 3005(1431KB) AllocSpace objects, 0(0B) LOS objects, 82% free, 328KB/1864KB, paused 42.421ms total 103.648ms
+W/ActivityThread: Application com.applovin.apps.demoapp is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+I/zygote: Debugger is active
+Connected to the target VM, address: 'localhost:8604', transport: 'socket'
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 1 line
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 2 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1439)
+I/MultiDex: VM with version 2.1.0 has multidex support
+I/MultiDex: Installing application
+            VM has multidex support, MultiDex support library is disabled.
+I/InstantRun: starting instant run server: is main process
+I/zygote: Do partial code cache collection, code=9KB, data=9KB
+I/zygote: After code cache collection, code=9KB, data=9KB
+I/zygote: Increasing code cache capacity to 128KB
+D/OpenGLRenderer: HWUI GL Pipeline
+D/: HostConnection::get() New Host Connection established 0xa26e4e40, tid 16570
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0xa27052a0: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/AppLovinSdk: SDK has been updated since last run. Continuing...
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+I/zygote: Do partial code cache collection, code=45KB, data=58KB
+I/zygote: After code cache collection, code=42KB, data=57KB
+          Increasing code cache capacity to 256KB
+I/zygote: JIT allocated 56KB for compiled code of void android.view.View.<init>(android.content.Context, android.util.AttributeSet, int, int)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/zygote: Do full code cache collection, code=99KB, data=77KB
+I/zygote: After code cache collection, code=73KB, data=43KB
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/chatty: uid=10106(u0_a106) RenderThread identical 8 lines
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/zygote: Do partial code cache collection, code=118KB, data=63KB
+I/zygote: After code cache collection, code=116KB, data=63KB
+          Increasing code cache capacity to 512KB
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/chatty: uid=10106(u0_a106) RenderThread identical 5 lines
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/Choreographer: Skipped 51 frames!  The application may be doing too much work on its main thread.
+W/ViewRootImpl[RewardedVideosDemoMenuActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-4.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=6829197, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl[RewardedVideosDemoMenuActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6829205, downTime=6829088, deviceId=0, source=0x10004 }
+                                                Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6829206, downTime=6829088, deviceId=0, source=0x10004 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 5 lines
+W/ViewRootImpl[RewardedVideosDemoMenuActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6829206, downTime=6829088, deviceId=0, source=0x10004 }
+W/ViewRootImpl[RewardedVideosDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6829231, downTime=6829231, deviceId=-1, source=0x101 }
+W/ViewRootImpl[RewardedVideosDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6829268, downTime=6829268, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[RewardedVideosDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6829293, downTime=6829293, deviceId=-1, source=0x101 }
+W/ViewRootImpl[RewardedVideosDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6829294, downTime=6829294, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/chatty: uid=10106(u0_a106) RenderThread identical 1 line
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x9ff57280 (ListView) with handle 0xa2703940
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[RewardedVideosActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=4.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=6829720, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[RewardedVideosActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6829722, downTime=6829722, deviceId=-1, source=0x101 }
+W/ViewRootImpl[RewardedVideosActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6829803, downTime=6829803, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/System.out: Rewarded video loading...
+I/zygote: Do full code cache collection, code=249KB, data=180KB
+I/zygote: After code cache collection, code=230KB, data=129KB
+I/System.out: Rewarded video loading...
+I/zygote: Do partial code cache collection, code=246KB, data=150KB
+I/zygote: After code cache collection, code=246KB, data=150KB
+          Increasing code cache capacity to 1024KB
+W/ViewRootImpl[RewardedVideosDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6833192, downTime=6833192, deviceId=-1, source=0x101 }
+W/ViewRootImpl[RewardedVideosDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6833276, downTime=6833276, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 7 lines
+W/ViewRootImpl[RewardedVideosDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6833276, downTime=6833276, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8ede5300 (AppCompatButton) with handle 0xa2703920
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[RewardedVideosActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6835418, downTime=6835418, deviceId=-1, source=0x101 }
+W/ViewRootImpl[RewardedVideosActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6835525, downTime=6835525, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/System.out: Rewarded video loading...
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[RewardedVideosDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6836103, downTime=6836103, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[RewardedVideosDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6836140, downTime=6836140, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6836454, downTime=6836454, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6836563, downTime=6836563, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 1 line
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6836563, downTime=6836563, deviceId=-1, source=0x101 }
+W/ViewRootImpl[RewardedVideosDemoMenuActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=1.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=6836943, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/zygote: JIT allocated 71KB for compiled code of void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+I/zygote: Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[RewardedVideosActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6837427, downTime=6837427, deviceId=-1, source=0x101 }
+                                        Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6837555, downTime=6837555, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/zygote: Do full code cache collection, code=495KB, data=310KB
+I/zygote: After code cache collection, code=465KB, data=253KB
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[RewardedVideosActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6837651, downTime=6837651, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/chatty: uid=10106(u0_a106) RenderThread identical 1 line
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8fc14800 (ListView) with handle 0x8ef07640
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/System.out: Rewarded video loading...
+I/System.out: Rewarded video loading...
+I/System.out: Rewarded video loading...
+I/System.out: Rewarded video failed to load with error code -100
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 4 lines
+I/System.out: Rewarded video failed to load with error code -100
+I/zygote: Do partial code cache collection, code=496KB, data=288KB
+I/zygote: After code cache collection, code=496KB, data=288KB
+          Increasing code cache capacity to 2MB
+I/System.out: Rewarded video loading...
+I/System.out: Rewarded video loading...
+I/System.out: Rewarded video loading...
+W/ViewRootImpl[RewardedVideosActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6852341, downTime=6852341, deviceId=-1, source=0x101 }
+I/System.out: Rewarded video loading...
+I/System.out: Rewarded video loading...
+I/System.out: Rewarded video failed to load with error code -100
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 3 lines
+I/System.out: Rewarded video failed to load with error code -100
+I/System.out: Rewarded video loading...
+I/System.out: Rewarded video loading...
+I/System.out: Rewarded video loading...
+W/ViewRootImpl[RewardedVideosDemoMenuActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-1.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=8, eventTime=6854813, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[RewardedVideosDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TV_AUDIO_DESCRIPTION, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6854815, downTime=6854815, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8fca2d80 (AppCompatButton) with handle 0xa2763a90
+W/ViewRootImpl[RewardedVideosActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6855525, downTime=6855525, deviceId=-1, source=0x101 }
+W/ViewRootImpl[RewardedVideosActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6855623, downTime=6855623, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[RewardedVideosActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6855725, downTime=6855725, deviceId=-1, source=0x101 }
+W/ViewRootImpl[RewardedVideosActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6855727, downTime=6855727, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[RewardedVideosDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CUT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6856463, downTime=6856463, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[RewardedVideosDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CUT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6856479, downTime=6856479, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x9ff58e80 (AppCompatButton) with handle 0xa2703fa0
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HELP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6857587, downTime=6857587, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HELP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6857629, downTime=6857629, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/chatty: uid=10106(u0_a106) RenderThread identical 7 lines
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[RewardedVideosZoneActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6857687, downTime=6857687, deviceId=-1, source=0x101 }
+W/ViewRootImpl[RewardedVideosZoneActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6857988, downTime=6857988, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 4 lines
+W/ViewRootImpl[RewardedVideosZoneActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6857988, downTime=6857988, deviceId=-1, source=0x101 }
+W/ViewRootImpl[RewardedVideosZoneActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6858141, downTime=6858141, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/chatty: uid=10106(u0_a106) RenderThread identical 1 line
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8fc14800 (ListView) with handle 0xa2763ac0
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/System.out: Rewarded video loading...
+I/System.out: Rewarded video loading...
+W/OkHttpClient: A connection to https://a.applovin.com/ was leaked. Did you forget to close a response body?
+                A connection to https://a.applvn.com/ was leaked. Did you forget to close a response body?
+W/OkHttpClient: A connection to https://a.applovin.com/ was leaked. Did you forget to close a response body?
+                A connection to https://a.applvn.com/ was leaked. Did you forget to close a response body?
+                A connection to https://a.applovin.com/ was leaked. Did you forget to close a response body?
+I/System.out: Rewarded video loading...
+I/System.out: Rewarded video loading...
+I/System.out: Rewarded video loading...
+I/System.out: Rewarded video loading...
+I/System.out: Rewarded video loading...
+I/System.out: Rewarded video loading...
+I/System.out: Rewarded video loading...
+I/System.out: Rewarded video failed to load with error code -100
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 1 line
+I/System.out: Rewarded video failed to load with error code -100
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-5.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=6864951, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6864952, downTime=6864952, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/OpenGLRenderer: endAllActiveAnimators on 0xa0106480 (AppCompatButton) with handle 0x8f541090
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/chatty: uid=10106(u0_a106) RenderThread identical 1 line
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x9ff57280 (ListView) with handle 0xa2763da0
+I/System.out: Rewarded video failed to load with error code -100
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+I/cr_LibraryLoader: Time to load native libraries: 13 ms (timestamps 1586-1599)
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.applovin.apps.demoapp/app_webview/variations_seed_new": /data/user/0/com.applovin.apps.demoapp/app_webview/variations_seed_new (No such file or directory)
+                      Failed reading seed file "/data/user/0/com.applovin.apps.demoapp/app_webview/variations_seed": /data/user/0/com.applovin.apps.demoapp/app_webview/variations_seed (No such file or directory)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,16530,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,16530,10106)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16530,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16530,10106)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.applovin.impl.adview.n.<init>(com.applovin.impl.adview.ah, com.applovin.sdk.AppLovinSdk, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.sdk.AppLovinAdSize) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.adview.AppLovinAdView, com.applovin.sdk.AppLovinSdk, com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.initializeAdView(com.applovin.adview.AppLovinAdView, android.content.Context, com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.a(com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.content.Context, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, android.content.Context) ((null):-1)
+              at void com.applovin.apps.demoapp.banners.BannerProgrammaticActivity.onCreate(android.os.Bundle) (BannerProgrammaticActivity.java:37)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+I/zygote:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.applovin.impl.adview.n.<init>(com.applovin.impl.adview.ah, com.applovin.sdk.AppLovinSdk, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.sdk.AppLovinAdSize) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.adview.AppLovinAdView, com.applovin.sdk.AppLovinSdk, com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.initializeAdView(com.applovin.adview.AppLovinAdView, android.content.Context, com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.a(com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.content.Context, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, android.content.Context) ((null):-1)
+              at void com.applovin.apps.demoapp.banners.BannerProgrammaticActivity.onCreate(android.os.Bundle) (BannerProgrammaticActivity.java:37)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.applovin.impl.adview.n.<init>(com.applovin.impl.adview.ah, com.applovin.sdk.AppLovinSdk, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.sdk.AppLovinAdSize) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.adview.AppLovinAdView, com.applovin.sdk.AppLovinSdk, com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.initializeAdView(com.applovin.adview.AppLovinAdView, android.content.Context, com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.a(com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.content.Context, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, android.content.Context) ((null):-1)
+              at void com.applovin.apps.demoapp.banners.BannerProgrammaticActivity.onCreate(android.os.Bundle) (BannerProgrammaticActivity.java:37)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.applovin.impl.adview.n.<init>(com.applovin.impl.adview.ah, com.applovin.sdk.AppLovinSdk, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.sdk.AppLovinAdSize) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.adview.AppLovinAdView, com.applovin.sdk.AppLovinSdk, com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.initializeAdView(com.applovin.adview.AppLovinAdView, android.content.Context, com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.a(com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.content.Context, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, android.content.Context) ((null):-1)
+              at void com.applovin.apps.demoapp.banners.BannerProgrammaticActivity.onCreate(android.os.Bundle) (BannerProgrammaticActivity.java:37)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.applovin.impl.adview.n.<init>(com.applovin.impl.adview.ah, com.applovin.sdk.AppLovinSdk, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.sdk.AppLovinAdSize) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.adview.AppLovinAdView, com.applovin.sdk.AppLovinSdk, com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.initializeAdView(com.applovin.adview.AppLovinAdView, android.content.Context, com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.a(com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.content.Context, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, android.content.Context) ((null):-1)
+              at void com.applovin.apps.demoapp.banners.BannerProgrammaticActivity.onCreate(android.os.Bundle) (BannerProgrammaticActivity.java:37)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.applovin.impl.adview.n.<init>(com.applovin.impl.adview.ah, com.applovin.sdk.AppLovinSdk, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.sdk.AppLovinAdSize) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.adview.AppLovinAdView, com.applovin.sdk.AppLovinSdk, com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.initializeAdView(com.applovin.adview.AppLovinAdView, android.content.Context, com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.a(com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.content.Context, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, android.content.Context) ((null):-1)
+              at void com.applovin.apps.demoapp.banners.BannerProgrammaticActivity.onCreate(android.os.Bundle) (BannerProgrammaticActivity.java:37)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+I/zygote:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16530,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16530,10106)
+D/: HostConnection::get() New Host Connection established 0x8fe4cf00, tid 16690
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x8fe5ad60: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x8fe5ad60: ver 2 0 (tinfo 0x8fe55fa0)
+I/Choreographer: Skipped 106 frames!  The application may be doing too much work on its main thread.
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,16530,10106)
+I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+W/cr_MediaCodecUtil: HW encoder for video/avc is not available on this device.
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,16530,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,16530,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,16530,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,16530,10106)
+I/Choreographer: Skipped 41 frames!  The application may be doing too much work on its main thread.
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,16530,10106)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+W/cr_media: Requires BLUETOOTH permission
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglCreateContext: 0x88acb5c0: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x88acb5c0: ver 2 0 (tinfo 0x8fe55fa0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x9074a980 (ListView) with handle 0x8f541060
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16530,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16530,10106)
+I/Choreographer: Skipped 30 frames!  The application may be doing too much work on its main thread.
+W/cr_CrashFileManager: /data/user/0/com.applovin.apps.demoapp/cache/WebView/Crash Reports does not exist or is not a directory
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/System.out: Banner failed to load with error code -100
+I/System.out: Banner failed to load with error code -100
+W/ViewRootImpl[BannerProgrammaticActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6892767, downTime=6892767, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerProgrammaticActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6892925, downTime=6892925, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8ede9200 (AppCompatButton) with handle 0x8f5410d0
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[BannerDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6893085, downTime=6893085, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 7 lines
+W/ViewRootImpl[BannerDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6893085, downTime=6893085, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6893222, downTime=6893222, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[BannerDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6893272, downTime=6893272, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 7 lines
+W/ViewRootImpl[BannerDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6893272, downTime=6893272, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16530,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16530,10106)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[BannerLayoutEditorActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=2.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=8, eventTime=6893999, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl[BannerLayoutEditorActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6894001, downTime=6894001, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0x88acb5c0: ver 2 0 (tinfo 0x8fe55fa0)
+W/ViewRootImpl[BannerDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6897852, downTime=6897852, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6897958, downTime=6897852, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16530,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16530,10106)
+D/EGL_emulation: eglMakeCurrent: 0x88acb5c0: ver 2 0 (tinfo 0x8fe55fa0)
+W/ViewRootImpl[BannerLayoutEditorActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6898091, downTime=6898091, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerLayoutEditorActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6898773, downTime=6898773, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[BannerLayoutEditorActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TV_INPUT_COMPONENT_2, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6900530, downTime=6900530, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerLayoutEditorActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=6900775, downTime=6900775, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerLayoutEditorActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6900775, downTime=6900775, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 1 line
+W/ViewRootImpl[BannerLayoutEditorActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6900775, downTime=6900775, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerLayoutEditorActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=6900779, downTime=6900779, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerLayoutEditorActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6900779, downTime=6900779, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 1 line
+W/ViewRootImpl[BannerLayoutEditorActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6900779, downTime=6900779, deviceId=-1, source=0x101 }
+                                            Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=6900779, downTime=6900779, deviceId=-1, source=0x101 }
+                                            Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6900779, downTime=6900779, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 1 line
+W/ViewRootImpl[BannerLayoutEditorActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6900779, downTime=6900779, deviceId=-1, source=0x101 }
+                                            Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6900775, downTime=6900775, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 4 lines
+W/ViewRootImpl[BannerLayoutEditorActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6900775, downTime=6900775, deviceId=-1, source=0x101 }
+                                            Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6900779, downTime=6900779, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 10 lines
+W/ViewRootImpl[BannerLayoutEditorActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6900779, downTime=6900779, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerLayoutEditorActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=3.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6900766, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl[BannerLayoutEditorActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6901642, downTime=6901642, deviceId=-1, source=0x101 }
+I/System.out: Banner failed to load with error code -100
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 1 line
+I/System.out: Banner failed to load with error code -100
+W/ViewRootImpl[BannerLayoutEditorActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6903207, downTime=6903207, deviceId=-1, source=0x101 }
+I/zygote: Background concurrent copying GC freed 39699(2MB) AllocSpace objects, 6(120KB) LOS objects, 49% free, 2MB/5MB, paused 5.812ms total 71.325ms
+W/ViewRootImpl[BannerLayoutEditorActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6903732, downTime=6903732, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_10, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6904857, downTime=6904857, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/chatty: uid=10106(u0_a106) RenderThread identical 4 lines
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x90850300 (AppCompatButton) with handle 0x8f541e10
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0x88acb5c0: ver 2 0 (tinfo 0x8fe55fa0)
+D/EGL_emulation: eglMakeCurrent: 0x88acb5c0: ver 2 0 (tinfo 0x8fe55fa0)
+W/cr_ChildProcessConn: onServiceDisconnected (crash or killed by oom): pid=16657
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6906213, downTime=6906213, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6906273, downTime=6906273, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[BannerDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6906994, downTime=6906994, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6907007, downTime=6907007, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16530,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16530,10106)
+I/Choreographer: Skipped 37 frames!  The application may be doing too much work on its main thread.
+W/ViewRootImpl[BannerZoneActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6907294, downTime=6907294, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerZoneActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6907921, downTime=6907921, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerZoneActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6907989, downTime=6907989, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerZoneActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6907990, downTime=6907990, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[BannerZoneActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_2, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6908017, downTime=6908017, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglCreateContext: 0x8fe6b7e0: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x8fe6b7e0: ver 2 0 (tinfo 0x8fe55fa0)
+W/ViewRootImpl[BannerDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_STEM_PRIMARY, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6910164, downTime=6910164, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[BannerDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_STEM_PRIMARY, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6910355, downTime=6910355, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) RenderThread identical 2 lines
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0x8fe6b7e0: ver 2 0 (tinfo 0x8fe55fa0)
+W/cr_ChildProcessConn: onServiceDisconnected (crash or killed by oom): pid=16747
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16530,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16530,10106)
+I/Choreographer: Skipped 30 frames!  The application may be doing too much work on its main thread.
+W/ViewRootImpl[BannerZoneActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=0.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=6911631, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[BannerZoneActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6911634, downTime=6911634, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglCreateContext: 0x8fe6b960: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x8fe6b960: ver 2 0 (tinfo 0x8fe55fa0)
+W/ViewRootImpl[BannerDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6912471, downTime=6912471, deviceId=-1, source=0x101 }
+W/ViewRootImpl[BannerDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6912589, downTime=6912589, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/chatty: uid=10106(u0_a106) RenderThread identical 3 lines
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8fdbc180 (AppCompatButton) with handle 0xa2763690
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0x8fe6b960: ver 2 0 (tinfo 0x8fe55fa0)
+W/cr_ChildProcessConn: onServiceDisconnected (crash or killed by oom): pid=16777
+W/ViewRootImpl[MRecDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6913120, downTime=6913120, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6913233, downTime=6913233, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[MRecDemoMenuActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-1.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=6913338, downTime=-1, deviceId=0, source=0x10004 }
+                                      Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6913339, downTime=6913310, deviceId=0, source=0x10004 }
+                                      Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6913340, downTime=6913310, deviceId=0, source=0x10004 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 5 lines
+W/ViewRootImpl[MRecDemoMenuActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6913340, downTime=6913310, deviceId=0, source=0x10004 }
+W/ViewRootImpl[MRecDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_AVR_INPUT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6913344, downTime=6913344, deviceId=-1, source=0x101 }
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16530,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16530,10106)
+I/zygote: Do full code cache collection, code=990KB, data=657KB
+I/zygote: After code cache collection, code=988KB, data=575KB
+W/ViewRootImpl[MRecProgrammaticActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6913419, downTime=6913419, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6913932, downTime=6913932, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 7 lines
+W/ViewRootImpl[MRecProgrammaticActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6913932, downTime=6913932, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6913993, downTime=6913993, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6913995, downTime=6913995, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[MRecProgrammaticActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6913999, downTime=6913999, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglCreateContext: 0x8fe6d040: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglCreateContext: 0x8fe6d040: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x8fe6d040: ver 2 0 (tinfo 0x8fe55fa0)
+I/System.out: Banner failed to load with error code -100
+W/ViewRootImpl[MRecDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6914973, downTime=6914973, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6915041, downTime=6915041, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+I/chatty: uid=10106(u0_a106) RenderThread identical 3 lines
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8fc49e80 (AppCompatButton) with handle 0xa2763110
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6915235, downTime=6915235, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6915326, downTime=6915326, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 7 lines
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6915326, downTime=6915326, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6915381, downTime=6915381, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6915384, downTime=6915384, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16530,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,16530,10106)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8fdc1900 (ListView) with handle 0xa27630f0
+W/ViewRootImpl[MRecLayoutEditorActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-4.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=6916392, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[MRecLayoutEditorActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6916426, downTime=6916426, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/OpenGLRenderer: endAllActiveAnimators on 0xa0105680 (AppCompatButton) with handle 0xa2703aa0
+W/cr_ChildProcessConn: onServiceDisconnected (crash or killed by oom): pid=16802
+D/EGL_emulation: eglMakeCurrent: 0x8fe6d040: ver 2 0 (tinfo 0x8fe55fa0)
+D/EGL_emulation: eglMakeCurrent: 0x8fe6d040: ver 2 0 (tinfo 0x8fe55fa0)
+I/System.out: Banner failed to load with error code -100
+I/System.out: Banner failed to load with error code -100
+W/ViewRootImpl[SplashActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6919296, downTime=6919296, deviceId=-1, source=0x101 }
+W/ViewRootImpl[SplashActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6919527, downTime=6919527, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6922647, downTime=6922647, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 7 lines
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6922647, downTime=6922647, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6922668, downTime=6922668, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6922683, downTime=6922683, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 4 lines
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6922683, downTime=6922683, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6922684, downTime=6922684, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6922685, downTime=6922685, deviceId=-1, source=0x101 }
+I/zygote: Do partial code cache collection, code=989KB, data=605KB
+I/zygote: After code cache collection, code=989KB, data=605KB
+          Increasing code cache capacity to 3MB
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6922687, downTime=6922687, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ALT_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6923491, downTime=6923491, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[NativeAdDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6924466, downTime=6924466, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6924557, downTime=6924557, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 5 lines
+W/ViewRootImpl[NativeAdDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6924557, downTime=6924557, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6924616, downTime=6924616, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+W/ViewRootImpl[NativeAdDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6924625, downTime=6924625, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+D/EGL_emulation: eglMakeCurrent: 0xa27052a0: ver 2 0 (tinfo 0xa27030d0)
+E/RecyclerView: No adapter attached; skipping layout
+W/ViewRootImpl[NativeAdRecyclerViewActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6924916, downTime=6924916, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 7 lines
+W/ViewRootImpl[NativeAdRecyclerViewActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6924916, downTime=6924916, deviceId=-1, source=0x101 }
+W/ViewRootImpl[NativeAdRecyclerViewActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6925086, downTime=6925086, deviceId=-1, source=0x101 }
+D/AndroidRuntime: Shutting down VM
+E/AndroidRuntime: FATAL EXCEPTION: main
+                  Process: com.applovin.apps.demoapp, PID: 16530
+                  java.lang.ArrayIndexOutOfBoundsException: length=2; index=2
+                      at com.applovin.apps.demoapp.DemoMenuActivity$2.onItemClick(DemoMenuActivity.java:71)
+                      at android.widget.AdapterView.performItemClick(AdapterView.java:318)
+                      at android.widget.AbsListView.performItemClick(AbsListView.java:1165)
+                      at android.widget.AbsListView$PerformClick.run(AbsListView.java:3134)
+                      at android.widget.AbsListView$3.run(AbsListView.java:4049)
+                      at android.os.Handler.handleCallback(Handler.java:789)
+                      at android.os.Handler.dispatchMessage(Handler.java:98)
+                      at android.os.Looper.loop(Looper.java:164)
+                      at android.app.ActivityThread.main(ActivityThread.java:6541)
+                      at java.lang.reflect.Method.invoke(Native Method)
+                      at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+                      at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+
+09/03 13:51:00: Launching Android-Demo-App
+$ adb install-multiple -r -t -p com.applovin.apps.demoapp C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\dep\dependencies.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_4.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_6.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_2.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_1.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_5.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_0.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_3.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_8.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_9.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\split-apk\debug\slices\slice_7.apk C:\Users\Sheng\Desktop\android library\AppLovin\Android-SDK-Demo-master\Android-Demo-App\build\intermediates\instant-run-apk\debug\Android-Demo-App-debug.apk 
+Split APKs installed
+$ adb shell am start -n "com.applovin.apps.demoapp/com.applovin.apps.demoapp.SplashActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.applovin.apps.demoapp.test | com.applovin.apps.demoapp
+Waiting for application to come online: com.applovin.apps.demoapp.test | com.applovin.apps.demoapp
+Waiting for application to come online: com.applovin.apps.demoapp.test | com.applovin.apps.demoapp
+Connecting to com.applovin.apps.demoapp
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+W/ActivityThread: Application com.applovin.apps.demoapp is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+I/zygote: Debugger is active
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+Connected to the target VM, address: 'localhost:8604', transport: 'socket'
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 2 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1361)
+I/MultiDex: VM with version 2.1.0 has multidex support
+            Installing application
+            VM has multidex support, MultiDex support library is disabled.
+I/InstantRun: starting instant run server: is main process
+I/zygote: Do partial code cache collection, code=8KB, data=8KB
+          After code cache collection, code=8KB, data=8KB
+          Increasing code cache capacity to 128KB
+D/OpenGLRenderer: HWUI GL Pipeline
+D/: HostConnection::get() New Host Connection established 0x9fdb38c0, tid 17123
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0xa2705420: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+D/AppLovinSdk: SDK has not been updated since last run. Continuing...
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+I/zygote: Do partial code cache collection, code=58KB, data=49KB
+I/zygote: After code cache collection, code=55KB, data=48KB
+          Increasing code cache capacity to 256KB
+I/zygote: Do full code cache collection, code=66KB, data=74KB
+I/zygote: After code cache collection, code=31KB, data=28KB
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+I/chatty: uid=10106(u0_a106) RenderThread identical 8 lines
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+I/zygote: Background concurrent copying GC freed 13156(540KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 6.049ms total 98.779ms
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+I/chatty: uid=10106(u0_a106) RenderThread identical 2 lines
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+I/chatty: uid=10106(u0_a106) RenderThread identical 2 lines
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+W/ViewRootImpl[MRecDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7070235, downTime=7070235, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 7 lines
+W/ViewRootImpl[MRecDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7070235, downTime=7070235, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7070483, downTime=7070483, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7070574, downTime=7070483, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 4 lines
+W/ViewRootImpl[MRecDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7070574, downTime=7070483, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7070574, downTime=7070483, deviceId=-1, source=0x101 }
+I/zygote: Do partial code cache collection, code=112KB, data=120KB
+          After code cache collection, code=110KB, data=119KB
+I/zygote: Increasing code cache capacity to 512KB
+I/zygote: JIT allocated 71KB for compiled code of void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+          Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+I/chatty: uid=10106(u0_a106) RenderThread identical 2 lines
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+W/ViewRootImpl[EventTrackingActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=1.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=19, eventTime=7071064, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+W/ViewRootImpl[EventTrackingActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7071065, downTime=7071065, deviceId=-1, source=0x101 }
+W/ViewRootImpl[EventTrackingActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7071202, downTime=7071202, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+I/zygote: Do full code cache collection, code=243KB, data=164KB
+I/zygote: After code cache collection, code=208KB, data=109KB
+I/zygote: Do partial code cache collection, code=247KB, data=153KB
+          After code cache collection, code=247KB, data=153KB
+          Increasing code cache capacity to 1024KB
+W/ViewRootImpl[EventTrackingActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_MULTIPLE, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=2, eventTime=7073854, downTime=7073854, deviceId=-1, source=0x101 }
+                                       Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=7073854, downTime=7073854, deviceId=-1, source=0x101 }
+                                       Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7073854, downTime=7073854, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 1 line
+W/ViewRootImpl[EventTrackingActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7073854, downTime=7073854, deviceId=-1, source=0x101 }
+                                       Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=7073854, downTime=7073854, deviceId=-1, source=0x101 }
+W/ViewRootImpl[EventTrackingActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7073854, downTime=7073854, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 1 line
+W/ViewRootImpl[EventTrackingActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7073854, downTime=7073854, deviceId=-1, source=0x101 }
+W/ViewRootImpl[EventTrackingActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=7073854, downTime=7073854, deviceId=-1, source=0x101 }
+                                       Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7073854, downTime=7073854, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 19 lines
+W/ViewRootImpl[EventTrackingActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7073854, downTime=7073854, deviceId=-1, source=0x101 }
+W/ViewRootImpl[EventTrackingActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7073989, downTime=7073989, deviceId=-1, source=0x101 }
+W/ViewRootImpl[EventTrackingActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7077104, downTime=7077104, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TV_INPUT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7079657, downTime=7079657, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+W/ViewRootImpl[MRecDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV_INPUT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7079871, downTime=7079871, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 1 line
+W/ViewRootImpl[MRecDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV_INPUT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7079871, downTime=7079871, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+I/cr_LibraryLoader: Time to load native libraries: 23 ms (timestamps 364-387)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,17095,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,17095,10106)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+I/chromium: [INFO:aw_field_trial_creator.cc(52)] First-WebView-Experiment found, group=Control
+I/zygote: Background concurrent copying GC freed 84146(4MB) AllocSpace objects, 13(260KB) LOS objects, 50% free, 3MB/6MB, paused 2.800ms total 122.053ms
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,17095,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,17095,10106)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.applovin.impl.adview.n.<init>(com.applovin.impl.adview.ah, com.applovin.sdk.AppLovinSdk, android.content.Context) ((null):-1)
+I/zygote:     at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.sdk.AppLovinAdSize) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.adview.AppLovinAdView, com.applovin.sdk.AppLovinSdk, com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.initializeAdView(com.applovin.adview.AppLovinAdView, android.content.Context, com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.a(com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.content.Context, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, android.content.Context) ((null):-1)
+              at void com.applovin.apps.demoapp.mrecs.MRecProgrammaticActivity.onCreate(android.os.Bundle) (MRecProgrammaticActivity.java:41)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.applovin.impl.adview.n.<init>(com.applovin.impl.adview.ah, com.applovin.sdk.AppLovinSdk, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.sdk.AppLovinAdSize) ((null):-1)
+I/zygote:     at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.adview.AppLovinAdView, com.applovin.sdk.AppLovinSdk, com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.initializeAdView(com.applovin.adview.AppLovinAdView, android.content.Context, com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.a(com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.content.Context, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, android.content.Context) ((null):-1)
+              at void com.applovin.apps.demoapp.mrecs.MRecProgrammaticActivity.onCreate(android.os.Bundle) (MRecProgrammaticActivity.java:41)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.applovin.impl.adview.n.<init>(com.applovin.impl.adview.ah, com.applovin.sdk.AppLovinSdk, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.sdk.AppLovinAdSize) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.adview.AppLovinAdView, com.applovin.sdk.AppLovinSdk, com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.initializeAdView(com.applovin.adview.AppLovinAdView, android.content.Context, com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.a(com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.content.Context, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, android.content.Context) ((null):-1)
+              at void com.applovin.apps.demoapp.mrecs.MRecProgrammaticActivity.onCreate(android.os.Bundle) (MRecProgrammaticActivity.java:41)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+I/zygote:     at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.applovin.impl.adview.n.<init>(com.applovin.impl.adview.ah, com.applovin.sdk.AppLovinSdk, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.sdk.AppLovinAdSize) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.adview.AppLovinAdView, com.applovin.sdk.AppLovinSdk, com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.initializeAdView(com.applovin.adview.AppLovinAdView, android.content.Context, com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.a(com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.content.Context, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, android.content.Context) ((null):-1)
+I/zygote:     at void com.applovin.apps.demoapp.mrecs.MRecProgrammaticActivity.onCreate(android.os.Bundle) (MRecProgrammaticActivity.java:41)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+I/zygote:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.applovin.impl.adview.n.<init>(com.applovin.impl.adview.ah, com.applovin.sdk.AppLovinSdk, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.sdk.AppLovinAdSize) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.adview.AppLovinAdView, com.applovin.sdk.AppLovinSdk, com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.initializeAdView(com.applovin.adview.AppLovinAdView, android.content.Context, com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.util.AttributeSet) ((null):-1)
+I/zygote:     at void com.applovin.adview.AppLovinAdView.a(com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.content.Context, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, android.content.Context) ((null):-1)
+              at void com.applovin.apps.demoapp.mrecs.MRecProgrammaticActivity.onCreate(android.os.Bundle) (MRecProgrammaticActivity.java:41)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+I/zygote:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.applovin.impl.adview.n.<init>(com.applovin.impl.adview.ah, com.applovin.sdk.AppLovinSdk, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.sdk.AppLovinAdSize) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.a(com.applovin.adview.AppLovinAdView, com.applovin.sdk.AppLovinSdk, com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.impl.adview.AdViewControllerImpl.initializeAdView(com.applovin.adview.AppLovinAdView, android.content.Context, com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.a(com.applovin.sdk.AppLovinAdSize, java.lang.String, com.applovin.sdk.AppLovinSdk, android.content.Context, android.util.AttributeSet) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, java.lang.String, android.content.Context) ((null):-1)
+              at void com.applovin.adview.AppLovinAdView.<init>(com.applovin.sdk.AppLovinAdSize, android.content.Context) ((null):-1)
+              at void com.applovin.apps.demoapp.mrecs.MRecProgrammaticActivity.onCreate(android.os.Bundle) (MRecProgrammaticActivity.java:41)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+I/zygote:     at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,17095,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,17095,10106)
+D/: HostConnection::get() New Host Connection established 0x90e46d80, tid 17249
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x8ee4b880: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x8ee4b880: ver 2 0 (tinfo 0x899116d0)
+I/Choreographer: Skipped 116 frames!  The application may be doing too much work on its main thread.
+I/zygote: Do full code cache collection, code=494KB, data=340KB
+I/zygote: After code cache collection, code=494KB, data=292KB
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.MODIFY_AUDIO_SETTINGS,17095,10106)
+I/zygote: Do partial code cache collection, code=494KB, data=293KB
+I/zygote: After code cache collection, code=494KB, data=293KB
+          Increasing code cache capacity to 2MB
+W/ViewRootImpl[MRecProgrammaticActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_REWIND, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7080128, downTime=7080128, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MEDIA_REWIND, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7082163, downTime=7082163, deviceId=-1, source=0x101 }
+I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+W/cr_MediaCodecUtil: HW encoder for video/avc is not available on this device.
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.MODIFY_AUDIO_SETTINGS,17095,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,17095,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.BLUETOOTH,17095,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,17095,10106)
+W/ViewRootImpl[MRecProgrammaticActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7082314, downTime=7082314, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7082324, downTime=7082324, deviceId=-1, source=0x101 }
+I/Choreographer: Skipped 57 frames!  The application may be doing too much work on its main thread.
+W/ViewRootImpl[MRecProgrammaticActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-2.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=7083036, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.BLUETOOTH,17095,10106)
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+E/BluetoothAdapter: Bluetooth binder is null
+D/EGL_emulation: eglCreateContext: 0x89926ac0: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x89926ac0: ver 2 0 (tinfo 0x899116d0)
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+W/cr_CrashFileManager: /data/user/0/com.applovin.apps.demoapp/cache/WebView/Crash Reports does not exist or is not a directory
+W/ViewRootImpl[MRecDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7083391, downTime=7083391, deviceId=-1, source=0x101 }
+                                      Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7083570, downTime=7083570, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+W/ViewRootImpl[MRecDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7083694, downTime=7083694, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7083698, downTime=7083698, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+W/cr_ChildProcessConn: onServiceDisconnected (crash or killed by oom): pid=17217
+D/EGL_emulation: eglMakeCurrent: 0x89926ac0: ver 2 0 (tinfo 0x899116d0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,17095,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,17095,10106)
+I/Choreographer: Skipped 36 frames!  The application may be doing too much work on its main thread.
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,17095,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,17095,10106)
+D/EGL_emulation: eglCreateContext: 0x89894720: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x89894720: ver 2 0 (tinfo 0x899116d0)
+W/ViewRootImpl[MRecProgrammaticActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7084160, downTime=7084160, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7085415, downTime=7085415, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SCROLL_LOCK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7085513, downTime=7085513, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_SCROLL_LOCK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7085523, downTime=7085523, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 7 lines
+W/ViewRootImpl[MRecProgrammaticActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_SCROLL_LOCK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7085523, downTime=7085523, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7085529, downTime=7085529, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7085537, downTime=7085537, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 4 lines
+W/ViewRootImpl[MRecProgrammaticActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7085537, downTime=7085537, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_STB_POWER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7085540, downTime=7085540, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_STB_POWER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7085545, downTime=7085545, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-4.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=7085565, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+W/ViewRootImpl[MRecProgrammaticActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7085566, downTime=7085566, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7085608, downTime=7085608, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+W/ViewRootImpl[MRecProgrammaticActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7085867, downTime=7085867, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7085974, downTime=7085974, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 7 lines
+W/ViewRootImpl[MRecProgrammaticActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7085974, downTime=7085974, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7086055, downTime=7086055, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+W/ViewRootImpl[MRecProgrammaticActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_MULTIPLE, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x400, repeatCount=17, eventTime=7086488, downTime=7086488, deviceId=-1, source=0x101 }
+                                          Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=7086488, downTime=7086488, deviceId=-1, source=0x101 }
+                                          Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7086488, downTime=7086488, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 7 lines
+W/ViewRootImpl[MRecProgrammaticActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=7086488, downTime=7086488, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=4.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=1, eventTime=7086480, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7087312, downTime=7087312, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7087681, downTime=7087681, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecProgrammaticActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7088173, downTime=7088173, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7088466, downTime=7088466, deviceId=-1, source=0x101 }
+                                      Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7088576, downTime=7088576, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+W/ViewRootImpl[MRecDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7088576, downTime=7088576, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) RenderThread identical 2 lines
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8fcf7b00 (AppCompatButton) with handle 0x8f572190
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+I/zygote: JIT allocated 56KB for compiled code of void android.view.View.<init>(android.content.Context, android.util.AttributeSet, int, int)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,17095,10106)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,17095,10106)
+D/EGL_emulation: eglMakeCurrent: 0x89894720: ver 2 0 (tinfo 0x899116d0)
+I/Choreographer: Skipped 37 frames!  The application may be doing too much work on its main thread.
+W/ViewRootImpl[MRecLayoutEditorActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7089167, downTime=7089167, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 7 lines
+W/ViewRootImpl[MRecLayoutEditorActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7089167, downTime=7089167, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecLayoutEditorActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7089628, downTime=7089628, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecLayoutEditorActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7089686, downTime=7089686, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 7 lines
+W/ViewRootImpl[MRecLayoutEditorActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7089686, downTime=7089686, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecLayoutEditorActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_O, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7089692, downTime=7089692, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecLayoutEditorActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_O, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7089699, downTime=7089699, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 7 lines
+W/ViewRootImpl[MRecLayoutEditorActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_O, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7089699, downTime=7089699, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecLayoutEditorActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7089703, downTime=7089703, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecLayoutEditorActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7089707, downTime=7089707, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 7 lines
+W/ViewRootImpl[MRecLayoutEditorActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7089707, downTime=7089707, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MRecLayoutEditorActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7089709, downTime=7089709, deviceId=-1, source=0x101 }
+                                          Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7089723, downTime=7089723, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+W/ViewRootImpl[MRecDemoMenuActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7094170, downTime=7094170, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+W/ViewRootImpl[MRecDemoMenuActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7094290, downTime=7094290, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) RenderThread identical 5 lines
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8fca8d80 (AppCompatButton) with handle 0x8f567670
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7094729, downTime=7094729, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7094830, downTime=7094830, deviceId=-1, source=0x101 }
+I/chatty: uid=10106(u0_a106) RenderThread identical 3 lines
+D/EGL_emulation: eglMakeCurrent: 0xa2705420: ver 2 0 (tinfo 0xa2703200)
+D/OpenGLRenderer: endAllActiveAnimators on 0xa0105300 (ListView) with handle 0x8ef08070
+I/System.out: MRec failed to load with error code -100
+I/chatty: uid=10106(u0_a106) com.applovin.apps.demoapp identical 2 lines
+I/System.out: MRec failed to load with error code -100
+W/cr_ChildProcessConn: onServiceDisconnected (crash or killed by oom): pid=17267
+D/EGL_emulation: eglMakeCurrent: 0x89894720: ver 2 0 (tinfo 0x899116d0)
+D/EGL_emulation: eglMakeCurrent: 0x89894720: ver 2 0 (tinfo 0x899116d0)
+D/AndroidRuntime: Shutting down VM
+E/AndroidRuntime: FATAL EXCEPTION: main
+                  Process: com.applovin.apps.demoapp, PID: 17095
+                  java.lang.ArrayIndexOutOfBoundsException: length=8; index=8
+                      at com.applovin.apps.demoapp.DemoMenuActivity$2.onItemClick(DemoMenuActivity.java:71)
+                      at android.widget.AdapterView.performItemClick(AdapterView.java:318)
+                      at android.widget.AbsListView.performItemClick(AbsListView.java:1165)
+                      at android.widget.AbsListView$PerformClick.run(AbsListView.java:3134)
+                      at android.widget.AbsListView$3.run(AbsListView.java:4049)
+                      at android.os.Handler.handleCallback(Handler.java:789)
+                      at android.os.Handler.dispatchMessage(Handler.java:98)
+                      at android.os.Looper.loop(Looper.java:164)
+                      at android.app.ActivityThread.main(ActivityThread.java:6541)
+                      at java.lang.reflect.Method.invoke(Native Method)
+                      at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+                      at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+Disconnected from the target VM, address: 'localhost:8604', transport: 'socket'

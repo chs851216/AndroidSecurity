@@ -1,0 +1,860 @@
+
+09/03 13:16:48: Launching example
+$ adb shell am start -n "com.adjust.examples/com.adjust.examples.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.adjust.examples.test | com.adjust.examples
+Waiting for application to come online: com.adjust.examples.test | com.adjust.examples
+Waiting for application to come online: com.adjust.examples.test | com.adjust.examples
+Waiting for application to come online: com.adjust.examples.test | com.adjust.examples
+Waiting for application to come online: com.adjust.examples.test | com.adjust.examples
+Connecting to com.adjust.examples
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/zygote: Debugger is active
+Connected to the target VM, address: 'localhost:8602', transport: 'socket'
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+I/chatty: uid=10107(u0_a107) com.adjust.examples identical 6 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1347)
+I/InstantRun: starting instant run server: is main process
+W/Adjust: Adjust not initialized, but adding session callback parameter saved for launch
+W/Adjust: Adjust not initialized, but adding session callback parameter saved for launch
+          Adjust not initialized, but adding session partner parameter saved for launch
+W/Adjust: Adjust not initialized, but adding session partner parameter saved for launch
+          Adjust not initialized, but removing session callback parameter saved for launch
+W/Adjust: Adjust not initialized, but removing session partner parameter saved for launch
+W/Adjust: Adjust not initialized, but resetting session callback parameters saved for launch
+          Adjust not initialized, but resetting session partner parameters saved for launch
+W/Adjust: SANDBOX: Adjust is running in Sandbox mode. Use this setting for testing. Don't forget to set the environment to `production` before publishing!
+D/Adjust: Read Attribution: tt:bsrw1l tn:Organic net:Organic cam:null adg:null cre:null cl:null adid:382ac109c58ed86423d5ee851624745c
+D/Adjust: Read Activity state: ec:0 sc:1 ssc:1 sl:5.2 ts:5.2 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+D/Adjust: Read Session Callback parameters: null
+D/Adjust: Read Session Partner parameters: null
+          adjust_config.properties file not found in this app
+D/OpenGLRenderer: HWUI GL Pipeline
+D/: HostConnection::get() New Host Connection established 0x9fdff380, tid 12459
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0x9fe77d00: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+E/ActivityThread: Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+I/Adjust: Google Play Services Advertising ID read correctly at start time
+V/Adjust: Foreground timer configured to fire after 60.0 seconds of starting and cycles every 60.0 seconds
+I/Adjust: Send in background configured
+D/Adjust: Read Package queue: []
+D/Adjust: Package handler read 0 packages
+D/Adjust: Wrote Session Callback parameters: {sc_foo=sc_bar}
+D/Adjust: Wrote Session Callback parameters: {sc_foo=sc_bar, sc_key=sc_value}
+D/Adjust: Wrote Session Partner parameters: {sp_foo=sp_bar}
+D/Adjust: Wrote Session Partner parameters: {sp_foo=sp_bar, sp_key=sp_value}
+          Key sc_foo will be removed
+D/Adjust: Wrote Session Callback parameters: {sc_key=sc_value}
+D/Adjust: Key sp_key will be removed
+D/Adjust: Wrote Session Partner parameters: {sp_foo=sp_bar}
+D/Adjust: Wrote Session Callback parameters: null
+D/Adjust: Wrote Session Partner parameters: null
+V/Adjust: Background timer canceled
+          Foreground timer starting
+V/Adjust: Subsession start
+V/Adjust: Started subsession 2 of session 1
+D/Adjust: Wrote Activity state: ec:0 sc:1 ssc:2 sl:57.1 ts:5.2 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+D/Adjust: InstallReferrer invoke method name: onInstallReferrerSetupFinished
+          InstallReferrer invoke arg: 0
+D/Adjust: installReferrer: utm_source=google-play&utm_medium=organic, clickTime: 0, installBeginTime: 0
+V/Adjust: Foreground timer suspended with 56.4 seconds left
+V/Adjust: Background timer canceled
+          Background timer starting. Launching in 60.0 seconds
+V/Adjust: Subsession end
+D/Adjust: Wrote Activity state: ec:0 sc:1 ssc:2 sl:60.7 ts:8.8 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/OpenGLRenderer: endAllActiveAnimators on 0x9099d880 (RippleDrawable) with handle 0xa017f600
+D/Adjust: Added package 1 (event'g3mfiw')
+D/Adjust: Wrote Activity state: ec:1 sc:1 ssc:2 sl:60.7 ts:8.9 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+V/Adjust: Path:      /event
+          ClientSdk: android4.15.0
+          Parameters:
+          	android_uuid     ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+          	api_level        26
+          	app_token        2fm9gkqubvpc
+          	app_version      1.0
+          	attribution_deeplink 1
+          	connectivity_type 1
+          	country          US
+          	cpu_type         x86
+          	created_at       2018-09-03T05:16:56.858Z+0000
+          	device_manufacturer Google
+          	device_name      Android SDK built for x86
+          	device_type      phone
+          	display_height   1794
+          	display_width    1080
+          	environment      sandbox
+          	event_buffering_enabled 0
+          	event_count      1
+          	event_token      g3mfiw
+          	gps_adid         fa2064a6-6c1a-4e57-89c5-287202667d02
+          	hardware_name    OSR1.170901.043
+          	language         en
+          	mcc              310
+          	mnc              260
+          	needs_response_details 1
+          	network_type     13
+          	os_build         OSR1.170901.043
+          	os_name          android
+          	os_version       8.0.0
+          	package_name     com.adjust.examples
+          	screen_density   high
+          	screen_format    normal
+          	screen_size      normal
+          	session_count    1
+          	session_length   61
+          	subsession_count 2
+          	time_spent       9
+          	tracking_enabled 1
+D/Adjust: Wrote Package queue: [event'g3mfiw']
+D/Adjust: Package handler wrote 1 packages
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+E/StrictMode: null
+              java.lang.Throwable: Untagged socket detected; use TrafficStats.setThreadSocketTag() to track all network usage
+                  at android.os.StrictMode.onUntaggedSocket(StrictMode.java:2010)
+                  at com.android.server.NetworkManagementSocketTagger.tag(NetworkManagementSocketTagger.java:78)
+                  at libcore.io.BlockGuardOs.tagSocket(BlockGuardOs.java:47)
+                  at libcore.io.BlockGuardOs.socket(BlockGuardOs.java:310)
+                  at libcore.io.IoBridge.socket(IoBridge.java:667)
+                  at java.net.PlainSocketImpl.socketCreate(PlainSocketImpl.java:116)
+                  at java.net.AbstractPlainSocketImpl.create(AbstractPlainSocketImpl.java:98)
+                  at java.net.Socket.createImpl(Socket.java:484)
+                  at java.net.Socket.getImpl(Socket.java:547)
+                  at java.net.Socket.setSoTimeout(Socket.java:1175)
+                  at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:139)
+                  at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+                  at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+                  at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+                  at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+                  at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+                  at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+                  at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+                  at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:127)
+                  at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:258)
+                  at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:218)
+                  at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(Unknown Source:0)
+                  at com.adjust.sdk.UtilNetworking.createPOSTHttpsURLConnection(UtilNetworking.java:61)
+                  at com.adjust.sdk.RequestHandler.sendI(RequestHandler.java:89)
+                  at com.adjust.sdk.RequestHandler.access$000(RequestHandler.java:19)
+                  at com.adjust.sdk.RequestHandler$1.run(RequestHandler.java:46)
+                  at com.adjust.sdk.CustomScheduledExecutor$RunnableWrapper.run(CustomScheduledExecutor.java:77)
+                  at com.adjust.sdk.CustomScheduledExecutor$RunnableWrapper.run(CustomScheduledExecutor.java:77)
+                  at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:457)
+                  at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+                  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                  at java.lang.Thread.run(Thread.java:764)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_F2, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5011392, downTime=5011392, deviceId=-1, source=0x101 }
+V/Adjust: Background timer canceled
+          Foreground timer starting
+V/Adjust: Subsession start
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_F2, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=5011393, downTime=5011393, deviceId=-1, source=0x101 }
+V/Adjust: Time span since last activity too short for a new subsession
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+V/Adjust: Package handler is already sending
+I/zygote: Do partial code cache collection, code=27KB, data=30KB
+I/zygote: After code cache collection, code=27KB, data=30KB
+I/zygote: Increasing code cache capacity to 128KB
+V/Adjust: Foreground timer suspended with 56.1 seconds left
+V/Adjust: Background timer canceled
+V/Adjust: Background timer starting. Launching in 60.0 seconds
+          Subsession end
+D/Adjust: Wrote Activity state: ec:1 sc:1 ssc:2 sl:61.8 ts:9.9 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+V/Adjust: Response: {"app_token":"2fm9gkqubvpc","adid":"382ac109c58ed86423d5ee851624745c","timestamp":"2018-09-03T05:16:59.519Z+0000","message":"Event tracked 'g3mfiw'","attribution":{"tracker_token":"bsrw1l","tracker_name":"Organic","network":"Organic"}}
+I/Adjust: Event tracked 'g3mfiw'
+D/Adjust: Launching success event tracking listener
+D/example: Event success callback called!
+D/example: Event success data: Event Success msg:Event tracked 'g3mfiw' time:2018-09-03T05:16:59.519Z+0000 adid:382ac109c58ed86423d5ee851624745c event:g3mfiw cid:PrettyRandomIdentifier json:{"app_token":"2fm9gkqubvpc","adid":"382ac109c58ed86423d5ee851624745c","timestamp":"2018-09-03T05:16:59.519Z+0000","message":"Event tracked 'g3mfiw'","attribution":{"tracker_token":"bsrw1l","tracker_name":"Organic","network":"Organic"}}
+D/Adjust: Wrote Package queue: []
+          Package handler wrote 0 packages
+V/Adjust: Package handler can send
+V/Adjust: Background timer canceled
+V/Adjust: Foreground timer starting
+          Subsession start
+V/Adjust: Started subsession 3 of session 1
+D/Adjust: Wrote Activity state: ec:1 sc:1 ssc:3 sl:63.8 ts:9.9 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+D/Adjust: Install referrer has already been read
+I/zygote: Do partial code cache collection, code=48KB, data=52KB
+I/zygote: After code cache collection, code=48KB, data=52KB
+          Increasing code cache capacity to 256KB
+I/zygote: JIT allocated 71KB for compiled code of void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+          Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+I/zygote: Do full code cache collection, code=124KB, data=78KB
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_M, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5013970, downTime=5013970, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_M, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=5013972, downTime=5013972, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/Adjust: Wrote Activity state: ec:1 sc:1 ssc:3 sl:63.8 ts:9.9 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+I/Adjust: Pausing handlers due to SDK being disabled
+V/Adjust: Foreground timer suspended with 55.2 seconds left
+V/Adjust: Subsession end
+D/Adjust: Wrote Activity state: ec:1 sc:1 ssc:3 sl:64.7 ts:10.9 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+V/Adjust: Background timer canceled
+          Subsession start
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+V/Adjust: Foreground timer is already suspended
+V/Adjust: Subsession end
+D/Adjust: Wrote Activity state: ec:1 sc:1 ssc:3 sl:65.2 ts:11.3 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+V/Adjust: Background timer canceled
+V/Adjust: Subsession start
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/OpenGLRenderer: endAllActiveAnimators on 0x90913300 (RippleDrawable) with handle 0xa017fe60
+                  endAllActiveAnimators on 0x90911700 (RippleDrawable) with handle 0xa017fce0
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+I/zygote: Do partial code cache collection, code=121KB, data=78KB
+I/zygote: After code cache collection, code=121KB, data=78KB
+          Increasing code cache capacity to 512KB
+V/Adjust: Foreground timer is already suspended
+V/Adjust: Subsession end
+D/Adjust: Wrote Activity state: ec:1 sc:1 ssc:3 sl:65.8 ts:11.9 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+V/Adjust: Background timer canceled
+          Subsession start
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5015824, downTime=5015824, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=5015854, downTime=5015854, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/OpenGLRenderer: endAllActiveAnimators on 0x90917900 (RippleDrawable) with handle 0xabd0b4d0
+D/example: ServiceExample constructor
+           ServiceExample onCreate
+D/example: ServiceExample onStartCommand
+D/Adjust: Adjust already disabled
+D/example: ServiceExample background sleeping
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/Adjust: Wrote Activity state: ec:1 sc:1 ssc:3 sl:65.8 ts:11.9 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+D/Adjust: Install referrer has already been read
+I/Adjust: Resuming handlers due to SDK being enabled
+V/Adjust: Foreground timer is already suspended
+V/Adjust: Background timer canceled
+V/Adjust: Background timer starting. Launching in 60.0 seconds
+          Subsession end
+D/Adjust: Wrote Activity state: ec:1 sc:1 ssc:3 sl:66.7 ts:12.8 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/OpenGLRenderer: endAllActiveAnimators on 0x90912880 (RippleDrawable) with handle 0xa017f940
+D/example: ServiceExample background awake
+D/example: ServiceExample background event tracked
+D/Adjust: Wrote Activity state: ec:2 sc:1 ssc:3 sl:69.2 ts:15.3 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+D/Adjust: Added package 1 (event'pkd28h')
+D/Adjust: Wrote Activity state: ec:2 sc:1 ssc:3 sl:69.2 ts:15.3 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+V/Adjust: Path:      /event
+          ClientSdk: android4.15.0
+          Parameters:
+          	android_uuid     ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+          	api_level        26
+          	app_token        2fm9gkqubvpc
+          	app_version      1.0
+          	attribution_deeplink 1
+          	connectivity_type 1
+          	country          US
+          	cpu_type         x86
+          	created_at       2018-09-03T05:17:05.327Z+0000
+          	device_manufacturer Google
+          	device_name      Android SDK built for x86
+          	device_type      phone
+          	display_height   1794
+          	display_width    1080
+          	environment      sandbox
+          	event_buffering_enabled 0
+          	event_count      2
+          	event_token      pkd28h
+          	gps_adid         fa2064a6-6c1a-4e57-89c5-287202667d02
+          	hardware_name    OSR1.170901.043
+          	language         en
+          	mcc              310
+          	mnc              260
+          	needs_response_details 1
+          	network_type     13
+          	os_build         OSR1.170901.043
+          	os_name          android
+          	os_version       8.0.0
+          	package_name     com.adjust.examples
+          	screen_density   high
+          	screen_format    normal
+          	screen_size      normal
+          	session_count    1
+          	session_length   69
+          	subsession_count 3
+          	time_spent       15
+          	tracking_enabled 1
+D/Adjust: Wrote Package queue: [event'pkd28h']
+D/Adjust: Package handler wrote 1 packages
+E/StrictMode: null
+              java.lang.Throwable: Untagged socket detected; use TrafficStats.setThreadSocketTag() to track all network usage
+                  at android.os.StrictMode.onUntaggedSocket(StrictMode.java:2010)
+                  at com.android.server.NetworkManagementSocketTagger.tag(NetworkManagementSocketTagger.java:78)
+                  at libcore.io.BlockGuardOs.tagSocket(BlockGuardOs.java:47)
+                  at libcore.io.BlockGuardOs.socket(BlockGuardOs.java:310)
+                  at libcore.io.IoBridge.socket(IoBridge.java:667)
+                  at java.net.PlainSocketImpl.socketCreate(PlainSocketImpl.java:116)
+                  at java.net.AbstractPlainSocketImpl.create(AbstractPlainSocketImpl.java:98)
+                  at java.net.Socket.createImpl(Socket.java:484)
+                  at java.net.Socket.getImpl(Socket.java:547)
+                  at java.net.Socket.setSoTimeout(Socket.java:1175)
+                  at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:139)
+                  at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+                  at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+                  at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+                  at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+                  at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+                  at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+                  at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+                  at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:127)
+                  at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:258)
+                  at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:218)
+                  at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(Unknown Source:0)
+                  at com.adjust.sdk.UtilNetworking.createPOSTHttpsURLConnection(UtilNetworking.java:61)
+                  at com.adjust.sdk.RequestHandler.sendI(RequestHandler.java:89)
+                  at com.adjust.sdk.RequestHandler.access$000(RequestHandler.java:19)
+                  at com.adjust.sdk.RequestHandler$1.run(RequestHandler.java:46)
+                  at com.adjust.sdk.CustomScheduledExecutor$RunnableWrapper.run(CustomScheduledExecutor.java:77)
+                  at com.adjust.sdk.CustomScheduledExecutor$RunnableWrapper.run(CustomScheduledExecutor.java:77)
+                  at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:457)
+                  at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+                  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                  at java.lang.Thread.run(Thread.java:764)
+V/Adjust: Response: {"app_token":"2fm9gkqubvpc","adid":"382ac109c58ed86423d5ee851624745c","timestamp":"2018-09-03T05:17:07.665Z+0000","message":"Event tracked 'pkd28h'","attribution":{"tracker_token":"bsrw1l","tracker_name":"Organic","network":"Organic"}}
+I/Adjust: Event tracked 'pkd28h'
+D/Adjust: Wrote Package queue: []
+D/Adjust: Package handler wrote 0 packages
+V/Adjust: Package handler can send
+D/Adjust: Launching success event tracking listener
+D/example: Event success callback called!
+D/example: Event success data: Event Success msg:Event tracked 'pkd28h' time:2018-09-03T05:17:07.665Z+0000 adid:382ac109c58ed86423d5ee851624745c event:pkd28h cid:null json:{"app_token":"2fm9gkqubvpc","adid":"382ac109c58ed86423d5ee851624745c","timestamp":"2018-09-03T05:17:07.665Z+0000","message":"Event tracked 'pkd28h'","attribution":{"tracker_token":"bsrw1l","tracker_name":"Organic","network":"Organic"}}
+I/zygote: Do full code cache collection, code=219KB, data=161KB
+I/zygote: After code cache collection, code=219KB, data=132KB
+V/Adjust: Background timer canceled
+          Foreground timer starting
+V/Adjust: Subsession start
+V/Adjust: Started subsession 4 of session 1
+D/Adjust: Wrote Activity state: ec:2 sc:1 ssc:4 sl:73.2 ts:15.3 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+          Install referrer has already been read
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_K, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5023138, downTime=5023138, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_K, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=5023233, downTime=5023233, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5023321, downTime=5023321, deviceId=-1, source=0x101 }
+D/Adjust: Wrote Activity state: ec:3 sc:1 ssc:4 sl:73.7 ts:15.8 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+D/Adjust: Added package 1 (event'34vgg9')
+D/Adjust: Wrote Activity state: ec:3 sc:1 ssc:4 sl:73.7 ts:15.8 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+I/Adjust: Pausing handlers due to SDK being disabled
+V/Adjust: Foreground timer suspended with 54.5 seconds left
+          Subsession end
+D/Adjust: Wrote Activity state: ec:3 sc:1 ssc:4 sl:73.8 ts:16.0 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+V/Adjust: Path:      /event
+          ClientSdk: android4.15.0
+          Parameters:
+          	android_uuid     ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+          	api_level        26
+          	app_token        2fm9gkqubvpc
+          	app_version      1.0
+          	attribution_deeplink 1
+          	callback_params  {"key":"value"}
+          	connectivity_type 1
+          	country          US
+          	cpu_type         x86
+          	created_at       2018-09-03T05:17:09.779Z+0000
+          	device_manufacturer Google
+          	device_name      Android SDK built for x86
+          	device_type      phone
+          	display_height   1794
+          	display_width    1080
+          	environment      sandbox
+          	event_buffering_enabled 0
+          	event_count      3
+          	event_token      34vgg9
+          	gps_adid         fa2064a6-6c1a-4e57-89c5-287202667d02
+          	hardware_name    OSR1.170901.043
+          	language         en
+          	mcc              310
+          	mnc              260
+          	needs_response_details 1
+          	network_type     13
+          	os_build         OSR1.170901.043
+          	os_name          android
+          	os_version       8.0.0
+          	package_name     com.adjust.examples
+          	screen_density   high
+          	screen_format    normal
+          	screen_size      normal
+          	session_count    1
+          	session_length   74
+          	subsession_count 4
+          	time_spent       16
+          	tracking_enabled 1
+D/Adjust: Wrote Package queue: [event'34vgg9']
+D/Adjust: Package handler wrote 1 packages
+D/Adjust: Package handler is paused
+V/Adjust: Background timer canceled
+          Subsession start
+W/ViewRootImpl[ServiceActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_Z, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5023941, downTime=5023941, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ServiceActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_Z, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=5023977, downTime=5023977, deviceId=-1, source=0x101 }
+I/chatty: uid=10107(u0_a107) com.adjust.examples identical 7 lines
+W/ViewRootImpl[ServiceActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_Z, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=5023977, downTime=5023977, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+V/Adjust: Foreground timer is already suspended
+          Subsession end
+D/Adjust: Wrote Activity state: ec:3 sc:1 ssc:4 sl:74.2 ts:16.4 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+V/Adjust: Background timer canceled
+          Subsession start
+I/zygote: Do partial code cache collection, code=249KB, data=169KB
+          After code cache collection, code=249KB, data=169KB
+I/zygote: Increasing code cache capacity to 1024KB
+W/ViewRootImpl[ServiceActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TV, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5024245, downTime=5024245, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ServiceActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=5024445, downTime=5024445, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/example: ServiceExample onStartCommand
+D/example: ServiceExample background sleeping
+D/Adjust: Wrote Activity state: ec:3 sc:1 ssc:4 sl:74.2 ts:16.4 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+D/Adjust: Install referrer has already been read
+I/Adjust: Resuming handlers due to SDK being enabled
+V/Adjust: Referrer to parse (utm_source=test&utm_medium=test&utm_term=test&utm_content=test&utm_campaign=test)
+E/StrictMode: null
+              java.lang.Throwable: Untagged socket detected; use TrafficStats.setThreadSocketTag() to track all network usage
+                  at android.os.StrictMode.onUntaggedSocket(StrictMode.java:2010)
+                  at com.android.server.NetworkManagementSocketTagger.tag(NetworkManagementSocketTagger.java:78)
+                  at libcore.io.BlockGuardOs.tagSocket(BlockGuardOs.java:47)
+                  at libcore.io.BlockGuardOs.socket(BlockGuardOs.java:310)
+                  at libcore.io.IoBridge.socket(IoBridge.java:667)
+                  at java.net.PlainSocketImpl.socketCreate(PlainSocketImpl.java:116)
+                  at java.net.AbstractPlainSocketImpl.create(AbstractPlainSocketImpl.java:98)
+                  at java.net.Socket.createImpl(Socket.java:484)
+                  at java.net.Socket.getImpl(Socket.java:547)
+                  at java.net.Socket.setSoTimeout(Socket.java:1175)
+                  at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:139)
+                  at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+                  at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+                  at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+                  at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+                  at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+                  at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+                  at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+                  at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:127)
+                  at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:258)
+                  at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:218)
+                  at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(Unknown Source:0)
+                  at com.adjust.sdk.UtilNetworking.createPOSTHttpsURLConnection(UtilNetworking.java:61)
+                  at com.adjust.sdk.RequestHandler.sendI(RequestHandler.java:89)
+                  at com.adjust.sdk.RequestHandler.access$000(RequestHandler.java:19)
+                  at com.adjust.sdk.RequestHandler$1.run(RequestHandler.java:46)
+                  at com.adjust.sdk.CustomScheduledExecutor$RunnableWrapper.run(CustomScheduledExecutor.java:77)
+                  at com.adjust.sdk.CustomScheduledExecutor$RunnableWrapper.run(CustomScheduledExecutor.java:77)
+                  at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:457)
+                  at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+                  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                  at java.lang.Thread.run(Thread.java:764)
+D/Adjust: Added sdk_click 1
+V/Adjust: Path:      /sdk_click
+          ClientSdk: android4.15.0
+          Parameters:
+          	android_uuid     ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+          	api_level        26
+          	app_token        2fm9gkqubvpc
+          	app_version      1.0
+          	attribution_deeplink 1
+          	click_time       2018-09-03T05:17:09.874Z+0000
+          	connectivity_type 1
+          	country          US
+          	cpu_type         x86
+          	created_at       2018-09-03T05:17:11.741Z+0000
+          	device_manufacturer Google
+          	device_name      Android SDK built for x86
+          	device_type      phone
+          	display_height   1794
+          	display_width    1080
+          	environment      sandbox
+          	event_buffering_enabled 0
+          	gps_adid         fa2064a6-6c1a-4e57-89c5-287202667d02
+          	hardware_name    OSR1.170901.043
+          	installed_at     2018-09-03T05:15:52.060Z+0000
+          	language         en
+          	last_interval    1
+          	mcc              310
+          	mnc              260
+          	needs_response_details 1
+          	network_type     13
+          	os_build         OSR1.170901.043
+          	os_name          android
+          	os_version       8.0.0
+          	package_name     com.adjust.examples
+          	raw_referrer     utm_source=test&utm_medium=test&utm_term=test&utm_content=test&utm_campaign=test
+          	referrer         utm_source=test&utm_medium=test&utm_term=test&utm_content=test&utm_campaign=test
+          	screen_density   high
+          	screen_format    normal
+          	screen_size      normal
+          	session_count    1
+          	session_length   74
+          	source           reftag
+          	subsession_count 4
+          	time_spent       16
+          	tracking_enabled 1
+          	updated_at       2018-09-03T05:15:52.060Z+0000
+E/StrictMode: null
+              java.lang.Throwable: Untagged socket detected; use TrafficStats.setThreadSocketTag() to track all network usage
+                  at android.os.StrictMode.onUntaggedSocket(StrictMode.java:2010)
+                  at com.android.server.NetworkManagementSocketTagger.tag(NetworkManagementSocketTagger.java:78)
+                  at libcore.io.BlockGuardOs.tagSocket(BlockGuardOs.java:47)
+                  at libcore.io.BlockGuardOs.socket(BlockGuardOs.java:310)
+                  at libcore.io.IoBridge.socket(IoBridge.java:667)
+                  at java.net.PlainSocketImpl.socketCreate(PlainSocketImpl.java:116)
+                  at java.net.AbstractPlainSocketImpl.create(AbstractPlainSocketImpl.java:98)
+                  at java.net.Socket.createImpl(Socket.java:484)
+                  at java.net.Socket.getImpl(Socket.java:547)
+                  at java.net.Socket.setSoTimeout(Socket.java:1175)
+                  at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:139)
+                  at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+                  at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+                  at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+                  at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+                  at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+                  at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+                  at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+                  at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:127)
+                  at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:258)
+                  at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:218)
+                  at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(Unknown Source:0)
+                  at com.adjust.sdk.UtilNetworking.createPOSTHttpsURLConnection(UtilNetworking.java:61)
+                  at com.adjust.sdk.SdkClickHandler.sendSdkClickI(SdkClickHandler.java:324)
+                  at com.adjust.sdk.SdkClickHandler.access$500(SdkClickHandler.java:23)
+                  at com.adjust.sdk.SdkClickHandler$4.run(SdkClickHandler.java:253)
+                  at com.adjust.sdk.SdkClickHandler.sendNextSdkClickI(SdkClickHandler.java:259)
+                  at com.adjust.sdk.SdkClickHandler.access$400(SdkClickHandler.java:23)
+                  at com.adjust.sdk.SdkClickHandler$3.run(SdkClickHandler.java:230)
+                  at com.adjust.sdk.CustomScheduledExecutor$RunnableWrapper.run(CustomScheduledExecutor.java:77)
+                  at com.adjust.sdk.CustomScheduledExecutor$RunnableWrapper.run(CustomScheduledExecutor.java:77)
+                  at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:457)
+                  at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+                  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+                  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+                  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+                  at java.lang.Thread.run(Thread.java:764)
+D/example: ServiceExample onStartCommand
+D/Adjust: Wrote Activity state: ec:3 sc:1 ssc:4 sl:74.2 ts:16.4 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+I/Adjust: Pausing handlers due to SDK being disabled
+W/ViewRootImpl[ServiceActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TV_TELETEXT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5025876, downTime=5025876, deviceId=-1, source=0x101 }
+                                 Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV_TELETEXT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=5025883, downTime=5025876, deviceId=-1, source=0x101 }
+I/chatty: uid=10107(u0_a107) com.adjust.examples identical 4 lines
+W/ViewRootImpl[ServiceActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV_TELETEXT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=5025883, downTime=5025876, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ServiceActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_COMMA, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5026113, downTime=5026113, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ServiceActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_COMMA, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=5026116, downTime=5026116, deviceId=-1, source=0x101 }
+V/Adjust: Foreground timer is already suspended
+          Subsession end
+D/Adjust: Wrote Activity state: ec:3 sc:1 ssc:4 sl:76.3 ts:18.4 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+V/Adjust: Background timer canceled
+          Subsession start
+W/ViewRootImpl[ServiceActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_PREVIOUS, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5026297, downTime=5026297, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/OpenGLRenderer: endAllActiveAnimators on 0x8eba7b00 (RippleDrawable) with handle 0x9fd7b2f0
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+V/Adjust: Response: {"app_token":"2fm9gkqubvpc","adid":"382ac109c58ed86423d5ee851624745c","timestamp":"2018-09-03T05:17:14.031Z+0000","message":"Click tracked"}
+I/Adjust: Click tracked
+V/Adjust: Response: {"app_token":"2fm9gkqubvpc","adid":"382ac109c58ed86423d5ee851624745c","timestamp":"2018-09-03T05:17:14.054Z+0000","message":"Event tracked '34vgg9'","attribution":{"tracker_token":"bsrw1l","tracker_name":"Organic","network":"Organic"}}
+I/Adjust: Event tracked '34vgg9'
+D/Adjust: Wrote Package queue: []
+D/Adjust: Package handler wrote 0 packages
+V/Adjust: Package handler can send
+D/Adjust: Wrote Activity state: ec:3 sc:1 ssc:4 sl:76.3 ts:18.4 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+D/Adjust: Launching success event tracking listener
+D/example: Event success callback called!
+D/example: Event success data: Event Success msg:Event tracked '34vgg9' time:2018-09-03T05:17:14.054Z+0000 adid:382ac109c58ed86423d5ee851624745c event:34vgg9 cid:null json:{"app_token":"2fm9gkqubvpc","adid":"382ac109c58ed86423d5ee851624745c","timestamp":"2018-09-03T05:17:14.054Z+0000","message":"Event tracked '34vgg9'","attribution":{"tracker_token":"bsrw1l","tracker_name":"Organic","network":"Organic"}}
+D/example: ServiceExample background awake
+D/example: ServiceExample background event tracked
+D/example: ServiceExample background sleeping
+D/example: ServiceExample background awake
+D/example: ServiceExample background event tracked
+V/Adjust: Foreground timer is already suspended
+          Subsession end
+W/ViewRootImpl[ServiceActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_YEN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=5040781, downTime=5026716, deviceId=-1, source=0x101 }
+D/Adjust: Wrote Activity state: ec:3 sc:1 ssc:4 sl:90.8 ts:32.9 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+V/Adjust: Background timer canceled
+V/Adjust: Subsession start
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/Adjust: Wrote Activity state: ec:3 sc:1 ssc:4 sl:90.8 ts:32.9 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+D/Adjust: Install referrer has already been read
+I/Adjust: Resuming handlers due to SDK being enabled
+I/Adjust: Pausing handlers to put SDK offline mode
+D/Adjust: Wrote Activity state: ec:4 sc:1 ssc:4 sl:96.4 ts:38.5 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+D/Adjust: Added package 1 (event'w788qs')
+V/Adjust: Path:      /event
+          ClientSdk: android4.15.0
+          Parameters:
+          	android_uuid     ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+          	api_level        26
+          	app_token        2fm9gkqubvpc
+          	app_version      1.0
+          	attribution_deeplink 1
+          	connectivity_type 1
+          	country          US
+          	cpu_type         x86
+          	created_at       2018-09-03T05:17:32.508Z+0000
+          	device_manufacturer Google
+          	device_name      Android SDK built for x86
+          	device_type      phone
+          	display_height   1794
+          	display_width    1080
+          	environment      sandbox
+          	event_buffering_enabled 0
+          	event_count      4
+          	event_token      w788qs
+          	gps_adid         fa2064a6-6c1a-4e57-89c5-287202667d02
+          	hardware_name    OSR1.170901.043
+          	language         en
+          	mcc              310
+          	mnc              260
+          	needs_response_details 1
+          	network_type     13
+          	os_build         OSR1.170901.043
+          	os_name          android
+          	os_version       8.0.0
+          	package_name     com.adjust.examples
+          	partner_params   {"foo":"bar"}
+          	screen_density   high
+          	screen_format    normal
+          	screen_size      normal
+          	session_count    1
+          	session_length   96
+          	subsession_count 4
+          	time_spent       39
+          	tracking_enabled 1
+D/Adjust: Wrote Package queue: [event'w788qs']
+D/Adjust: Package handler wrote 1 packages
+D/Adjust: Package handler is paused
+D/Adjust: Added package 2 (event'34vgg9')
+D/Adjust: Wrote Activity state: ec:5 sc:1 ssc:4 sl:96.9 ts:39.0 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+V/Adjust: Path:      /event
+          ClientSdk: android4.15.0
+          Parameters:
+          	android_uuid     ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+          	api_level        26
+          	app_token        2fm9gkqubvpc
+          	app_version      1.0
+          	attribution_deeplink 1
+          	callback_params  {"key":"value"}
+          	connectivity_type 1
+          	country          US
+          	cpu_type         x86
+          	created_at       2018-09-03T05:17:32.997Z+0000
+          	device_manufacturer Google
+          	device_name      Android SDK built for x86
+          	device_type      phone
+          	display_height   1794
+          	display_width    1080
+          	environment      sandbox
+          	event_buffering_enabled 0
+          	event_count      5
+          	event_token      34vgg9
+          	gps_adid         fa2064a6-6c1a-4e57-89c5-287202667d02
+          	hardware_name    OSR1.170901.043
+          	language         en
+          	mcc              310
+          	mnc              260
+          	needs_response_details 1
+          	network_type     13
+          	os_build         OSR1.170901.043
+          	os_name          android
+          	os_version       8.0.0
+          	package_name     com.adjust.examples
+          	screen_density   high
+          	screen_format    normal
+          	screen_size      normal
+          	session_count    1
+          	session_length   97
+          	subsession_count 4
+          	time_spent       39
+          	tracking_enabled 1
+D/Adjust: Wrote Package queue: [event'w788qs', event'34vgg9']
+D/Adjust: Package handler wrote 2 packages
+D/Adjust: Package handler is paused
+D/Adjust: Added package 3 (event(0.01000 EUR, 'a4fd35'))
+D/Adjust: Wrote Activity state: ec:6 sc:1 ssc:4 sl:97.4 ts:39.5 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+V/Adjust: Path:      /event
+          ClientSdk: android4.15.0
+          Parameters:
+          	android_uuid     ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+          	api_level        26
+          	app_token        2fm9gkqubvpc
+          	app_version      1.0
+          	attribution_deeplink 1
+          	connectivity_type 1
+          	country          US
+          	cpu_type         x86
+          	created_at       2018-09-03T05:17:33.528Z+0000
+          	currency         EUR
+          	device_manufacturer Google
+          	device_name      Android SDK built for x86
+          	device_type      phone
+          	display_height   1794
+          	display_width    1080
+          	environment      sandbox
+          	event_buffering_enabled 0
+          	event_count      6
+          	event_token      a4fd35
+          	gps_adid         fa2064a6-6c1a-4e57-89c5-287202667d02
+          	hardware_name    OSR1.170901.043
+          	language         en
+          	mcc              310
+          	mnc              260
+          	needs_response_details 1
+          	network_type     13
+          	os_build         OSR1.170901.043
+          	os_name          android
+          	os_version       8.0.0
+          	package_name     com.adjust.examples
+          	revenue          0.01000
+          	screen_density   high
+          	screen_format    normal
+          	screen_size      normal
+          	session_count    1
+          	session_length   97
+          	subsession_count 4
+          	time_spent       40
+          	tracking_enabled 1
+D/Adjust: Wrote Package queue: [event'w788qs', event'34vgg9', event(0.01000 EUR, 'a4fd35')]
+D/Adjust: Package handler wrote 3 packages
+D/Adjust: Package handler is paused
+D/Adjust: Wrote Activity state: ec:7 sc:1 ssc:4 sl:97.9 ts:40.0 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+D/Adjust: Added package 4 (event'g3mfiw')
+V/Adjust: Path:      /event
+          ClientSdk: android4.15.0
+          Parameters:
+          	android_uuid     ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+          	api_level        26
+          	app_token        2fm9gkqubvpc
+          	app_version      1.0
+          	attribution_deeplink 1
+          	connectivity_type 1
+          	country          US
+          	cpu_type         x86
+          	created_at       2018-09-03T05:17:33.991Z+0000
+          	device_manufacturer Google
+          	device_name      Android SDK built for x86
+          	device_type      phone
+          	display_height   1794
+          	display_width    1080
+          	environment      sandbox
+          	event_buffering_enabled 0
+          	event_count      7
+          	event_token      g3mfiw
+          	gps_adid         fa2064a6-6c1a-4e57-89c5-287202667d02
+          	hardware_name    OSR1.170901.043
+          	language         en
+          	mcc              310
+          	mnc              260
+          	needs_response_details 1
+          	network_type     13
+          	os_build         OSR1.170901.043
+          	os_name          android
+          	os_version       8.0.0
+          	package_name     com.adjust.examples
+          	screen_density   high
+          	screen_format    normal
+          	screen_size      normal
+          	session_count    1
+          	session_length   98
+          	subsession_count 4
+          	time_spent       40
+          	tracking_enabled 1
+D/Adjust: Wrote Package queue: [event'w788qs', event'34vgg9', event(0.01000 EUR, 'a4fd35'), event'g3mfiw']
+D/Adjust: Package handler wrote 4 packages
+D/Adjust: Package handler is paused
+V/Adjust: Referrer to parse (utm_source=test&utm_medium=test&utm_term=test&utm_content=test&utm_campaign=test)
+D/Adjust: Added sdk_click 1
+V/Adjust: Path:      /sdk_click
+          ClientSdk: android4.15.0
+          Parameters:
+          	android_uuid     ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+          	api_level        26
+          	app_token        2fm9gkqubvpc
+          	app_version      1.0
+          	attribution_deeplink 1
+          	click_time       2018-09-03T05:17:35.705Z+0000
+          	connectivity_type 1
+          	country          US
+          	cpu_type         x86
+          	created_at       2018-09-03T05:17:35.722Z+0000
+          	device_manufacturer Google
+          	device_name      Android SDK built for x86
+          	device_type      phone
+          	display_height   1794
+          	display_width    1080
+          	environment      sandbox
+          	event_buffering_enabled 0
+          	gps_adid         fa2064a6-6c1a-4e57-89c5-287202667d02
+          	hardware_name    OSR1.170901.043
+          	installed_at     2018-09-03T05:15:52.060Z+0000
+          	language         en
+          	last_interval    2
+          	mcc              310
+          	mnc              260
+          	needs_response_details 1
+          	network_type     13
+          	os_build         OSR1.170901.043
+          	os_name          android
+          	os_version       8.0.0
+          	package_name     com.adjust.examples
+          	raw_referrer     utm_source=test&utm_medium=test&utm_term=test&utm_content=test&utm_campaign=test
+          	referrer         utm_source=test&utm_medium=test&utm_term=test&utm_content=test&utm_campaign=test
+          	screen_density   high
+          	screen_format    normal
+          	screen_size      normal
+          	session_count    1
+          	session_length   98
+          	source           reftag
+          	subsession_count 4
+          	time_spent       40
+          	tracking_enabled 1
+          	updated_at       2018-09-03T05:15:52.060Z+0000
+V/Adjust: Foreground timer is already suspended
+          Subsession end
+D/Adjust: Wrote Activity state: ec:7 sc:1 ssc:4 sl:100.6 ts:42.8 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+V/Adjust: Background timer canceled
+          Foreground timer starting
+V/Adjust: Subsession start
+          Time span since last activity too short for a new subsession
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+I/chatty: uid=10107(u0_a107) RenderThread identical 1 line
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+D/OpenGLRenderer: endAllActiveAnimators on 0x9099f800 (RippleDrawable) with handle 0x9fd7b570
+V/Adjust: Foreground timer suspended with 52.6 seconds left
+V/Adjust: Subsession end
+D/Adjust: Wrote Activity state: ec:7 sc:1 ssc:4 sl:102.6 ts:44.7 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+V/Adjust: Background timer canceled
+          Foreground timer starting
+          Subsession start
+          Time span since last activity too short for a new subsession
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+I/zygote: Explicit concurrent copying GC freed 20135(1318KB) AllocSpace objects, 3(60KB) LOS objects, 56% free, 1202KB/2MB, paused 784us total 7.409ms
+I/zygote: Explicit concurrent copying GC freed 2231(135KB) AllocSpace objects, 0(0B) LOS objects, 58% free, 1098KB/2MB, paused 834us total 9.054ms
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+V/Adjust: Foreground timer suspended with 49.1 seconds left
+          Subsession end
+D/Adjust: Wrote Activity state: ec:7 sc:1 ssc:4 sl:106.1 ts:48.2 la:11:12:13 uuid:ffddae49-aeae-4b37-9f0f-43c5fb37e4ed
+D/EGL_emulation: eglMakeCurrent: 0x9fe77d00: ver 2 0 (tinfo 0xa012a170)
+Disconnected from the target VM, address: 'localhost:8602', transport: 'socket'

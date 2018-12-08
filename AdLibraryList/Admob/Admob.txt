@@ -1,0 +1,918 @@
+
+09/03 13:32:57: Launching app
+$ adb shell am start -n "com.google.android.gms.example.bannerexample/com.google.android.gms.example.bannerexample.MyActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.google.android.gms.example.bannerexample | com.google.android.gms.example.bannerexample.test
+Waiting for application to come online: com.google.android.gms.example.bannerexample | com.google.android.gms.example.bannerexample.test
+Waiting for application to come online: com.google.android.gms.example.bannerexample | com.google.android.gms.example.bannerexample.test
+Waiting for application to come online: com.google.android.gms.example.bannerexample | com.google.android.gms.example.bannerexample.test
+Connecting to com.google.android.gms.example.bannerexample
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/zygote: Debugger is active
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+Connected to the target VM, address: 'localhost:8604', transport: 'socket'
+I/chatty: uid=10085(u0_a85) com.google.android.gms.example.bannerexample identical 8 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1490)
+I/InstantRun: starting instant run server: is main process
+W/zygote: Skipping duplicate class check due to unrecognized classloader
+I/zygote: Do partial code cache collection, code=30KB, data=20KB
+I/zygote: After code cache collection, code=27KB, data=20KB
+          Increasing code cache capacity to 128KB
+W/zygote: Skipping duplicate class check due to unrecognized classloader
+D/DynamitePackage: Instantiated singleton DynamitePackage.
+                   Instantiating com.google.android.gms.ads.ChimeraMobileAdsSettingManagerCreatorImpl
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+I/cr_LibraryLoader: Time to load native libraries: 11 ms (timestamps 6599-6610)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,13916,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,13916,10085)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+I/chromium: [INFO:aw_field_trial_creator.cc(52)] First-WebView-Experiment found, group=Enabled
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,13916,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,13916,10085)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.google.android.gms.ads.internal.webview.v.<init>(com.google.android.gms.ads.internal.webview.au, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):1)
+              at java.lang.Object com.google.android.gms.ads.internal.webview.q.call() ((null):5)
+              at java.lang.Object com.google.android.gms.ads.internal.util.bp.a(java.util.concurrent.Callable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):23)
+              at com.google.android.gms.ads.internal.webview.i com.google.android.gms.ads.internal.webview.o.a(android.content.Context, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):8)
+              at void com.google.android.gms.ads.internal.js.q.<init>(android.content.Context, com.google.android.gms.ads.internal.util.client.p, lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):7)
+              at void com.google.android.gms.ads.internal.js.z.run() ((null):5)
+              at void com.google.android.gms.ads.internal.util.future.ad.execute(java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at com.google.android.gms.ads.internal.js.ao com.google.android.gms.ads.internal.js.y.a(lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):17)
+              at com.google.android.gms.ads.internal.js.ak com.google.android.gms.ads.internal.js.y.a() (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):27)
+              at com.google.android.gms.ads.internal.util.future.x com.google.android.gms.ads.internal.js.function.b.b(java.lang.Object) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, boolean, com.google.android.gms.ads.internal.state.e, java.lang.String, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ax.a(java.lang.String, vy) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at boolean com.google.android.gms.ads.internal.client.bc.a(int, android.os.Parcel, android.os.Parcel) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):40)
+              at boolean mu.onTransact(int, android.os.Parcel, android.os.Parcel, int) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):12)
+              at boolean android.os.Binder.transact(int, android.os.Parcel, android.os.Parcel, int) (Binder.java:604)
+              at void com.google.android.gms.internal.ads.zzej.transactAndReadExceptionReturnVoid(int, android.os.Parcel) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzll.zza(java.lang.String, com.google.android.gms.dynamic.IObjectWrapper) ((null):-1)
+I/zygote:     at void com.google.android.gms.internal.ads.zzmb.zza(android.content.Context, java.lang.String, com.google.android.gms.internal.ads.zzmd) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String, com.google.android.gms.ads.MobileAds$Settings) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String) ((null):-1)
+              at void com.google.android.gms.example.bannerexample.MyActivity.onCreate(android.os.Bundle) (MyActivity.java:40)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.google.android.gms.ads.internal.webview.v.<init>(com.google.android.gms.ads.internal.webview.au, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):1)
+              at java.lang.Object com.google.android.gms.ads.internal.webview.q.call() ((null):5)
+              at java.lang.Object com.google.android.gms.ads.internal.util.bp.a(java.util.concurrent.Callable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):23)
+              at com.google.android.gms.ads.internal.webview.i com.google.android.gms.ads.internal.webview.o.a(android.content.Context, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):8)
+              at void com.google.android.gms.ads.internal.js.q.<init>(android.content.Context, com.google.android.gms.ads.internal.util.client.p, lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):7)
+              at void com.google.android.gms.ads.internal.js.z.run() ((null):5)
+              at void com.google.android.gms.ads.internal.util.future.ad.execute(java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at com.google.android.gms.ads.internal.js.ao com.google.android.gms.ads.internal.js.y.a(lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):17)
+              at com.google.android.gms.ads.internal.js.ak com.google.android.gms.ads.internal.js.y.a() (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):27)
+              at com.google.android.gms.ads.internal.util.future.x com.google.android.gms.ads.internal.js.function.b.b(java.lang.Object) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, boolean, com.google.android.gms.ads.internal.state.e, java.lang.String, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ax.a(java.lang.String, vy) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at boolean com.google.android.gms.ads.internal.client.bc.a(int, android.os.Parcel, android.os.Parcel) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):40)
+              at boolean mu.onTransact(int, android.os.Parcel, android.os.Parcel, int) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):12)
+              at boolean android.os.Binder.transact(int, android.os.Parcel, android.os.Parcel, int) (Binder.java:604)
+I/zygote:     at void com.google.android.gms.internal.ads.zzej.transactAndReadExceptionReturnVoid(int, android.os.Parcel) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzll.zza(java.lang.String, com.google.android.gms.dynamic.IObjectWrapper) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzmb.zza(android.content.Context, java.lang.String, com.google.android.gms.internal.ads.zzmd) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String, com.google.android.gms.ads.MobileAds$Settings) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String) ((null):-1)
+              at void com.google.android.gms.example.bannerexample.MyActivity.onCreate(android.os.Bundle) (MyActivity.java:40)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.google.android.gms.ads.internal.webview.v.<init>(com.google.android.gms.ads.internal.webview.au, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):1)
+              at java.lang.Object com.google.android.gms.ads.internal.webview.q.call() ((null):5)
+              at java.lang.Object com.google.android.gms.ads.internal.util.bp.a(java.util.concurrent.Callable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):23)
+              at com.google.android.gms.ads.internal.webview.i com.google.android.gms.ads.internal.webview.o.a(android.content.Context, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):8)
+              at void com.google.android.gms.ads.internal.js.q.<init>(android.content.Context, com.google.android.gms.ads.internal.util.client.p, lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):7)
+              at void com.google.android.gms.ads.internal.js.z.run() ((null):5)
+              at void com.google.android.gms.ads.internal.util.future.ad.execute(java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at com.google.android.gms.ads.internal.js.ao com.google.android.gms.ads.internal.js.y.a(lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):17)
+              at com.google.android.gms.ads.internal.js.ak com.google.android.gms.ads.internal.js.y.a() (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):27)
+              at com.google.android.gms.ads.internal.util.future.x com.google.android.gms.ads.internal.js.function.b.b(java.lang.Object) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, boolean, com.google.android.gms.ads.internal.state.e, java.lang.String, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ax.a(java.lang.String, vy) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at boolean com.google.android.gms.ads.internal.client.bc.a(int, android.os.Parcel, android.os.Parcel) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):40)
+              at boolean mu.onTransact(int, android.os.Parcel, android.os.Parcel, int) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):12)
+              at boolean android.os.Binder.transact(int, android.os.Parcel, android.os.Parcel, int) (Binder.java:604)
+              at void com.google.android.gms.internal.ads.zzej.transactAndReadExceptionReturnVoid(int, android.os.Parcel) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzll.zza(java.lang.String, com.google.android.gms.dynamic.IObjectWrapper) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzmb.zza(android.content.Context, java.lang.String, com.google.android.gms.internal.ads.zzmd) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String, com.google.android.gms.ads.MobileAds$Settings) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String) ((null):-1)
+              at void com.google.android.gms.example.bannerexample.MyActivity.onCreate(android.os.Bundle) (MyActivity.java:40)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+I/zygote:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.google.android.gms.ads.internal.webview.v.<init>(com.google.android.gms.ads.internal.webview.au, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):1)
+              at java.lang.Object com.google.android.gms.ads.internal.webview.q.call() ((null):5)
+              at java.lang.Object com.google.android.gms.ads.internal.util.bp.a(java.util.concurrent.Callable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):23)
+              at com.google.android.gms.ads.internal.webview.i com.google.android.gms.ads.internal.webview.o.a(android.content.Context, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):8)
+              at void com.google.android.gms.ads.internal.js.q.<init>(android.content.Context, com.google.android.gms.ads.internal.util.client.p, lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):7)
+              at void com.google.android.gms.ads.internal.js.z.run() ((null):5)
+              at void com.google.android.gms.ads.internal.util.future.ad.execute(java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at com.google.android.gms.ads.internal.js.ao com.google.android.gms.ads.internal.js.y.a(lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):17)
+              at com.google.android.gms.ads.internal.js.ak com.google.android.gms.ads.internal.js.y.a() (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):27)
+              at com.google.android.gms.ads.internal.util.future.x com.google.android.gms.ads.internal.js.function.b.b(java.lang.Object) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, boolean, com.google.android.gms.ads.internal.state.e, java.lang.String, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ax.a(java.lang.String, vy) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at boolean com.google.android.gms.ads.internal.client.bc.a(int, android.os.Parcel, android.os.Parcel) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):40)
+              at boolean mu.onTransact(int, android.os.Parcel, android.os.Parcel, int) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):12)
+              at boolean android.os.Binder.transact(int, android.os.Parcel, android.os.Parcel, int) (Binder.java:604)
+              at void com.google.android.gms.internal.ads.zzej.transactAndReadExceptionReturnVoid(int, android.os.Parcel) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzll.zza(java.lang.String, com.google.android.gms.dynamic.IObjectWrapper) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzmb.zza(android.content.Context, java.lang.String, com.google.android.gms.internal.ads.zzmd) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String, com.google.android.gms.ads.MobileAds$Settings) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String) ((null):-1)
+              at void com.google.android.gms.example.bannerexample.MyActivity.onCreate(android.os.Bundle) (MyActivity.java:40)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+I/zygote:     at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+I/zygote:     at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.google.android.gms.ads.internal.webview.v.<init>(com.google.android.gms.ads.internal.webview.au, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):1)
+              at java.lang.Object com.google.android.gms.ads.internal.webview.q.call() ((null):5)
+              at java.lang.Object com.google.android.gms.ads.internal.util.bp.a(java.util.concurrent.Callable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):23)
+              at com.google.android.gms.ads.internal.webview.i com.google.android.gms.ads.internal.webview.o.a(android.content.Context, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):8)
+              at void com.google.android.gms.ads.internal.js.q.<init>(android.content.Context, com.google.android.gms.ads.internal.util.client.p, lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):7)
+              at void com.google.android.gms.ads.internal.js.z.run() ((null):5)
+              at void com.google.android.gms.ads.internal.util.future.ad.execute(java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at com.google.android.gms.ads.internal.js.ao com.google.android.gms.ads.internal.js.y.a(lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):17)
+              at com.google.android.gms.ads.internal.js.ak com.google.android.gms.ads.internal.js.y.a() (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):27)
+              at com.google.android.gms.ads.internal.util.future.x com.google.android.gms.ads.internal.js.function.b.b(java.lang.Object) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, boolean, com.google.android.gms.ads.internal.state.e, java.lang.String, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ax.a(java.lang.String, vy) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at boolean com.google.android.gms.ads.internal.client.bc.a(int, android.os.Parcel, android.os.Parcel) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):40)
+              at boolean mu.onTransact(int, android.os.Parcel, android.os.Parcel, int) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):12)
+              at boolean android.os.Binder.transact(int, android.os.Parcel, android.os.Parcel, int) (Binder.java:604)
+              at void com.google.android.gms.internal.ads.zzej.transactAndReadExceptionReturnVoid(int, android.os.Parcel) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzll.zza(java.lang.String, com.google.android.gms.dynamic.IObjectWrapper) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzmb.zza(android.content.Context, java.lang.String, com.google.android.gms.internal.ads.zzmd) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String, com.google.android.gms.ads.MobileAds$Settings) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String) ((null):-1)
+              at void com.google.android.gms.example.bannerexample.MyActivity.onCreate(android.os.Bundle) (MyActivity.java:40)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+I/zygote:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,13916,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,13916,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,13916,10085)
+D/: HostConnection::get() New Host Connection established 0x907064c0, tid 13990
+W/Ads: Invoke Firebase method getInstance error.
+       The Google Mobile Ads SDK will not integrate with Firebase. Admob/Firebase integration requires the latest Firebase SDK jar, but Firebase SDK is either missing or out of date
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/DynamitePackage: Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+D/EGL_emulation: eglCreateContext: 0x90717c40: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x90717c40: ver 2 0 (tinfo 0x907eb2b0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,13916,10085)
+I/zygote: Do partial code cache collection, code=60KB, data=43KB
+I/zygote: Background concurrent copying GC freed 10029(1187KB) AllocSpace objects, 5(100KB) LOS objects, 50% free, 1742KB/3MB, paused 2.253ms total 113.213ms
+I/Ads: Starting ad request.
+       This request is sent from a test device.
+I/zygote: After code cache collection, code=60KB, data=43KB
+          Increasing code cache capacity to 256KB
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,13916,10085)
+W/Ads: Not retrying to fetch app settings
+I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+W/cr_MediaCodecUtil: HW encoder for video/avc is not available on this device.
+W/zygote: Skipping duplicate class check due to unrecognized classloader
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,13916,10085)
+D/OpenGLRenderer: HWUI GL Pipeline
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,13916,10085)
+W/cr_media: Requires BLUETOOTH permission
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,13916,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,13916,10085)
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+D/: HostConnection::get() New Host Connection established 0x907328c0, tid 14005
+D/: HostConnection::get() New Host Connection established 0x907328c0, tid 14005
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0x88c69540: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x88c69540: ver 2 0 (tinfo 0x88c45320)
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x88768780: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x88768780: ver 2 0 (tinfo 0x907eb2b0)
+D/EGL_emulation: eglMakeCurrent: 0x88c69540: ver 2 0 (tinfo 0x88c45320)
+W/cr_CrashFileManager: /data/user/0/com.google.android.gms.example.bannerexample/cache/WebView/Crash Reports does not exist or is not a directory
+I/zygote: Background concurrent copying GC freed 23754(1663KB) AllocSpace objects, 2(40KB) LOS objects, 50% free, 1793KB/3MB, paused 6.142ms total 59.592ms
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,13916,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,13916,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,13916,10085)
+I/zygote: Do full code cache collection, code=118KB, data=89KB
+          After code cache collection, code=96KB, data=66KB
+I/Ads: Scheduling ad refresh 70000 milliseconds from now.
+I/DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:300
+                  Selected remote version of com.google.android.gms.ads.dynamite, version >= 300
+W/zygote: Skipping duplicate class check due to unrecognized classloader
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,13916,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,13916,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,13916,10085)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10085(u0_a85) RenderThread identical 18 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/zygote: Do partial code cache collection, code=122KB, data=85KB
+I/zygote: After code cache collection, code=122KB, data=85KB
+I/zygote: Increasing code cache capacity to 512KB
+D/DynamitePackage: Instantiating com.google.android.gms.ads.ChimeraAdOverlayCreatorImpl
+W/ViewRootImpl[AdActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_5, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6012771, downTime=6012771, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x88c69540: ver 2 0 (tinfo 0x88c45320)
+W/ViewRootImpl[AdActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6020804, downTime=6020804, deviceId=-1, source=0x101 }
+W/ViewRootImpl[AdActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6052199, downTime=6052199, deviceId=-1, source=0x101 }
+W/ViewRootImpl[AdActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6053312, downTime=6053312, deviceId=-1, source=0x101 }
+W/ViewRootImpl[AdActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6054210, downTime=6054210, deviceId=-1, source=0x101 }
+W/ViewRootImpl[AdActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BOOKMARK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6055075, downTime=6055075, deviceId=-1, source=0x101 }
+I/zygote: Do full code cache collection, code=243KB, data=176KB
+I/zygote: After code cache collection, code=209KB, data=136KB
+W/ViewRootImpl[AdActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6057080, downTime=6057080, deviceId=-1, source=0x101 }
+W/ViewRootImpl[AdActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6058774, downTime=6058774, deviceId=-1, source=0x101 }
+W/ViewRootImpl[AdActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6058777, downTime=6058777, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x88c69540: ver 2 0 (tinfo 0x88c45320)
+Disconnected from the target VM, address: 'localhost:8604', transport: 'socket'
+
+
+09/03 13:35:42: Launching app
+$ adb install-multiple -r -t -p com.google.android.gms.example.bannerexample C:\Users\Sheng\Desktop\android library\Admob\admob\BannerExample\app\build\intermediates\split-apk\debug\dep\dependencies.apk C:\Users\Sheng\Desktop\android library\Admob\admob\BannerExample\app\build\intermediates\split-apk\debug\slices\slice_1.apk C:\Users\Sheng\Desktop\android library\Admob\admob\BannerExample\app\build\intermediates\split-apk\debug\slices\slice_2.apk C:\Users\Sheng\Desktop\android library\Admob\admob\BannerExample\app\build\intermediates\split-apk\debug\slices\slice_0.apk C:\Users\Sheng\Desktop\android library\Admob\admob\BannerExample\app\build\intermediates\split-apk\debug\slices\slice_4.apk C:\Users\Sheng\Desktop\android library\Admob\admob\BannerExample\app\build\intermediates\split-apk\debug\slices\slice_3.apk C:\Users\Sheng\Desktop\android library\Admob\admob\BannerExample\app\build\intermediates\split-apk\debug\slices\slice_5.apk C:\Users\Sheng\Desktop\android library\Admob\admob\BannerExample\app\build\intermediates\split-apk\debug\slices\slice_6.apk C:\Users\Sheng\Desktop\android library\Admob\admob\BannerExample\app\build\intermediates\split-apk\debug\slices\slice_7.apk C:\Users\Sheng\Desktop\android library\Admob\admob\BannerExample\app\build\intermediates\split-apk\debug\slices\slice_8.apk C:\Users\Sheng\Desktop\android library\Admob\admob\BannerExample\app\build\intermediates\split-apk\debug\slices\slice_9.apk C:\Users\Sheng\Desktop\android library\Admob\admob\BannerExample\app\build\intermediates\instant-run-apk\debug\app-debug.apk 
+Split APKs installed
+$ adb shell am start -n "com.google.android.gms.example.bannerexample/com.google.android.gms.example.bannerexample.MyActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.google.android.gms.example.bannerexample | com.google.android.gms.example.bannerexample.test
+Waiting for application to come online: com.google.android.gms.example.bannerexample | com.google.android.gms.example.bannerexample.test
+Connecting to com.google.android.gms.example.bannerexample
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/zygote: Not late-enabling -Xcheck:jni (already on)
+W/zygote: Unexpected CPU variant for X86 using defaults: x86
+W/ActivityThread: Application com.google.android.gms.example.bannerexample is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+I/zygote: Debugger is active
+Connected to the target VM, address: 'localhost:8604', transport: 'socket'
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+I/chatty: uid=10085(u0_a85) com.google.android.gms.example.bannerexample identical 2 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1404)
+I/InstantRun: starting instant run server: is main process
+W/zygote: Skipping duplicate class check due to unrecognized classloader
+I/zygote: Do partial code cache collection, code=30KB, data=21KB
+I/zygote: After code cache collection, code=28KB, data=20KB
+          Increasing code cache capacity to 128KB
+W/zygote: Skipping duplicate class check due to unrecognized classloader
+D/DynamitePackage: Instantiated singleton DynamitePackage.
+D/DynamitePackage: Instantiating com.google.android.gms.ads.ChimeraMobileAdsSettingManagerCreatorImpl
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+I/cr_LibraryLoader: Time to load native libraries: 6 ms (timestamps 1293-1299)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14444,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14444,10085)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+I/chromium: [INFO:aw_field_trial_creator.cc(52)] First-WebView-Experiment found, group=Enabled
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14444,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14444,10085)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.google.android.gms.ads.internal.webview.v.<init>(com.google.android.gms.ads.internal.webview.au, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):1)
+              at java.lang.Object com.google.android.gms.ads.internal.webview.q.call() ((null):5)
+              at java.lang.Object com.google.android.gms.ads.internal.util.bp.a(java.util.concurrent.Callable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):23)
+              at com.google.android.gms.ads.internal.webview.i com.google.android.gms.ads.internal.webview.o.a(android.content.Context, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):8)
+              at void com.google.android.gms.ads.internal.js.q.<init>(android.content.Context, com.google.android.gms.ads.internal.util.client.p, lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):7)
+              at void com.google.android.gms.ads.internal.js.z.run() ((null):5)
+              at void com.google.android.gms.ads.internal.util.future.ad.execute(java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at com.google.android.gms.ads.internal.js.ao com.google.android.gms.ads.internal.js.y.a(lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):17)
+              at com.google.android.gms.ads.internal.js.ak com.google.android.gms.ads.internal.js.y.a() (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):27)
+              at com.google.android.gms.ads.internal.util.future.x com.google.android.gms.ads.internal.js.function.b.b(java.lang.Object) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, boolean, com.google.android.gms.ads.internal.state.e, java.lang.String, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ax.a(java.lang.String, vy) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at boolean com.google.android.gms.ads.internal.client.bc.a(int, android.os.Parcel, android.os.Parcel) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):40)
+              at boolean mu.onTransact(int, android.os.Parcel, android.os.Parcel, int) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):12)
+              at boolean android.os.Binder.transact(int, android.os.Parcel, android.os.Parcel, int) (Binder.java:604)
+              at void com.google.android.gms.internal.ads.zzej.transactAndReadExceptionReturnVoid(int, android.os.Parcel) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzll.zza(java.lang.String, com.google.android.gms.dynamic.IObjectWrapper) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzmb.zza(android.content.Context, java.lang.String, com.google.android.gms.internal.ads.zzmd) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String, com.google.android.gms.ads.MobileAds$Settings) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String) ((null):-1)
+              at void com.google.android.gms.example.bannerexample.MyActivity.onCreate(android.os.Bundle) (MyActivity.java:40)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+I/zygote:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.google.android.gms.ads.internal.webview.v.<init>(com.google.android.gms.ads.internal.webview.au, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):1)
+              at java.lang.Object com.google.android.gms.ads.internal.webview.q.call() ((null):5)
+              at java.lang.Object com.google.android.gms.ads.internal.util.bp.a(java.util.concurrent.Callable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):23)
+              at com.google.android.gms.ads.internal.webview.i com.google.android.gms.ads.internal.webview.o.a(android.content.Context, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):8)
+              at void com.google.android.gms.ads.internal.js.q.<init>(android.content.Context, com.google.android.gms.ads.internal.util.client.p, lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):7)
+              at void com.google.android.gms.ads.internal.js.z.run() ((null):5)
+              at void com.google.android.gms.ads.internal.util.future.ad.execute(java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at com.google.android.gms.ads.internal.js.ao com.google.android.gms.ads.internal.js.y.a(lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):17)
+              at com.google.android.gms.ads.internal.js.ak com.google.android.gms.ads.internal.js.y.a() (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):27)
+              at com.google.android.gms.ads.internal.util.future.x com.google.android.gms.ads.internal.js.function.b.b(java.lang.Object) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, boolean, com.google.android.gms.ads.internal.state.e, java.lang.String, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ax.a(java.lang.String, vy) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at boolean com.google.android.gms.ads.internal.client.bc.a(int, android.os.Parcel, android.os.Parcel) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):40)
+              at boolean mu.onTransact(int, android.os.Parcel, android.os.Parcel, int) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):12)
+              at boolean android.os.Binder.transact(int, android.os.Parcel, android.os.Parcel, int) (Binder.java:604)
+              at void com.google.android.gms.internal.ads.zzej.transactAndReadExceptionReturnVoid(int, android.os.Parcel) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzll.zza(java.lang.String, com.google.android.gms.dynamic.IObjectWrapper) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzmb.zza(android.content.Context, java.lang.String, com.google.android.gms.internal.ads.zzmd) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String, com.google.android.gms.ads.MobileAds$Settings) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String) ((null):-1)
+              at void com.google.android.gms.example.bannerexample.MyActivity.onCreate(android.os.Bundle) (MyActivity.java:40)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.google.android.gms.ads.internal.webview.v.<init>(com.google.android.gms.ads.internal.webview.au, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):1)
+              at java.lang.Object com.google.android.gms.ads.internal.webview.q.call() ((null):5)
+              at java.lang.Object com.google.android.gms.ads.internal.util.bp.a(java.util.concurrent.Callable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):23)
+              at com.google.android.gms.ads.internal.webview.i com.google.android.gms.ads.internal.webview.o.a(android.content.Context, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):8)
+              at void com.google.android.gms.ads.internal.js.q.<init>(android.content.Context, com.google.android.gms.ads.internal.util.client.p, lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):7)
+              at void com.google.android.gms.ads.internal.js.z.run() ((null):5)
+              at void com.google.android.gms.ads.internal.util.future.ad.execute(java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at com.google.android.gms.ads.internal.js.ao com.google.android.gms.ads.internal.js.y.a(lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):17)
+              at com.google.android.gms.ads.internal.js.ak com.google.android.gms.ads.internal.js.y.a() (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):27)
+              at com.google.android.gms.ads.internal.util.future.x com.google.android.gms.ads.internal.js.function.b.b(java.lang.Object) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, boolean, com.google.android.gms.ads.internal.state.e, java.lang.String, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ax.a(java.lang.String, vy) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at boolean com.google.android.gms.ads.internal.client.bc.a(int, android.os.Parcel, android.os.Parcel) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):40)
+              at boolean mu.onTransact(int, android.os.Parcel, android.os.Parcel, int) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):12)
+              at boolean android.os.Binder.transact(int, android.os.Parcel, android.os.Parcel, int) (Binder.java:604)
+              at void com.google.android.gms.internal.ads.zzej.transactAndReadExceptionReturnVoid(int, android.os.Parcel) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzll.zza(java.lang.String, com.google.android.gms.dynamic.IObjectWrapper) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzmb.zza(android.content.Context, java.lang.String, com.google.android.gms.internal.ads.zzmd) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String, com.google.android.gms.ads.MobileAds$Settings) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String) ((null):-1)
+              at void com.google.android.gms.example.bannerexample.MyActivity.onCreate(android.os.Bundle) (MyActivity.java:40)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+I/zygote: Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.google.android.gms.ads.internal.webview.v.<init>(com.google.android.gms.ads.internal.webview.au, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):1)
+              at java.lang.Object com.google.android.gms.ads.internal.webview.q.call() ((null):5)
+              at java.lang.Object com.google.android.gms.ads.internal.util.bp.a(java.util.concurrent.Callable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):23)
+              at com.google.android.gms.ads.internal.webview.i com.google.android.gms.ads.internal.webview.o.a(android.content.Context, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):8)
+              at void com.google.android.gms.ads.internal.js.q.<init>(android.content.Context, com.google.android.gms.ads.internal.util.client.p, lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):7)
+              at void com.google.android.gms.ads.internal.js.z.run() ((null):5)
+              at void com.google.android.gms.ads.internal.util.future.ad.execute(java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at com.google.android.gms.ads.internal.js.ao com.google.android.gms.ads.internal.js.y.a(lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):17)
+              at com.google.android.gms.ads.internal.js.ak com.google.android.gms.ads.internal.js.y.a() (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):27)
+              at com.google.android.gms.ads.internal.util.future.x com.google.android.gms.ads.internal.js.function.b.b(java.lang.Object) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, boolean, com.google.android.gms.ads.internal.state.e, java.lang.String, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ax.a(java.lang.String, vy) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at boolean com.google.android.gms.ads.internal.client.bc.a(int, android.os.Parcel, android.os.Parcel) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):40)
+              at boolean mu.onTransact(int, android.os.Parcel, android.os.Parcel, int) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):12)
+              at boolean android.os.Binder.transact(int, android.os.Parcel, android.os.Parcel, int) (Binder.java:604)
+              at void com.google.android.gms.internal.ads.zzej.transactAndReadExceptionReturnVoid(int, android.os.Parcel) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzll.zza(java.lang.String, com.google.android.gms.dynamic.IObjectWrapper) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzmb.zza(android.content.Context, java.lang.String, com.google.android.gms.internal.ads.zzmd) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String, com.google.android.gms.ads.MobileAds$Settings) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String) ((null):-1)
+              at void com.google.android.gms.example.bannerexample.MyActivity.onCreate(android.os.Bundle) (MyActivity.java:40)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+I/zygote:     at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.google.android.gms.ads.internal.webview.v.<init>(com.google.android.gms.ads.internal.webview.au, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):1)
+              at java.lang.Object com.google.android.gms.ads.internal.webview.q.call() ((null):5)
+              at java.lang.Object com.google.android.gms.ads.internal.util.bp.a(java.util.concurrent.Callable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):23)
+              at com.google.android.gms.ads.internal.webview.i com.google.android.gms.ads.internal.webview.o.a(android.content.Context, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):8)
+              at void com.google.android.gms.ads.internal.js.q.<init>(android.content.Context, com.google.android.gms.ads.internal.util.client.p, lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):7)
+              at void com.google.android.gms.ads.internal.js.z.run() ((null):5)
+              at void com.google.android.gms.ads.internal.util.future.ad.execute(java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at com.google.android.gms.ads.internal.js.ao com.google.android.gms.ads.internal.js.y.a(lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):17)
+              at com.google.android.gms.ads.internal.js.ak com.google.android.gms.ads.internal.js.y.a() (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):27)
+              at com.google.android.gms.ads.internal.util.future.x com.google.android.gms.ads.internal.js.function.b.b(java.lang.Object) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, boolean, com.google.android.gms.ads.internal.state.e, java.lang.String, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ax.a(java.lang.String, vy) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at boolean com.google.android.gms.ads.internal.client.bc.a(int, android.os.Parcel, android.os.Parcel) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):40)
+              at boolean mu.onTransact(int, android.os.Parcel, android.os.Parcel, int) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):12)
+              at boolean android.os.Binder.transact(int, android.os.Parcel, android.os.Parcel, int) (Binder.java:604)
+              at void com.google.android.gms.internal.ads.zzej.transactAndReadExceptionReturnVoid(int, android.os.Parcel) ((null):-1)
+I/zygote:     at void com.google.android.gms.internal.ads.zzll.zza(java.lang.String, com.google.android.gms.dynamic.IObjectWrapper) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzmb.zza(android.content.Context, java.lang.String, com.google.android.gms.internal.ads.zzmd) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String, com.google.android.gms.ads.MobileAds$Settings) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String) ((null):-1)
+              at void com.google.android.gms.example.bannerexample.MyActivity.onCreate(android.os.Bundle) (MyActivity.java:40)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.google.android.gms.ads.internal.webview.v.<init>(com.google.android.gms.ads.internal.webview.au, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):1)
+              at java.lang.Object com.google.android.gms.ads.internal.webview.q.call() ((null):5)
+              at java.lang.Object com.google.android.gms.ads.internal.util.bp.a(java.util.concurrent.Callable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):23)
+I/zygote:     at com.google.android.gms.ads.internal.webview.i com.google.android.gms.ads.internal.webview.o.a(android.content.Context, com.google.android.gms.ads.internal.webview.av, java.lang.String, boolean, boolean, lp, com.google.android.gms.ads.internal.util.client.p, com.google.android.gms.ads.internal.csi.l, com.google.android.gms.ads.internal.bm, com.google.android.gms.ads.internal.w, com.google.android.gms.ads.internal.clearcut.a) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):8)
+              at void com.google.android.gms.ads.internal.js.q.<init>(android.content.Context, com.google.android.gms.ads.internal.util.client.p, lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):7)
+              at void com.google.android.gms.ads.internal.js.z.run() ((null):5)
+              at void com.google.android.gms.ads.internal.util.future.ad.execute(java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at com.google.android.gms.ads.internal.js.ao com.google.android.gms.ads.internal.js.y.a(lp) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):17)
+              at com.google.android.gms.ads.internal.js.ak com.google.android.gms.ads.internal.js.y.a() (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):27)
+              at com.google.android.gms.ads.internal.util.future.x com.google.android.gms.ads.internal.js.function.b.b(java.lang.Object) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, boolean, com.google.android.gms.ads.internal.state.e, java.lang.String, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at void com.google.android.gms.ads.internal.ac.a(android.content.Context, com.google.android.gms.ads.internal.util.client.p, java.lang.String, java.lang.Runnable) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):4)
+              at void com.google.android.gms.ads.internal.ax.a(java.lang.String, vy) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):55)
+              at boolean com.google.android.gms.ads.internal.client.bc.a(int, android.os.Parcel, android.os.Parcel) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):40)
+              at boolean mu.onTransact(int, android.os.Parcel, android.os.Parcel, int) (:com.google.android.gms.dynamite_adsdynamite@12874026@12.8.74 (040700-204998136):12)
+              at boolean android.os.Binder.transact(int, android.os.Parcel, android.os.Parcel, int) (Binder.java:604)
+              at void com.google.android.gms.internal.ads.zzej.transactAndReadExceptionReturnVoid(int, android.os.Parcel) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzll.zza(java.lang.String, com.google.android.gms.dynamic.IObjectWrapper) ((null):-1)
+              at void com.google.android.gms.internal.ads.zzmb.zza(android.content.Context, java.lang.String, com.google.android.gms.internal.ads.zzmd) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String, com.google.android.gms.ads.MobileAds$Settings) ((null):-1)
+              at void com.google.android.gms.ads.MobileAds.initialize(android.content.Context, java.lang.String) ((null):-1)
+              at void com.google.android.gms.example.bannerexample.MyActivity.onCreate(android.os.Bundle) (MyActivity.java:40)
+              at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+              at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+              at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+              at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+              at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+              at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14444,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14444,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14444,10085)
+D/: HostConnection::get() New Host Connection established 0x90718600, tid 14521
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+W/Ads: Invoke Firebase method getInstance error.
+W/Ads: The Google Mobile Ads SDK will not integrate with Firebase. Admob/Firebase integration requires the latest Firebase SDK jar, but Firebase SDK is either missing or out of date
+D/EGL_emulation: eglCreateContext: 0x9071f340: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x9071f340: ver 2 0 (tinfo 0x9095a670)
+D/DynamitePackage: Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.MODIFY_AUDIO_SETTINGS,14444,10085)
+I/Ads: Starting ad request.
+I/Ads: This request is sent from a test device.
+W/zygote: Skipping duplicate class check due to unrecognized classloader
+W/Ads: Not retrying to fetch app settings
+I/zygote: Do partial code cache collection, code=59KB, data=44KB
+I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+I/zygote: After code cache collection, code=59KB, data=44KB
+          Increasing code cache capacity to 256KB
+W/cr_MediaCodecUtil: HW encoder for video/avc is not available on this device.
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.MODIFY_AUDIO_SETTINGS,14444,10085)
+D/OpenGLRenderer: HWUI GL Pipeline
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.BLUETOOTH,14444,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14444,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.BLUETOOTH,14444,10085)
+E/BluetoothAdapter: Bluetooth binder is null
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,14444,10085)
+W/zygote: No such thread id for suspend: 35
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+D/: HostConnection::get() New Host Connection established 0x9080de40, tid 14547
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0x90883cc0: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x908e8520: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x908e8520: ver 2 0 (tinfo 0x9095a670)
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+W/cr_CrashFileManager: /data/user/0/com.google.android.gms.example.bannerexample/cache/WebView/Crash Reports does not exist or is not a directory
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14444,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14444,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14444,10085)
+I/zygote: Do full code cache collection, code=123KB, data=83KB
+I/zygote: After code cache collection, code=102KB, data=59KB
+I/Ads: Scheduling ad refresh 70000 milliseconds from now.
+I/DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:300
+                  Selected remote version of com.google.android.gms.ads.dynamite, version >= 300
+W/zygote: Skipping duplicate class check due to unrecognized classloader
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14444,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14444,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14444,10085)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10085(u0_a85) RenderThread identical 4 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/zygote: Do partial code cache collection, code=121KB, data=79KB
+I/zygote: After code cache collection, code=121KB, data=79KB
+          Increasing code cache capacity to 512KB
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10085(u0_a85) RenderThread identical 12 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[PopupWindow:365e117]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6156528, downTime=6156528, deviceId=-1, source=0x101 }
+W/ViewRootImpl[PopupWindow:365e117]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6156529, downTime=6156529, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+W/ViewRootImpl[MyActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6156640, downTime=6156640, deviceId=-1, source=0x101 }
+I/chatty: uid=10085(u0_a85) com.google.android.gms.example.bannerexample identical 1 line
+W/ViewRootImpl[MyActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6156640, downTime=6156640, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MyActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6156579, downTime=6156579, deviceId=-1, source=0x101 }
+                            Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6156640, downTime=6156640, deviceId=-1, source=0x101 }
+I/chatty: uid=10085(u0_a85) com.google.android.gms.example.bannerexample identical 1 line
+W/ViewRootImpl[MyActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6156640, downTime=6156640, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MyActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=6156579, downTime=6156579, deviceId=-1, source=0x101 }
+                            Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6156579, downTime=6156579, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MyActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=6156579, downTime=6156579, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MyActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x420, repeatCount=0, eventTime=6156579, downTime=6156579, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MyActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6156736, downTime=6156736, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MyActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6156738, downTime=6156738, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10085(u0_a85) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+W/ViewRootImpl[PopupWindow:cea75e1]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6157680, downTime=6157680, deviceId=-1, source=0x101 }
+I/zygote: JIT allocated 71KB for compiled code of void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+          Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+I/zygote: Do full code cache collection, code=240KB, data=158KB
+I/zygote: After code cache collection, code=183KB, data=98KB
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10085(u0_a85) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/DynamitePackage: Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+I/Ads: Starting ad request.
+       This request is sent from a test device.
+W/ViewRootImpl[MyActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6160224, downTime=6160224, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MyActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6160447, downTime=6160447, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14444,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14444,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14444,10085)
+D/EGL_emulation: eglMakeCurrent: 0x908e8520: ver 2 0 (tinfo 0x9095a670)
+I/Ads: Scheduling ad refresh 70000 milliseconds from now.
+I/DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:300
+                  Selected remote version of com.google.android.gms.ads.dynamite, version >= 300
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10085(u0_a85) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10085(u0_a85) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/zygote: Do partial code cache collection, code=242KB, data=156KB
+I/zygote: After code cache collection, code=237KB, data=154KB
+          Increasing code cache capacity to 1024KB
+W/ViewRootImpl[PopupWindow:462742c]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6162220, downTime=6162220, deviceId=-1, source=0x101 }
+W/ViewRootImpl[PopupWindow:462742c]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6162222, downTime=6162222, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+E/Ads: JS: Unable to preventDefault inside passive event listener due to target being treated as passive. See https://www.chromestatus.com/features/5093566007214080 (https://googleads.g.doubleclick.net/mads/gma?_activity_context=true&android_num_video_cache_tasks=0&caps=inlineVideo_interactiveVideo_mraid1_mraid2_sdkVideo_th_autoplay_mediation_av_transparentBackground_sdkAdmobApiForAds_di_aso_sfv_dinm_dim_nav_navc_dinmo_ipdof_gls_gcache_xSeconds&eid=318481686&format=320x50_mb&heap_free=290456&heap_max=402653184&heap_total=3844848&js=afma-sdk-a-v12874026.12451000.1&mr=-438303185308675417%2C8744318498482049952&msid=com.google.android.gms.example.bannerexample&preqs=1&scroll_index=-1&seq_num=2&target_api=26:1)
+I/chromium: [INFO:CONSOLE(1)] "Unable to preventDefault inside passive event listener due to target being treated as passive. See https://www.chromestatus.com/features/5093566007214080", source: https://googleads.g.doubleclick.net/mads/gma?_activity_context=true&android_num_video_cache_tasks=0&caps=inlineVideo_interactiveVideo_mraid1_mraid2_sdkVideo_th_autoplay_mediation_av_transparentBackground_sdkAdmobApiForAds_di_aso_sfv_dinm_dim_nav_navc_dinmo_ipdof_gls_gcache_xSeconds&eid=318481686&format=320x50_mb&heap_free=290456&heap_max=402653184&heap_total=3844848&js=afma-sdk-a-v12874026.12451000.1&mr=-438303185308675417%2C8744318498482049952&msid=com.google.android.gms.example.bannerexample&preqs=1&scroll_index=-1&seq_num=2&target_api=26 (1)
+W/ViewRootImpl[PopupWindow:20b90af]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6162738, downTime=6162738, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+W/ViewRootImpl[PopupWindow:20b90af]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6162779, downTime=6162779, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[PopupWindow:20b90af]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6162780, downTime=6162780, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10085(u0_a85) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+W/ViewRootImpl[MyActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6164795, downTime=6164795, deviceId=-1, source=0x101 }
+                            Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6164802, downTime=6164795, deviceId=-1, source=0x101 }
+I/chatty: uid=10085(u0_a85) com.google.android.gms.example.bannerexample identical 1 line
+W/ViewRootImpl[MyActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6164802, downTime=6164795, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+W/ViewRootImpl[MyActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6164962, downTime=6164962, deviceId=-1, source=0x101 }
+I/chatty: uid=10085(u0_a85) com.google.android.gms.example.bannerexample identical 1 line
+W/ViewRootImpl[MyActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6164962, downTime=6164962, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MyActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6164992, downTime=6164992, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+W/ViewRootImpl[MyActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6165029, downTime=6165029, deviceId=-1, source=0x101 }
+I/chatty: uid=10085(u0_a85) com.google.android.gms.example.bannerexample identical 4 lines
+W/ViewRootImpl[MyActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6165029, downTime=6165029, deviceId=-1, source=0x101 }
+I/chatty: uid=10085(u0_a85) RenderThread identical 1 line
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[PopupWindow:299dd77]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CTRL_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6165276, downTime=6165276, deviceId=-1, source=0x101 }
+W/ViewRootImpl[PopupWindow:299dd77]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6165334, downTime=6165334, deviceId=-1, source=0x101 }
+W/ViewRootImpl[PopupWindow:299dd77]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6165336, downTime=6165336, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+W/ViewRootImpl[MyActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6165446, downTime=6165446, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MyActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6165448, downTime=6165448, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+W/ViewRootImpl[PopupWindow:a8298bd]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6166149, downTime=6166149, deviceId=-1, source=0x101 }
+W/ViewRootImpl[PopupWindow:9292275]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6166272, downTime=6166272, deviceId=-1, source=0x101 }
+W/ViewRootImpl[PopupWindow:9292275]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6166298, downTime=6166298, deviceId=-1, source=0x101 }
+                                     Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6166306, downTime=6166306, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+W/ViewRootImpl[MyActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_0, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6166395, downTime=6166395, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+I/chatty: uid=10085(u0_a85) com.google.android.gms.example.bannerexample identical 4 lines
+W/ViewRootImpl[MyActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_0, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6166395, downTime=6166395, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MyActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6166450, downTime=6166450, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/DynamitePackage: Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+I/Ads: Starting ad request.
+       This request is sent from a test device.
+W/ViewRootImpl[MyActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_FORWARD_DEL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6172048, downTime=6172048, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MyActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_FORWARD_DEL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=6172261, downTime=6172261, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+D/EGL_emulation: eglMakeCurrent: 0x90883cc0: ver 2 0 (tinfo 0x9087e2d0)
+I/zygote: Do full code cache collection, code=484KB, data=345KB
+I/zygote: After code cache collection, code=472KB, data=281KB
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14444,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14444,10085)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,14444,10085)
+D/EGL_emulation: eglMakeCurrent: 0x908e8520: ver 2 0 (tinfo 0x9095a670)
+Disconnected from the target VM, address: 'localhost:8604', transport: 'socket'

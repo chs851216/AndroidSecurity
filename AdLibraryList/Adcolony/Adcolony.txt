@@ -1,0 +1,248 @@
+
+09/03 13:02:55: Launching app
+$ adb shell am start -n "com.adcolony.rewardedinterstitialdemo/com.adcolony.rewardedinterstitialdemo.RewardedInterstitialActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.adcolony.rewardedinterstitialdemo | com.adcolony.rewardedinterstitialdemo.test
+Waiting for application to come online: com.adcolony.rewardedinterstitialdemo | com.adcolony.rewardedinterstitialdemo.test
+Connecting to com.adcolony.rewardedinterstitialdemo
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+W/ActivityThread: Application com.adcolony.rewardedinterstitialdemo is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+Connected to the target VM, address: 'localhost:8602', transport: 'socket'
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+I/chatty: uid=10082(com.adcolony.rewardedinterstitialdemo) identical 7 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1300)
+W/nterstitialdem: JIT profile information will not be recorded: profile file does not exits.
+I/chatty: uid=10082(com.adcolony.rewardedinterstitialdemo) identical 10 lines
+W/nterstitialdem: JIT profile information will not be recorded: profile file does not exits.
+I/InstantRun: starting instant run server: is main process
+D/OpenGLRenderer: HWUI GL Pipeline
+E/AdColony: JNI_OnLoad
+I/AdColony [INFO]: Configuring AdColony
+D/: HostConnection::get() New Host Connection established 0xe3e5f1c0, tid 11046
+I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0xcc650d40: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+D/AdColony [TRACE]: Requesting AdColony interstitial advertisement.
+D/AdColonyDemo: onRequestFilled
+I/Choreographer: Skipped 32 frames!  The application may be doing too much work on its main thread.
+W/ViewRootImpl[RewardedInterstitialActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUM, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1369492, downTime=1369492, deviceId=-1, source=0x101 }
+W/ViewRootImpl[RewardedInterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_NUM, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=1369493, downTime=1369493, deviceId=-1, source=0x101 }
+W/InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+I/chatty: uid=10082(com.adcolony.rewardedinterstitialdemo) identical 7 lines
+W/ViewRootImpl[RewardedInterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_NUM, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=1369493, downTime=1369493, deviceId=-1, source=0x101 }
+W/ViewRootImpl[RewardedInterstitialActivity]: Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=231.41193, y[0]=-305.91885, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=8, eventTime=1369700, downTime=1369687, deviceId=0, source=0x1002 }
+W/ViewRootImpl[RewardedInterstitialActivity]: Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=244.98999, y[0]=-297.4215, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1369701, downTime=1369687, deviceId=0, source=0x1002 }
+I/chatty: uid=10082(com.adcolony.rewardedinterstitialdemo) identical 1 line
+W/InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl[RewardedInterstitialActivity]: Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=197.32845, y[0]=-23.299988, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=6, eventTime=1369985, downTime=1369977, deviceId=0, source=0x1002 }
+W/ViewRootImpl[RewardedInterstitialActivity]: Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=196.27858, y[0]=-17.449585, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1369986, downTime=1369977, deviceId=0, source=0x1002 }
+W/ViewRootImpl[RewardedInterstitialActivity]: Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=548.0, y[0]=624.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1370014, downTime=1370013, deviceId=0, source=0x1002 }
+W/ViewRootImpl[RewardedInterstitialActivity]: Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=554.2406, y[0]=608.4181, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1370019, downTime=1370013, deviceId=0, source=0x1002 }
+                                              Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ALT_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1370044, downTime=1370044, deviceId=-1, source=0x101 }
+W/ViewRootImpl[RewardedInterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ALT_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=1370047, downTime=1370047, deviceId=-1, source=0x101 }
+I/chatty: uid=10082(com.adcolony.rewardedinterstitialdemo) identical 3 lines
+W/InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+I/chatty: uid=10082(com.adcolony.rewardedinterstitialdemo) identical 4 lines
+W/ViewRootImpl[RewardedInterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ALT_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=1370047, downTime=1370047, deviceId=-1, source=0x101 }
+W/ViewRootImpl[RewardedInterstitialActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CAPS_LOCK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1370202, downTime=1370202, deviceId=-1, source=0x101 }
+W/ViewRootImpl[RewardedInterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CAPS_LOCK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=1370204, downTime=1370204, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+W/InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+I/chatty: uid=10082(com.adcolony.rewardedinterstitialdemo) identical 7 lines
+W/ViewRootImpl[RewardedInterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CAPS_LOCK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=1370204, downTime=1370204, deviceId=-1, source=0x101 }
+W/ViewRootImpl[RewardedInterstitialActivity]: Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=745.1575, y[0]=-347.84274, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1370315, downTime=1370312, deviceId=0, source=0x1002 }
+W/InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl[RewardedInterstitialActivity]: Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=507.50336, y[0]=-56.01837, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1370576, downTime=1370573, deviceId=0, source=0x1002 }
+W/ViewRootImpl[RewardedInterstitialActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_H, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1370601, downTime=1370601, deviceId=-1, source=0x101 }
+W/InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+W/InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl[RewardedInterstitialActivity]: Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_DOWN(1), actionButton=0, id[0]=0, x[0]=207.13083, y[0]=962.46606, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=738.0, y[1]=923.0, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=1370857, downTime=1370852, deviceId=0, source=0x1002 }
+W/ViewRootImpl[RewardedInterstitialActivity]: Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=232.5986, y[0]=949.28394, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=669.6279, y[1]=975.00037, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=6, eventTime=1370864, downTime=1370852, deviceId=0, source=0x1002 }
+W/ViewRootImpl[RewardedInterstitialActivity]: Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_UP(1), actionButton=0, id[0]=0, x[0]=239.07993, y[0]=947.04614, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=656.6184, y[1]=983.714, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=1370865, downTime=1370852, deviceId=0, source=0x1002 }
+W/ViewRootImpl[RewardedInterstitialActivity]: Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=242.36502, y[0]=945.5873, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1370867, downTime=1370852, deviceId=0, source=0x1002 }
+W/ViewRootImpl[RewardedInterstitialActivity]: Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=39.0, y[0]=1034.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1370891, downTime=1370891, deviceId=0, source=0x1002 }
+W/ViewRootImpl[RewardedInterstitialActivity]: Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=55.02011, y[0]=1033.9954, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1370893, downTime=1370891, deviceId=0, source=0x1002 }
+I/chatty: uid=10082(com.adcolony.rewardedinterstitialdemo) identical 5 lines
+W/InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@135f694
+W/AdColony [WARNING]: Ignoring call to AdColony.configure, as the same zone ids were used during the previous configuration.
+D/AdColony [TRACE]: Requesting AdColony interstitial advertisement.
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+D/AdColonyDemo: onRequestFilled
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+W/ViewRootImpl[RewardedInterstitialActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=287.0, y[0]=1205.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1375354, downTime=1375353, deviceId=0, source=0x1002 }
+W/ViewRootImpl[RewardedInterstitialActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=282.53156, y[0]=1204.5084, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1375355, downTime=1375353, deviceId=0, source=0x1002 }
+I/chatty: uid=10082(com.adcolony.rewardedinterstitialdemo) identical 2 lines
+W/ViewRootImpl[RewardedInterstitialActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=282.53156, y[0]=1204.5084, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1375355, downTime=1375353, deviceId=0, source=0x1002 }
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+W/ViewRootImpl[RewardedInterstitialActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=727.93933, y[0]=320.39566, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=7, eventTime=1381669, downTime=1381623, deviceId=0, source=0x1002 }
+W/ViewRootImpl[RewardedInterstitialActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=727.9236, y[0]=316.65195, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1381673, downTime=1381623, deviceId=0, source=0x1002 }
+I/chatty: uid=10082(com.adcolony.rewardedinterstitialdemo) identical 2 lines
+W/ViewRootImpl[RewardedInterstitialActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=727.9236, y[0]=316.65195, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1381673, downTime=1381623, deviceId=0, source=0x1002 }
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+D/EGL_emulation: eglMakeCurrent: 0xcc650d40: ver 2 0 (tinfo 0xcc0e9ea0)
+Disconnected from the target VM, address: 'localhost:8602', transport: 'socket'
+
+09/03 13:06:31: Launching app
+$ adb install-multiple -r -t C:\Users\Sheng\Desktop\android library\Adcolony\AdColony-Android-SDK-3-master\Demos\InterstitialDemo\app\build\intermediates\split-apk\debug\dep\dependencies.apk C:\Users\Sheng\Desktop\android library\Adcolony\AdColony-Android-SDK-3-master\Demos\InterstitialDemo\app\build\intermediates\split-apk\debug\slices\slice_0.apk C:\Users\Sheng\Desktop\android library\Adcolony\AdColony-Android-SDK-3-master\Demos\InterstitialDemo\app\build\intermediates\split-apk\debug\slices\slice_6.apk C:\Users\Sheng\Desktop\android library\Adcolony\AdColony-Android-SDK-3-master\Demos\InterstitialDemo\app\build\intermediates\split-apk\debug\slices\slice_2.apk C:\Users\Sheng\Desktop\android library\Adcolony\AdColony-Android-SDK-3-master\Demos\InterstitialDemo\app\build\intermediates\split-apk\debug\slices\slice_4.apk C:\Users\Sheng\Desktop\android library\Adcolony\AdColony-Android-SDK-3-master\Demos\InterstitialDemo\app\build\intermediates\split-apk\debug\slices\slice_5.apk C:\Users\Sheng\Desktop\android library\Adcolony\AdColony-Android-SDK-3-master\Demos\InterstitialDemo\app\build\intermediates\split-apk\debug\slices\slice_3.apk C:\Users\Sheng\Desktop\android library\Adcolony\AdColony-Android-SDK-3-master\Demos\InterstitialDemo\app\build\intermediates\split-apk\debug\slices\slice_1.apk C:\Users\Sheng\Desktop\android library\Adcolony\AdColony-Android-SDK-3-master\Demos\InterstitialDemo\app\build\intermediates\split-apk\debug\slices\slice_7.apk C:\Users\Sheng\Desktop\android library\Adcolony\AdColony-Android-SDK-3-master\Demos\InterstitialDemo\app\build\intermediates\split-apk\debug\slices\slice_8.apk C:\Users\Sheng\Desktop\android library\Adcolony\AdColony-Android-SDK-3-master\Demos\InterstitialDemo\app\build\intermediates\split-apk\debug\slices\slice_9.apk C:\Users\Sheng\Desktop\android library\Adcolony\AdColony-Android-SDK-3-master\Demos\InterstitialDemo\app\build\intermediates\instant-run-apk\debug\app-debug.apk C:\Users\Sheng\Desktop\android library\Adcolony\AdColony-Android-SDK-3-master\Demos\InterstitialDemo\app\build\intermediates\resources\instant-run\debug\resources-debug.apk 
+Split APKs installed
+$ adb shell am start -n "com.adcolony.interstitialdemo/com.adcolony.interstitialdemo.InterstitialActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.adcolony.interstitialdemo.test | com.adcolony.interstitialdemo
+Waiting for application to come online: com.adcolony.interstitialdemo.test | com.adcolony.interstitialdemo
+Waiting for application to come online: com.adcolony.interstitialdemo.test | com.adcolony.interstitialdemo
+Connecting to com.adcolony.interstitialdemo
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/nterstitialdem: Not late-enabling -Xcheck:jni (already on)
+W/nterstitialdem: Unexpected CPU variant for X86 using defaults: x86
+W/ActivityThread: Application com.adcolony.interstitialdemo is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+Connected to the target VM, address: 'localhost:8602', transport: 'socket'
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+I/chatty: uid=10083(com.adcolony.interstitialdemo) identical 1 line
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/chatty: uid=10083(com.adcolony.interstitialdemo) identical 3 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1313)
+W/nterstitialdem: JIT profile information will not be recorded: profile file does not exits.
+I/chatty: uid=10083(com.adcolony.interstitialdemo) identical 10 lines
+W/nterstitialdem: JIT profile information will not be recorded: profile file does not exits.
+I/InstantRun: starting instant run server: is main process
+D/OpenGLRenderer: HWUI GL Pipeline
+I/AdColony [INFO]: Configuring AdColony
+D/: HostConnection::get() New Host Connection established 0xdd0f4dc0, tid 11602
+I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+               android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0xcc64fb00: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+D/AdColonyDemo: onRequestNotFilled
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=178.0, y[0]=230.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1581185, downTime=1581185, deviceId=0, source=0x1002 }
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=184.38708, y[0]=201.81787, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=1581195, downTime=1581185, deviceId=0, source=0x1002 }
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=200.58138, y[0]=182.84619, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=2, eventTime=1581205, downTime=1581185, deviceId=0, source=0x1002 }
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=208.62318, y[0]=181.5031, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1581210, downTime=1581185, deviceId=0, source=0x1002 }
+I/chatty: uid=10083(com.adcolony.interstitialdemo) identical 2 lines
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=208.62318, y[0]=181.5031, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1581210, downTime=1581185, deviceId=0, source=0x1002 }
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HELP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=1588273, downTime=1588273, deviceId=-1, source=0x101 }
+I/chatty: uid=10083(com.adcolony.interstitialdemo) identical 1 line
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HELP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=1588273, downTime=1588273, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=7.0, y[0]=955.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1588426, downTime=1588426, deviceId=0, source=0x1002 }
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=2.007904, y[0]=966.3274, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1588429, downTime=1588426, deviceId=0, source=0x1002 }
+I/chatty: uid=10083(com.adcolony.interstitialdemo) identical 2 lines
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=2.007904, y[0]=966.3274, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1588429, downTime=1588426, deviceId=0, source=0x1002 }
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=132.0, y[0]=1504.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1588454, downTime=1588454, deviceId=0, source=0x1002 }
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=111.03737, y[0]=1499.8745, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1588455, downTime=1588454, deviceId=0, source=0x1002 }
+I/chatty: uid=10083(com.adcolony.interstitialdemo) identical 2 lines
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=111.03737, y[0]=1499.8745, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1588455, downTime=1588454, deviceId=0, source=0x1002 }
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HELP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=1588273, downTime=1588273, deviceId=-1, source=0x101 }
+I/chatty: uid=10083(com.adcolony.interstitialdemo) identical 4 lines
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HELP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=1588273, downTime=1588273, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=505.0, y[0]=424.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1588482, downTime=1588481, deviceId=0, source=0x1002 }
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=454.34256, y[0]=438.50803, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=1588493, downTime=1588481, deviceId=0, source=0x1002 }
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=443.92233, y[0]=451.53467, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1588496, downTime=1588481, deviceId=0, source=0x1002 }
+I/chatty: uid=10083(com.adcolony.interstitialdemo) identical 2 lines
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=443.92233, y[0]=451.53467, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1588496, downTime=1588481, deviceId=0, source=0x1002 }
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=1588577, downTime=1588577, deviceId=-1, source=0x101 }
+I/chatty: uid=10083(com.adcolony.interstitialdemo) identical 5 lines
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=1588577, downTime=1588577, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@dc83367
+W/AdColony [WARNING]: Ignoring call to AdColony.configure, as the same zone ids were used during the previous configuration.
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@9bad0c5
+W/AdColony [WARNING]: Ignoring call to AdColony.configure, as the same zone ids were used during the previous configuration.
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/AdColonyDemo: onRequestNotFilled
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=39.0, y[0]=312.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1600252, downTime=1600252, deviceId=0, source=0x1002 }
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=17.236277, y[0]=315.37997, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1600258, downTime=1600252, deviceId=0, source=0x1002 }
+I/chatty: uid=10083(com.adcolony.interstitialdemo) identical 2 lines
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=17.236277, y[0]=315.37997, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1600258, downTime=1600252, deviceId=0, source=0x1002 }
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=819.0, y[0]=1739.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1600323, downTime=1600323, deviceId=0, source=0x1002 }
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=800.1477, y[0]=1735.5013, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=1, eventTime=1600325, downTime=1600323, deviceId=0, source=0x1002 }
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=788.294, y[0]=1732.1233, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1600326, downTime=1600323, deviceId=0, source=0x1002 }
+I/chatty: uid=10083(com.adcolony.interstitialdemo) identical 2 lines
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=788.294, y[0]=1732.1233, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1600326, downTime=1600323, deviceId=0, source=0x1002 }
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=810.0, y[0]=490.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1600363, downTime=1600363, deviceId=0, source=0x1002 }
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=810.1374, y[0]=486.8429, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1600366, downTime=1600363, deviceId=0, source=0x1002 }
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=813.9133, y[0]=486.09344, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1600371, downTime=1600363, deviceId=0, source=0x1002 }
+I/chatty: uid=10083(com.adcolony.interstitialdemo) identical 2 lines
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=813.9133, y[0]=486.09344, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1600371, downTime=1600363, deviceId=0, source=0x1002 }
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+E/AdColony: JNI_OnLoad
+D/AdColony [TRACE]: Requesting AdColony interstitial advertisement.
+I/chatty: uid=10083(com.adcolony.interstitialdemo) pool-5-thread-1 identical 7 lines
+D/AdColony [TRACE]: Requesting AdColony interstitial advertisement.
+I/nterstitialdem: Waiting for a blocking GC ProfileSaver
+I/nterstitialdem: WaitForGcToComplete blocked ProfileSaver on HeapTrim for 52.517ms
+D/AdColonyDemo: onRequestFilled
+D/AdColonyDemo: onRequestFilled
+I/chatty: uid=10083(com.adcolony.interstitialdemo) identical 2 lines
+D/AdColonyDemo: onRequestFilled
+D/AdColonyDemo: onRequestFilled
+I/chatty: uid=10083(com.adcolony.interstitialdemo) identical 1 line
+D/AdColonyDemo: onRequestFilled
+W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@c29539f
+D/AdColonyDemo: onOpened
+D/AdColonyDemo: onRequestFilled
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+W/MediaPlayerNative: info/warning (3, 0)
+W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+D/: HostConnection::get() New Host Connection established 0xc8f86c40, tid 11900
+W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+D/: HostConnection::get() New Host Connection established 0xc8f86e80, tid 11902
+W/MapperHal: buffer descriptor with invalid usage bits 0x2000
+V/MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+               cleanDrmObj: mDrmObj=null mDrmSessionId=null
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+D/EGL_emulation: eglMakeCurrent: 0xcc64fb00: ver 2 0 (tinfo 0xcc58b550)
+Disconnected from the target VM, address: 'localhost:8602', transport: 'socket'

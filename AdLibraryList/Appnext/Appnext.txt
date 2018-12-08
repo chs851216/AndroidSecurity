@@ -1,0 +1,1144 @@
+
+09/03 13:54:26: Launching app
+$ adb install-multiple -r -t C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\resources\instant-run\debug\resources-debug.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\instant-run-apk\debug\app-debug.apk 
+Split APKs installed
+$ adb shell am start -n "com.appnext.sdktest/com.appnext.sdktest.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.appnext.sdktest | com.appnext.sdktest.test
+Waiting for application to come online: com.appnext.sdktest | com.appnext.sdktest.test
+Connecting to com.appnext.sdktest
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+W/ActivityThread: Application com.appnext.sdktest is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+I/zygote: Debugger is active
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+Connected to the target VM, address: 'localhost:8604', transport: 'socket'
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/chatty: uid=10098(u0_a98) com.appnext.sdktest identical 1 line
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1459)
+I/InstantRun: starting instant run server: is main process
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+D/OpenGLRenderer: HWUI GL Pipeline
+I/zygote: Background concurrent copying GC freed 5152(1023KB) AllocSpace objects, 4(80KB) LOS objects, 61% free, 964KB/2MB, paused 11.237ms total 111.802ms
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+I/zygote: Do partial code cache collection, code=28KB, data=30KB
+I/zygote: After code cache collection, code=28KB, data=30KB
+          Increasing code cache capacity to 128KB
+W/zygote: Suspending all threads took: 5.949ms
+I/zygote: Background concurrent copying GC freed 33496(1452KB) AllocSpace objects, 4(80KB) LOS objects, 55% free, 1243KB/2MB, paused 12.588ms total 209.110ms
+I/cr_LibraryLoader: Time to load native libraries: 28 ms (timestamps 7621-7649)
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.appnext.sdktest/app_webview/variations_seed": /data/user/0/com.appnext.sdktest/app_webview/variations_seed (No such file or directory)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+I/zygote: Do partial code cache collection, code=61KB, data=45KB
+          After code cache collection, code=57KB, data=44KB
+          Increasing code cache capacity to 256KB
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18014,10098)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.appnext.core.g.v(android.content.Context) (SourceFile:147)
+              at void com.appnext.core.Ad$1.run() (SourceFile:70)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+I/zygote:     at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.appnext.core.g.v(android.content.Context) (SourceFile:147)
+              at void com.appnext.core.Ad$1.run() (SourceFile:70)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.appnext.core.g.v(android.content.Context) (SourceFile:147)
+              at void com.appnext.core.Ad$1.run() (SourceFile:70)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+I/zygote:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.appnext.core.g.v(android.content.Context) (SourceFile:147)
+              at void com.appnext.core.Ad$1.run() (SourceFile:70)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+I/zygote:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.appnext.core.g.v(android.content.Context) (SourceFile:147)
+              at void com.appnext.core.Ad$1.run() (SourceFile:70)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.appnext.core.g.v(android.content.Context) (SourceFile:147)
+I/zygote:     at void com.appnext.core.Ad$1.run() (SourceFile:70)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+I/Choreographer: Skipped 201 frames!  The application may be doing too much work on its main thread.
+D/: HostConnection::get() New Host Connection established 0x906d8480, tid 18090
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+I/zygote: Do full code cache collection, code=76KB, data=77KB
+I/zygote: After code cache collection, code=45KB, data=47KB
+D/EGL_emulation: eglCreateContext: 0xabd31aa0: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0x9ff7f2f0)
+I/zygote: Background concurrent copying GC freed 14262(1068KB) AllocSpace objects, 9(332KB) LOS objects, 49% free, 1558KB/3MB, paused 6.992ms total 234.025ms
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18014,10098)
+I/Choreographer: Skipped 47 frames!  The application may be doing too much work on its main thread.
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0x9ff7f2f0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18014,10098)
+W/cr_CrashFileManager: /data/user/0/com.appnext.sdktest/cache/WebView/Crash Reports does not exist or is not a directory
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+D/: HostConnection::get() New Host Connection established 0x90679a40, tid 18014
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x90858f20: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x90858f20: ver 2 0 (tinfo 0x906c5050)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,18014,10098)
+I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+W/cr_MediaCodecUtil: HW encoder for video/avc is not available on this device.
+D/: HostConnection::get() New Host Connection established 0x8c598980, tid 18147
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x89dea5e0: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x89dea5e0: ver 2 0 (tinfo 0x89dcddb0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,18014,10098)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,18014,10098)
+                  glUtilsParamSize: unknow param 0x000085b5
+W/cr_media: Requires BLUETOOTH permission
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 18 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/zygote: Do partial code cache collection, code=122KB, data=97KB
+          After code cache collection, code=118KB, data=95KB
+          Increasing code cache capacity to 512KB
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+D/EGL_emulation: eglMakeCurrent: 0x89dea5e0: ver 2 0 (tinfo 0x89dcddb0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18014,10098)
+I/chatty: uid=10098(u0_a98) RenderThread identical 4 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/AssistStructure: Flattened final assist data: 4676 bytes, containing 1 windows, 17 views
+I/Choreographer: Skipped 38 frames!  The application may be doing too much work on its main thread.
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 10 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18014,10098)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0x9ff7f2f0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0x9ff7f2f0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7298337, downTime=7298337, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7298862, downTime=7298862, deviceId=-1, source=0x101 }
+I/Choreographer: Skipped 32 frames!  The application may be doing too much work on its main thread.
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-1.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=7298864, downTime=-1, deviceId=0, source=0x10004 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7299638, downTime=7299638, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0x9ff7f2f0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0x9ff7f2f0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18014,10098)
+I/chatty: uid=10098(u0_a98) RenderThread identical 4 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/Choreographer: Skipped 37 frames!  The application may be doing too much work on its main thread.
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 4 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18014,10098)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18014,10098)
+I/chatty: uid=10098(u0_a98) RenderThread identical 6 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 4 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0x9ff7f2f0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0x9ff7f2f0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/zygote: Do full code cache collection, code=245KB, data=204KB
+I/zygote: After code cache collection, code=217KB, data=141KB
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18014,10098)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+I/Choreographer: Skipped 49 frames!  The application may be doing too much work on its main thread.
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0x9ff7f2f0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+I/Choreographer: Skipped 37 frames!  The application may be doing too much work on its main thread.
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0x9ff7f2f0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0x9ff7f2f0)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7305474, downTime=7305474, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0x9ff7f2f0)
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7305723, downTime=7305723, deviceId=-1, source=0x101 }
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18014,10098)
+I/zygote: Background concurrent copying GC freed 19559(1397KB) AllocSpace objects, 2(40KB) LOS objects, 50% free, 1906KB/3MB, paused 11.250ms total 41.737ms
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18014,10098)
+I/AssistStructure: Flattened final assist data: 4492 bytes, containing 1 windows, 16 views
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0x9ff7f2f0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0x9ff7f2f0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18014,10098)
+I/zygote: Do partial code cache collection, code=246KB, data=192KB
+I/zygote: After code cache collection, code=246KB, data=192KB
+I/zygote: Increasing code cache capacity to 1024KB
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7307689, downTime=7307689, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7307693, downTime=7307693, deviceId=-1, source=0x101 }
+I/chatty: uid=10098(u0_a98) com.appnext.sdktest identical 5 lines
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7307693, downTime=7307693, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7307698, downTime=7307698, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7307826, downTime=7307826, deviceId=-1, source=0x101 }
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7309156, downTime=7309156, deviceId=-1, source=0x101 }
+I/Choreographer: Skipped 33 frames!  The application may be doing too much work on its main thread.
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_I, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7309942, downTime=7309942, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_I, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7310022, downTime=7310022, deviceId=-1, source=0x101 }
+I/chatty: uid=10098(u0_a98) RenderThread identical 4 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_PICTSYMBOLS, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7310025, downTime=7310025, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_PICTSYMBOLS, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7310029, downTime=7310029, deviceId=-1, source=0x101 }
+I/chatty: uid=10098(u0_a98) com.appnext.sdktest identical 7 lines
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_PICTSYMBOLS, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7310029, downTime=7310029, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7310275, downTime=7310275, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7310286, downTime=7310286, deviceId=-1, source=0x101 }
+I/chatty: uid=10098(u0_a98) com.appnext.sdktest identical 7 lines
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7310286, downTime=7310286, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TV_NETWORK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7310324, downTime=7310324, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV_NETWORK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7310414, downTime=7310414, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x89dea5e0: ver 2 0 (tinfo 0x89dcddb0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/Choreographer: Skipped 37 frames!  The application may be doing too much work on its main thread.
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_Y, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7310716, downTime=7310716, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7310716, downTime=7310716, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BUTTON_Y, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7310778, downTime=7310778, deviceId=-1, source=0x101 }
+I/chatty: uid=10098(u0_a98) com.appnext.sdktest identical 7 lines
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BUTTON_Y, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7310778, downTime=7310778, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7310778, downTime=7310778, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7311138, downTime=7311138, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7311399, downTime=7311399, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7311422, downTime=7311422, deviceId=-1, source=0x101 }
+I/chatty: uid=10098(u0_a98) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18014,10098)
+I/chatty: uid=10098(u0_a98) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18014,10098)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7312154, downTime=7312154, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7312537, downTime=7312537, deviceId=-1, source=0x101 }
+I/chatty: uid=10098(u0_a98) com.appnext.sdktest identical 7 lines
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7312537, downTime=7312537, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_EQUALS, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7312544, downTime=7312544, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_EQUALS, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7312548, downTime=7312548, deviceId=-1, source=0x101 }
+I/chatty: uid=10098(u0_a98) com.appnext.sdktest identical 7 lines
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_EQUALS, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7312548, downTime=7312548, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7312555, downTime=7312555, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7312558, downTime=7312558, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x89dea5e0: ver 2 0 (tinfo 0x89dcddb0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18014,10098)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7313444, downTime=7313444, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7313736, downTime=7313736, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x89dea5e0: ver 2 0 (tinfo 0x89dcddb0)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7313745, downTime=7313745, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7313751, downTime=7313751, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0x9ff7f2f0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0x9ff7f2f0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0x9ff7f2f0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x88aa7b80 (RippleDrawable) with handle 0x89e3fec0
+D/EGL_emulation: eglMakeCurrent: 0x89dea5e0: ver 2 0 (tinfo 0x89dcddb0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/ActivityThread: Activity com.appnext.sdktest.MainActivity has leaked ServiceConnection com.appnext.core.q$1@2618251 that was originally bound here
+                  android.app.ServiceConnectionLeaked: Activity com.appnext.sdktest.MainActivity has leaked ServiceConnection com.appnext.core.q$1@2618251 that was originally bound here
+                      at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:1514)
+                      at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:1406)
+                      at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1589)
+                      at android.app.ContextImpl.bindService(ContextImpl.java:1541)
+                      at android.content.ContextWrapper.bindService(ContextWrapper.java:678)
+                      at com.appnext.core.q.C(SourceFile:48)
+                      at com.appnext.core.s$3.onMarket(SourceFile:186)
+                      at com.appnext.core.s$2$2$2.onMarket(SourceFile:142)
+                      at com.appnext.core.e$1.onMarket(SourceFile:90)
+                      at com.appnext.core.e$3.shouldOverrideUrlLoading(SourceFile:327)
+                      at android.webkit.WebViewClient.shouldOverrideUrlLoading(WebViewClient.java:73)
+                      at xf.b(PG:104)
+                      at org.chromium.android_webview.AwContentsClientBridge.shouldOverrideUrlLoading(PG:172)
+                      at org.chromium.base.SystemMessageHandler.nativeDoRunLoopOnce(Native Method)
+                      at org.chromium.base.SystemMessageHandler.handleMessage(PG:9)
+                      at android.os.Handler.dispatchMessage(Handler.java:105)
+                      at android.os.Looper.loop(Looper.java:164)
+                      at android.app.ActivityThread.main(ActivityThread.java:6541)
+                      at java.lang.reflect.Method.invoke(Native Method)
+                      at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+                      at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+
+					  
+09/03 13:56:36: Launching app
+$ adb install-multiple -r -t -p com.appnext.sdktest C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk C:\Users\Sheng\Desktop\android library\Appnext\appnext_android_sdk_examples-master\app\build\intermediates\instant-run-apk\debug\app-debug.apk 
+Split APKs installed
+$ adb shell am start -n "com.appnext.sdktest/com.appnext.sdktest.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.appnext.sdktest | com.appnext.sdktest.test
+Waiting for application to come online: com.appnext.sdktest | com.appnext.sdktest.test
+Connecting to com.appnext.sdktest
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+W/ActivityThread: Application com.appnext.sdktest is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+I/zygote: Debugger is active
+Connected to the target VM, address: 'localhost:8605', transport: 'socket'
+I/System.out: Debugger has connected
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/chatty: uid=10098(u0_a98) com.appnext.sdktest identical 2 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1346)
+I/InstantRun: starting instant run server: is main process
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+I/zygote: Background concurrent copying GC freed 4652(1013KB) AllocSpace objects, 2(40KB) LOS objects, 53% free, 1339KB/2MB, paused 6.068ms total 292.769ms
+D/OpenGLRenderer: HWUI GL Pipeline
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+I/zygote: Do partial code cache collection, code=25KB, data=30KB
+I/zygote: After code cache collection, code=23KB, data=29KB
+          Increasing code cache capacity to 128KB
+I/zygote: Background concurrent copying GC freed 37980(1708KB) AllocSpace objects, 6(120KB) LOS objects, 53% free, 1342KB/2MB, paused 1.700ms total 142.995ms
+I/zygote: Do partial code cache collection, code=61KB, data=44KB
+I/zygote: After code cache collection, code=56KB, data=43KB
+          Increasing code cache capacity to 256KB
+I/cr_LibraryLoader: Time to load native libraries: 81 ms (timestamps 6890-6971)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+I/chromium: [INFO:aw_field_trial_creator.cc(52)] First-WebView-Experiment found, group=Enabled
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.appnext.core.g.v(android.content.Context) (SourceFile:147)
+              at void com.appnext.core.Ad$1.run() (SourceFile:70)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.appnext.core.g.v(android.content.Context) (SourceFile:147)
+              at void com.appnext.core.Ad$1.run() (SourceFile:70)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+I/zygote:     at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.appnext.core.g.v(android.content.Context) (SourceFile:147)
+              at void com.appnext.core.Ad$1.run() (SourceFile:70)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.appnext.core.g.v(android.content.Context) (SourceFile:147)
+              at void com.appnext.core.Ad$1.run() (SourceFile:70)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+I/zygote:     at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.appnext.core.g.v(android.content.Context) (SourceFile:147)
+              at void com.appnext.core.Ad$1.run() (SourceFile:70)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.appnext.core.g.v(android.content.Context) (SourceFile:147)
+              at void com.appnext.core.Ad$1.run() (SourceFile:70)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+I/Choreographer: Skipped 207 frames!  The application may be doing too much work on its main thread.
+D/: HostConnection::get() New Host Connection established 0x9058cf00, tid 18683
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0xabd31aa0: maj 2 min 0 rcv 2
+I/zygote: Do full code cache collection, code=77KB, data=77KB
+          After code cache collection, code=61KB, data=55KB
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+I/zygote: Background concurrent copying GC freed 13827(1134KB) AllocSpace objects, 10(352KB) LOS objects, 52% free, 1382KB/2MB, paused 5.058ms total 74.566ms
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+I/Choreographer: Skipped 37 frames!  The application may be doing too much work on its main thread.
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+W/cr_CrashFileManager: /data/user/0/com.appnext.sdktest/cache/WebView/Crash Reports does not exist or is not a directory
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+D/: HostConnection::get() New Host Connection established 0x905d9640, tid 18582
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x9058f3e0: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x9058f3e0: ver 2 0 (tinfo 0x8a6d5c80)
+I/zygote: Background concurrent copying GC freed 15439(865KB) AllocSpace objects, 11(392KB) LOS objects, 50% free, 1891KB/3MB, paused 3.724ms total 103.720ms
+I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+W/cr_MediaCodecUtil: HW encoder for video/avc is not available on this device.
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.MODIFY_AUDIO_SETTINGS,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.MODIFY_AUDIO_SETTINGS,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+D/: HostConnection::get() New Host Connection established 0x8b61b940, tid 18744
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.BLUETOOTH,18582,10098)
+D/EGL_emulation: eglCreateContext: 0x8b60abc0: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x8b60abc0: ver 2 0 (tinfo 0x8a888c50)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.BLUETOOTH,18582,10098)
+E/BluetoothAdapter: Bluetooth binder is null
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 8 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/zygote: Do partial code cache collection, code=122KB, data=95KB
+I/zygote: After code cache collection, code=118KB, data=93KB
+I/zygote: Increasing code cache capacity to 512KB
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 6 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+D/OpenGLRenderer: endAllActiveAnimators on 0x9064ea80 (RippleDrawable) with handle 0x8a68a680
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-3.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=8, eventTime=7411998, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7411998, downTime=7411998, deviceId=-1, source=0x101 }
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+I/AssistStructure: Flattened final assist data: 4492 bytes, containing 1 windows, 16 views
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+I/zygote: Background concurrent copying GC freed 30328(1517KB) AllocSpace objects, 9(292KB) LOS objects, 49% free, 2023KB/3MB, paused 5.151ms total 155.616ms
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7412688, downTime=7412688, deviceId=-1, source=0x101 }
+                              Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7413124, downTime=7412688, deviceId=-1, source=0x101 }
+I/zygote: Do full code cache collection, code=247KB, data=203KB
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+I/zygote: After code cache collection, code=220KB, data=133KB
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7413163, downTime=7413163, deviceId=-1, source=0x101 }
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+I/zygote: Do partial code cache collection, code=224KB, data=154KB
+I/zygote: After code cache collection, code=224KB, data=154KB
+          Increasing code cache capacity to 1024KB
+I/Choreographer: Skipped 37 frames!  The application may be doing too much work on its main thread.
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+I/Choreographer: Skipped 53 frames!  The application may be doing too much work on its main thread.
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7413940, downTime=7413940, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOICE_ASSIST, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7415602, downTime=7415602, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOICE_ASSIST, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7415662, downTime=7415662, deviceId=-1, source=0x101 }
+I/chatty: uid=10098(u0_a98) com.appnext.sdktest identical 7 lines
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOICE_ASSIST, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7415662, downTime=7415662, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7415673, downTime=7415673, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7415675, downTime=7415675, deviceId=-1, source=0x101 }
+I/chatty: uid=10098(u0_a98) com.appnext.sdktest identical 7 lines
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7415675, downTime=7415675, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7415686, downTime=7415686, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7415693, downTime=7415693, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7415746, downTime=7415746, deviceId=-1, source=0x101 }
+                                      Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7415747, downTime=7415746, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TAB, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7416419, downTime=7416419, deviceId=-1, source=0x101 }
+I/Choreographer: Skipped 37 frames!  The application may be doing too much work on its main thread.
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_PROG_YELLOW, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7416458, downTime=7416458, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_PROG_YELLOW, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7416464, downTime=7416464, deviceId=-1, source=0x101 }
+I/chatty: uid=10098(u0_a98) com.appnext.sdktest identical 7 lines
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_PROG_YELLOW, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7416464, downTime=7416464, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7416510, downTime=7416510, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7416515, downTime=7416515, deviceId=-1, source=0x101 }
+I/chatty: uid=10098(u0_a98) com.appnext.sdktest identical 7 lines
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7416515, downTime=7416515, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+I/zygote: Background concurrent copying GC freed 10259(1054KB) AllocSpace objects, 18(1292KB) LOS objects, 49% free, 2MB/4MB, paused 3.480ms total 103.279ms
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+I/Choreographer: Skipped 36 frames!  The application may be doing too much work on its main thread.
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 4 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 4 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7421719, downTime=7421719, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7421740, downTime=7421719, deviceId=-1, source=0x101 }
+I/chatty: uid=10098(u0_a98) com.appnext.sdktest identical 7 lines
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7421740, downTime=7421719, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7421751, downTime=7421751, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7421936, downTime=7421936, deviceId=-1, source=0x101 }
+I/chatty: uid=10098(u0_a98) com.appnext.sdktest identical 4 lines
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7421936, downTime=7421936, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7421975, downTime=7421975, deviceId=-1, source=0x101 }
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7421982, downTime=7421982, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 4 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7423020, downTime=7423020, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7423257, downTime=7423257, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7423321, downTime=7423321, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7423330, downTime=7423330, deviceId=-1, source=0x101 }
+I/chatty: uid=10098(u0_a98) com.appnext.sdktest identical 7 lines
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7423330, downTime=7423330, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_EISU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7423637, downTime=7423637, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+W/InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7424209, downTime=7424209, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7424349, downTime=7424349, deviceId=-1, source=0x101 }
+I/chatty: uid=10098(u0_a98) com.appnext.sdktest identical 7 lines
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7424349, downTime=7424349, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8b60abc0: ver 2 0 (tinfo 0x8a888c50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7424872, downTime=7424872, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x8b60abc0: ver 2 0 (tinfo 0x8a888c50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7425114, downTime=7425114, deviceId=-1, source=0x101 }
+I/chatty: uid=10098(u0_a98) com.appnext.sdktest identical 4 lines
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7425114, downTime=7425114, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7425131, downTime=7425131, deviceId=-1, source=0x101 }
+I/chatty: uid=10098(u0_a98) com.appnext.sdktest identical 4 lines
+W/ViewRootImpl[InterstitialActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7425131, downTime=7425131, deviceId=-1, source=0x101 }
+W/ViewRootImpl[InterstitialActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_RIGHT_PAREN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7425309, downTime=7425309, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 6 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7426059, downTime=7426059, deviceId=-1, source=0x101 }
+I/chatty: uid=10098(u0_a98) com.appnext.sdktest identical 5 lines
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7426059, downTime=7426059, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-5.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=7426901, downTime=-1, deviceId=0, source=0x10004 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7426902, downTime=7426902, deviceId=-1, source=0x101 }
+W/ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7426952, downTime=7426952, deviceId=-1, source=0x101 }
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+W/ViewRootImpl[MainActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7427292, downTime=7427292, deviceId=-1, source=0x101 }
+I/Choreographer: Skipped 46 frames!  The application may be doing too much work on its main thread.
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+D/EGL_emulation: eglMakeCurrent: 0x8b60abc0: ver 2 0 (tinfo 0x8a888c50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+D/EGL_emulation: eglMakeCurrent: 0x8b60abc0: ver 2 0 (tinfo 0x8a888c50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/AssistStructure: Flattened final assist data: 4676 bytes, containing 1 windows, 17 views
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/Choreographer: Skipped 30 frames!  The application may be doing too much work on its main thread.
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+I/Choreographer: Skipped 54 frames!  The application may be doing too much work on its main thread.
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 6 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+I/Choreographer: Skipped 81 frames!  The application may be doing too much work on its main thread.
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+I/chatty: uid=10098(u0_a98) RenderThread identical 10 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/Choreographer: Skipped 88 frames!  The application may be doing too much work on its main thread.
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+I/zygote: Do full code cache collection, code=466KB, data=361KB
+I/zygote: After code cache collection, code=460KB, data=302KB
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+I/chatty: uid=10098(u0_a98) RenderThread identical 8 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+I/Choreographer: Skipped 32 frames!  The application may be doing too much work on its main thread.
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10098(u0_a98) RenderThread identical 4 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+I/chatty: uid=10098(u0_a98) RenderThread identical 16 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18582,10098)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18582,10098)
+I/chatty: uid=10098(u0_a98) RenderThread identical 10 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/zygote: Do partial code cache collection, code=481KB, data=369KB
+I/zygote: After code cache collection, code=481KB, data=369KB
+          Increasing code cache capacity to 2MB
+I/zygote: JIT allocated 71KB for compiled code of void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+          Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0xabd31aa0: ver 2 0 (tinfo 0xa26e9ef0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/Choreographer: Skipped 53 frames!  The application may be doing too much work on its main thread.
+Disconnected from the target VM, address: 'localhost:8605', transport: 'socket'

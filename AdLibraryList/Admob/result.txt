@@ -1,0 +1,8 @@
+The AdLibrary is Admob
+Source permission
+android.permission.INTERNET
+android.permission.ACCESS_NETWORK_STATE
+Abuse permission
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.BLUETOOTH
+

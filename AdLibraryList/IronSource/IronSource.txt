@@ -1,0 +1,1903 @@
+
+09/03 14:51:39: Launching app
+$ adb install-multiple -r -t C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\resources\instant-run\debug\resources-debug.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_8.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_3.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_2.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\dep\dependencies.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_1.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_5.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_0.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_4.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_9.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_7.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_6.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\instant-run-apk\debug\app-debug.apk 
+Split APKs installed
+$ adb shell am start -n "com.ironsource.ironsourcesdkdemo/com.ironsource.ironsourcesdkdemo.DemoActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.ironsource.ironsourcesdkdemo | com.ironsource.ironsourcesdkdemo.test
+Waiting for application to come online: com.ironsource.ironsourcesdkdemo | com.ironsource.ironsourcesdkdemo.test
+Waiting for application to come online: com.ironsource.ironsourcesdkdemo | com.ironsource.ironsourcesdkdemo.test
+Waiting for application to come online: com.ironsource.ironsourcesdkdemo | com.ironsource.ironsourcesdkdemo.test
+Connecting to com.ironsource.ironsourcesdkdemo
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/zygote: Debugger is active
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+Connected to the target VM, address: 'localhost:8605', transport: 'socket'
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 3 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1378)
+I/InstantRun: starting instant run server: is main process
+I/IntegrationHelper: Verifying Integration:
+I/IntegrationHelper: *** Permissions ***
+I/IntegrationHelper: android.permission.INTERNET - VERIFIED
+I/IntegrationHelper: android.permission.ACCESS_NETWORK_STATE - VERIFIED
+                     --------------- IronSource  --------------
+I/IntegrationHelper: Adapter - VERIFIED
+                     *** Activities ***
+I/IntegrationHelper: com.ironsource.sdk.controller.ControllerActivity - VERIFIED
+I/IntegrationHelper: com.ironsource.sdk.controller.InterstitialActivity - VERIFIED
+I/IntegrationHelper: com.ironsource.sdk.controller.OpenUrlActivity - VERIFIED
+                     >>>> IronSource - VERIFIED
+                     --------------- AdColony --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> AdColony - NOT VERIFIED
+I/IntegrationHelper: --------------- AppLovin --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> AppLovin - NOT VERIFIED
+I/IntegrationHelper: --------------- Chartboost --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> Chartboost - NOT VERIFIED
+I/IntegrationHelper: --------------- HyprMX --------------
+E/IntegrationHelper: Adapter - MISSING
+E/IntegrationHelper: >>>> HyprMX - NOT VERIFIED
+I/IntegrationHelper: --------------- UnityAds --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> UnityAds - NOT VERIFIED
+I/IntegrationHelper: --------------- Vungle --------------
+E/IntegrationHelper: Adapter - MISSING
+E/IntegrationHelper: >>>> Vungle - NOT VERIFIED
+I/IntegrationHelper: --------------- InMobi --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> InMobi - NOT VERIFIED
+I/IntegrationHelper: --------------- Facebook --------------
+E/IntegrationHelper: Adapter - MISSING
+E/IntegrationHelper: >>>> Facebook - NOT VERIFIED
+I/IntegrationHelper: --------------- Fyber --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> Fyber - NOT VERIFIED
+I/IntegrationHelper: --------------- MediaBrix --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> MediaBrix - NOT VERIFIED
+I/IntegrationHelper: --------------- Tapjoy --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> Tapjoy - NOT VERIFIED
+I/IntegrationHelper: --------------- AdMob --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> AdMob - NOT VERIFIED
+I/IntegrationHelper: --------------- MoPub --------------
+E/IntegrationHelper: Adapter - MISSING
+E/IntegrationHelper: >>>> MoPub - NOT VERIFIED
+I/IntegrationHelper: --------------- Maio --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> Maio - NOT VERIFIED
+W/IntegrationHelper: --------------- Google Play Services --------------
+I/IntegrationHelper: Google Play Services - VERIFIED
+I/API: onResume()
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():false
+D/DemoActivity: handleInterstitialButtonState | available: true
+D/OpenGLRenderer: HWUI GL Pipeline
+D/: HostConnection::get() New Host Connection established 0x9fdb3c00, tid 17830
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0x90dfcbc0: maj 2 min 0 rcv 2
+I/zygote: Do partial code cache collection, code=29KB, data=22KB
+D/EGL_emulation: eglMakeCurrent: 0x90dfcbc0: ver 2 0 (tinfo 0xabd7cda0)
+I/zygote: After code cache collection, code=27KB, data=21KB
+          Increasing code cache capacity to 128KB
+D/EGL_emulation: eglMakeCurrent: 0x90dfcbc0: ver 2 0 (tinfo 0xabd7cda0)
+I/IntegrationHelper: GAID is: fa2064a6-6c1a-4e57-89c5-287202667d02 (use this for test devices)
+I/API: setRewardedVideoListener(RVListener)
+I/API: setOfferwallListener(OWListener)
+I/API: setInterstitialListener(ISListener)
+I/API: init(appKey:4ea90fad)
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():false
+D/DemoActivity: handleInterstitialButtonState | available: true
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+I/API: onInitSuccess()
+I/API: RewardedVideoManager:initRewardedVideo(appKey: 4ea90fad, userId: fa2064a6-6c1a-4e57-89c5-287202667d02)
+I/NATIVE: RewardedVideoManager:startAdapter(SupersonicAds)
+I/ADAPTER_API: SupersonicAds:initRewardedVideo()
+I/NATIVE: com.ironsource.mediationsdk.InterstitialManager:initInterstitial(appKey: 4ea90fad, userId: fa2064a6-6c1a-4e57-89c5-287202667d02)
+I/NATIVE: com.ironsource.mediationsdk.InterstitialManager:startAdapter(SupersonicAds)
+I/ADAPTER_API: SupersonicAds:initInterstitial()
+I/NATIVE: com.ironsource.mediationsdk.OfferwallManager:initOfferwall(appKey: 4ea90fad, userId: fa2064a6-6c1a-4e57-89c5-287202667d02)
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+I/cr_LibraryLoader: Time to load native libraries: 29 ms (timestamps 6545-6574)
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.ironsource.ironsourcesdkdemo/app_webview/variations_seed_new": /data/user/0/com.ironsource.ironsourcesdkdemo/app_webview/variations_seed_new (No such file or directory)
+E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.ironsource.ironsourcesdkdemo/app_webview/variations_seed": /data/user/0/com.ironsource.ironsourcesdkdemo/app_webview/variations_seed (No such file or directory)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,17792,10110)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,17792,10110)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.ironsource.sdk.controller.IronSourceWebView.<init>(android.content.Context, com.ironsource.sdk.controller.DemandSourceManager) (IronSourceWebView.java:214)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent$1.run() (IronSourceAdsPublisherAgent.java:68)
+              at void android.app.Activity.runOnUiThread(java.lang.Runnable) (Activity.java:6152)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.<init>(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:66)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:95)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity) (IronSourceAdsPublisherAgent.java:83)
+              at com.ironsource.sdk.SSAPublisher com.ironsource.sdk.SSAFactory.getPublisherInstance(android.app.Activity) (SSAFactory.java:12)
+              at void com.ironsource.adapters.supersonicads.SupersonicAdsAdapter$1.run() (SupersonicAdsAdapter.java:164)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.ironsource.sdk.controller.IronSourceWebView.<init>(android.content.Context, com.ironsource.sdk.controller.DemandSourceManager) (IronSourceWebView.java:214)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent$1.run() (IronSourceAdsPublisherAgent.java:68)
+              at void android.app.Activity.runOnUiThread(java.lang.Runnable) (Activity.java:6152)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.<init>(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:66)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:95)
+I/zygote:     at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity) (IronSourceAdsPublisherAgent.java:83)
+              at com.ironsource.sdk.SSAPublisher com.ironsource.sdk.SSAFactory.getPublisherInstance(android.app.Activity) (SSAFactory.java:12)
+              at void com.ironsource.adapters.supersonicads.SupersonicAdsAdapter$1.run() (SupersonicAdsAdapter.java:164)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.ironsource.sdk.controller.IronSourceWebView.<init>(android.content.Context, com.ironsource.sdk.controller.DemandSourceManager) (IronSourceWebView.java:214)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent$1.run() (IronSourceAdsPublisherAgent.java:68)
+              at void android.app.Activity.runOnUiThread(java.lang.Runnable) (Activity.java:6152)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.<init>(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:66)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:95)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity) (IronSourceAdsPublisherAgent.java:83)
+              at com.ironsource.sdk.SSAPublisher com.ironsource.sdk.SSAFactory.getPublisherInstance(android.app.Activity) (SSAFactory.java:12)
+              at void com.ironsource.adapters.supersonicads.SupersonicAdsAdapter$1.run() (SupersonicAdsAdapter.java:164)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+I/zygote:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.ironsource.sdk.controller.IronSourceWebView.<init>(android.content.Context, com.ironsource.sdk.controller.DemandSourceManager) (IronSourceWebView.java:214)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent$1.run() (IronSourceAdsPublisherAgent.java:68)
+I/zygote:     at void android.app.Activity.runOnUiThread(java.lang.Runnable) (Activity.java:6152)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.<init>(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:66)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:95)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity) (IronSourceAdsPublisherAgent.java:83)
+              at com.ironsource.sdk.SSAPublisher com.ironsource.sdk.SSAFactory.getPublisherInstance(android.app.Activity) (SSAFactory.java:12)
+              at void com.ironsource.adapters.supersonicads.SupersonicAdsAdapter$1.run() (SupersonicAdsAdapter.java:164)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+I/zygote:     at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.ironsource.sdk.controller.IronSourceWebView.<init>(android.content.Context, com.ironsource.sdk.controller.DemandSourceManager) (IronSourceWebView.java:214)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent$1.run() (IronSourceAdsPublisherAgent.java:68)
+              at void android.app.Activity.runOnUiThread(java.lang.Runnable) (Activity.java:6152)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.<init>(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:66)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:95)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity) (IronSourceAdsPublisherAgent.java:83)
+              at com.ironsource.sdk.SSAPublisher com.ironsource.sdk.SSAFactory.getPublisherInstance(android.app.Activity) (SSAFactory.java:12)
+              at void com.ironsource.adapters.supersonicads.SupersonicAdsAdapter$1.run() (SupersonicAdsAdapter.java:164)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+I/zygote:     at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.ironsource.sdk.controller.IronSourceWebView.<init>(android.content.Context, com.ironsource.sdk.controller.DemandSourceManager) (IronSourceWebView.java:214)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent$1.run() (IronSourceAdsPublisherAgent.java:68)
+              at void android.app.Activity.runOnUiThread(java.lang.Runnable) (Activity.java:6152)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.<init>(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:66)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:95)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity) (IronSourceAdsPublisherAgent.java:83)
+              at com.ironsource.sdk.SSAPublisher com.ironsource.sdk.SSAFactory.getPublisherInstance(android.app.Activity) (SSAFactory.java:12)
+              at void com.ironsource.adapters.supersonicads.SupersonicAdsAdapter$1.run() (SupersonicAdsAdapter.java:164)
+I/zygote:     at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,17792,10110)
+I/zygote: Do partial code cache collection, code=61KB, data=46KB
+          After code cache collection, code=61KB, data=46KB
+          Increasing code cache capacity to 256KB
+I/zygote: Background concurrent copying GC freed 14056(1034KB) AllocSpace objects, 4(80KB) LOS objects, 58% free, 1081KB/2MB, paused 6.194ms total 15.425ms
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,17792,10110)
+I/API: loadInterstitial()
+W/cr_CrashFileManager: /data/user/0/com.ironsource.ironsourcesdkdemo/cache/WebView/Crash Reports does not exist or is not a directory
+D/: HostConnection::get() New Host Connection established 0x8973d840, tid 17889
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x89738fc0: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x89738fc0: ver 2 0 (tinfo 0x897423a0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,17792,10110)
+I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+W/cr_MediaCodecUtil: HW encoder for video/avc is not available on this device.
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x8973a280: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x8973a280: ver 2 0 (tinfo 0x897423a0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.MODIFY_AUDIO_SETTINGS,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.BLUETOOTH,17792,10110)
+W/cr_media: Requires BLUETOOTH permission
+D/IronSourceWebView: onInterstitialInitSuccess()
+I/INTERNAL: SupersonicAds :onInterstitialInitSuccess 
+I/ADAPTER_CALLBACK: SupersonicAds :onInterstitialInitSuccess()
+I/zygote: Background concurrent copying GC freed 13020(700KB) AllocSpace objects, 5(516KB) LOS objects, 49% free, 2MB/5MB, paused 5.455ms total 139.463ms
+I/zygote: Do full code cache collection, code=122KB, data=92KB
+I/zygote: After code cache collection, code=106KB, data=64KB
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,17792,10110)
+D/IronSourceWebView: onOfferWallInitSuccess()
+I/INTERNAL: SupersonicAds :onOfferwallInitSuccess 
+I/ADAPTER_CALLBACK: onOfferwallAvailable(isAvailable: true)
+I/CALLBACK: onOfferwallAvailable(isAvailable: true)
+I/API: loadInterstitial()
+I/ADAPTER_API: SupersonicAds:loadInterstitial()
+I/zygote: Background concurrent copying GC freed 21379(1081KB) AllocSpace objects, 11(1028KB) LOS objects, 49% free, 2MB/5MB, paused 1.033ms total 125.572ms
+I/API: showOfferwall()
+       showOfferwall(DefaultOfferWall)
+I/INTERNAL: OWManager:showOfferwall(DefaultOfferWall)
+D/IronSourceWebView: onRVInitSuccess()
+I/INTERNAL: SupersonicAds :onRVInitSuccess 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAvailabilityChanged(available:true)
+I/CALLBACK: onRewardedVideoAvailabilityChanged(available:true)
+D/DemoActivity: onRewardedVideoAvailabilityChanged true
+I/zygote: Do partial code cache collection, code=122KB, data=90KB
+I/zygote: After code cache collection, code=122KB, data=90KB
+          Increasing code cache capacity to 512KB
+I/API: onPause()
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+D/DemoActivity: handleInterstitialButtonState | available: true
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,17792,10110)
+W/AudioManager: Use of stream types is deprecated for operations other than volume control
+                See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+I/Choreographer: Skipped 61 frames!  The application may be doing too much work on its main thread.
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+       showRewardedVideo()
+I/API: showRewardedVideo(DefaultRewardedVideo)
+I/API: RewardedVideoManager:showRewardedVideo(placementName: DefaultRewardedVideo)
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:showRewardedVideo()
+D/EGL_emulation: eglMakeCurrent: 0x90dfcbc0: ver 2 0 (tinfo 0xabd7cda0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/EGL_emulation: eglQueryContext 32c0  EGL_BAD_ATTRIBUTE
+                 tid 17889: eglQueryContext(1772): error 0x3004 (EGL_BAD_ATTRIBUTE)
+I/cr_MediaCodecBridge: create MediaCodec video decoder, mime video/avc
+D/: PlayerBase::PlayerBase()
+D/: TrackPlayerBase::TrackPlayerBase()
+I/libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+D/AudioTrack: Client defaulted notificationFrames to 355 for frameCount 1066
+I/OMXClient: Treble IOmx obtained
+D/SurfaceUtils: connecting to surface 0x85f42008, reason connectToSurface
+I/MediaCodec: [OMX.google.h264.decoder] setting surface generation to 18219009
+D/SurfaceUtils: disconnecting from surface 0x85f42008, reason connectToSurface(reconnect)
+                connecting to surface 0x85f42008, reason connectToSurface(reconnect)
+E/ACodec: [OMX.google.h264.decoder] setPortMode on output to DynamicANWBuffer failed w/ err -1010
+I/INTERNAL: SupersonicAds :onRVEventNotificationReceived: impressions extData: {"demandSourceName":"SupersonicAds"}
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAdVisible()
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/zygote: Background concurrent copying GC freed 45274(2MB) AllocSpace objects, 21(1644KB) LOS objects, 50% free, 1907KB/3MB, paused 4.459ms total 117.767ms
+D/MediaCodec: [OMX.google.h264.decoder] setting dataspace on output surface to #103
+W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2000
+D/: HostConnection::get() New Host Connection established 0x891ae600, tid 17955
+D/SoftwareRenderer: setting dataspace on output surface to #103
+W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2000
+D/IronSourceWebView: onVideoStatusChanged({"success":"","fail":"","status":"playing","productType":"RewardedVideo","acknowledgeWith":"acknowledgeMessage","declineWith":"errorTest"})
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/IronSourceWebView: onVideoStatusChanged({"success":"","fail":"","status":"started","productType":"RewardedVideo","acknowledgeWith":"acknowledgeMessage","declineWith":"errorTest"})
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+W/AudioManager: Use of stream types is deprecated for operations other than volume control
+W/AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2000
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 10 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/ADAPTER_API: SupersonicAds:onOWShowSuccess(placementId:0)
+I/ADAPTER_CALLBACK: onOfferwallOpened()
+I/CALLBACK: onOfferwallOpened()
+D/DemoActivity: onOfferwallOpened
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 18 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/INTERNAL: SupersonicAds :onInterstitialLoadSuccess 
+I/ADAPTER_CALLBACK: SupersonicAds:onInterstitialAdReady()
+I/CALLBACK: onInterstitialAdReady()
+D/DemoActivity: onInterstitialAdReady
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/IronSourceWebView: onVideoStatusChanged({"success":"","fail":"","status":"stopped","productType":"RewardedVideo","acknowledgeWith":"acknowledgeMessage","declineWith":"errorTest"})
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/IronSource: onAdClosed() with type OfferWall
+D/AudioTrack: stop() called with 105790 frames delivered
+D/: PlayerBase::stop() from IPlayer
+D/IronSourceWebView: onVideoStatusChanged({"success":"","fail":"","status":"paused","productType":"RewardedVideo","acknowledgeWith":"acknowledgeMessage","declineWith":"errorTest"})
+W/cr_MediaCodecBridge: Releasing: OMX.google.h264.decoder
+D/SurfaceUtils: disconnecting from surface 0x85f42008, reason disconnectFromSurface
+W/cr_MediaCodecBridge: Codec released
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/INTERNAL: SupersonicAds :onOWAdClosed 
+I/ADAPTER_CALLBACK: onOfferwallClosed()
+I/CALLBACK: onOfferwallClosed()
+D/DemoActivity: onOfferwallClosed
+I/API: onResume()
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+D/DemoActivity: handleInterstitialButtonState | available: true
+D/EGL_emulation: eglMakeCurrent: 0x90dfcbc0: ver 2 0 (tinfo 0xabd7cda0)
+W/ViewRootImpl[DemoActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7897437, downTime=7897437, deviceId=-1, source=0x101 }
+W/ViewRootImpl[DemoActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7897464, downTime=7897464, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 7 lines
+W/ViewRootImpl[DemoActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7897464, downTime=7897464, deviceId=-1, source=0x101 }
+                              Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7897469, downTime=7897469, deviceId=-1, source=0x101 }
+W/ViewRootImpl[DemoActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7897474, downTime=7897474, deviceId=-1, source=0x101 }
+W/ViewRootImpl[DemoActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7897502, downTime=7897502, deviceId=-1, source=0x101 }
+W/ViewRootImpl[DemoActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_X, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7897632, downTime=7897632, deviceId=-1, source=0x101 }
+W/ViewRootImpl[DemoActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7897632, downTime=7897632, deviceId=-1, source=0x101 }
+W/ViewRootImpl[DemoActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7897839, downTime=7897839, deviceId=-1, source=0x101 }
+W/ViewRootImpl[DemoActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7897854, downTime=7897854, deviceId=-1, source=0x101 }
+W/ViewRootImpl[DemoActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7897884, downTime=7897884, deviceId=-1, source=0x101 }
+I/API: loadInterstitial()
+I/ADAPTER_API: SupersonicAds:loadInterstitial()
+I/INTERNAL: SupersonicAds :onInterstitialLoadSuccess 
+I/ADAPTER_CALLBACK: SupersonicAds:onInterstitialAdReady()
+I/CALLBACK: onInterstitialAdReady()
+D/DemoActivity: onInterstitialAdReady
+I/zygote: Do full code cache collection, code=242KB, data=200KB
+I/zygote: After code cache collection, code=231KB, data=154KB
+W/ViewRootImpl[DemoActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7898452, downTime=7898452, deviceId=-1, source=0x101 }
+W/ViewRootImpl[DemoActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7898468, downTime=7898468, deviceId=-1, source=0x101 }
+W/ViewRootImpl[DemoActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7898634, downTime=7898634, deviceId=-1, source=0x101 }
+I/API: onPause()
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+D/DemoActivity: handleInterstitialButtonState | available: true
+D/EGL_emulation: eglMakeCurrent: 0x90dfcbc0: ver 2 0 (tinfo 0xabd7cda0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,17792,10110)
+E/ActivityThread: Activity com.ironsource.ironsourcesdkdemo.DemoActivity has leaked IntentReceiver com.ironsource.environment.NetworkStateReceiver@c1a0984 that was originally registered here. Are you missing a call to unregisterReceiver()?
+                  android.app.IntentReceiverLeaked: Activity com.ironsource.ironsourcesdkdemo.DemoActivity has leaked IntentReceiver com.ironsource.environment.NetworkStateReceiver@c1a0984 that was originally registered here. Are you missing a call to unregisterReceiver()?
+                      at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:1333)
+                      at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:1114)
+                      at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1405)
+                      at android.app.ContextImpl.registerReceiver(ContextImpl.java:1378)
+                      at android.app.ContextImpl.registerReceiver(ContextImpl.java:1366)
+                      at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:603)
+                      at com.ironsource.mediationsdk.RewardedVideoManager.shouldTrackNetworkState(RewardedVideoManager.java:513)
+                      at com.ironsource.mediationsdk.IronSourceObject.shouldTrackNetworkState(IronSourceObject.java:1973)
+                      at com.ironsource.mediationsdk.IronSource.shouldTrackNetworkState(IronSource.java:213)
+                      at com.ironsource.ironsourcesdkdemo.DemoActivity.onCreate(DemoActivity.java:56)
+                      at android.app.Activity.performCreate(Activity.java:6975)
+                      at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1213)
+                      at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2770)
+                      at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2892)
+                      at android.app.ActivityThread.-wrap11(Unknown Source:0)
+                      at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1593)
+                      at android.os.Handler.dispatchMessage(Handler.java:105)
+                      at android.os.Looper.loop(Looper.java:164)
+                      at android.app.ActivityThread.main(ActivityThread.java:6541)
+                      at java.lang.reflect.Method.invoke(Native Method)
+                      at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+                      at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+I/IntegrationHelper: Verifying Integration:
+I/IntegrationHelper: *** Permissions ***
+I/IntegrationHelper: android.permission.INTERNET - VERIFIED
+                     android.permission.ACCESS_NETWORK_STATE - VERIFIED
+                     --------------- IronSource  --------------
+I/IntegrationHelper: Adapter - VERIFIED
+                     *** Activities ***
+I/IntegrationHelper: com.ironsource.sdk.controller.ControllerActivity - VERIFIED
+I/IntegrationHelper: com.ironsource.sdk.controller.InterstitialActivity - VERIFIED
+I/IntegrationHelper: com.ironsource.sdk.controller.OpenUrlActivity - VERIFIED
+                     >>>> IronSource - VERIFIED
+I/IntegrationHelper: --------------- AdColony --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> AdColony - NOT VERIFIED
+I/IntegrationHelper: --------------- AppLovin --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> AppLovin - NOT VERIFIED
+I/IntegrationHelper: --------------- Chartboost --------------
+E/IntegrationHelper: Adapter - MISSING
+E/IntegrationHelper: >>>> Chartboost - NOT VERIFIED
+I/IntegrationHelper: --------------- HyprMX --------------
+E/IntegrationHelper: Adapter - MISSING
+E/IntegrationHelper: >>>> HyprMX - NOT VERIFIED
+I/IntegrationHelper: --------------- UnityAds --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> UnityAds - NOT VERIFIED
+I/IntegrationHelper: --------------- Vungle --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> Vungle - NOT VERIFIED
+I/IntegrationHelper: --------------- InMobi --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> InMobi - NOT VERIFIED
+I/IntegrationHelper: --------------- Facebook --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> Facebook - NOT VERIFIED
+I/IntegrationHelper: --------------- Fyber --------------
+E/IntegrationHelper: Adapter - MISSING
+E/IntegrationHelper: >>>> Fyber - NOT VERIFIED
+I/IntegrationHelper: --------------- MediaBrix --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> MediaBrix - NOT VERIFIED
+I/IntegrationHelper: --------------- Tapjoy --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> Tapjoy - NOT VERIFIED
+I/IntegrationHelper: --------------- AdMob --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> AdMob - NOT VERIFIED
+I/IntegrationHelper: --------------- MoPub --------------
+E/IntegrationHelper: Adapter - MISSING
+E/IntegrationHelper: >>>> MoPub - NOT VERIFIED
+I/IntegrationHelper: --------------- Maio --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> Maio - NOT VERIFIED
+W/IntegrationHelper: --------------- Google Play Services --------------
+I/IntegrationHelper: Google Play Services - VERIFIED
+I/zygote: Do partial code cache collection, code=235KB, data=188KB
+I/zygote: After code cache collection, code=235KB, data=188KB
+I/zygote: Increasing code cache capacity to 1024KB
+I/zygote: JIT allocated 71KB for compiled code of void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+I/zygote: Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,17792,10110)
+I/API: onResume()
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+D/DemoActivity: handleInterstitialButtonState | available: true
+I/IntegrationHelper: GAID is: fa2064a6-6c1a-4e57-89c5-287202667d02 (use this for test devices)
+W/ViewRootImpl[DemoActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_N, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7902450, downTime=7902450, deviceId=-1, source=0x101 }
+W/ViewRootImpl[DemoActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_N, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7903982, downTime=7903982, deviceId=-1, source=0x101 }
+I/API: setRewardedVideoListener(RVListener)
+       setOfferwallListener(OWListener)
+       setInterstitialListener(ISListener)
+E/API: Multiple calls to init without ad units are not allowed
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+D/DemoActivity: handleInterstitialButtonState | available: true
+D/EGL_emulation: eglMakeCurrent: 0x90dfcbc0: ver 2 0 (tinfo 0xabd7cda0)
+I/API: loadInterstitial()
+I/ADAPTER_API: SupersonicAds:loadInterstitial()
+I/INTERNAL: SupersonicAds :onInterstitialLoadSuccess 
+I/ADAPTER_CALLBACK: SupersonicAds:onInterstitialAdReady()
+I/CALLBACK: onInterstitialAdReady()
+D/DemoActivity: onInterstitialAdReady
+I/API: onPause()
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+D/DemoActivity: handleInterstitialButtonState | available: true
+D/EGL_emulation: eglMakeCurrent: 0x90dfcbc0: ver 2 0 (tinfo 0xabd7cda0)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,17792,10110)
+E/ActivityThread: Activity com.ironsource.ironsourcesdkdemo.DemoActivity has leaked IntentReceiver com.ironsource.environment.NetworkStateReceiver@c1a0984 that was originally registered here. Are you missing a call to unregisterReceiver()?
+                  android.app.IntentReceiverLeaked: Activity com.ironsource.ironsourcesdkdemo.DemoActivity has leaked IntentReceiver com.ironsource.environment.NetworkStateReceiver@c1a0984 that was originally registered here. Are you missing a call to unregisterReceiver()?
+                      at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:1333)
+                      at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:1114)
+                      at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1405)
+                      at android.app.ContextImpl.registerReceiver(ContextImpl.java:1378)
+                      at android.app.ContextImpl.registerReceiver(ContextImpl.java:1366)
+                      at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:603)
+                      at com.ironsource.mediationsdk.RewardedVideoManager.shouldTrackNetworkState(RewardedVideoManager.java:513)
+                      at com.ironsource.mediationsdk.IronSourceObject.shouldTrackNetworkState(IronSourceObject.java:1973)
+                      at com.ironsource.mediationsdk.IronSource.shouldTrackNetworkState(IronSource.java:213)
+                      at com.ironsource.ironsourcesdkdemo.DemoActivity.onCreate(DemoActivity.java:56)
+                      at android.app.Activity.performCreate(Activity.java:6975)
+                      at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1213)
+                      at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2770)
+                      at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2892)
+                      at android.app.ActivityThread.-wrap11(Unknown Source:0)
+                      at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1593)
+                      at android.os.Handler.dispatchMessage(Handler.java:105)
+                      at android.os.Looper.loop(Looper.java:164)
+                      at android.app.ActivityThread.main(ActivityThread.java:6541)
+                      at java.lang.reflect.Method.invoke(Native Method)
+                      at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+                      at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+I/IntegrationHelper: Verifying Integration:
+I/IntegrationHelper: *** Permissions ***
+I/IntegrationHelper: android.permission.INTERNET - VERIFIED
+I/IntegrationHelper: android.permission.ACCESS_NETWORK_STATE - VERIFIED
+I/IntegrationHelper: --------------- IronSource  --------------
+I/IntegrationHelper: Adapter - VERIFIED
+                     *** Activities ***
+I/IntegrationHelper: com.ironsource.sdk.controller.ControllerActivity - VERIFIED
+I/IntegrationHelper: com.ironsource.sdk.controller.InterstitialActivity - VERIFIED
+I/IntegrationHelper: com.ironsource.sdk.controller.OpenUrlActivity - VERIFIED
+I/IntegrationHelper: >>>> IronSource - VERIFIED
+                     --------------- AdColony --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> AdColony - NOT VERIFIED
+I/IntegrationHelper: --------------- AppLovin --------------
+E/IntegrationHelper: Adapter - MISSING
+E/IntegrationHelper: >>>> AppLovin - NOT VERIFIED
+I/IntegrationHelper: --------------- Chartboost --------------
+E/IntegrationHelper: Adapter - MISSING
+E/IntegrationHelper: >>>> Chartboost - NOT VERIFIED
+I/IntegrationHelper: --------------- HyprMX --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> HyprMX - NOT VERIFIED
+I/IntegrationHelper: --------------- UnityAds --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> UnityAds - NOT VERIFIED
+I/IntegrationHelper: --------------- Vungle --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> Vungle - NOT VERIFIED
+I/IntegrationHelper: --------------- InMobi --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> InMobi - NOT VERIFIED
+I/IntegrationHelper: --------------- Facebook --------------
+E/IntegrationHelper: Adapter - MISSING
+E/IntegrationHelper: >>>> Facebook - NOT VERIFIED
+I/IntegrationHelper: --------------- Fyber --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> Fyber - NOT VERIFIED
+I/IntegrationHelper: --------------- MediaBrix --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> MediaBrix - NOT VERIFIED
+I/IntegrationHelper: --------------- Tapjoy --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> Tapjoy - NOT VERIFIED
+I/IntegrationHelper: --------------- AdMob --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> AdMob - NOT VERIFIED
+I/IntegrationHelper: --------------- MoPub --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> MoPub - NOT VERIFIED
+I/IntegrationHelper: --------------- Maio --------------
+E/IntegrationHelper: Adapter - MISSING
+E/IntegrationHelper: >>>> Maio - NOT VERIFIED
+W/IntegrationHelper: --------------- Google Play Services --------------
+I/IntegrationHelper: Google Play Services - VERIFIED
+I/zygote: JIT allocated 56KB for compiled code of void android.view.View.<init>(android.content.Context, android.util.AttributeSet, int, int)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,17792,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,17792,10110)
+I/API: onResume()
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+D/DemoActivity: handleInterstitialButtonState | available: true
+I/IntegrationHelper: GAID is: fa2064a6-6c1a-4e57-89c5-287202667d02 (use this for test devices)
+I/API: setRewardedVideoListener(RVListener)
+       setOfferwallListener(OWListener)
+       setInterstitialListener(ISListener)
+E/API: Multiple calls to init without ad units are not allowed
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+D/DemoActivity: handleInterstitialButtonState | available: true
+W/ViewRootImpl[DemoActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=1.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=8, eventTime=7908815, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl[DemoActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7908815, downTime=7908815, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90dfcbc0: ver 2 0 (tinfo 0xabd7cda0)
+W/ViewRootImpl[DemoActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7908884, downTime=7908884, deviceId=-1, source=0x101 }
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+I/API: showRewardedVideo()
+       showRewardedVideo(DefaultRewardedVideo)
+I/API: RewardedVideoManager:showRewardedVideo(placementName: DefaultRewardedVideo)
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:showRewardedVideo()
+D/IronSourceWebView: onRVShowFail(message:Cannot engage offer at this time)
+I/INTERNAL: SupersonicAds :onRVShowFail 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAdShowFailed(errorCode:509, errorMessage:Cannot engage offer at this time)
+I/CALLBACK: onRewardedVideoAdShowFailed(errorCode:509, errorMessage:Cannot engage offer at this time)
+D/DemoActivity: onRewardedVideoAdShowFailed errorCode:509, errorMessage:Cannot engage offer at this time
+W/ViewRootImpl[DemoActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SEARCH, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7909249, downTime=7909249, deviceId=-1, source=0x101 }
+W/ViewRootImpl[DemoActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_SEARCH, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7909273, downTime=7909273, deviceId=-1, source=0x101 }
+W/ViewRootImpl[DemoActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7909744, downTime=7909744, deviceId=-1, source=0x101 }
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+I/API: showRewardedVideo()
+       showRewardedVideo(DefaultRewardedVideo)
+I/API: RewardedVideoManager:showRewardedVideo(placementName: DefaultRewardedVideo)
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:showRewardedVideo()
+D/IronSourceWebView: onRVShowFail(message:Cannot engage offer at this time)
+I/INTERNAL: SupersonicAds :onRVShowFail 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAdShowFailed(errorCode:509, errorMessage:Cannot engage offer at this time)
+I/CALLBACK: onRewardedVideoAdShowFailed(errorCode:509, errorMessage:Cannot engage offer at this time)
+D/DemoActivity: onRewardedVideoAdShowFailed errorCode:509, errorMessage:Cannot engage offer at this time
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+       showRewardedVideo()
+       showRewardedVideo(DefaultRewardedVideo)
+I/API: RewardedVideoManager:showRewardedVideo(placementName: DefaultRewardedVideo)
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:showRewardedVideo()
+D/IronSourceWebView: onRVShowFail(message:Cannot engage offer at this time)
+I/INTERNAL: SupersonicAds :onRVShowFail 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAdShowFailed(errorCode:509, errorMessage:Cannot engage offer at this time)
+I/CALLBACK: onRewardedVideoAdShowFailed(errorCode:509, errorMessage:Cannot engage offer at this time)
+D/DemoActivity: onRewardedVideoAdShowFailed errorCode:509, errorMessage:Cannot engage offer at this time
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+I/API: showRewardedVideo()
+       showRewardedVideo(DefaultRewardedVideo)
+I/API: RewardedVideoManager:showRewardedVideo(placementName: DefaultRewardedVideo)
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:showRewardedVideo()
+D/IronSourceWebView: onRVShowFail(message:Cannot engage offer at this time)
+I/INTERNAL: SupersonicAds :onRVShowFail 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAdShowFailed(errorCode:509, errorMessage:Cannot engage offer at this time)
+I/CALLBACK: onRewardedVideoAdShowFailed(errorCode:509, errorMessage:Cannot engage offer at this time)
+D/DemoActivity: onRewardedVideoAdShowFailed errorCode:509, errorMessage:Cannot engage offer at this time
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+I/API: showRewardedVideo()
+I/API: showRewardedVideo(DefaultRewardedVideo)
+I/API: RewardedVideoManager:showRewardedVideo(placementName: DefaultRewardedVideo)
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:showRewardedVideo()
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+       showRewardedVideo()
+I/API: showRewardedVideo(DefaultRewardedVideo)
+I/API: RewardedVideoManager:showRewardedVideo(placementName: DefaultRewardedVideo)
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:showRewardedVideo()
+D/IronSourceWebView: onRVShowFail(message:Cannot engage offer at this time)
+I/INTERNAL: SupersonicAds :onRVShowFail 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAdShowFailed(errorCode:509, errorMessage:Cannot engage offer at this time)
+I/CALLBACK: onRewardedVideoAdShowFailed(errorCode:509, errorMessage:Cannot engage offer at this time)
+D/DemoActivity: onRewardedVideoAdShowFailed errorCode:509, errorMessage:Cannot engage offer at this time
+D/IronSourceWebView: onRVShowFail(message:Cannot engage offer at this time)
+I/INTERNAL: SupersonicAds :onRVShowFail 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAdShowFailed(errorCode:509, errorMessage:Cannot engage offer at this time)
+I/CALLBACK: onRewardedVideoAdShowFailed(errorCode:509, errorMessage:Cannot engage offer at this time)
+D/DemoActivity: onRewardedVideoAdShowFailed errorCode:509, errorMessage:Cannot engage offer at this time
+I/zygote: Background concurrent copying GC freed 13808(1513KB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 1905KB/3MB, paused 2.436ms total 105.684ms
+W/ViewRootImpl[DemoActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7911201, downTime=7911201, deviceId=-1, source=0x101 }
+W/ViewRootImpl[DemoActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_9, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7911377, downTime=7911377, deviceId=-1, source=0x101 }
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+       showRewardedVideo()
+I/API: showRewardedVideo(DefaultRewardedVideo)
+I/API: RewardedVideoManager:showRewardedVideo(placementName: DefaultRewardedVideo)
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:showRewardedVideo()
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: showRewardedVideo()
+I/API: showRewardedVideo(DefaultRewardedVideo)
+I/API: RewardedVideoManager:showRewardedVideo(placementName: DefaultRewardedVideo)
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:showRewardedVideo()
+D/IronSourceWebView: onRVShowFail(message:Cannot engage offer at this time)
+I/INTERNAL: SupersonicAds :onRVShowFail 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAdShowFailed(errorCode:509, errorMessage:Cannot engage offer at this time)
+I/CALLBACK: onRewardedVideoAdShowFailed(errorCode:509, errorMessage:Cannot engage offer at this time)
+D/DemoActivity: onRewardedVideoAdShowFailed errorCode:509, errorMessage:Cannot engage offer at this time
+W/ViewRootImpl[DemoActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7912016, downTime=7912016, deviceId=-1, source=0x101 }
+W/ViewRootImpl[DemoActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7912029, downTime=7912029, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 4 lines
+W/ViewRootImpl[DemoActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7912029, downTime=7912029, deviceId=-1, source=0x101 }
+W/ViewRootImpl[DemoActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TV_POWER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7912043, downTime=7912043, deviceId=-1, source=0x101 }
+D/IronSourceWebView: onRVShowFail(message:Cannot engage offer at this time)
+I/INTERNAL: SupersonicAds :onRVShowFail 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAdShowFailed(errorCode:509, errorMessage:Cannot engage offer at this time)
+I/CALLBACK: onRewardedVideoAdShowFailed(errorCode:509, errorMessage:Cannot engage offer at this time)
+D/DemoActivity: onRewardedVideoAdShowFailed errorCode:509, errorMessage:Cannot engage offer at this time
+W/ViewRootImpl[DemoActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV_POWER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7912118, downTime=7912118, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 7 lines
+W/ViewRootImpl[DemoActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV_POWER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7912118, downTime=7912118, deviceId=-1, source=0x101 }
+W/ViewRootImpl[DemoActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOICE_ASSIST, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7912180, downTime=7912180, deviceId=-1, source=0x101 }
+I/zygote: Do full code cache collection, code=496KB, data=308KB
+I/zygote: After code cache collection, code=448KB, data=234KB
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+       showRewardedVideo()
+       showRewardedVideo(DefaultRewardedVideo)
+I/API: RewardedVideoManager:showRewardedVideo(placementName: DefaultRewardedVideo)
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:showRewardedVideo()
+D/IronSourceWebView: onRVShowFail(message:Cannot engage offer at this time)
+I/INTERNAL: SupersonicAds :onRVShowFail 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAdShowFailed(errorCode:509, errorMessage:Cannot engage offer at this time)
+I/CALLBACK: onRewardedVideoAdShowFailed(errorCode:509, errorMessage:Cannot engage offer at this time)
+D/DemoActivity: onRewardedVideoAdShowFailed errorCode:509, errorMessage:Cannot engage offer at this time
+W/ViewRootImpl[DemoActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7912966, downTime=7912966, deviceId=-1, source=0x101 }
+I/API: showOfferwall()
+       showOfferwall(DefaultOfferWall)
+I/INTERNAL: OWManager:showOfferwall(DefaultOfferWall)
+I/API: onPause()
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+D/DemoActivity: handleInterstitialButtonState | available: true
+W/AudioManager: Use of stream types is deprecated for operations other than volume control
+W/AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+D/AudioManager: dispatching onAudioFocusChange(-2) to android.media.AudioManager@401771borg.chromium.content.browser.AudioFocusDelegate@cc20b8
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_PLUS, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7913517, downTime=7913517, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_PLUS, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7913688, downTime=7913688, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 4 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_PLUS, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7913688, downTime=7913688, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_9, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7913765, downTime=7913765, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7913765, downTime=7913765, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BUTTON_9, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7913773, downTime=7913773, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 4 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BUTTON_9, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7913773, downTime=7913773, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=7913777, downTime=7913777, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90dfcbc0: ver 2 0 (tinfo 0xabd7cda0)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=7913785, downTime=7913785, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+I/zygote: Do partial code cache collection, code=451KB, data=257KB
+I/zygote: After code cache collection, code=451KB, data=257KB
+          Increasing code cache capacity to 2MB
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/ADAPTER_API: SupersonicAds:onOWShowSuccess(placementId:0)
+I/ADAPTER_CALLBACK: onOfferwallOpened()
+I/CALLBACK: onOfferwallOpened()
+D/DemoActivity: onOfferwallOpened
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 20 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+
+09/03 14:54:22: Launching app
+$ adb install-multiple -r -t -p com.ironsource.ironsourcesdkdemo C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\dep\dependencies.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_4.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_1.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_5.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_2.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_3.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_0.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_6.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_8.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_7.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\split-apk\debug\slices\slice_9.apk C:\Users\Sheng\Desktop\android library\IronSource\IronSourceSDKDemo_6.7.10\MediationDemoApp\IronSourceSDKDemo\app\build\intermediates\instant-run-apk\debug\app-debug.apk 
+Split APKs installed
+$ adb shell am start -n "com.ironsource.ironsourcesdkdemo/com.ironsource.ironsourcesdkdemo.DemoActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.ironsource.ironsourcesdkdemo | com.ironsource.ironsourcesdkdemo.test
+Waiting for application to come online: com.ironsource.ironsourcesdkdemo | com.ironsource.ironsourcesdkdemo.test
+Connecting to com.ironsource.ironsourcesdkdemo
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+W/ActivityThread: Application com.ironsource.ironsourcesdkdemo is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+I/zygote: Debugger is active
+Connected to the target VM, address: 'localhost:8606', transport: 'socket'
+I/System.out: Debugger has connected
+              waiting for debugger to settle...
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 1 line
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1307)
+I/InstantRun: starting instant run server: is main process
+I/IntegrationHelper: Verifying Integration:
+                     *** Permissions ***
+I/IntegrationHelper: android.permission.INTERNET - VERIFIED
+I/IntegrationHelper: android.permission.ACCESS_NETWORK_STATE - VERIFIED
+                     --------------- IronSource  --------------
+I/IntegrationHelper: Adapter - VERIFIED
+                     *** Activities ***
+I/IntegrationHelper: com.ironsource.sdk.controller.ControllerActivity - VERIFIED
+I/IntegrationHelper: com.ironsource.sdk.controller.InterstitialActivity - VERIFIED
+I/IntegrationHelper: com.ironsource.sdk.controller.OpenUrlActivity - VERIFIED
+I/IntegrationHelper: >>>> IronSource - VERIFIED
+                     --------------- AdColony --------------
+E/IntegrationHelper: Adapter - MISSING
+E/IntegrationHelper: >>>> AdColony - NOT VERIFIED
+I/IntegrationHelper: --------------- AppLovin --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> AppLovin - NOT VERIFIED
+I/IntegrationHelper: --------------- Chartboost --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> Chartboost - NOT VERIFIED
+I/IntegrationHelper: --------------- HyprMX --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> HyprMX - NOT VERIFIED
+I/IntegrationHelper: --------------- UnityAds --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> UnityAds - NOT VERIFIED
+I/IntegrationHelper: --------------- Vungle --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> Vungle - NOT VERIFIED
+I/IntegrationHelper: --------------- InMobi --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> InMobi - NOT VERIFIED
+I/IntegrationHelper: --------------- Facebook --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> Facebook - NOT VERIFIED
+I/IntegrationHelper: --------------- Fyber --------------
+E/IntegrationHelper: Adapter - MISSING
+E/IntegrationHelper: >>>> Fyber - NOT VERIFIED
+I/IntegrationHelper: --------------- MediaBrix --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> MediaBrix - NOT VERIFIED
+I/IntegrationHelper: --------------- Tapjoy --------------
+E/IntegrationHelper: Adapter - MISSING
+E/IntegrationHelper: >>>> Tapjoy - NOT VERIFIED
+I/IntegrationHelper: --------------- AdMob --------------
+E/IntegrationHelper: Adapter - MISSING
+E/IntegrationHelper: >>>> AdMob - NOT VERIFIED
+I/IntegrationHelper: --------------- MoPub --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> MoPub - NOT VERIFIED
+I/IntegrationHelper: --------------- Maio --------------
+E/IntegrationHelper: Adapter - MISSING
+                     >>>> Maio - NOT VERIFIED
+W/IntegrationHelper: --------------- Google Play Services --------------
+I/IntegrationHelper: Google Play Services - VERIFIED
+I/API: onResume()
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():false
+D/DemoActivity: handleInterstitialButtonState | available: true
+D/OpenGLRenderer: HWUI GL Pipeline
+D/: HostConnection::get() New Host Connection established 0x9fdb3e40, tid 18478
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0x90df7920: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+I/zygote: Do partial code cache collection, code=27KB, data=21KB
+I/zygote: After code cache collection, code=25KB, data=21KB
+          Increasing code cache capacity to 128KB
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+I/IntegrationHelper: GAID is: fa2064a6-6c1a-4e57-89c5-287202667d02 (use this for test devices)
+I/API: setRewardedVideoListener(RVListener)
+       setOfferwallListener(OWListener)
+I/API: setInterstitialListener(ISListener)
+       init(appKey:4ea90fad)
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+       isRewardedVideoAvailable():false
+D/DemoActivity: handleInterstitialButtonState | available: true
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+I/API: onInitSuccess()
+I/API: RewardedVideoManager:initRewardedVideo(appKey: 4ea90fad, userId: fa2064a6-6c1a-4e57-89c5-287202667d02)
+I/NATIVE: RewardedVideoManager:startAdapter(SupersonicAds)
+I/ADAPTER_API: SupersonicAds:initRewardedVideo()
+I/NATIVE: com.ironsource.mediationsdk.InterstitialManager:initInterstitial(appKey: 4ea90fad, userId: fa2064a6-6c1a-4e57-89c5-287202667d02)
+          com.ironsource.mediationsdk.InterstitialManager:startAdapter(SupersonicAds)
+I/ADAPTER_API: SupersonicAds:initInterstitial()
+I/NATIVE: com.ironsource.mediationsdk.OfferwallManager:initOfferwall(appKey: 4ea90fad, userId: fa2064a6-6c1a-4e57-89c5-287202667d02)
+I/WebViewFactory: Loading com.android.chrome version 68.0.3440.91 (code 344009112)
+I/cr_LibraryLoader: Time to load native libraries: 30 ms (timestamps 8891-8921)
+I/chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_LibraryLoader: Expected native library version number "68.0.3440.91", actual native library version number "68.0.3440.91"
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18431,10110)
+W/cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+I/cr_BrowserStartup: Initializing chromium process, singleProcess=false
+I/cr_base: Android Locale: en_US requires .pak files: [en-GB, en-US]
+W/ResourceType: Failure getting entry for 0x7f120490 (t=17 e=1168) (error -2147483647)
+I/chromium: [INFO:aw_field_trial_creator.cc(52)] First-WebView-Experiment found, group=Control
+I/zygote: Do partial code cache collection, code=60KB, data=44KB
+I/zygote: After code cache collection, code=60KB, data=44KB
+          Increasing code cache capacity to 256KB
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18431,10110)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+I/zygote:     at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.ironsource.sdk.controller.IronSourceWebView.<init>(android.content.Context, com.ironsource.sdk.controller.DemandSourceManager) (IronSourceWebView.java:214)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent$1.run() (IronSourceAdsPublisherAgent.java:68)
+              at void android.app.Activity.runOnUiThread(java.lang.Runnable) (Activity.java:6152)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.<init>(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:66)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:95)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity) (IronSourceAdsPublisherAgent.java:83)
+              at com.ironsource.sdk.SSAPublisher com.ironsource.sdk.SSAFactory.getPublisherInstance(android.app.Activity) (SSAFactory.java:12)
+              at void com.ironsource.adapters.supersonicads.SupersonicAdsAdapter$1.run() (SupersonicAdsAdapter.java:164)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.ironsource.sdk.controller.IronSourceWebView.<init>(android.content.Context, com.ironsource.sdk.controller.DemandSourceManager) (IronSourceWebView.java:214)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent$1.run() (IronSourceAdsPublisherAgent.java:68)
+              at void android.app.Activity.runOnUiThread(java.lang.Runnable) (Activity.java:6152)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.<init>(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:66)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:95)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity) (IronSourceAdsPublisherAgent.java:83)
+              at com.ironsource.sdk.SSAPublisher com.ironsource.sdk.SSAFactory.getPublisherInstance(android.app.Activity) (SSAFactory.java:12)
+              at void com.ironsource.adapters.supersonicads.SupersonicAdsAdapter$1.run() (SupersonicAdsAdapter.java:164)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote:     at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+I/zygote:     at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.ironsource.sdk.controller.IronSourceWebView.<init>(android.content.Context, com.ironsource.sdk.controller.DemandSourceManager) (IronSourceWebView.java:214)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent$1.run() (IronSourceAdsPublisherAgent.java:68)
+I/zygote:     at void android.app.Activity.runOnUiThread(java.lang.Runnable) (Activity.java:6152)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.<init>(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:66)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:95)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity) (IronSourceAdsPublisherAgent.java:83)
+              at com.ironsource.sdk.SSAPublisher com.ironsource.sdk.SSAFactory.getPublisherInstance(android.app.Activity) (SSAFactory.java:12)
+              at void com.ironsource.adapters.supersonicads.SupersonicAdsAdapter$1.run() (SupersonicAdsAdapter.java:164)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.ironsource.sdk.controller.IronSourceWebView.<init>(android.content.Context, com.ironsource.sdk.controller.DemandSourceManager) (IronSourceWebView.java:214)
+I/zygote:     at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent$1.run() (IronSourceAdsPublisherAgent.java:68)
+              at void android.app.Activity.runOnUiThread(java.lang.Runnable) (Activity.java:6152)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.<init>(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:66)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:95)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity) (IronSourceAdsPublisherAgent.java:83)
+              at com.ironsource.sdk.SSAPublisher com.ironsource.sdk.SSAFactory.getPublisherInstance(android.app.Activity) (SSAFactory.java:12)
+              at void com.ironsource.adapters.supersonicads.SupersonicAdsAdapter$1.run() (SupersonicAdsAdapter.java:164)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+I/zygote: Rejecting re-init on previously-failed class java.lang.Class<ul>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/webkit/SafeBrowsingResponse;
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.ironsource.sdk.controller.IronSourceWebView.<init>(android.content.Context, com.ironsource.sdk.controller.DemandSourceManager) (IronSourceWebView.java:214)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent$1.run() (IronSourceAdsPublisherAgent.java:68)
+              at void android.app.Activity.runOnUiThread(java.lang.Runnable) (Activity.java:6152)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.<init>(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:66)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:95)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity) (IronSourceAdsPublisherAgent.java:83)
+              at com.ironsource.sdk.SSAPublisher com.ironsource.sdk.SSAFactory.getPublisherInstance(android.app.Activity) (SSAFactory.java:12)
+              at void com.ironsource.adapters.supersonicads.SupersonicAdsAdapter$1.run() (SupersonicAdsAdapter.java:164)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+              at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+I/zygote:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+          Caused by: java.lang.ClassNotFoundException: Didn't find class "android.webkit.SafeBrowsingResponse" on path: DexPathList[[zip file "/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk"],nativeLibraryDirectories=[/data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/lib/x86, /data/app/com.android.chrome-pdRGpPomC06g68O_F_T-0w==/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+              at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+              at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+              at xf com.android.webview.chromium.WebViewChromiumFactoryProvider.a(android.webkit.WebView, android.content.Context) (PG:209)
+              at void com.android.webview.chromium.WebViewChromium.init(java.util.Map, boolean) (PG:63)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int, java.util.Map, boolean) (WebView.java:651)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int, int) (WebView.java:581)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet, int) (WebView.java:564)
+              at void android.webkit.WebView.<init>(android.content.Context, android.util.AttributeSet) (WebView.java:551)
+              at void android.webkit.WebView.<init>(android.content.Context) (WebView.java:541)
+              at void com.ironsource.sdk.controller.IronSourceWebView.<init>(android.content.Context, com.ironsource.sdk.controller.DemandSourceManager) (IronSourceWebView.java:214)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent$1.run() (IronSourceAdsPublisherAgent.java:68)
+              at void android.app.Activity.runOnUiThread(java.lang.Runnable) (Activity.java:6152)
+              at void com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.<init>(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:66)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity, int) (IronSourceAdsPublisherAgent.java:95)
+              at com.ironsource.sdk.agent.IronSourceAdsPublisherAgent com.ironsource.sdk.agent.IronSourceAdsPublisherAgent.getInstance(android.app.Activity) (IronSourceAdsPublisherAgent.java:83)
+              at com.ironsource.sdk.SSAPublisher com.ironsource.sdk.SSAFactory.getPublisherInstance(android.app.Activity) (SSAFactory.java:12)
+              at void com.ironsource.adapters.supersonicads.SupersonicAdsAdapter$1.run() (SupersonicAdsAdapter.java:164)
+              at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+              at void android.os.Looper.loop() (Looper.java:164)
+              at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+              at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+              at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+              at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.ACCESS_NETWORK_STATE,18431,10110)
+W/cr_CrashFileManager: /data/user/0/com.ironsource.ironsourcesdkdemo/cache/WebView/Crash Reports does not exist or is not a directory
+D/: HostConnection::get() New Host Connection established 0x89721480, tid 18538
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x89e60c80: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x89e60c80: ver 2 0 (tinfo 0x89e79d20)
+I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+W/cr_MediaCodecUtil: HW encoder for video/avc is not available on this device.
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.MODIFY_AUDIO_SETTINGS,18431,10110)
+E/chromium: [ERROR:gl_surface_egl.cc(320)] eglChooseConfig failed with error EGL_SUCCESS
+D/EGL_emulation: eglCreateContext: 0x8976e0e0: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0x8976e0e0: ver 2 0 (tinfo 0x89e79d20)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.MODIFY_AUDIO_SETTINGS,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.BLUETOOTH,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.BLUETOOTH,18431,10110)
+E/BluetoothAdapter: Bluetooth binder is null
+D/IronSourceWebView: onInterstitialInitSuccess()
+I/INTERNAL: SupersonicAds :onInterstitialInitSuccess 
+I/ADAPTER_CALLBACK: SupersonicAds :onInterstitialInitSuccess()
+D/IronSourceWebView: onOfferWallInitSuccess()
+I/INTERNAL: SupersonicAds :onOfferwallInitSuccess 
+I/ADAPTER_CALLBACK: onOfferwallAvailable(isAvailable: true)
+I/CALLBACK: onOfferwallAvailable(isAvailable: true)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,18431,10110)
+I/zygote: Do full code cache collection, code=123KB, data=91KB
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,18431,10110)
+I/Choreographer: Skipped 65 frames!  The application may be doing too much work on its main thread.
+I/API: loadInterstitial()
+I/ADAPTER_API: SupersonicAds:loadInterstitial()
+I/zygote: Background concurrent copying GC freed 24014(1376KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 1566KB/3MB, paused 7.823ms total 37.575ms
+D/IronSourceWebView: onRVInitSuccess()
+I/INTERNAL: SupersonicAds :onRVInitSuccess 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAvailabilityChanged(available:true)
+I/CALLBACK: onRewardedVideoAvailabilityChanged(available:true)
+D/DemoActivity: onRewardedVideoAvailabilityChanged true
+I/API: loadInterstitial()
+W/ViewRootImpl[DemoActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8045050, downTime=8045050, deviceId=-1, source=0x101 }
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+       showRewardedVideo()
+       showRewardedVideo(DefaultRewardedVideo)
+I/API: RewardedVideoManager:showRewardedVideo(placementName: DefaultRewardedVideo)
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:showRewardedVideo()
+W/ViewRootImpl[DemoActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8045632, downTime=8045632, deviceId=-1, source=0x101 }
+W/ViewRootImpl[DemoActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8045667, downTime=8045667, deviceId=-1, source=0x101 }
+I/INTERNAL: SupersonicAds :onRVAdOpened 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAdOpened()
+I/CALLBACK: onRewardedVideoAdOpened()
+D/DemoActivity: onRewardedVideoAdOpened
+I/API: onPause()
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+D/DemoActivity: handleInterstitialButtonState | available: true
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,18431,10110)
+W/AudioManager: Use of stream types is deprecated for operations other than volume control
+                See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+I/Choreographer: Skipped 86 frames!  The application may be doing too much work on its main thread.
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8045798, downTime=8045798, deviceId=-1, source=0x101 }
+                                    Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8047452, downTime=8047452, deviceId=-1, source=0x101 }
+I/zygote: Do partial code cache collection, code=122KB, data=88KB
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8047564, downTime=8047564, deviceId=-1, source=0x101 }
+I/zygote: After code cache collection, code=122KB, data=88KB
+          Increasing code cache capacity to 512KB
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8047571, downTime=8047571, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 5 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8047571, downTime=8047571, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TV_INPUT_HDMI_3, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8047573, downTime=8047573, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV_INPUT_HDMI_3, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8047587, downTime=8047587, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 4 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV_INPUT_HDMI_3, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8047587, downTime=8047587, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8047596, downTime=8047596, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8047604, downTime=8047604, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 5 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8047604, downTime=8047604, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-4.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=1, eventTime=8047612, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/EGL_emulation: eglQueryContext 32c0  EGL_BAD_ATTRIBUTE
+                 tid 18538: eglQueryContext(1772): error 0x3004 (EGL_BAD_ATTRIBUTE)
+D/: PlayerBase::PlayerBase()
+D/: TrackPlayerBase::TrackPlayerBase()
+I/libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+I/cr_MediaCodecBridge: create MediaCodec video decoder, mime video/avc
+D/AudioTrack: Client defaulted notificationFrames to 355 for frameCount 1066
+I/OMXClient: Treble IOmx obtained
+D/SurfaceUtils: connecting to surface 0x8639d808, reason connectToSurface
+I/MediaCodec: [OMX.google.h264.decoder] setting surface generation to 18873345
+D/SurfaceUtils: disconnecting from surface 0x8639d808, reason connectToSurface(reconnect)
+D/SurfaceUtils: connecting to surface 0x8639d808, reason connectToSurface(reconnect)
+E/ACodec: [OMX.google.h264.decoder] setPortMode on output to DynamicANWBuffer failed w/ err -1010
+I/INTERNAL: SupersonicAds :onRVEventNotificationReceived: impressions extData: {"demandSourceName":"SupersonicAds"}
+I/Choreographer: Skipped 36 frames!  The application may be doing too much work on its main thread.
+I/zygote: Background concurrent copying GC freed 21450(1526KB) AllocSpace objects, 2(40KB) LOS objects, 50% free, 1788KB/3MB, paused 5.991ms total 228.432ms
+D/MediaCodec: [OMX.google.h264.decoder] setting dataspace on output surface to #103
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2000
+D/: HostConnection::get() New Host Connection established 0x87aee140, tid 18584
+D/SoftwareRenderer: setting dataspace on output surface to #103
+W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2000
+D/IronSourceWebView: onVideoStatusChanged({"success":"","fail":"","status":"playing","productType":"RewardedVideo","acknowledgeWith":"acknowledgeMessage","declineWith":"errorTest"})
+D/IronSourceWebView: onVideoStatusChanged({"success":"","fail":"","status":"started","productType":"RewardedVideo","acknowledgeWith":"acknowledgeMessage","declineWith":"errorTest"})
+W/AudioManager: Use of stream types is deprecated for operations other than volume control
+                See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+I/INTERNAL: SupersonicAds :onInterstitialLoadSuccess 
+I/ADAPTER_CALLBACK: SupersonicAds:onInterstitialAdReady()
+I/CALLBACK: onInterstitialAdReady()
+D/DemoActivity: onInterstitialAdReady
+W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2000
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8049666, downTime=8049666, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8049731, downTime=8049731, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SCROLL_LOCK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8049921, downTime=8049921, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_SCROLL_LOCK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8049985, downTime=8049985, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8050039, downTime=8050039, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TV_INPUT_COMPONENT_2, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8050328, downTime=8050328, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV_INPUT_COMPONENT_2, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8050352, downTime=8050352, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV_INPUT_COMPONENT_2, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8050352, downTime=8050352, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_TV_INPUT_COMPONENT_2, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8050352, downTime=8050352, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8050917, downTime=8050917, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8050988, downTime=8050988, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8051045, downTime=8051045, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8051053, downTime=8051053, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8051067, downTime=8051067, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8051071, downTime=8051071, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8051200, downTime=8051200, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8051532, downTime=8051532, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 7 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8051532, downTime=8051532, deviceId=-1, source=0x101 }
+                                    Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CHANNEL_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8051535, downTime=8051535, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8052358, downTime=8052358, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8052463, downTime=8052463, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 7 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8052463, downTime=8052463, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8052476, downTime=8052476, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8052582, downTime=8052582, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 7 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8052582, downTime=8052582, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8052584, downTime=8052584, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8052589, downTime=8052589, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 8 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8054164, downTime=8054164, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8054251, downTime=8054251, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 7 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8054251, downTime=8054251, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8054304, downTime=8054304, deviceId=-1, source=0x101 }
+                                    Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8054353, downTime=8054353, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8054437, downTime=8054437, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_R, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8054596, downTime=8054596, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_R, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8054597, downTime=8054597, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) RenderThread identical 8 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8055051, downTime=8055051, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8055156, downTime=8055156, deviceId=-1, source=0x101 }
+D/IronSource: adCredited({"success":"adCreditedSuccess","fail":"adCreditedFailed","credits":20,"demandSourceName":"SupersonicAds","productType":"RewardedVideo","acknowledgeWith":"acknowledgeMessage","declineWith":"errorTest"})
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 5 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8055156, downTime=8055156, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8055167, downTime=8055167, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8055234, downTime=8055234, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+I/INTERNAL: SupersonicAds :onRVAdCredited 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAdRewarded()
+I/CALLBACK: onRewardedVideoAdRewarded(placement name: DefaultRewardedVideo, reward name: Virtual Item , amount:1)
+D/DemoActivity: onRewardedVideoAdRewarded placement name: DefaultRewardedVideo, reward name: Virtual Item , amount:1
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8056221, downTime=8056221, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8056229, downTime=8056229, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 4 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8056229, downTime=8056229, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8056247, downTime=8056247, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/IronSourceWebView: onVideoStatusChanged({"success":"","fail":"","status":"ended","productType":"RewardedVideo","acknowledgeWith":"acknowledgeMessage","declineWith":"errorTest"})
+D/AudioTrack: stop() called with 179935 frames delivered
+W/cr_MediaCodecBridge: Releasing: OMX.google.h264.decoder
+D/: PlayerBase::stop() from IPlayer
+D/SurfaceUtils: disconnecting from surface 0x8639d808, reason disconnectFromSurface
+W/cr_MediaCodecBridge: Codec released
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/chromium: [ERROR:gles2_cmd_decoder.cc(18008)] [GroupMarkerNotSet(crbug.com/242999)!:50907890]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+E/chromium: [ERROR:gles2_cmd_decoder.cc(10115)] [GroupMarkerNotSet(crbug.com/242999)!:50907890]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_GRAVE, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8056587, downTime=8056587, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_GRAVE, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8056840, downTime=8056840, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_SELECT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8056889, downTime=8056889, deviceId=-1, source=0x101 }
+                                    Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8056889, downTime=8056889, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BUTTON_SELECT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8056897, downTime=8056897, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8056897, downTime=8056897, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 4 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8056897, downTime=8056897, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8056917, downTime=8056917, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8056922, downTime=8056922, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 7 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8056922, downTime=8056922, deviceId=-1, source=0x101 }
+                                    Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8056926, downTime=8056926, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8056933, downTime=8056933, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 7 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8056933, downTime=8056933, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8056935, downTime=8056935, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8056938, downTime=8056938, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 4 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8056938, downTime=8056938, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8056946, downTime=8056946, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8056949, downTime=8056949, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 7 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8056949, downTime=8056949, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8056953, downTime=8056953, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8056961, downTime=8056961, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 7 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8056961, downTime=8056961, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8056978, downTime=8056978, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8056979, downTime=8056979, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+I/INTERNAL: SupersonicAds :onRVAdClicked 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAdClicked()
+I/CALLBACK: onRewardedVideoAdClicked(DefaultRewardedVideo)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18431,10110)
+I/chatty: uid=10110(u0_a110) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18431,10110)
+I/Choreographer: Skipped 90 frames!  The application may be doing too much work on its main thread.
+I/zygote: Do full code cache collection, code=245KB, data=210KB
+          After code cache collection, code=234KB, data=154KB
+W/ViewRootImpl[OpenUrlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_H, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8057515, downTime=8057515, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 4 lines
+W/ViewRootImpl[OpenUrlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_H, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8057515, downTime=8057515, deviceId=-1, source=0x101 }
+W/ViewRootImpl[OpenUrlActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8059131, downTime=8059131, deviceId=-1, source=0x101 }
+W/ViewRootImpl[OpenUrlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8059192, downTime=8059192, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 4 lines
+W/ViewRootImpl[OpenUrlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8059192, downTime=8059192, deviceId=-1, source=0x101 }
+W/ViewRootImpl[OpenUrlActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8059197, downTime=8059197, deviceId=-1, source=0x101 }
+W/ViewRootImpl[OpenUrlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8059201, downTime=8059201, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 4 lines
+W/ViewRootImpl[OpenUrlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8059201, downTime=8059201, deviceId=-1, source=0x101 }
+W/ViewRootImpl[OpenUrlActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8059203, downTime=8059203, deviceId=-1, source=0x101 }
+W/ViewRootImpl[OpenUrlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8059211, downTime=8059211, deviceId=-1, source=0x101 }
+W/ViewRootImpl[OpenUrlActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-4.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8059216, downTime=-1, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_KANA, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8059606, downTime=8059606, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 7 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_KANA, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8059606, downTime=8059606, deviceId=-1, source=0x101 }
+                                    Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_L1, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8059619, downTime=8059619, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BUTTON_L1, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8059651, downTime=8059651, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 7 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BUTTON_L1, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8059651, downTime=8059651, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8059660, downTime=8059660, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8059914, downTime=8059914, deviceId=-1, source=0x101 }
+W/AudioManager: Use of stream types is deprecated for operations other than volume control
+                See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8060878, downTime=8060878, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8061779, downTime=8061779, deviceId=-1, source=0x101 }
+I/Choreographer: Skipped 53 frames!  The application may be doing too much work on its main thread.
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+I/INTERNAL: SupersonicAds :onRVAdClicked 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAdClicked()
+I/CALLBACK: onRewardedVideoAdClicked(DefaultRewardedVideo)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18431,10110)
+I/chatty: uid=10110(u0_a110) RenderThread identical 4 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/Choreographer: Skipped 35 frames!  The application may be doing too much work on its main thread.
+W/ViewRootImpl[OpenUrlActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8061877, downTime=8061877, deviceId=-1, source=0x101 }
+W/ViewRootImpl[OpenUrlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8062866, downTime=8062866, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+W/ViewRootImpl[OpenUrlActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_4, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8062969, downTime=8062969, deviceId=-1, source=0x101 }
+W/ViewRootImpl[OpenUrlActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8062969, downTime=8062969, deviceId=-1, source=0x101 }
+W/ViewRootImpl[OpenUrlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_NUMPAD_4, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8062992, downTime=8062992, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 4 lines
+W/ViewRootImpl[OpenUrlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_NUMPAD_4, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8062992, downTime=8062992, deviceId=-1, source=0x101 }
+W/ViewRootImpl[OpenUrlActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8063117, downTime=8063117, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_EISU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8063768, downTime=8063768, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_EISU, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8063776, downTime=8063776, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8063850, downTime=8063850, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8063851, downTime=8063851, deviceId=-1, source=0x101 }
+W/AudioManager: Use of stream types is deprecated for operations other than volume control
+                See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/INTERNAL: SupersonicAds :onRVAdClicked 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAdClicked()
+I/CALLBACK: onRewardedVideoAdClicked(DefaultRewardedVideo)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18431,10110)
+I/chatty: uid=10110(u0_a110) RenderThread identical 4 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/zygote: Do partial code cache collection, code=245KB, data=182KB
+I/zygote: After code cache collection, code=245KB, data=182KB
+I/zygote: Increasing code cache capacity to 1024KB
+W/ViewRootImpl[OpenUrlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8064966, downTime=8064966, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 4 lines
+W/ViewRootImpl[OpenUrlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8064966, downTime=8064966, deviceId=-1, source=0x101 }
+W/ViewRootImpl[OpenUrlActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8066365, downTime=8066365, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[OpenUrlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8066495, downTime=8066495, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-5.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=4, eventTime=8066966, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8066974, downTime=8066781, deviceId=0, source=0x10004 }
+                                    Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8066976, downTime=8066781, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8066979, downTime=8066979, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8067133, downTime=8067133, deviceId=-1, source=0x101 }
+W/AudioManager: Use of stream types is deprecated for operations other than volume control
+                See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,18431,10110)
+                  glUtilsParamSize: unknow param 0x000085b5
+I/Choreographer: Skipped 53 frames!  The application may be doing too much work on its main thread.
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x8976e0e0: ver 2 0 (tinfo 0x89e79d20)
+I/chatty: uid=10110(u0_a110) Chrome_InProcGp identical 1 line
+D/EGL_emulation: eglMakeCurrent: 0x8976e0e0: ver 2 0 (tinfo 0x89e79d20)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+I/INTERNAL: SupersonicAds :onRVAdClicked 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAdClicked()
+I/CALLBACK: onRewardedVideoAdClicked(DefaultRewardedVideo)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18431,10110)
+I/chatty: uid=10110(u0_a110) RenderThread identical 4 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[OpenUrlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8068668, downTime=8068668, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 5 lines
+W/ViewRootImpl[OpenUrlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8068668, downTime=8068668, deviceId=-1, source=0x101 }
+W/ViewRootImpl[OpenUrlActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8070410, downTime=8070410, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[OpenUrlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8070530, downTime=8070530, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 4 lines
+W/ViewRootImpl[OpenUrlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8070530, downTime=8070530, deviceId=-1, source=0x101 }
+W/ViewRootImpl[OpenUrlActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_5, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8070595, downTime=8070595, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8071055, downTime=8071055, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8071064, downTime=8071055, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 7 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8071064, downTime=8071055, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8071087, downTime=8071087, deviceId=-1, source=0x101 }
+W/AudioManager: Use of stream types is deprecated for operations other than volume control
+W/AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/INTERNAL: SupersonicAds :onRVAdClicked 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAdClicked()
+I/CALLBACK: onRewardedVideoAdClicked(DefaultRewardedVideo)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (0,android.permission.INTERNET,18431,10110)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[OpenUrlActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_M, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8071697, downTime=8071697, deviceId=-1, source=0x101 }
+W/ViewRootImpl[OpenUrlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_M, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8073245, downTime=8073245, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[OpenUrlActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8073352, downTime=8073352, deviceId=-1, source=0x101 }
+W/ViewRootImpl[OpenUrlActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8073376, downTime=8073376, deviceId=-1, source=0x101 }
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8073963, downTime=8073963, deviceId=-1, source=0x101 }
+I/chatty: uid=10110(u0_a110) com.ironsource.ironsourcesdkdemo identical 7 lines
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8073963, downTime=8073963, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=-5.0, y[0]=-3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=8073986, downTime=-1, deviceId=0, source=0x10004 }
+                                    Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8073986, downTime=8073969, deviceId=0, source=0x10004 }
+                                    Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8073988, downTime=8073969, deviceId=0, source=0x10004 }
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8074083, downTime=8074083, deviceId=-1, source=0x101 }
+                                    Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8074092, downTime=8074092, deviceId=-1, source=0x101 }
+W/AudioManager: Use of stream types is deprecated for operations other than volume control
+                See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/Choreographer: Skipped 35 frames!  The application may be doing too much work on its main thread.
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 4 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/: PlayerBase::PlayerBase()
+E/EGL_emulation: eglQueryContext 32c0  EGL_BAD_ATTRIBUTE
+E/EGL_emulation: tid 18538: eglQueryContext(1772): error 0x3004 (EGL_BAD_ATTRIBUTE)
+D/: TrackPlayerBase::TrackPlayerBase()
+I/libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+I/cr_MediaCodecBridge: create MediaCodec video decoder, mime video/avc
+D/AudioTrack: Client defaulted notificationFrames to 355 for frameCount 1066
+I/OMXClient: Treble IOmx obtained
+D/SurfaceUtils: connecting to surface 0x8ec36808, reason connectToSurface
+I/MediaCodec: [OMX.google.h264.decoder] setting surface generation to 18873346
+D/SurfaceUtils: disconnecting from surface 0x8ec36808, reason connectToSurface(reconnect)
+D/SurfaceUtils: connecting to surface 0x8ec36808, reason connectToSurface(reconnect)
+E/ACodec: [OMX.google.h264.decoder] setPortMode on output to DynamicANWBuffer failed w/ err -1010
+D/MediaCodec: [OMX.google.h264.decoder] setting dataspace on output surface to #103
+W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2000
+D/: HostConnection::get() New Host Connection established 0x87aee2c0, tid 18958
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+D/IronSourceWebView: onVideoStatusChanged({"success":"","fail":"","status":"playing","productType":"RewardedVideo","acknowledgeWith":"acknowledgeMessage","declineWith":"errorTest"})
+D/IronSourceWebView: onVideoStatusChanged({"success":"","fail":"","status":"started","productType":"RewardedVideo","acknowledgeWith":"acknowledgeMessage","declineWith":"errorTest"})
+D/SoftwareRenderer: setting dataspace on output surface to #103
+W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2000
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+                  glUtilsParamSize: unknow param 0x000085b5
+W/AudioManager: Use of stream types is deprecated for operations other than volume control
+                See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8076385, downTime=8076385, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8076506, downTime=8076506, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8076543, downTime=8076543, deviceId=-1, source=0x101 }
+W/ViewRootImpl[ControllerActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8076544, downTime=8076544, deviceId=-1, source=0x101 }
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+W/ViewRootImpl[ControllerActivity]: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8076619, downTime=8076619, deviceId=-1, source=0x101 }
+                                    Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=8076629, downTime=8076629, deviceId=-1, source=0x101 }
+W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2000
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 4 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 34 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,18431,10110)
+I/chatty: uid=10110(u0_a110) RenderThread identical 6 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x8976e0e0: ver 2 0 (tinfo 0x89e79d20)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation: eglMakeCurrent: 0x8976e0e0: ver 2 0 (tinfo 0x89e79d20)
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 92 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/IronSourceWebView: onVideoStatusChanged({"success":"","fail":"","status":"ended","productType":"RewardedVideo","acknowledgeWith":"acknowledgeMessage","declineWith":"errorTest"})
+W/chromium: [WARNING:audio_sync_reader.cc(187)] ASR: No room in socket buffer.: Broken pipe (32)
+W/cr_MediaCodecBridge: Releasing: OMX.google.h264.decoder
+D/AudioTrack: stop() called with 170939 frames delivered
+D/: PlayerBase::stop() from IPlayer
+D/SurfaceUtils: disconnecting from surface 0x8ec36808, reason disconnectFromSurface
+W/cr_MediaCodecBridge: Codec released
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/chromium: [ERROR:gles2_cmd_decoder.cc(18008)] [GroupMarkerNotSet(crbug.com/242999)!:50359E88]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+E/chromium: [ERROR:gles2_cmd_decoder.cc(10115)] [GroupMarkerNotSet(crbug.com/242999)!:50359E88]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 30 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 4 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/INTERNAL: SupersonicAds :onRVNoMoreOffers 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAvailabilityChanged(available:false)
+I/CALLBACK: onRewardedVideoAvailabilityChanged(available:false)
+D/DemoActivity: onRewardedVideoAvailabilityChanged false
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+D/IronSource: onAdClosed() with type RewardedVideo
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/chatty: uid=10110(u0_a110) RenderThread identical 2 lines
+E/eglCodecCommon: glUtilsParamSize: unknow param 0x000085b5
+I/INTERNAL: SupersonicAds :onRVAdClosed 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAdClosed()
+I/CALLBACK: onRewardedVideoAdClosed()
+I/ADAPTER_API: SupersonicAds:fetchRewardedVideo()
+D/DemoActivity: onRewardedVideoAdClosed
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,18431,10110)
+I/API: onResume()
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():false
+D/DemoActivity: handleInterstitialButtonState | available: true
+I/Choreographer: Skipped 67 frames!  The application may be doing too much work on its main thread.
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+I/chatty: uid=10110(u0_a110) RenderThread identical 2 lines
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+D/IronSourceWebView: onRVInitSuccess()
+I/INTERNAL: SupersonicAds :onRVInitSuccess 
+I/ADAPTER_CALLBACK: SupersonicAds:onRewardedVideoAvailabilityChanged(available:true)
+I/CALLBACK: onRewardedVideoAvailabilityChanged(available:true)
+D/DemoActivity: onRewardedVideoAvailabilityChanged true
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+I/API: onPause()
+I/API: RewardedVideoManager:isRewardedVideoAvailable()
+I/ADAPTER_API: SupersonicAds:isRewardedVideoAvailable()
+I/API: isRewardedVideoAvailable():true
+D/DemoActivity: handleInterstitialButtonState | available: true
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+D/EGL_emulation: eglMakeCurrent: 0x90df7920: ver 2 0 (tinfo 0xabd7ce50)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_FINE_LOCATION,18431,10110)
+Breakpoint reached at android.content.ContextWrapper.checkPermission(ContextWrapper.java:718)
+ContextWrapper checkPermission(return,permission,pid,uid) : (-1,android.permission.ACCESS_COARSE_LOCATION,18431,10110)
+E/ActivityThread: Activity com.ironsource.ironsourcesdkdemo.DemoActivity has leaked IntentReceiver com.ironsource.environment.NetworkStateReceiver@b3c47d8 that was originally registered here. Are you missing a call to unregisterReceiver()?
+                  android.app.IntentReceiverLeaked: Activity com.ironsource.ironsourcesdkdemo.DemoActivity has leaked IntentReceiver com.ironsource.environment.NetworkStateReceiver@b3c47d8 that was originally registered here. Are you missing a call to unregisterReceiver()?
+                      at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:1333)
+                      at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:1114)
+                      at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1405)
+                      at android.app.ContextImpl.registerReceiver(ContextImpl.java:1378)
+                      at android.app.ContextImpl.registerReceiver(ContextImpl.java:1366)
+                      at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:603)
+                      at com.ironsource.mediationsdk.RewardedVideoManager.shouldTrackNetworkState(RewardedVideoManager.java:513)
+                      at com.ironsource.mediationsdk.IronSourceObject.shouldTrackNetworkState(IronSourceObject.java:1973)
+                      at com.ironsource.mediationsdk.IronSource.shouldTrackNetworkState(IronSource.java:213)
+                      at com.ironsource.ironsourcesdkdemo.DemoActivity.onCreate(DemoActivity.java:56)
+                      at android.app.Activity.performCreate(Activity.java:6975)
+                      at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1213)
+                      at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2770)
+                      at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2892)
+                      at android.app.ActivityThread.-wrap11(Unknown Source:0)
+                      at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1593)
+                      at android.os.Handler.dispatchMessage(Handler.java:105)
+                      at android.os.Looper.loop(Looper.java:164)
+                      at android.app.ActivityThread.main(ActivityThread.java:6541)
+                      at java.lang.reflect.Method.invoke(Native Method)
+                      at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+                      at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+Disconnected from the target VM, address: 'localhost:8606', transport: 'socket'

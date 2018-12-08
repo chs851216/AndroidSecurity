@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_181"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="lib"/>
+	<classpathentry kind="src" path="property"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/AndroidSecurity/lib/apktool-cli-all.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/AndroidSecurity/lib/json-20180130.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

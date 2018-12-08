@@ -1,0 +1,8 @@
+The AdLibrary is AirPush
+Source permission
+android.permission.ACCESS_FINE_LOCATION
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.INTERNET
+android.permission.ACCESS_NETWORK_STATE
+Abuse permission
+
