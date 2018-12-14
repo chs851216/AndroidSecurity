@@ -29,8 +29,21 @@ public class EmulatorManager implements EmulatorOption {
 	}
 	
 	public Emulator getEulator(String port) {
-		this.emulatorIsUsed.replace(port, true);
 		return this.emulatorMap.get(port);
+	}
+	
+	public String getEmulatorBridgeIP(String port) {
+		return this.emulatorMap.get(port).getEmulatorBridgeIP();
+	}
+	
+	public String getUnusedEmulatorPort() {
+		String port = "";
+		if(this.emulatorMap.size() > 0) {
+			String unUsedPort = (String)this.emulatorMap.keySet().toArray()[0];
+			port = unUsedPort;
+			this.emulatorIsUsed.replace(port, true);
+		}
+		return port;
 	}
 	
 	public boolean getEmulatorIsUsed(String port) {

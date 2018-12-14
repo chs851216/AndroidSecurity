@@ -81,6 +81,7 @@ public class FileServer {
 		String fileName = "";
 		byte flag = 0;
 		boolean isURLStaticAnalyze = false;
+		boolean isURLDynamicAnalyze = false;
 		Thread dynamicThread;
 		
 		DataInputStream DataInputStream = new DataInputStream(clientSocket.getInputStream());
@@ -98,7 +99,7 @@ public class FileServer {
 			/*get client name from fileNameManage*/
 			fileName = this.fileNameManager.popFileName();
 			
-			/* 0
+			/* 
 			 * Client Number is full.
 			 */
 			if(fileName == null) {
@@ -107,26 +108,26 @@ public class FileServer {
 				return;
 			}
 			
-			/* 1
+			/* 
 			 * connect message
 			 */
 			this.sendMessage(DataOutputStream, date + client_IP, fileName + " is connecting.");
 			
-			/* 2
+			/* 
 			 * receive flag
 			 */
 			flag = DataInputStream.readByte();
 			this.loggerInformation(client_IP + " receive flag is = " + flag);
 //			System.out.println(date + client_IP + ", flag " + flag);
 			
-			/* 3
+			/* 
 			 * receive filesize
 			 */
 			this.fileSize = DataInputStream.readInt();
 			this.loggerInformation(client_IP + " receive file size is = " + this.fileSize);
 //			System.out.println(date + client_IP + ", fileSize.");
 			
-			/* 4
+			/* 
 			 * receive apk
 			 */
 			this.loggerInformation(client_IP + " receive file start......");
@@ -141,43 +142,50 @@ public class FileServer {
 			if((flag & 4) != ZERO) {
 				final String fn = fileName;
 				final String clientIP = client_IP;
-				WinDumpCommand WinDumpCommand = new WinDumpCommand("-i 3 -s 65535 -A host 120.125.80.203");
-				Thread winDumpThread = new Thread(WinDumpCommand);
-				winDumpThread.start();
-				//URLDynamicAnalyzing = new URLAnalyzing("dynamic", fileName, true);
-				//URLDynamicAnalyzing.analyze();
-				this.loggerInformation(", Dynamic analyze is begining ......");
-				dynamicThread = new Thread(new Runnable(){
-                    @Override
-                    public void run() {
-                    	Emulator nox = EmulatorManager.getEulator("62025");
-                    	boolean isUsed = EmulatorManager.getEmulatorIsUsed("62025");
-        				if(isUsed && nox != null) {
-        					try {
-        						String pkgName = nox.getPackageName(fn + ".apk");
-            					System.out.println("package name: " + pkgName);
+				String port = EmulatorManager.getUnusedEmulatorPort();
+				if(!"".equals(port)) {
+					String emulatorBridgeIP = EmulatorManager.getEmulatorBridgeIP(port);
+					WinDumpCommand WinDumpCommand = new WinDumpCommand(3, emulatorBridgeIP);
+					Thread winDumpThread = new Thread(WinDumpCommand);
+					winDumpThread.start();
+					
+					this.loggerInformation(", Dynamic analyze is begining ......");
+					dynamicThread = new Thread(new Runnable(){
+	                    @Override
+	                    public void run() {
+	                    	Emulator nox = EmulatorManager.getEulator(port);
+	                    	boolean isUsed = EmulatorManager.getEmulatorIsUsed(port);
+	        				if(isUsed && nox != null) {
+	        					try {
+	        						String pkgName = nox.getPackageName(fn + ".apk");
+	            					System.out.println("package name: " + pkgName);
 
-            					if(!"".equals(pkgName) && pkgName != null) {
-            						nox.runMonkey(pkgName);
-            						System.out.println("Monkey Start !!!");
-	
-	            					nox.unInstallAPK(pkgName);
-	            					System.out.println("Uninstall !!!");
-	            					loggerInformation(clientIP + ", Dynamic analyze is ending ......");
-            					}
-            					else {
-            						loggerInformation(clientIP + ", Dynamic analyze is fail ......");
-            					}
-        					} catch(Exception e) {
-        						e.printStackTrace();
-        					} finally {
-        						WinDumpCommand.terminated("");
-            					System.out.println("WinDump END !!!");
-        					}
-        				}
-                    }
-                });
-				dynamicThread.start();
+	            					if(!"".equals(pkgName) && pkgName != null) {
+	            						nox.runMonkey(pkgName);
+	            						System.out.println("Monkey Start !!!");
+		
+		            					nox.unInstallAPK(pkgName);
+		            					System.out.println("Uninstall !!!");
+		            					loggerInformation(clientIP + ", Dynamic analyze is ending ......");
+	            					}
+	            					else {
+	            						loggerInformation(clientIP + ", Dynamic analyze is fail ......");
+	            					}
+	        					} catch(Exception e) {
+	        						e.printStackTrace();
+	        					} finally {
+	        						WinDumpCommand.terminated(fn);
+	            					System.out.println("WinDump END !!!");
+	        					}
+	        				}
+	                    }
+	                });
+					dynamicThread.start();
+				}
+				else {
+					loggerInformation(clientIP + ", Dynamic analyze lanuch fail, ");
+					loggerInformation(clientIP + ", Because there is no more emulator for use ......");
+				}
 			}
 					
 			/* 5 6
@@ -209,9 +217,13 @@ public class FileServer {
 				isURLStaticAnalyze = true;
 				URLStaticAnalyzing= new URLAnalyzing("static", fileName, false);
 				URLStaticAnalyzing.analyze();
-			
-				/* 10 11 12
-				 * return result for url
+				
+//				isURLDynamicAnalyze = true;
+//				URLDynamicAnalyzing = new URLAnalyzing("dynamic", fileName, true);
+//				URLDynamicAnalyzing.analyze();
+				
+				/*
+				 * return the static result for url
 				 */
 				System.out.println("isURLStaticAnalyze: " + isURLStaticAnalyze);
 				if(isURLStaticAnalyze) {
@@ -219,6 +231,16 @@ public class FileServer {
 					this.getResultString(DataOutputStream, client_IP, URLStaticAnalyzing.getUrlCount());
 					this.getResultString(DataOutputStream, client_IP, urlResult);
 				}
+				
+				/*
+				 * return the dynamic result for url
+				 */
+//				System.out.println("isURLDynamicAnalyze: " + isURLDynamicAnalyze);
+//				if(isURLDynamicAnalyze) {
+//					Map<String, ArrayList<String>> urlResult = URLDynamicAnalyzing.getScore();
+//					this.getResultString(DataOutputStream, client_IP, URLDynamicAnalyzing.getUrlCount());
+//					this.getResultString(DataOutputStream, client_IP, urlResult);
+//				}
 			}
 		} catch(IOException e) {
 			e.printStackTrace();

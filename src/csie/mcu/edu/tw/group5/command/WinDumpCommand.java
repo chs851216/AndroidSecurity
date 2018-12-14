@@ -14,19 +14,9 @@ public class WinDumpCommand implements Runnable{
 	private Runtime runtime = Runtime.getRuntime();
 	private Process commandProcess;
 	private StringBuffer streamData;
-	private String windumpPath;
 	private String command;
 	
 	private boolean isActive;
-	
-	public WinDumpCommand(String windumpPath, String command) {
-		// for class extends Thread
-		// super("WinDump");
-		this.windumpPath = windumpPath;
-		this.setCommand(command);
-		this.streamData = new StringBuffer();
-		this.isActive = true;
-	}
 	
 	public WinDumpCommand(String command) {
 		// for class extends Thread
@@ -34,6 +24,13 @@ public class WinDumpCommand implements Runnable{
 		this.setCommand(command);
 		this.streamData = new StringBuffer();
 		this.isActive = true;
+	}
+	
+	public WinDumpCommand(int interfaceNum, String emulatorBridgeIP) {
+		this.setNetworkInterface(interfaceNum);
+		this.setPacketSize(65535);
+		this.setPayloadAsciiFormat();
+		this.setEmulatorBridgeIP(emulatorBridgeIP);
 	}
 	
 	public void setCommand(String cmd) {
@@ -53,6 +50,26 @@ public class WinDumpCommand implements Runnable{
 			e.printStackTrace();
 			this.commandProcess.destroyForcibly();
 		}
+	}
+	
+	public void setNetworkInterface(int interfaceNum) {
+		this.command += (" -i " + interfaceNum);
+	}
+	
+	public void setPayloadHexAndAsciiFormat() {
+		this.command += " -X";
+	}
+	
+	public void setPayloadAsciiFormat() {
+		this.command += " -A";
+	}
+	
+	public void setEmulatorBridgeIP(String ip) {
+		this.command += (" host " + ip);
+	}
+	
+	public void setPacketSize(int size) {
+		this.command += (" -s " + size);
 	}
 	
 	public void terminated(String packetPath){

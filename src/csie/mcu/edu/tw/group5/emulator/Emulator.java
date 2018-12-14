@@ -11,6 +11,7 @@ public abstract class Emulator implements EmulatorOption{
 	private final String emulatorIP = "127.0.0.1";
 //	private final String adbPath = "D:/\"Program Files\"/Nox/bin/";
 	
+	private String emulatorBridgeIP;
 	protected String emulatorPort;
 	protected Command command;
 	protected Monkey monkey;
@@ -30,6 +31,22 @@ public abstract class Emulator implements EmulatorOption{
 	
 	protected List<String> getPackageList() {
 		return this.packageList;
+	}
+	
+	public String getEmulatorBridgeIP() {
+		String netTable = "";
+		this.command.runCommand(adbPath + "adb " + this.emulatorIP + ":" + this.emulatorPort + " shell netcfg");
+		netTable = this.command.getCommandInputStream();
+		
+		String[] ip = netTable.split("\n")[2].split(" ");
+		List<String> netInfo = new ArrayList<>();
+		for(int i=0; i<ip.length; i++) {
+			if(!"".equals(ip[i])) {
+				netInfo.add(ip[i]);
+			}
+		}
+		this.emulatorBridgeIP = netInfo.get(2).substring(0, netInfo.get(2).indexOf("/"));
+		return this.emulatorBridgeIP;
 	}
 	
 	public String getPackageName(String apkPath) throws InterruptedException {
